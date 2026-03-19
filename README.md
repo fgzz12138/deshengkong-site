@@ -5,7 +5,7 @@ Showcasing my web projects and indie games — each project has its own page.
 
 ## Live
 
-- Production: https://deshengkong.com (after domain is connected)
+- Production: https://deshengkong.com
 - Preview: (Vercel URL)
 
 ## Tech Stack
