@@ -27,7 +27,7 @@ export const projects: Project[] = [
     description:
       "My personal portfolio built with Next.js, TypeScript and Tailwind, deployed on Vercel.",
     tech: ["Next.js", "TypeScript", "Tailwind", "Vercel"],
-    thumbnail: "/projectThumbnail/portfolio1.png",
+    thumbnail: "/projectThumbnail/portfolio.png",
   },
   {
     slug: "no-boss",
