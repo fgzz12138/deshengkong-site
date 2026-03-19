@@ -10,7 +10,7 @@ export type Project = {
   highlights?: string[];
 };
 
-export const projects = [
+export const projects: Project[] = [
   {
     slug: "company-website",
     title: "Corporate Website Development",
