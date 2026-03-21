@@ -238,10 +238,10 @@ export const projects: Project[] = [
       "Future improvements would focus on adding progression systems, visual polish, and more varied obstacle patterns.",
 
     images: [
-      "/ProjectImages/RunSheep/runsheep3.png",
-      "/ProjectImages/RunSheep/runsheep6.png",
-      "/ProjectImages/RunSheep/runsheep7.png",
-      "/ProjectImages/RunSheep/runsheep8.png",
+      "/ProjectImages/RunSheep/runSheep3.png",
+      "/ProjectImages/RunSheep/runSheep6.png",
+      "/ProjectImages/RunSheep/runSheep7.png",
+      "/ProjectImages/RunSheep/runSheep8.png",
     ],
     demoVideo: "https://www.youtube.com/embed/OqB_GLQhJUM",
   },
