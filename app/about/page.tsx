@@ -101,7 +101,7 @@ export default function About() {
 
               <div className="mt-10 flex flex-wrap justify-center gap-4">
                 <a
-                  href="mailto:your@email.com"
+                  href="desheng.kong408@gmail.com"
                   className="rounded-xl bg-blue-600 px-8 py-4 text-sm font-semibold uppercase tracking-wide text-white transition hover:-translate-y-0.5 hover:bg-blue-500"
                 >
                   Contact Me
@@ -133,15 +133,6 @@ export default function About() {
                   className="transition hover:text-white hover:scale-110"
                 >
                   <Linkedin className="h-6 w-6" />
-                </a>
-
-                <a
-                  href="https://instagram.com/yourname"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="transition hover:text-white hover:scale-110"
-                >
-                  <Instagram className="h-6 w-6" />
                 </a>
               </div>
             </div>

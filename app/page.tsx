@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import ProjectCard from "./components/ProjectCard";
@@ -27,7 +28,12 @@ export default function Home() {
 
           <div className="mt-10 flex flex-wrap gap-3">
             <Link
-              href="/projects"
+              href="#projects"
+              onClick={(e) => {
+                e.preventDefault();
+                const section = document.getElementById("projects");
+                section?.scrollIntoView({ behavior: "smooth" });
+              }}
               className="rounded-xl bg-black px-5 py-3 text-sm text-white transition hover:-translate-y-0.5 hover:opacity-85"
             >
               View Projects
@@ -105,7 +111,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="mt-20">
+        <section id="projects" className="mt-20">
           <div>
             <h1 className="text-4xl font-semibold tracking-tight text-gray-900">
               Projects
@@ -175,7 +181,7 @@ export default function Home() {
 
             <div className="mt-10 flex flex-wrap justify-center gap-4">
               <a
-                href="mailto:your@email.com"
+                href="desheng.kong408@gmail.com"
                 className="rounded-xl bg-blue-600 px-8 py-4 text-sm font-semibold uppercase tracking-wide text-white transition hover:-translate-y-0.5 hover:bg-blue-500"
               >
                 Contact Me
@@ -208,15 +214,6 @@ export default function Home() {
               className="transition hover:text-white hover:scale-110"
             >
               <Linkedin className="h-6 w-6" />
-            </a>
-
-            <a
-              href="https://instagram.com/yourname"
-              target="_blank"
-              rel="noreferrer"
-              className="transition hover:text-white hover:scale-110"
-            >
-              <Instagram className="h-6 w-6" />
             </a>
           </div>
         </div>
