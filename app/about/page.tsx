@@ -100,17 +100,20 @@ export default function About() {
               </p>
 
               <div className="mt-10 flex flex-wrap justify-center gap-4">
+                {/* Contact */}
                 <a
-                  href="desheng.kong408@gmail.com"
-                  className="rounded-xl bg-blue-600 px-8 py-4 text-sm font-semibold uppercase tracking-wide text-white transition hover:-translate-y-0.5 hover:bg-blue-500"
+                  href="mailto:desheng.kong408@gmail.com?subject=Portfolio%20Enquiry"
+                  className="rounded-xl bg-blue-600 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-blue-500"
                 >
                   Contact Me
                 </a>
 
+                {/* Preview CV */}
                 <a
                   href="https://www.canva.com/design/DAF64MusKZ8/oEofvk4M5rg5i2jC4OtKEQ/view?utm_content=DAF64MusKZ8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h491bd4eea6"
-                  download
-                  className="rounded-xl bg-white px-8 py-4 text-sm font-semibold uppercase tracking-wide text-black transition hover:-translate-y-0.5 hover:opacity-90"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-xl border border-white/40 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-white hover:text-black"
                 >
                   Preview CV
                 </a>

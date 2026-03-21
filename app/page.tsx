@@ -179,18 +179,20 @@ export default function Home() {
               or project.
             </p>
 
-            <div className="mt-10 flex flex-wrap justify-center gap-4">
+            <div className="mt-8 flex flex-wrap justify-center gap-4">
+              {/* Primary */}
               <a
-                href="desheng.kong408@gmail.com"
-                className="rounded-xl bg-blue-600 px-8 py-4 text-sm font-semibold uppercase tracking-wide text-white transition hover:-translate-y-0.5 hover:bg-blue-500"
+                href="mailto:desheng.kong408@gmail.com?subject=Portfolio%20Enquiry"
+                className="rounded-xl bg-blue-600 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:opacity-90"
               >
                 Contact Me
               </a>
 
+              {/* Secondary */}
               <a
                 href="/Desheng_Kong_CV.pdf"
                 download
-                className="rounded-xl bg-white px-8 py-4 text-sm font-semibold uppercase tracking-wide text-black transition hover:-translate-y-0.5 hover:opacity-90"
+                className="rounded-xl border border-gray-300 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-white hover:text-black"
               >
                 Download CV
               </a>
