@@ -102,8 +102,9 @@ export default function About() {
               <div className="mt-10 flex flex-wrap justify-center gap-4">
                 {/* Contact */}
                 <a
-                  href="mailto:desheng.kong408@gmail.com?subject=Portfolio%20Enquiry"
-                  className="rounded-xl bg-blue-600 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-blue-500"
+                  href="https://mail.google.com/mail/?view=cm&to=desheng.kong408@gmail.com&subject=Portfolio%20Enquiry"
+                  target="_blank"
+                  className="rounded-xl bg-blue-600 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:opacity-90"
                 >
                   Contact Me
                 </a>

@@ -52,7 +52,7 @@ export const projects: Project[] = [
   },
   {
     slug: "portfolio-v1",
-    title: "Portfolio v1 (This Site)",
+    title: "Portfolio (This Site)",
     category: "Web",
     description:
       "My personal portfolio built with Next.js, TypeScript and Tailwind, deployed on Vercel.",
