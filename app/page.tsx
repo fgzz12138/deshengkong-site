@@ -11,12 +11,10 @@ export default function Home() {
   const artProjects = projects.filter((p) => p.category === "3D");
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-white to-gray-50 py-20">
-      <div className="mx-auto w-full max-w-6xl px-6">
+    <main className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+      <div className="mx-auto w-full max-w-6xl px-6 py-20">
         {/* Hero */}
         <section className="max-w-3xl">
-          <p className="text-sm text-gray-500">Desheng Kong</p>
-
           <h1 className="mt-4 text-5xl font-semibold tracking-tight text-gray-900">
             Front-end Developer <br />& Game Developer
           </h1>
@@ -154,10 +152,9 @@ export default function Home() {
           </div>
         </section>
       </div>
-
       {/* CTA */}
       <section className="mt-28">
-        <div className="relative overflow-hidden rounded-[32px] bg-black px-6 py-20 text-white sm:px-10 md:px-16 md:py-24">
+        <div className="relative overflow-hidden bg-black px-6 py-32 sm:px-10 md:px-16 md:py-24">
           {/* subtle background glow */}
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.08),transparent_55%)]" />
           <div className="absolute inset-0 opacity-20 [background-image:linear-gradient(rgba(255,255,255,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.04)_1px,transparent_1px)] [background-size:32px_32px]" />
@@ -167,7 +164,7 @@ export default function Home() {
               Get In Touch
             </p>
 
-            <h2 className="mt-6 max-w-4xl text-4xl font-semibold uppercase leading-none tracking-tight text-white sm:text-5xl md:text-6xl">
+            <h2 className="mt-6 max-w-4xl text-5xl font-semibold uppercase leading-none tracking-tight text-white sm:text-6xl md:text-7xl">
               Let’s Build Something
               <br />
               Great Together
@@ -179,12 +176,12 @@ export default function Home() {
               or project.
             </p>
 
-            <div className="mt-8 flex flex-wrap justify-center gap-4">
+            <div className="mt-8 flex flex-wrap justify-center gap-6">
               {/* Primary */}
               <a
                 href="https://mail.google.com/mail/?view=cm&to=desheng.kong408@gmail.com&subject=Portfolio%20Enquiry"
                 target="_blank"
-                className="rounded-xl bg-blue-600 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:opacity-90"
+                className="rounded-xl bg-blue-600 px-8 py-4 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:opacity-90"
               >
                 Contact Me
               </a>
@@ -193,14 +190,14 @@ export default function Home() {
               <a
                 href="/Desheng_Kong_CV.pdf"
                 download
-                className="rounded-xl border border-gray-300 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-white hover:text-black"
+                className="rounded-xl border border-gray-300 px-8 py-4 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-white hover:text-black"
               >
                 Download CV
               </a>
             </div>
           </div>
 
-          <div className="relative z-10 mt-10 flex justify-center gap-8 text-white/70">
+          <div className="relative z-10 mt-12 flex justify-center gap-10 text-white/70">
             <a
               href="https://github.com/fgzz12138"
               target="_blank"

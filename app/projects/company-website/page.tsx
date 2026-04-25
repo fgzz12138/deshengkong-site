@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-type PreviewMode = "contain" | "top";
+type PreviewMode = "contain" | "top" | "cover" | "left";
 
 type ZoomImageProps = {
   src: string;
@@ -23,14 +23,17 @@ function ZoomImage({
   const previewClass =
     previewMode === "top"
       ? "h-full w-full object-cover object-top"
+      : previewMode === "left"
+      ? "h-full w-full object-cover object-[25%_center]"
+      : previewMode === "cover"
+      ? "h-full w-full object-cover object-center"
       : "h-full w-full object-contain";
-
   return (
     <>
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className={`group relative flex w-full ${heightClass} items-start justify-center overflow-hidden rounded-2xl border border-gray-200 bg-gray-50 text-left`}
+        className={`group relative flex w-full ${heightClass} items-center justify-center overflow-hidden rounded-3xl border border-gray-200 bg-gray-50 text-left`}
       >
         <img
           src={src}
@@ -74,6 +77,115 @@ function ZoomImage({
   );
 }
 
+const completedPages = [
+  {
+    title: "Home Page",
+    description:
+      "Built and refined the main landing experience to introduce USR’s robotics, AI, energy, and smart building technology direction.",
+    items: [
+      "Hero messaging and business positioning",
+      "Core technology sections",
+      "Partner and CTA entry points",
+      "Responsive layout refinement",
+    ],
+  },
+  {
+    title: "Solutions Page",
+    description:
+      "Created a solution-focused page presenting ARC integration, robotics, energy saving, and AI defect analysis as a complete smart building system.",
+    items: [
+      "ARC platform section",
+      "Robotics integration content",
+      "Energy saving solution block",
+      "AI-powered defect detection section",
+    ],
+  },
+  {
+    title: "Robotics Page",
+    description:
+      "Built a detailed robotics product range page to explain different automation categories and how they support real building operations.",
+    items: [
+      "Robot category cards",
+      "Partner display sections",
+      "Deployment process",
+      "Industry usage examples",
+    ],
+  },
+  {
+    title: "Industries Page",
+    description:
+      "Developed an industry-focused page showing how USR solutions apply across different business sectors.",
+    items: [
+      "Commercial real estate",
+      "Healthcare facilities",
+      "Hospitality and hotels",
+      "Industrial and manufacturing",
+    ],
+  },
+  {
+    title: "About Page",
+    description:
+      "Designed the company story page to explain USR as an integrator and smart systems designer rather than only a product reseller.",
+    items: [
+      "Company positioning",
+      "Design philosophy",
+      "Integration-first message",
+      "Consistent CTA section",
+    ],
+  },
+  {
+    title: "Contact / Book Assessment",
+    description:
+      "Improved the enquiry and consultation flow so visitors can contact the business or request a consultation more clearly.",
+    items: [
+      "Contact form flow",
+      "Business enquiry structure",
+      "Office address section",
+      "Consultation CTA",
+    ],
+  },
+  {
+    title: "Drone Inspection Page",
+    description:
+      "Worked on a dedicated drone inspection page focused on AI defect detection, report requests, and inspection service enquiries.",
+    items: [
+      "Drone inspection service content",
+      "Simple report request option",
+      "Form workflow refinement",
+      "Live page CTA",
+    ],
+  },
+];
+
+const contributions = [
+  "Built multiple production website pages using WordPress, custom HTML, and custom CSS.",
+  "Created reusable section structures and class naming patterns for consistent layouts across pages.",
+  "Improved page hierarchy, spacing, CTA placement, and responsive presentation.",
+  "Translated manager feedback into practical page updates and production-ready website changes.",
+  "Structured content around business value, including automation, smart buildings, robotics, AI analysis, and energy saving.",
+  "Updated enquiry form flows and added report request options for the drone inspection workflow.",
+  "Refined SEO-related page titles, descriptions, keywords, and page structure inside the CMS.",
+];
+
+const challenges = [
+  {
+    title: "Working inside WordPress limitations",
+    text: "The project required custom layouts while still working within a CMS environment, so I used custom HTML and CSS sections to go beyond standard template restrictions.",
+  },
+  {
+    title: "Maintaining consistency across many pages",
+    text: "Because the site expanded from a simple company site into multiple business pages, I focused on reusable layout patterns, consistent CTA sections, and shared visual direction.",
+  },
+  {
+    title: "Turning broad business ideas into web content",
+    text: "Many sections started from business discussions or manager feedback, so I needed to convert those requirements into clear page structure, headings, cards, and user flows.",
+  },
+  {
+    title: "Balancing design and business communication",
+    text: "The website needed to look modern while clearly explaining robotics, AI inspection, ARC integration, energy saving, and industry use cases to potential clients.",
+  },
+];
+
 export default function CompanyWebsitePage() {
   return (
     <main className="mx-auto max-w-6xl px-6 py-16">
@@ -84,84 +196,188 @@ export default function CompanyWebsitePage() {
         ← Back to Home
       </Link>
 
-      <div className="space-y-16">
+      <div className="space-y-24">
         {/* Header */}
-        <section className="space-y-4">
-          <p className="text-sm uppercase tracking-[0.2em] text-gray-500">
-            Web Project · Ongoing
+        <section className="space-y-6">
+          <p className="text-sm uppercase tracking-[0.25em] text-gray-500">
+            Real Client Project · WordPress · Custom HTML/CSS
           </p>
-          <h1 className="text-4xl font-bold tracking-tight text-black md:text-5xl">
-            Corporate Website Development
+
+          <h1 className="max-w-5xl text-4xl font-bold tracking-tight text-black md:text-6xl">
+            Ultimaite Strata Robotics Corporate Website
           </h1>
+
           <p className="max-w-4xl text-lg leading-8 text-gray-600">
-            A real-world internship project focused on website refinement,
-            stakeholder feedback implementation, SEO setup, and custom page
-            development within a WordPress-based workflow.
+            A real-world corporate website project for Ultimaite Strata
+            Robotics, focused on smart building technology, robotics
+            integration, AI-powered drone inspection, energy-saving solutions,
+            and industry-specific service pages.
           </p>
+
+          <div className="flex flex-wrap gap-3 pt-2">
+            <a
+              href="https://ultimaite-stratarobotics.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full bg-black px-5 py-3 text-sm font-medium text-white transition hover:opacity-90"
+            >
+              View Live Site →
+            </a>
+
+            <a
+              href="https://ultimaite-stratarobotics.com/solutions/"
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full border border-gray-300 px-5 py-3 text-sm font-medium text-black transition hover:border-black"
+            >
+              View Solutions Page
+            </a>
+          </div>
         </section>
 
-        {/* Hero Image */}
-        <section className="relative overflow-hidden rounded-[32px] border border-gray-200 bg-gray-50">
-          {/* Image */}
-          <img
-            src="/projectThumbnail/company2.png"
-            alt="Corporate Website Development hero screenshot"
-            className="h-[520px] w-full object-cover md:h-[720px]"
-          />
-        </section>
-
-        {/* Overview */}
-        <section className="grid gap-12 md:grid-cols-[0.9fr_1.1fr]">
+        {/* Project Overview */}
+        <section className="space-y-6">
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-gray-500">
               Overview
             </p>
-            <h2 className="mt-3 text-3xl font-semibold text-black">
+            <h2 className="mt-3 text-3xl font-semibold text-black md:text-4xl">
               Project Summary
             </h2>
           </div>
 
-          <div className="space-y-5 text-gray-600">
+          <div className="max-w-4xl space-y-5 text-gray-600">
             <p className="leading-8">
-              During my internship, I contributed to the development and
-              refinement of a corporate website, focusing on UI implementation,
-              content structuring, and user experience improvements.
+              This project was developed during my internship and later expanded
+              into a more complete corporate website. My work focused on
+              transforming business requirements into clear website pages,
+              improving visual hierarchy, building reusable custom sections, and
+              making the site more suitable for client-facing presentation.
             </p>
+
             <p className="leading-8">
-              The project is still under active development and involves
-              continuous iterations based on manager feedback and evolving
-              business requirements.
+              The final website includes multiple completed sections such as
+              Home, Solutions, Robotics, Industries, About, Contact, Book
+              Assessment, and Drone Inspection. The site presents USR as a smart
+              building and robotics integration company with services across
+              automation, AI inspection, energy saving, and operational
+              optimisation.
             </p>
           </div>
         </section>
 
-        {/* Contributions */}
-        <section className="grid gap-12 md:grid-cols-[0.9fr_1.1fr]">
+        {/* Project Info */}
+        <section className="grid gap-4 md:grid-cols-4">
+          <div className="rounded-3xl border border-gray-200 p-6">
+            <p className="text-sm text-gray-500">Role</p>
+            <h3 className="mt-2 text-lg font-semibold text-black">
+              Frontend / Web Developer
+            </h3>
+          </div>
+
+          <div className="rounded-3xl border border-gray-200 p-6">
+            <p className="text-sm text-gray-500">Platform</p>
+            <h3 className="mt-2 text-lg font-semibold text-black">
+              WordPress + Custom Code
+            </h3>
+          </div>
+
+          <div className="rounded-3xl border border-gray-200 p-6">
+            <p className="text-sm text-gray-500">Focus</p>
+            <h3 className="mt-2 text-lg font-semibold text-black">
+              UI, Layout, Content
+            </h3>
+          </div>
+
+          <div className="rounded-3xl border border-gray-200 p-6">
+            <p className="text-sm text-gray-500">Status</p>
+            <h3 className="mt-2 text-lg font-semibold text-black">
+              Completed Core Pages
+            </h3>
+          </div>
+        </section>
+
+        {/* Completed Pages */}
+        <section className="space-y-8">
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-gray-500">
-              Contributions
+              Completed Work
             </p>
-            <h2 className="mt-3 text-3xl font-semibold text-black">
-              What I Worked On
+            <h2 className="mt-3 text-3xl font-semibold text-black md:text-4xl">
+              Pages and Sections I Worked On
             </h2>
           </div>
 
-          <ul className="space-y-3 text-gray-600 leading-8">
-            <li>
-              Translated manager feedback into actionable UI changes and layout
-              refinements
-            </li>
-            <li>Improved spacing, visual hierarchy, and content readability</li>
-            <li>
-              Configured SEO keywords to improve page visibility and exposure
-            </li>
-            <li>
-              Used AI tools to assist development and improve workflow
-              efficiency
-            </li>
-            <li>
-              Built custom page sections using HTML and CSS beyond CMS templates
-            </li>
+          <div className="grid gap-6 md:grid-cols-2">
+            {completedPages.map((page) => (
+              <article
+                key={page.title}
+                className="rounded-3xl border border-gray-200 bg-white p-7"
+              >
+                <h3 className="text-xl font-semibold text-black">
+                  {page.title}
+                </h3>
+
+                <p className="mt-4 leading-7 text-gray-600">
+                  {page.description}
+                </p>
+
+                <ul className="mt-5 space-y-2 text-sm leading-6 text-gray-500">
+                  {page.items.map((item) => (
+                    <li key={item}>• {item}</li>
+                  ))}
+                </ul>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        {/* Screenshots */}
+        <section className="space-y-8">
+          <div>
+            <p className="text-sm uppercase tracking-[0.2em] text-gray-500">
+              Visual Preview
+            </p>
+            <h2 className="mt-3 text-3xl font-semibold text-black md:text-4xl">
+              Website Screenshots
+            </h2>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2">
+            <ZoomImage
+              src="/ProjectImages/CompanySite/screencapture-0.png"
+              alt="USR homepage hero screenshot"
+              heightClass="h-[360px] md:h-[460px]"
+              previewMode="left"
+            />
+
+            <ZoomImage
+              src="/ProjectImages/CompanySite/screencapture-1.png"
+              alt="USR website page preview two"
+              heightClass="h-[360px] md:h-[460px]"
+              previewMode="top"
+            />
+          </div>
+        </section>
+
+        {/* Contributions */}
+        <section className="space-y-6">
+          <div>
+            <p className="text-sm uppercase tracking-[0.2em] text-gray-500">
+              My Role
+            </p>
+            <h2 className="mt-3 text-3xl font-semibold text-black md:text-4xl">
+              What I Contributed
+            </h2>
+          </div>
+
+          <ul className="max-w-3xl list-none space-y-4 text-[16px] leading-7 text-gray-600">
+            {contributions.map((item) => (
+              <li key={item} className="flex items-start gap-3">
+                <span className="mt-[10px] h-1.5 w-1.5 shrink-0 rounded-full bg-gray-500" />
+                <span>{item}</span>
+              </li>
+            ))}
           </ul>
         </section>
 
@@ -171,41 +387,35 @@ export default function CompanyWebsitePage() {
             <p className="text-sm uppercase tracking-[0.2em] text-gray-500">
               Process
             </p>
-            <h2 className="mt-3 text-5xl font-semibold text-black">
-              Work Flow
+            <h2 className="mt-3 text-3xl font-semibold text-black md:text-4xl">
+              Development Workflow
             </h2>
           </div>
 
           {/* Step 1 */}
           <div className="space-y-6">
             <h3 className="text-2xl font-medium text-black">
-              1. Defining and Implementing SEO Strategy
+              1. SEO and Page Structure Setup
             </h3>
 
             <p className="max-w-4xl text-lg leading-8 text-gray-600">
-              Worked with the manager to review and refine SEO-related content,
-              including page titles, keywords, and descriptions. This involved
-              aligning the wording with business goals while ensuring the
-              content remains clear and relevant to user search intent.
-            </p>
-
-            <p className="max-w-4xl text-base leading-7 text-gray-500">
-              After confirming the direction, I implemented the updates directly
-              within the CMS by configuring the title, permalink, and meta
-              description, helping improve search visibility and overall content
-              structure.
+              I helped review and refine SEO-related content, including page
+              titles, keywords, meta descriptions, and permalink structure. The
+              goal was to make the website easier to understand for both users
+              and search engines.
             </p>
 
             <div className="grid gap-8 md:grid-cols-2">
               <ZoomImage
-                src="/ProjectImages/CompanySite/WorkFlow1.png"
-                alt="SEO discussion with manager"
+                src="/ProjectImages/CompanySite/screencapture-2.png"
+                alt="SEO discussion and planning"
                 heightClass="h-[360px] md:h-[420px]"
-                previewMode="contain"
+                previewMode="left"
               />
+
               <ZoomImage
                 src="/ProjectImages/CompanySite/WorkFlow2.png"
-                alt="SEO configuration in CMS"
+                alt="SEO setup inside CMS"
                 heightClass="h-[360px] md:h-[420px]"
                 previewMode="contain"
               />
@@ -213,32 +423,92 @@ export default function CompanyWebsitePage() {
           </div>
 
           {/* Step 2 */}
-          <div className="space-y-6">
+          <div className="space-y-8">
             <h3 className="text-2xl font-medium text-black">
-              2. Adding a Simple Report Request Option to the Form Workflow
+              2. Custom Page Sections and Layout Refinement
             </h3>
 
             <p className="max-w-4xl text-lg leading-8 text-gray-600">
-              Based on the manager’s request, I updated the enquiry form by
-              adding a Simple Report option, allowing users to request
-              supporting documentation directly during submission.
+              Instead of relying solely on default WordPress templates, I built
+              custom page sections using HTML and CSS to improve layout
+              flexibility and visual consistency across the site.
             </p>
 
-            <p className="max-w-4xl text-base leading-7 text-gray-500">
-              This improvement made the form flow more practical and
-              business-oriented by connecting user input with a clearer
-              follow-up outcome. The submitted enquiry could then trigger an
-              email output that included the requested report as an attachment,
-              making the process more complete and easier to understand.
+            <p className="max-w-4xl text-lg leading-8 text-gray-600">
+              During the development process, I iterated on layouts based on
+              stakeholder feedback. This involved refining content hierarchy,
+              restructuring sections, and improving visual clarity to better
+              communicate the product’s value.
             </p>
+
+            {/* Images */}
+            <div className="grid gap-8 md:grid-cols-2">
+              <div>
+                <p className="mb-2 text-sm text-gray-500">
+                  Initial Layout Implementation
+                </p>
+                <ZoomImage
+                  src="/ProjectImages/CompanySite/Feedback1.jpeg"
+                  alt="Initial layout before refinement"
+                  heightClass="h-[380px] md:h-[480px]"
+                  previewMode="top"
+                />
+              </div>
+
+              <div>
+                <p className="mb-2 text-sm text-gray-500">
+                  Annotated Stakeholder Feedback
+                </p>
+                <ZoomImage
+                  src="/ProjectImages/CompanySite/Feedback.jpeg"
+                  alt="Annotated feedback for layout refinement"
+                  heightClass="h-[380px] md:h-[480px]"
+                  previewMode="top"
+                />
+              </div>
+            </div>
+
+            {/* Result explanation */}
+            <p className="max-w-4xl text-base leading-7 text-gray-500">
+              I translated this feedback into concrete UI improvements,
+              including better spacing, clearer content grouping, improved
+              section flow, and more consistent visual hierarchy across the
+              page.
+            </p>
+          </div>
+
+          {/* Step 3 */}
+          <div className="space-y-6">
+            <h3 className="text-2xl font-medium text-black">
+              3. Enquiry Form and Report Request Flow
+            </h3>
+
+            <p className="max-w-4xl text-lg leading-8 text-gray-600">
+              For the drone inspection workflow, I updated the enquiry form by
+              adding a Simple Report request option. This helped connect the
+              website form with a clearer business outcome, allowing users to
+              request supporting inspection material more directly.
+            </p>
+
+            <div>
+              <a
+                href="https://ultimaite-stratarobotics.com/drone-inspection/"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl bg-black px-5 py-3 text-sm font-medium text-white transition hover:opacity-90"
+              >
+                View Drone Inspection Page →
+              </a>
+            </div>
 
             <div className="grid gap-8 md:grid-cols-2">
               <ZoomImage
                 src="/ProjectImages/CompanySite/From.jpeg"
-                alt="Simple report option added to the enquiry form"
+                alt="Simple report option added to enquiry form"
                 heightClass="h-[380px] md:h-[480px]"
                 previewMode="top"
               />
+
               <ZoomImage
                 src="/ProjectImages/CompanySite/Form1.png"
                 alt="Submitted enquiry email with report attachment"
@@ -248,136 +518,121 @@ export default function CompanyWebsitePage() {
             </div>
           </div>
 
-          {/* Step 3 */}
-          <div className="space-y-6">
-            <h3 className="text-2xl font-medium text-black">
-              3. Translating Manager Requirements into a Structured Form Flow
-            </h3>
-
-            <p className="max-w-4xl text-lg leading-8 text-gray-600">
-              Based on the manager’s requirements, I updated the enquiry form to
-              better reflect the intended workflow. This included restructuring
-              input fields and introducing a simple report request option,
-              allowing users to clearly communicate their needs while aligning
-              the form with business objectives.
-            </p>
-
-            <p className="max-w-4xl text-base leading-7 text-gray-500">
-              The update improved usability and clarity, making the submission
-              flow more intuitive and easier to understand from a user
-              perspective.
-            </p>
-
-            {/* 🔥 按钮在这里 */}
-            <div>
-              <a
-                href="https://ultimaite-stratarobotics.com/drone-inspection/"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-black px-5 py-3 text-sm font-medium text-white transition hover:opacity-90"
-              >
-                View Live Page →
-              </a>
-            </div>
-
-            <div className="grid gap-8 md:grid-cols-2">
-              <ZoomImage
-                src="/ProjectImages/CompanySite/Feedback1.jpeg"
-                alt="Form before refinement"
-                heightClass="h-[380px] md:h-[480px]"
-                previewMode="top"
-              />
-              <ZoomImage
-                src="/ProjectImages/CompanySite/Feedback.jpeg"
-                alt="Form after refinement"
-                heightClass="h-[380px] md:h-[480px]"
-                previewMode="top"
-              />
-            </div>
-          </div>
-
           {/* Step 4 */}
           <div className="space-y-6">
             <h3 className="text-2xl font-medium text-black">
-              4. Working on New Content Direction and Ongoing Site Updates
+              4. Multi-Page Website Completion
             </h3>
 
             <p className="max-w-4xl text-lg leading-8 text-gray-600">
-              Continued developing newly assigned sections based on the
-              manager’s latest direction, including content updates, visual
-              adjustments, and structural improvements across the site.
+              After the initial website updates, I continued building out the
+              remaining major pages, including Solutions, Robotics, Industries,
+              About, and Contact. This helped turn the site into a more complete
+              business website rather than a single landing page.
             </p>
 
-            <p className="max-w-4xl text-base leading-7 text-gray-500">
-              This stage reflects the ongoing nature of the project, where the
-              website is continuously refined through iteration, evolving
-              requirements, and live production updates.
-            </p>
-
-            <div>
+            <div className="flex flex-wrap gap-3">
               <a
-                href="https://ultimaite-stratarobotics.com/"
+                href="https://ultimaite-stratarobotics.com/solutions/"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-black px-5 py-3 text-sm font-medium text-white transition hover:opacity-90"
+                className="rounded-xl border border-gray-300 px-5 py-3 text-sm font-medium text-black transition hover:border-black"
               >
-                View Live Site →
+                Solutions
+              </a>
+
+              <a
+                href="https://ultimaite-stratarobotics.com/robotics/"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-xl border border-gray-300 px-5 py-3 text-sm font-medium text-black transition hover:border-black"
+              >
+                Robotics
+              </a>
+
+              <a
+                href="https://ultimaite-stratarobotics.com/industries/"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-xl border border-gray-300 px-5 py-3 text-sm font-medium text-black transition hover:border-black"
+              >
+                Industries
+              </a>
+
+              <a
+                href="https://ultimaite-stratarobotics.com/About/"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-xl border border-gray-300 px-5 py-3 text-sm font-medium text-black transition hover:border-black"
+              >
+                About
               </a>
             </div>
-
-            <div className="grid gap-8 md:grid-cols-2">
-              <ZoomImage
-                src="/ProjectImages/CompanySite/Feedback2.png"
-                alt="Ongoing site development screenshot 1"
-                heightClass="h-[360px] md:h-[460px]"
-                previewMode="top"
-              />
-              <ZoomImage
-                src="/ProjectImages/CompanySite/Feedback3.png"
-                alt="Ongoing site development screenshot 2"
-                heightClass="h-[360px] md:h-[460px]"
-                previewMode="top"
-              />
-            </div>
           </div>
         </section>
 
-        {/* Learning */}
-        <section className="grid gap-12 md:grid-cols-[0.9fr_1.1fr]">
+        {/* Challenges */}
+        <section className="space-y-8">
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-gray-500">
-              Reflection
+              Challenges
             </p>
-            <h2 className="mt-3 text-3xl font-semibold text-black">
-              Learning & Growth
+            <h2 className="mt-3 text-3xl font-semibold text-black md:text-4xl">
+              Problems I Solved
             </h2>
           </div>
 
-          <p className="text-gray-600 leading-8">
-            Strengthened my ability to work in a real-world development
-            environment with continuous feedback and iteration. Progressively
-            transitioned from CMS editing to custom development while improving
-            efficiency through AI-assisted workflows.
+          <div className="grid gap-6 md:grid-cols-2">
+            {challenges.map((challenge) => (
+              <article
+                key={challenge.title}
+                className="rounded-3xl border border-gray-200 p-7"
+              >
+                <h3 className="text-xl font-semibold text-black">
+                  {challenge.title}
+                </h3>
+                <p className="mt-4 leading-7 text-gray-600">{challenge.text}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        {/* Result */}
+        <section className="space-y-6 rounded-[32px] bg-black p-8 text-white md:p-12">
+          <p className="text-sm uppercase tracking-[0.2em] text-white/60">
+            Result
           </p>
-        </section>
 
-        {/* Next Steps */}
-        <section className="grid gap-12 md:grid-cols-[0.9fr_1.1fr]">
-          <div>
-            <p className="text-sm uppercase tracking-[0.2em] text-gray-500">
-              Next Steps
-            </p>
-            <h2 className="mt-3 text-3xl font-semibold text-black">
-              Ongoing Development
-            </h2>
+          <h2 className="max-w-4xl text-3xl font-semibold md:text-4xl">
+            Delivered a complete multi-page corporate website for a real
+            robotics and smart building business.
+          </h2>
+
+          <p className="max-w-4xl leading-8 text-white/70">
+            The project helped me gain real production experience in website
+            development, stakeholder feedback implementation, custom page
+            building, SEO setup, CMS workflows, and business-focused UI
+            presentation. It also strengthened my ability to convert broad
+            business ideas into structured, user-facing web pages.
+          </p>
+
+          <div className="flex flex-wrap gap-3 pt-4">
+            <a
+              href="https://ultimaite-stratarobotics.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full bg-white px-5 py-3 text-sm font-medium text-black transition hover:opacity-90"
+            >
+              Visit Live Website →
+            </a>
+
+            <Link
+              href="/"
+              className="rounded-full border border-white/30 px-5 py-3 text-sm font-medium text-white transition hover:border-white"
+            >
+              View More Projects
+            </Link>
           </div>
-
-          <ul className="space-y-3 text-gray-600 leading-8">
-            <li>Complete remaining pages and unfinished sections</li>
-            <li>Improve mobile responsiveness</li>
-            <li>Enhance SEO structure</li>
-            <li>Expand custom-coded sections</li>
-          </ul>
         </section>
       </div>
     </main>

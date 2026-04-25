@@ -47,7 +47,7 @@ export default function PortfolioV1Page() {
             </p>
 
             <h1 className="mt-4 text-4xl font-semibold tracking-tight md:text-5xl">
-              Portfolio v1
+              Portfolio
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-600">
@@ -267,28 +267,38 @@ export default function PortfolioV1Page() {
         </section>
 
         {/* =========================
-            REFLECTION
-        ========================= */}
-        <section className="mt-20 rounded-3xl border border-gray-200 p-8 md:p-10">
-          <p className="text-sm uppercase tracking-[0.2em] text-gray-500">
-            Reflection
+    RESULT / REFLECTION
+========================= */}
+        <section className="mt-20 space-y-6 rounded-[32px] bg-black p-8 text-white md:p-12">
+          <p className="text-sm uppercase tracking-[0.2em] text-white/60">
+            Result
           </p>
-          <h2 className="mt-3 text-3xl font-semibold tracking-tight">
-            What I learned from this project
+
+          <h2 className="max-w-4xl text-3xl font-semibold md:text-4xl">
+            Built a structured and scalable personal project that demonstrates
+            both frontend development and product thinking.
           </h2>
 
-          <div className="mt-6 max-w-3xl space-y-5 text-gray-600">
-            <p className="leading-8">
-              This project helped me improve not only my frontend development
-              skills, but also how I think about content structure, usability,
-              and project presentation.
-            </p>
+          <p className="max-w-4xl leading-8 text-white/70">
+            This project strengthened my ability to design and develop complete
+            web pages with clear content structure, consistent UI patterns, and
+            strong visual hierarchy. It also reflects how I approach problem
+            solving, iteration, and presenting ideas in a user-focused way.
+          </p>
 
-            <p className="leading-8">
-              It reflects my ability to independently design, build, organize,
-              and refine a web project with both visual clarity and future
-              maintainability in mind.
-            </p>
+          <p className="max-w-4xl leading-8 text-white/70">
+            Through this project, I improved my workflow in planning layouts,
+            refining components, and ensuring scalability for future updates,
+            while maintaining a clean and professional user experience.
+          </p>
+
+          <div className="flex flex-wrap gap-3 pt-4">
+            <a
+              href="/"
+              className="rounded-full border border-white/30 px-5 py-3 text-sm font-medium text-white transition hover:border-white"
+            >
+              Back to Home
+            </a>
           </div>
         </section>
       </div>
