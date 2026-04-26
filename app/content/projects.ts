@@ -51,6 +51,15 @@ export const projects: Project[] = [
     thumbnail: "/projectThumbnail/company2.png",
   },
   {
+    slug: "ezisight-ecommerce",
+    title: "EziSight E-commerce Website",
+    category: "Web",
+    description:
+      "A frontend-focused e-commerce prototype built with Next.js and TypeScript, featuring product browsing, cart interaction, and enquiry flow with a scalable UI structure.",
+    tech: ["Next.js", "TypeScript", "Tailwind"],
+    thumbnail: "/projectThumbnail/Ezisight.png",
+  },
+  {
     slug: "portfolio-v1",
     title: "Portfolio (This Site)",
     category: "Web",
