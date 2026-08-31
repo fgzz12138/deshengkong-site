@@ -1,0 +1,3581 @@
+{
+  "schemaVersion": 2,
+  "project": "deshengkong-site",
+  "scope": "Local production build HTTP validation plus explicitly linked parent-agent browser recovery evidence. No external destinations visited. Server HTML limitations are recorded separately.",
+  "latestPassed": true,
+  "runs": [
+    {
+      "startedAt": "2026-08-31T08:03:35.670Z",
+      "completedAt": "2026-08-31T08:03:35.897Z",
+      "baseUrl": "http://127.0.0.1:3180",
+      "buildId": "9Smp8wfANVfHFZ-P-I38V",
+      "headCommit": "77522b94fc78ea9599d8982fe6058248cb4eacbc",
+      "sourceHashes": {
+        "app/content/portfolio.ts": "fe690c2be19aae1d31a44aaf4cb7dbc51edc98fa79752c14fd251984e410d7b4",
+        "app/content/projects.ts": "36c493b238b1da5e140335e36afdd4be3f2cbb60a74f44e021217dbf21eebf9e",
+        "app/projects/ezisight-ecommerce/page.tsx": "da280c8ecf33693af7d9a5c034302cec8e77410cad412f4994390d8c66deaf63"
+      },
+      "counts": {
+        "routes": 19,
+        "assets": 54,
+        "chunks": 13,
+        "notFound": 3,
+        "redirects": 2,
+        "metadataRoutes": 2
+      },
+      "passed": false,
+      "failures": [
+        {
+          "group": "notFound",
+          "path": "/projects/__m1-route-check-not-found",
+          "failedChecks": [
+            "notFoundHeading",
+            "recoveryLink"
+          ],
+          "status": 404
+        }
+      ],
+      "routes": [
+        {
+          "path": "/",
+          "kind": "home",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 30,
+          "bytes": 37266,
+          "sha256": "841249749c24a9109d1830de8e70f82e3c6ba7c68c073df8a9eec9f3b8883e9c",
+          "title": "Desheng Kong — Applied AI & Practical Systems",
+          "h1": [
+            "AI systems. Built for real work."
+          ],
+          "canonical": "https://www.deshengkong.com",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "selectedAnchor": true,
+            "allFeaturedLinks": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/about",
+          "kind": "about",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 14,
+          "bytes": 24471,
+          "sha256": "a246b4a0b7c75360c866a1fab3e65690d92458f922cee4ff8f16f6a23575eb63",
+          "title": "About | Desheng Kong",
+          "h1": [
+            "From interfaces to AI systems."
+          ],
+          "canonical": "https://www.deshengkong.com/about",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "learningBoundary": true,
+            "cvLink": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/contact",
+          "kind": "contact",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 17,
+          "bytes": 28480,
+          "sha256": "1c52aa501e2f5162c2b85fdae306d9af1d458abf9f91f33b9e9142db7fd50998",
+          "title": "Get in touch | Desheng Kong",
+          "h1": [
+            "Let’s talk."
+          ],
+          "canonical": "https://www.deshengkong.com/contact",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "gmailLink": true,
+            "linkedinLink": true,
+            "githubLink": true,
+            "cvLink": true,
+            "noFormBackend": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects",
+          "kind": "collection",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 18,
+          "bytes": 48478,
+          "sha256": "dfc79c79f028b946f073deee6f33aa3d89d1be215f16f25058098f5e3ddf1dea",
+          "title": "Projects | Desheng Kong",
+          "h1": [
+            "Projects"
+          ],
+          "canonical": "https://www.deshengkong.com/projects",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "allProjectLinks": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/virtual-concierge",
+          "kind": "featured",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 4,
+          "bytes": 25306,
+          "sha256": "654c971817811abf53268f67c9cae235f6506f89ecb1a3865b0a5ad9afd130c7",
+          "title": "Virtual Concierge | Desheng Kong",
+          "h1": [
+            "Virtual Concierge"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/virtual-concierge",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "stage": true,
+            "scopeBoundary": true,
+            "contributions": true,
+            "illustrationLabel": true,
+            "demoControl": true,
+            "contactLink": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/alpha-ai",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 8,
+          "bytes": 23950,
+          "sha256": "7d3519892fe22ad2aad286cb6ac1d56119e44d482414913fc7c37162e0615dd6",
+          "title": "AI Platform — Annotation & Evaluation Workflow | Desheng Kong",
+          "h1": [
+            "AI Platform — Annotation & Evaluation Workflow"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/alpha-ai",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/autoxing-robotics",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 6,
+          "bytes": 26246,
+          "sha256": "c02539f52e6de221f083c392dc69292b6d1d75bbb01cdcf7e352e36df0d6ac6d",
+          "title": "Autonomous Robot Deployment — Enterprise Data Center | Desheng Kong",
+          "h1": [
+            "Autonomous Robot Deployment — Enterprise Data Center"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/autoxing-robotics",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/enterprise-ai-infrastructure",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 7,
+          "bytes": 25117,
+          "sha256": "975440589af8ecd042b77861b2cd27d09c344e365d17e11e5de5ba946fbee4b6",
+          "title": "Enterprise AI Infrastructure Deployment Support | Desheng Kong",
+          "h1": [
+            "Enterprise AI Infrastructure Deployment Support"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/enterprise-ai-infrastructure",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/ezisight-ecommerce",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 8,
+          "bytes": 19125,
+          "sha256": "71e68593419ec0258f6605770e5a85e536f36888afcd02f753c4b26e4c6dfee6",
+          "title": "EziSight E-commerce Website | Desheng Kong",
+          "h1": [
+            "EziSight Website Migration & Frontend Rebuild"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/ezisight-ecommerce",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/company-website",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 10,
+          "bytes": 33390,
+          "sha256": "34ed2c7572a2a2d1fe4941fb09c9c9b462d138b23ed49194d5aa7e97d547168c",
+          "title": "Corporate Website Development | Desheng Kong",
+          "h1": [
+            "Ultimaite Strata Robotics Corporate Website"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/company-website",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/portfolio-v1",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 7,
+          "bytes": 31791,
+          "sha256": "a1c95a9e6915a1579e6ca8d3a32a184980bdcfc9683bdb6008d4fc191a086acd",
+          "title": "Portfolio v1 | Desheng Kong",
+          "h1": [
+            "Portfolio"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/portfolio-v1",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/no-boss",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 9,
+          "bytes": 33543,
+          "sha256": "daa2f2b50d9a9f7358097819350f4b1b0c1a89b3be4d52cd3358e7a396ce1f7f",
+          "title": "NO BOSS | Desheng Kong",
+          "h1": [
+            "NO BOSS"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/no-boss",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/run-sheep",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 7,
+          "bytes": 33933,
+          "sha256": "bb6b7faa9a33462e82880bd2e15c84fdfa809904c96ebf7095aa213d1a8b4953",
+          "title": "Run Sheep | Desheng Kong",
+          "h1": [
+            "Run Sheep"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/run-sheep",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/paint-cube",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 7,
+          "bytes": 36029,
+          "sha256": "0e3328476b2ff690d033831812be16bbf1b68c852758f35b931ed35083c53c6c",
+          "title": "Paint Cube | Desheng Kong",
+          "h1": [
+            "Paint Cube"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/paint-cube",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/3d-environment-01",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 5,
+          "bytes": 31937,
+          "sha256": "5bdcbef95cd0b86a177aef060a5b9661b83fdc390b72f30936d2415bfc1bd80b",
+          "title": "3D Environment Study | Desheng Kong",
+          "h1": [
+            "3D Environment Study"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/3d-environment-01",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/3d-character-study",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 6,
+          "bytes": 31060,
+          "sha256": "8ac16e2db9aa78b20df6aac14e10e4d2f70fe87466ff9a5e34a5915af1226bec",
+          "title": "3D Character Study | Desheng Kong",
+          "h1": [
+            "3D Character Study"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/3d-character-study",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/uai-api-customer-portal",
+          "kind": "featured",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 2,
+          "bytes": 26803,
+          "sha256": "4c14139e8071bae70b0afbad806cf5a9b197ff4335103d3501da0fbc3c338161",
+          "title": "UAI API Customer Portal | Desheng Kong",
+          "h1": [
+            "UAI API Customer Portal"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/uai-api-customer-portal",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "stage": true,
+            "scopeBoundary": true,
+            "contributions": true,
+            "illustrationLabel": true,
+            "demoControl": true,
+            "contactLink": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/media-visual-tools",
+          "kind": "featured",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 4,
+          "bytes": 25272,
+          "sha256": "6a26261a386e9b691037ea70070bb75c8e269dc56a692fc451d9e172e6dbb31e",
+          "title": "Media & Visual Tools | Desheng Kong",
+          "h1": [
+            "Media & Visual Tools"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/media-visual-tools",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "stage": true,
+            "scopeBoundary": true,
+            "contributions": true,
+            "illustrationLabel": true,
+            "demoControl": true,
+            "contactLink": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/iclaude-workbench",
+          "kind": "featured",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 3,
+          "bytes": 25258,
+          "sha256": "f7d2aaf8aef324ca65f19eb7de210d650a4ae0b360d22fdfe2b7cebca4b8e101",
+          "title": "iClaude Workbench | Desheng Kong",
+          "h1": [
+            "iClaude Workbench"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/iclaude-workbench",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "stage": true,
+            "scopeBoundary": true,
+            "contributions": true,
+            "illustrationLabel": true,
+            "demoControl": true,
+            "contactLink": true
+          },
+          "pass": true
+        }
+      ],
+      "assets": [
+        {
+          "path": "/Desheng_Kong_CV.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 77678,
+          "sha256": "ba933934fde5249ec88a833e6994ccf99b5abf9dd1de291b872be608b7010b26",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true,
+            "pdfSignature": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/portfolio/concierge.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 83504,
+          "sha256": "cd63a92172452de23c663b5b5ba8f2675fb8fa7934eb2fead31e8813f8839120",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/portfolio/portal.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 61398,
+          "sha256": "1a2c1a287a14f7b347df8fc2f199ced3400232f8224c5713db6cfbe8cfa9face",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/portfolio/portal-detail.svg",
+          "status": 200,
+          "contentType": "image/svg+xml",
+          "bytes": 7033,
+          "sha256": "12eb4292f32b7e133e4c2b420a6336a1832e90c3cb601b23ee52711653d1e20c",
+          "elapsedMs": 7,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/portfolio/media.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 70322,
+          "sha256": "7df88acd0f72ee01af1f1cb742b3fb05862b70ff054146751bddc26925a02fba",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/portfolio/workbench.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 75761,
+          "sha256": "c88013f217bb8ccfa1d824a110454d62c0e255e95845fd4b94751193384b22e4",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/ai-concierge.svg",
+          "status": 200,
+          "contentType": "image/svg+xml",
+          "bytes": 1681,
+          "sha256": "1ae72e2eee98a582e84facadc76e310d89b341f6a2ba18a4f2a9089042b215bc",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/alpha-ai.svg",
+          "status": 200,
+          "contentType": "image/svg+xml",
+          "bytes": 1828,
+          "sha256": "38d2cb2ade3cab46c2f9b232c851dfcc39a87921da589f1907d550f68272a3c7",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/autoxing-robotics.svg",
+          "status": 200,
+          "contentType": "image/svg+xml",
+          "bytes": 1934,
+          "sha256": "9a60a0d8332ab1a0692dffb7995f6183a92e9ca968457d2328c156a522710af2",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/enterprise-ai-infra.svg",
+          "status": 200,
+          "contentType": "image/svg+xml",
+          "bytes": 1802,
+          "sha256": "978bdd1595806aec678b86be32b41e7c4103edc4f4d401ce1c78d40e9b75a6f5",
+          "elapsedMs": 5,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/Ezisight.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 528463,
+          "sha256": "7c4be7bb33998e315b7c1b0d14d814cc94d0123b1ebe871c910b76d3e758000f",
+          "elapsedMs": 5,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/company2.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 2202479,
+          "sha256": "8f09c98ac853a84f17f26f5513f32e9e5b6aa3d521fc08a8aec508473d7d4c7a",
+          "elapsedMs": 10,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/portfolio.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 2326688,
+          "sha256": "23221cd6ff5b924ed6a616bc10265d405c8f2c48417ce5ff225a9485d46a9203",
+          "elapsedMs": 17,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/noboss1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 315601,
+          "sha256": "1600df9b6d9c10451ec14cda521bd14d9f81936722361c61dd5c176444859c38",
+          "elapsedMs": 5,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/NoBoss/NoBoss3.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 772432,
+          "sha256": "94f19855ad92dc3ff117439187c9a8f11cc799826d4408024bd26e0c068d6d61",
+          "elapsedMs": 16,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/NoBoss/NoBoss2.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 503915,
+          "sha256": "9160e9a5829021f6d997d72918274f74555d4b3b0bb3fdf96e35e1decfa0c7ea",
+          "elapsedMs": 6,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/NoBoss/NoBoss1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 329774,
+          "sha256": "65501f270f81d787d214f9a923a57f4eb10bf89a1806cd472547267ae80d1ce7",
+          "elapsedMs": 14,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/NoBoss/NoBoss4.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 340138,
+          "sha256": "ec8e972666f591ddee680dda63fa87d8a834dae595fe72633f09213f4e6150e8",
+          "elapsedMs": 14,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/runsheep1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 1133501,
+          "sha256": "962e4662ed52021e26b3d11a425c53167ddf75b7eeb4864831a2e4e5861403b5",
+          "elapsedMs": 13,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/RunSheep/runSheep3.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 374921,
+          "sha256": "73853dfe647835d25312c3d4873c8cf3722a47839085beea9f9d665b1259927a",
+          "elapsedMs": 13,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/RunSheep/runSheep6.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 245838,
+          "sha256": "72cb1a893960cb95c84720b7de6c9b3de646b0289f3b0be4ce52ba21aeb71bac",
+          "elapsedMs": 12,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/RunSheep/runSheep7.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 329400,
+          "sha256": "a971199f044425bf719aedc84daed43d1982b5b12d32ecfbb26851228e0eba1a",
+          "elapsedMs": 12,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/RunSheep/runSheep8.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 189907,
+          "sha256": "858466115933724eed4e2430e32ddf9d6849ed9e52c89eaf24698da005010f9e",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/paintbox.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 233659,
+          "sha256": "cd913b120e788086c25092c801c8f9ad0457c9640f621c850f317742c3dd90c8",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/PaintBox/paintbox1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 80238,
+          "sha256": "ff7a694bdc385b928cf24556c5d12a6cc0cb0751350700928ca4cbc0dec333fa",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/PaintBox/paintbox7.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 307138,
+          "sha256": "883e6628eb9de0bb74ef01242a80f740e402c3ad351a04366a5e4cb5d60582fe",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/PaintBox/paintbox2.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 41643,
+          "sha256": "728aaec7da086b9b776eae3575df1511bccdb5adb05194aa2cece8c7ac226f7d",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/PaintBox/paintbox3.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 80404,
+          "sha256": "72da03e396c9877650a9df0fd80077b71f3236db6fb7b180febb98cd223e5726",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/artwork1.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 124956,
+          "sha256": "b888e6900edb2539db2597ccb446428bcf9239dbaafb99c2b95d1c1ee220a009",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/artwork1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 684940,
+          "sha256": "05c532e41ab2b5e8b237fbb77051d16918876cd7ee96ad0ebab6f547632a55ed",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/artwork2.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 848102,
+          "sha256": "04ca7d42bbf7b4b2f6e00012eecec00553efcbf502502e0040fc0d36e15abc32",
+          "elapsedMs": 6,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/GirlMode/girl1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 139862,
+          "sha256": "fb12b95c2e93d2af140ee586eb7ff59dcd090a41be5380a607eb21916fed7a37",
+          "elapsedMs": 7,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/GirlMode/girl2.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 327893,
+          "sha256": "44d40ae6d250977f2f1d3cbcf310ede4e92cece007a82b4b0958c15541156820",
+          "elapsedMs": 7,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/portfolio/social-card.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 63605,
+          "sha256": "971683b9ef4ff8675ed894ea292fafdd1382928b31ab17b37d0aaf312fcd0f8e",
+          "elapsedMs": 7,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/portfolio/hero-system.svg",
+          "status": 200,
+          "contentType": "image/svg+xml",
+          "bytes": 169439,
+          "sha256": "6b65fec02abfea3d4f0b410ad8914ea72a3f125e104656e7ae66095fa504b088",
+          "elapsedMs": 28,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/screencapture-0.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 953269,
+          "sha256": "21b173e35c756aa6252ecdcc131ad97f48825c3a296403ea7ed72e5c18e208b0",
+          "elapsedMs": 6,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/screencapture-1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 188501,
+          "sha256": "bfb75a12106b6ee79dfc00ecb5ac889422b95a9787d113e942ccf757609b7bee",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/screencapture-2.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 35524,
+          "sha256": "7d41568e129112138f9b7c28ad52f9690c154ecf77645244eaf85c820aaacaa9",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/WorkFlow2.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 233330,
+          "sha256": "6099bf24548cc6fe4a34228e154a4e688e829bbb38c27825028c1fd1e145a57e",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/Feedback1.jpeg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 379445,
+          "sha256": "0dff83425508ed17db96b24e1c2243cc56b30172977f9542765ecc57adcf917d",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/Feedback.jpeg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 306928,
+          "sha256": "5a3f188e0b69f7374ddcf948f573c4e60e011088890c7b69aa06fe92721c0471",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/From.jpeg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 61183,
+          "sha256": "1a82e09038a4b315fb9efaad2995d005379a8d64b0e8a47b003adcd85e1d20ed",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/Form1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 30987,
+          "sha256": "c6ebffa53ce164a80d7740c68da4c26e9cccc14c6bae4b1b582205c55db06dd2",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Ezisight/product.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 156099,
+          "sha256": "462b71d9548f8d07ec9c248f0fd65e98f36ba0f07d9d28ecb53a7f49cbba6927",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Ezisight/product-1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 133101,
+          "sha256": "f1944230e74dc493907a0be272f01120701855c1fbc78046a3d9d8b311df9fd3",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Ezisight/Cart.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 68168,
+          "sha256": "fa4e4f08fac5aa75302f0d22d7b548420f0586a24fd1a11d2464118a8a5a9ee5",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Ezisight/login.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 19420,
+          "sha256": "55285d1cd2d8b7632cb49001fd724e426d1ba478a7e117872c86e5f8f8cb26eb",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Ezisight/login-1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 18806,
+          "sha256": "014d6bf4835873ac3886bd6446fa04f33f7813a82a7150700f150fd4f3349411",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Ezisight/form.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 23271,
+          "sha256": "ede31807f426796d6a0b338e5086e2d6e264d708ff55519a5a62d2158878dc4f",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Ezisight/form-1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 27416,
+          "sha256": "160108537923d4281e9da61e41506daad54737703d8b5224f381fb352badfda8",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Portfolio/Hero.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 47373,
+          "sha256": "90909c469a44838512e754c353e79055a45dcd5d46d2b3b64ae2a2f108ff6e7b",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Portfolio/Projects.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 289973,
+          "sha256": "a046bbfb8f033b40746600ddf8760fa13fd859206d98af96c9f5b82e2e2bdbec",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Portfolio/ProjectDetail.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 89509,
+          "sha256": "0839097ee8cc8629973ab3aea8e39fcabc12b31c4ebc0bd14ab0ea4d1efc892b",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/favicon.ico",
+          "status": 200,
+          "contentType": "image/x-icon",
+          "bytes": 150082,
+          "sha256": "4949ea3c71099d33b14cb180fb96f015c5ab1a64b695284ce3c9cb0fbc6b6761",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        }
+      ],
+      "chunks": [
+        {
+          "path": "/_next/static/chunks/048j0t13r_g09.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8",
+          "bytes": 38405,
+          "sha256": "f6b6da83fb3eb7f22c9725e216aed69447666003f5e90cd7b55afe50cd0d3641",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/0sp3kkk9h18gd.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8",
+          "bytes": 11100,
+          "sha256": "f588ec60b7bd7ec159a052e276cffba53718485ee89ba76f46d9314cf9877d14",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/19mx3mg6lkumu.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 28907,
+          "sha256": "170f3982866674a829571beec30cc23c69fcd36196739ff34b9d586b3ad73cd7",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/3byuobrkyz9bj.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 229156,
+          "sha256": "2998459ef0c506d9417d5337fd7c562b13913d9eb939016648e0352c0b037eb2",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/2-rtuqsgzmno4.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 165743,
+          "sha256": "4d2bfb13eedd0cf43d07810d7790ce423e01097d1406ef604e7c4f3ab4db8d79",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/turbopack-1lyg-46tj38sh.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 9721,
+          "sha256": "ab09b8b2e1e03ed4d1a56e90c6932d255ac70849c99fcdf660d42bd1f8dfd959",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/1ccm_az6go238.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 26190,
+          "sha256": "ab7df958d30b08afb6ab7c915a5a4a6e9d17191a1d8aa2567c0b0af7eced8663",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/0cz1d0mv5g_q7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 112594,
+          "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/310vm2bl3xxpt.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 5364,
+          "sha256": "8a943b00599e56b53569f36f4341e3465ae7705c1391562cd6c7e1f290c0c387",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/2lme1e0j8b0-j.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 550,
+          "sha256": "c954235217984957f4698ace51e47cbd729a32bd8ca32aa8fb43c012935c8811",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/4062vuyvmmp4j.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8",
+          "bytes": 9261,
+          "sha256": "97107db7c78089f14fe7c14d630005901eee00a26ed0b123532e3001ad0a5739",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/1i4yqe-1a6utd.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 6784,
+          "sha256": "290d1abf27afd98db327c22a1040b29d8e9d18aab91495625d99ac2c9ae5bad0",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/0k921x370udba.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 19221,
+          "sha256": "2ba0070ef14f42599affd21287434b55270ff7176cad67f7bde52491fd97d896",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        }
+      ],
+      "notFound": [
+        {
+          "path": "/__m1-route-check-not-found",
+          "status": 404,
+          "title": "Desheng Kong — Applied AI & Practical Systems",
+          "h1": [
+            "This page isn’t here."
+          ],
+          "checks": {
+            "status404": true,
+            "notFoundHeading": true,
+            "recoveryLink": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/__m1-route-check-not-found",
+          "status": 404,
+          "title": "Desheng Kong — Applied AI & Practical Systems",
+          "h1": [],
+          "checks": {
+            "status404": true,
+            "notFoundHeading": false,
+            "recoveryLink": false
+          },
+          "pass": false
+        },
+        {
+          "path": "/portfolio/__m1-missing-asset.png",
+          "status": 404,
+          "title": "Desheng Kong — Applied AI & Practical Systems",
+          "h1": [
+            "This page isn’t here."
+          ],
+          "checks": {
+            "status404": true,
+            "notFoundHeading": true,
+            "recoveryLink": true
+          },
+          "pass": true
+        }
+      ],
+      "redirects": [
+        {
+          "path": "/about/",
+          "status": 308,
+          "location": "/about",
+          "checks": {
+            "permanentRedirect": true,
+            "location": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/no-boss/",
+          "status": 308,
+          "location": "/projects/no-boss",
+          "checks": {
+            "permanentRedirect": true,
+            "location": true
+          },
+          "pass": true
+        }
+      ],
+      "metadataRoutes": [
+        {
+          "path": "/sitemap.xml",
+          "status": 200,
+          "urls": [
+            "https://www.deshengkong.com",
+            "https://www.deshengkong.com/about",
+            "https://www.deshengkong.com/contact",
+            "https://www.deshengkong.com/projects",
+            "https://www.deshengkong.com/projects/virtual-concierge",
+            "https://www.deshengkong.com/projects/alpha-ai",
+            "https://www.deshengkong.com/projects/autoxing-robotics",
+            "https://www.deshengkong.com/projects/enterprise-ai-infrastructure",
+            "https://www.deshengkong.com/projects/ezisight-ecommerce",
+            "https://www.deshengkong.com/projects/company-website",
+            "https://www.deshengkong.com/projects/portfolio-v1",
+            "https://www.deshengkong.com/projects/no-boss",
+            "https://www.deshengkong.com/projects/run-sheep",
+            "https://www.deshengkong.com/projects/paint-cube",
+            "https://www.deshengkong.com/projects/3d-environment-01",
+            "https://www.deshengkong.com/projects/3d-character-study",
+            "https://www.deshengkong.com/projects/uai-api-customer-portal",
+            "https://www.deshengkong.com/projects/media-visual-tools",
+            "https://www.deshengkong.com/projects/iclaude-workbench"
+          ],
+          "checks": {
+            "status200": true,
+            "all19Routes": true,
+            "exactCount": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/robots.txt",
+          "status": 200,
+          "checks": {
+            "status200": true,
+            "sitemap": true,
+            "allowRoot": true
+          },
+          "pass": true
+        }
+      ],
+      "verifierNotes": [
+        "Canonical URLs are compared after URL normalization. The homepage canonical https://www.deshengkong.com is equivalent to https://www.deshengkong.com/.",
+        "404 heading and recovery-link checks inspect server-rendered HTML only. Browser hydration is a separate validation."
+      ],
+      "svgDependencyCheck": {
+        "files": [
+          "public/portfolio/hero-system.svg",
+          "public/portfolio/portal-detail.svg"
+        ],
+        "nonEmbeddedReferences": [],
+        "pass": true
+      }
+    },
+    {
+      "startedAt": "2026-08-31T08:13:39.326Z",
+      "completedAt": "2026-08-31T08:13:39.502Z",
+      "baseUrl": "http://127.0.0.1:3180",
+      "buildId": "hZqpohBpUeWN8UoSwhLrU",
+      "headCommit": "77522b94fc78ea9599d8982fe6058248cb4eacbc",
+      "sourceHashes": {
+        "app/content/portfolio.ts": "fe690c2be19aae1d31a44aaf4cb7dbc51edc98fa79752c14fd251984e410d7b4",
+        "app/content/projects.ts": "36c493b238b1da5e140335e36afdd4be3f2cbb60a74f44e021217dbf21eebf9e",
+        "app/projects/ezisight-ecommerce/page.tsx": "da280c8ecf33693af7d9a5c034302cec8e77410cad412f4994390d8c66deaf63",
+        "app/globals.css": "12cac4499d83be1f2a6595742ce4d7d8d5dff3e3650825b866a105d3a9a79cec"
+      },
+      "counts": {
+        "routes": 19,
+        "assets": 54,
+        "chunks": 13,
+        "notFound": 3,
+        "redirects": 2,
+        "metadataRoutes": 2
+      },
+      "passed": true,
+      "httpStatusPassed": true,
+      "serverHtmlPassed": false,
+      "acceptancePolicy": "HTTP status and content checks, with 404 recovery accepted through same-build browser hydration evidence where server HTML is incomplete. SSR/no-JavaScript limitations remain explicit.",
+      "failures": [],
+      "limitations": [
+        {
+          "path": "/projects/__m1-route-check-not-found",
+          "kind": "SSR_NO_JAVASCRIPT_RECOVERY",
+          "observed": "HTTP404 response has no server-rendered H1 or recovery link. These appear after browser hydration.",
+          "impact": "The regular JavaScript-enabled browser experience is verified usable; recovery without JavaScript is not verified and may be blank.",
+          "browserRecoveryPassed": true
+        }
+      ],
+      "routes": [
+        {
+          "path": "/",
+          "kind": "home",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 31,
+          "bytes": 37266,
+          "sha256": "f88d688411126e02b481f7110bcc63dd039ee761158df8e12e76767de0945962",
+          "title": "Desheng Kong — Applied AI & Practical Systems",
+          "h1": [
+            "AI systems. Built for real work."
+          ],
+          "canonical": "https://www.deshengkong.com",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "selectedAnchor": true,
+            "allFeaturedLinks": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/about",
+          "kind": "about",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 15,
+          "bytes": 24471,
+          "sha256": "b284f28dc345bf3ccb9aeded3690ca91c5ae17a55f1727ee3ef77c26e5dba212",
+          "title": "About | Desheng Kong",
+          "h1": [
+            "From interfaces to AI systems."
+          ],
+          "canonical": "https://www.deshengkong.com/about",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "learningBoundary": true,
+            "cvLink": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/contact",
+          "kind": "contact",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 16,
+          "bytes": 28480,
+          "sha256": "8dcd252eb6a951959ba4a9a3354fe2e18f7b09a4e50feb075aadb6dc039b17b4",
+          "title": "Get in touch | Desheng Kong",
+          "h1": [
+            "Let’s talk."
+          ],
+          "canonical": "https://www.deshengkong.com/contact",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "gmailLink": true,
+            "linkedinLink": true,
+            "githubLink": true,
+            "cvLink": true,
+            "noFormBackend": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects",
+          "kind": "collection",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 18,
+          "bytes": 48478,
+          "sha256": "9c14c25e9b76c2dd1342443e6c058bcbd9fc47ad946b035926edee6f55d0e1fe",
+          "title": "Projects | Desheng Kong",
+          "h1": [
+            "Projects"
+          ],
+          "canonical": "https://www.deshengkong.com/projects",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "allProjectLinks": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/virtual-concierge",
+          "kind": "featured",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 4,
+          "bytes": 25306,
+          "sha256": "5a70190a045a066117fd9a30c2f06b3591fbe821a526724b3ea4e5e405cf3214",
+          "title": "Virtual Concierge | Desheng Kong",
+          "h1": [
+            "Virtual Concierge"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/virtual-concierge",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "stage": true,
+            "scopeBoundary": true,
+            "contributions": true,
+            "illustrationLabel": true,
+            "demoControl": true,
+            "contactLink": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/alpha-ai",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 8,
+          "bytes": 23950,
+          "sha256": "03703fb82dd8477132a07231b8b9a9c64e5271103ca0c88f826b94afeec0c848",
+          "title": "AI Platform — Annotation & Evaluation Workflow | Desheng Kong",
+          "h1": [
+            "AI Platform — Annotation & Evaluation Workflow"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/alpha-ai",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/autoxing-robotics",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 11,
+          "bytes": 26246,
+          "sha256": "2a07c68c26e8f9d71a16af53012f4082baf12453240b2587867c14a9d3ac4b91",
+          "title": "Autonomous Robot Deployment — Enterprise Data Center | Desheng Kong",
+          "h1": [
+            "Autonomous Robot Deployment — Enterprise Data Center"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/autoxing-robotics",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/enterprise-ai-infrastructure",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 11,
+          "bytes": 25117,
+          "sha256": "14c5cc711f0f608a0d14e3d752ff3961f7f4dfb21c20e63f63057181712ea9ff",
+          "title": "Enterprise AI Infrastructure Deployment Support | Desheng Kong",
+          "h1": [
+            "Enterprise AI Infrastructure Deployment Support"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/enterprise-ai-infrastructure",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/ezisight-ecommerce",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 10,
+          "bytes": 19125,
+          "sha256": "0bcb266e5eaed845dfbb37e8ae62bbe251fff7825283f932ee3e73faf0249247",
+          "title": "EziSight E-commerce Website | Desheng Kong",
+          "h1": [
+            "EziSight Website Migration & Frontend Rebuild"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/ezisight-ecommerce",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/company-website",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 7,
+          "bytes": 33390,
+          "sha256": "34d1aba1df8933370a124a354b7503fea64b757122aa085fe423a77fb3dedb96",
+          "title": "Corporate Website Development | Desheng Kong",
+          "h1": [
+            "Ultimaite Strata Robotics Corporate Website"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/company-website",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/portfolio-v1",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 6,
+          "bytes": 31791,
+          "sha256": "c887c0b92dbcb36f7efd6c69d9dddba15ee20f9ac5dd4008c3ee1a8c5e2397fe",
+          "title": "Portfolio v1 | Desheng Kong",
+          "h1": [
+            "Portfolio"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/portfolio-v1",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/no-boss",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 9,
+          "bytes": 33543,
+          "sha256": "7ac3474a3004be5315c629022b85d14a07e879906c79465b0584cfdb7d5c9a58",
+          "title": "NO BOSS | Desheng Kong",
+          "h1": [
+            "NO BOSS"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/no-boss",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/run-sheep",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 8,
+          "bytes": 33933,
+          "sha256": "c8fa8d13da330c3dec899cb50e8dfd4bcea6726a6a3dcf4d12dd3aa28f128b64",
+          "title": "Run Sheep | Desheng Kong",
+          "h1": [
+            "Run Sheep"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/run-sheep",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/paint-cube",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 7,
+          "bytes": 36029,
+          "sha256": "8e5bb241897a65df145ceb26eb8c6e2fafd0dee06541f1314fd08afb8221902e",
+          "title": "Paint Cube | Desheng Kong",
+          "h1": [
+            "Paint Cube"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/paint-cube",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/3d-environment-01",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 6,
+          "bytes": 31937,
+          "sha256": "076d4680631cfd335add411832d53e3c842aa7f3bc1d687805599984ca0ffb6a",
+          "title": "3D Environment Study | Desheng Kong",
+          "h1": [
+            "3D Environment Study"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/3d-environment-01",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/3d-character-study",
+          "kind": "history",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 6,
+          "bytes": 31060,
+          "sha256": "82b0c88fd88dc104d5587ffb23fe0c105ac8460adad7021b57222b5156963c3b",
+          "title": "3D Character Study | Desheng Kong",
+          "h1": [
+            "3D Character Study"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/3d-character-study",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "historicalNotice": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/uai-api-customer-portal",
+          "kind": "featured",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 3,
+          "bytes": 26803,
+          "sha256": "e2f0047ee2fb17ed657ecfb74d383a8c2f607ce2cec90c60379764d7da6b8fc6",
+          "title": "UAI API Customer Portal | Desheng Kong",
+          "h1": [
+            "UAI API Customer Portal"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/uai-api-customer-portal",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "stage": true,
+            "scopeBoundary": true,
+            "contributions": true,
+            "illustrationLabel": true,
+            "demoControl": true,
+            "contactLink": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/media-visual-tools",
+          "kind": "featured",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 3,
+          "bytes": 25272,
+          "sha256": "46d1710bb46e927d53afd79249ff284688532fcb33cd50397212aaca20ef0304",
+          "title": "Media & Visual Tools | Desheng Kong",
+          "h1": [
+            "Media & Visual Tools"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/media-visual-tools",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "stage": true,
+            "scopeBoundary": true,
+            "contributions": true,
+            "illustrationLabel": true,
+            "demoControl": true,
+            "contactLink": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/iclaude-workbench",
+          "kind": "featured",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "elapsedMs": 2,
+          "bytes": 25258,
+          "sha256": "c67e2ee971ac672f78065ad942dc61ace495f9fa7151c2f93438f477f0f6503f",
+          "title": "iClaude Workbench | Desheng Kong",
+          "h1": [
+            "iClaude Workbench"
+          ],
+          "canonical": "https://www.deshengkong.com/projects/iclaude-workbench",
+          "checks": {
+            "status200": true,
+            "htmlContent": true,
+            "oneMain": true,
+            "mainTarget": true,
+            "oneH1": true,
+            "heading": true,
+            "title": true,
+            "canonical": true,
+            "singleTitleSuffix": true,
+            "socialCard": true,
+            "twitterCard": true,
+            "stage": true,
+            "scopeBoundary": true,
+            "contributions": true,
+            "illustrationLabel": true,
+            "demoControl": true,
+            "contactLink": true
+          },
+          "pass": true
+        }
+      ],
+      "assets": [
+        {
+          "path": "/Desheng_Kong_CV.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 77678,
+          "sha256": "ba933934fde5249ec88a833e6994ccf99b5abf9dd1de291b872be608b7010b26",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true,
+            "pdfSignature": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/portfolio/concierge.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 83504,
+          "sha256": "cd63a92172452de23c663b5b5ba8f2675fb8fa7934eb2fead31e8813f8839120",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/portfolio/portal.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 61398,
+          "sha256": "1a2c1a287a14f7b347df8fc2f199ced3400232f8224c5713db6cfbe8cfa9face",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/portfolio/portal-detail.svg",
+          "status": 200,
+          "contentType": "image/svg+xml",
+          "bytes": 7033,
+          "sha256": "12eb4292f32b7e133e4c2b420a6336a1832e90c3cb601b23ee52711653d1e20c",
+          "elapsedMs": 7,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/portfolio/media.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 70322,
+          "sha256": "7df88acd0f72ee01af1f1cb742b3fb05862b70ff054146751bddc26925a02fba",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/portfolio/workbench.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 75761,
+          "sha256": "c88013f217bb8ccfa1d824a110454d62c0e255e95845fd4b94751193384b22e4",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/ai-concierge.svg",
+          "status": 200,
+          "contentType": "image/svg+xml",
+          "bytes": 1681,
+          "sha256": "1ae72e2eee98a582e84facadc76e310d89b341f6a2ba18a4f2a9089042b215bc",
+          "elapsedMs": 5,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/alpha-ai.svg",
+          "status": 200,
+          "contentType": "image/svg+xml",
+          "bytes": 1828,
+          "sha256": "38d2cb2ade3cab46c2f9b232c851dfcc39a87921da589f1907d550f68272a3c7",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/autoxing-robotics.svg",
+          "status": 200,
+          "contentType": "image/svg+xml",
+          "bytes": 1934,
+          "sha256": "9a60a0d8332ab1a0692dffb7995f6183a92e9ca968457d2328c156a522710af2",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/enterprise-ai-infra.svg",
+          "status": 200,
+          "contentType": "image/svg+xml",
+          "bytes": 1802,
+          "sha256": "978bdd1595806aec678b86be32b41e7c4103edc4f4d401ce1c78d40e9b75a6f5",
+          "elapsedMs": 8,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/Ezisight.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 528463,
+          "sha256": "7c4be7bb33998e315b7c1b0d14d814cc94d0123b1ebe871c910b76d3e758000f",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/company2.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 2202479,
+          "sha256": "8f09c98ac853a84f17f26f5513f32e9e5b6aa3d521fc08a8aec508473d7d4c7a",
+          "elapsedMs": 17,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/portfolio.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 2326688,
+          "sha256": "23221cd6ff5b924ed6a616bc10265d405c8f2c48417ce5ff225a9485d46a9203",
+          "elapsedMs": 10,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/noboss1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 315601,
+          "sha256": "1600df9b6d9c10451ec14cda521bd14d9f81936722361c61dd5c176444859c38",
+          "elapsedMs": 5,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/NoBoss/NoBoss3.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 772432,
+          "sha256": "94f19855ad92dc3ff117439187c9a8f11cc799826d4408024bd26e0c068d6d61",
+          "elapsedMs": 16,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/NoBoss/NoBoss2.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 503915,
+          "sha256": "9160e9a5829021f6d997d72918274f74555d4b3b0bb3fdf96e35e1decfa0c7ea",
+          "elapsedMs": 14,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/NoBoss/NoBoss1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 329774,
+          "sha256": "65501f270f81d787d214f9a923a57f4eb10bf89a1806cd472547267ae80d1ce7",
+          "elapsedMs": 12,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/NoBoss/NoBoss4.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 340138,
+          "sha256": "ec8e972666f591ddee680dda63fa87d8a834dae595fe72633f09213f4e6150e8",
+          "elapsedMs": 10,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/runsheep1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 1133501,
+          "sha256": "962e4662ed52021e26b3d11a425c53167ddf75b7eeb4864831a2e4e5861403b5",
+          "elapsedMs": 13,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/RunSheep/runSheep3.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 374921,
+          "sha256": "73853dfe647835d25312c3d4873c8cf3722a47839085beea9f9d665b1259927a",
+          "elapsedMs": 15,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/RunSheep/runSheep6.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 245838,
+          "sha256": "72cb1a893960cb95c84720b7de6c9b3de646b0289f3b0be4ce52ba21aeb71bac",
+          "elapsedMs": 6,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/RunSheep/runSheep7.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 329400,
+          "sha256": "a971199f044425bf719aedc84daed43d1982b5b12d32ecfbb26851228e0eba1a",
+          "elapsedMs": 7,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/RunSheep/runSheep8.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 189907,
+          "sha256": "858466115933724eed4e2430e32ddf9d6849ed9e52c89eaf24698da005010f9e",
+          "elapsedMs": 7,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/paintbox.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 233659,
+          "sha256": "cd913b120e788086c25092c801c8f9ad0457c9640f621c850f317742c3dd90c8",
+          "elapsedMs": 5,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/PaintBox/paintbox1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 80238,
+          "sha256": "ff7a694bdc385b928cf24556c5d12a6cc0cb0751350700928ca4cbc0dec333fa",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/PaintBox/paintbox7.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 307138,
+          "sha256": "883e6628eb9de0bb74ef01242a80f740e402c3ad351a04366a5e4cb5d60582fe",
+          "elapsedMs": 5,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/PaintBox/paintbox2.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 41643,
+          "sha256": "728aaec7da086b9b776eae3575df1511bccdb5adb05194aa2cece8c7ac226f7d",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/PaintBox/paintbox3.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 80404,
+          "sha256": "72da03e396c9877650a9df0fd80077b71f3236db6fb7b180febb98cd223e5726",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/artwork1.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 124956,
+          "sha256": "b888e6900edb2539db2597ccb446428bcf9239dbaafb99c2b95d1c1ee220a009",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/artwork1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 684940,
+          "sha256": "05c532e41ab2b5e8b237fbb77051d16918876cd7ee96ad0ebab6f547632a55ed",
+          "elapsedMs": 8,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projectThumbnail/artwork2.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 848102,
+          "sha256": "04ca7d42bbf7b4b2f6e00012eecec00553efcbf502502e0040fc0d36e15abc32",
+          "elapsedMs": 5,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/GirlMode/girl1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 139862,
+          "sha256": "fb12b95c2e93d2af140ee586eb7ff59dcd090a41be5380a607eb21916fed7a37",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/GirlMode/girl2.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 327893,
+          "sha256": "44d40ae6d250977f2f1d3cbcf310ede4e92cece007a82b4b0958c15541156820",
+          "elapsedMs": 7,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/portfolio/social-card.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 63605,
+          "sha256": "971683b9ef4ff8675ed894ea292fafdd1382928b31ab17b37d0aaf312fcd0f8e",
+          "elapsedMs": 5,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/portfolio/hero-system.svg",
+          "status": 200,
+          "contentType": "image/svg+xml",
+          "bytes": 169439,
+          "sha256": "6b65fec02abfea3d4f0b410ad8914ea72a3f125e104656e7ae66095fa504b088",
+          "elapsedMs": 26,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/screencapture-0.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 953269,
+          "sha256": "21b173e35c756aa6252ecdcc131ad97f48825c3a296403ea7ed72e5c18e208b0",
+          "elapsedMs": 7,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/screencapture-1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 188501,
+          "sha256": "bfb75a12106b6ee79dfc00ecb5ac889422b95a9787d113e942ccf757609b7bee",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/screencapture-2.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 35524,
+          "sha256": "7d41568e129112138f9b7c28ad52f9690c154ecf77645244eaf85c820aaacaa9",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/WorkFlow2.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 233330,
+          "sha256": "6099bf24548cc6fe4a34228e154a4e688e829bbb38c27825028c1fd1e145a57e",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/Feedback1.jpeg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 379445,
+          "sha256": "0dff83425508ed17db96b24e1c2243cc56b30172977f9542765ecc57adcf917d",
+          "elapsedMs": 5,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/Feedback.jpeg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 306928,
+          "sha256": "5a3f188e0b69f7374ddcf948f573c4e60e011088890c7b69aa06fe92721c0471",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/From.jpeg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 61183,
+          "sha256": "1a82e09038a4b315fb9efaad2995d005379a8d64b0e8a47b003adcd85e1d20ed",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/CompanySite/Form1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 30987,
+          "sha256": "c6ebffa53ce164a80d7740c68da4c26e9cccc14c6bae4b1b582205c55db06dd2",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Ezisight/product.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 156099,
+          "sha256": "462b71d9548f8d07ec9c248f0fd65e98f36ba0f07d9d28ecb53a7f49cbba6927",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Ezisight/product-1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 133101,
+          "sha256": "f1944230e74dc493907a0be272f01120701855c1fbc78046a3d9d8b311df9fd3",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Ezisight/Cart.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 68168,
+          "sha256": "fa4e4f08fac5aa75302f0d22d7b548420f0586a24fd1a11d2464118a8a5a9ee5",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Ezisight/login.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 19420,
+          "sha256": "55285d1cd2d8b7632cb49001fd724e426d1ba478a7e117872c86e5f8f8cb26eb",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Ezisight/login-1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 18806,
+          "sha256": "014d6bf4835873ac3886bd6446fa04f33f7813a82a7150700f150fd4f3349411",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Ezisight/form.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 23271,
+          "sha256": "ede31807f426796d6a0b338e5086e2d6e264d708ff55519a5a62d2158878dc4f",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Ezisight/form-1.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 27416,
+          "sha256": "160108537923d4281e9da61e41506daad54737703d8b5224f381fb352badfda8",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Portfolio/Hero.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 47373,
+          "sha256": "90909c469a44838512e754c353e79055a45dcd5d46d2b3b64ae2a2f108ff6e7b",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Portfolio/Projects.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 289973,
+          "sha256": "a046bbfb8f033b40746600ddf8760fa13fd859206d98af96c9f5b82e2e2bdbec",
+          "elapsedMs": 2,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/ProjectImages/Portfolio/ProjectDetail.png",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 89509,
+          "sha256": "0839097ee8cc8629973ab3aea8e39fcabc12b31c4ebc0bd14ab0ea4d1efc892b",
+          "elapsedMs": 4,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/favicon.ico",
+          "status": 200,
+          "contentType": "image/x-icon",
+          "bytes": 150082,
+          "sha256": "4949ea3c71099d33b14cb180fb96f015c5ab1a64b695284ce3c9cb0fbc6b6761",
+          "elapsedMs": 3,
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "exactFilenameCase": true,
+            "contentType": true,
+            "sameLocalBytes": true
+          },
+          "pass": true
+        }
+      ],
+      "chunks": [
+        {
+          "path": "/_next/static/chunks/2pu-et1q78ggj.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8",
+          "bytes": 38460,
+          "sha256": "deefd62d8d1f14f369d17b177957621aafe590486ebd1a40a6880d0417a98f75",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/0sp3kkk9h18gd.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8",
+          "bytes": 11100,
+          "sha256": "f588ec60b7bd7ec159a052e276cffba53718485ee89ba76f46d9314cf9877d14",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/19mx3mg6lkumu.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 28907,
+          "sha256": "170f3982866674a829571beec30cc23c69fcd36196739ff34b9d586b3ad73cd7",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/3byuobrkyz9bj.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 229156,
+          "sha256": "2998459ef0c506d9417d5337fd7c562b13913d9eb939016648e0352c0b037eb2",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/2-rtuqsgzmno4.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 165743,
+          "sha256": "4d2bfb13eedd0cf43d07810d7790ce423e01097d1406ef604e7c4f3ab4db8d79",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/turbopack-1lyg-46tj38sh.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 9721,
+          "sha256": "ab09b8b2e1e03ed4d1a56e90c6932d255ac70849c99fcdf660d42bd1f8dfd959",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/1ccm_az6go238.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 26190,
+          "sha256": "ab7df958d30b08afb6ab7c915a5a4a6e9d17191a1d8aa2567c0b0af7eced8663",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/0cz1d0mv5g_q7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 112594,
+          "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/310vm2bl3xxpt.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 5364,
+          "sha256": "8a943b00599e56b53569f36f4341e3465ae7705c1391562cd6c7e1f290c0c387",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/2lme1e0j8b0-j.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 550,
+          "sha256": "c954235217984957f4698ace51e47cbd729a32bd8ca32aa8fb43c012935c8811",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/4062vuyvmmp4j.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8",
+          "bytes": 9261,
+          "sha256": "97107db7c78089f14fe7c14d630005901eee00a26ed0b123532e3001ad0a5739",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/1i4yqe-1a6utd.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 6784,
+          "sha256": "290d1abf27afd98db327c22a1040b29d8e9d18aab91495625d99ac2c9ae5bad0",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/_next/static/chunks/0k921x370udba.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "bytes": 19221,
+          "sha256": "2ba0070ef14f42599affd21287434b55270ff7176cad67f7bde52491fd97d896",
+          "checks": {
+            "status200": true,
+            "nonempty": true,
+            "contentType": true
+          },
+          "pass": true
+        }
+      ],
+      "notFound": [
+        {
+          "path": "/__m1-route-check-not-found",
+          "status": 404,
+          "checks": {
+            "status404": true
+          },
+          "serverHtml": {
+            "title": "Desheng Kong — Applied AI & Practical Systems",
+            "h1": [
+              "This page isn’t here."
+            ],
+            "checks": {
+              "notFoundHeading": true,
+              "recoveryLink": true
+            },
+            "passed": true
+          },
+          "browserRecovery": null,
+          "pass": true,
+          "acceptanceBasis": "HTTP404 with server-rendered recovery"
+        },
+        {
+          "path": "/projects/__m1-route-check-not-found",
+          "status": 404,
+          "checks": {
+            "status404": true
+          },
+          "serverHtml": {
+            "title": "Desheng Kong — Applied AI & Practical Systems",
+            "h1": [],
+            "checks": {
+              "notFoundHeading": false,
+              "recoveryLink": false
+            },
+            "passed": false
+          },
+          "browserRecovery": {
+            "buildId": "hZqpohBpUeWN8UoSwhLrU",
+            "evidencePath": "docs/qa/m1-2026-08-31/browser-actions.json",
+            "evidenceSha256": "35e3144fb2ed82e9963598844264a53eb89df99021aadc7d4179cd514f808f82",
+            "domEntryIndex": 5,
+            "recoveryEntryIndex": 6,
+            "screenshot": "docs/qa/m1-2026-08-31/screenshots/not-found-project.png",
+            "passed": true,
+            "performedBy": "Parent agent browser verification; DOM evidence read and associated by this HTTP worker."
+          },
+          "pass": true,
+          "acceptanceBasis": "HTTP404 plus verified browser hydration and recovery on this build"
+        },
+        {
+          "path": "/portfolio/__m1-missing-asset.png",
+          "status": 404,
+          "checks": {
+            "status404": true
+          },
+          "serverHtml": {
+            "title": "Desheng Kong — Applied AI & Practical Systems",
+            "h1": [
+              "This page isn’t here."
+            ],
+            "checks": {
+              "notFoundHeading": true,
+              "recoveryLink": true
+            },
+            "passed": true
+          },
+          "browserRecovery": null,
+          "pass": true,
+          "acceptanceBasis": "HTTP404 with server-rendered recovery"
+        }
+      ],
+      "redirects": [
+        {
+          "path": "/about/",
+          "status": 308,
+          "location": "/about",
+          "checks": {
+            "permanentRedirect": true,
+            "location": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/projects/no-boss/",
+          "status": 308,
+          "location": "/projects/no-boss",
+          "checks": {
+            "permanentRedirect": true,
+            "location": true
+          },
+          "pass": true
+        }
+      ],
+      "metadataRoutes": [
+        {
+          "path": "/sitemap.xml",
+          "status": 200,
+          "urls": [
+            "https://www.deshengkong.com",
+            "https://www.deshengkong.com/about",
+            "https://www.deshengkong.com/contact",
+            "https://www.deshengkong.com/projects",
+            "https://www.deshengkong.com/projects/virtual-concierge",
+            "https://www.deshengkong.com/projects/alpha-ai",
+            "https://www.deshengkong.com/projects/autoxing-robotics",
+            "https://www.deshengkong.com/projects/enterprise-ai-infrastructure",
+            "https://www.deshengkong.com/projects/ezisight-ecommerce",
+            "https://www.deshengkong.com/projects/company-website",
+            "https://www.deshengkong.com/projects/portfolio-v1",
+            "https://www.deshengkong.com/projects/no-boss",
+            "https://www.deshengkong.com/projects/run-sheep",
+            "https://www.deshengkong.com/projects/paint-cube",
+            "https://www.deshengkong.com/projects/3d-environment-01",
+            "https://www.deshengkong.com/projects/3d-character-study",
+            "https://www.deshengkong.com/projects/uai-api-customer-portal",
+            "https://www.deshengkong.com/projects/media-visual-tools",
+            "https://www.deshengkong.com/projects/iclaude-workbench"
+          ],
+          "checks": {
+            "status200": true,
+            "all19Routes": true,
+            "exactCount": true
+          },
+          "pass": true
+        },
+        {
+          "path": "/robots.txt",
+          "status": 200,
+          "checks": {
+            "status200": true,
+            "sitemap": true,
+            "allowRoot": true
+          },
+          "pass": true
+        }
+      ],
+      "svgDependencyCheck": {
+        "files": [
+          "public/portfolio/hero-system.svg",
+          "public/portfolio/portal-detail.svg"
+        ],
+        "nonEmbeddedReferences": [],
+        "pass": true
+      },
+      "verifierNotes": [
+        "Canonical URLs are normalized before comparison.",
+        "All network requests target loopback only. External links are checked as rendered destinations, not opened.",
+        "Prior runs are retained without changing their SSR findings."
+      ]
+    }
+  ],
+  "latestHttpStatusPassed": true,
+  "latestServerHtmlPassed": false,
+  "latestBuildId": "hZqpohBpUeWN8UoSwhLrU"
+}

@@ -3,12 +3,13 @@
 Personal portfolio website built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**.
 The M1 upgrade implements the approved portfolio, About and contact designs, with four featured cases and the existing project archive.
 
-M1 source is implemented; production build, responsive/browser acceptance and an independent preview are still pending. See [the active workflow contract](docs/workflows/m1-portfolio-workflow-v2.md) and [acceptance record](docs/qa/m1-2026-08-31/README.md). The production site has not been updated.
+M1 is available for local review at **http://127.0.0.1:3180** while its preview process is running. The isolated dependency install, production build, route/resource checks and five-width screenshots are complete; remote preview and final user acceptance remain pending. See [the active workflow contract](docs/workflows/m1-portfolio-workflow-v2.md) and [acceptance record](docs/qa/m1-2026-08-31/README.md). The production site has not been updated.
 
 ## Live
 
 - Existing production: https://www.deshengkong.com
-- M1 preview: not deployed yet
+- M1 local preview: http://127.0.0.1:3180 (this workstation only)
+- M1 stable remote preview: not deployed yet
 - Vercel project: `fgzz12138s-projects/deshengkong-site`; pushing `main` can deploy production. Keep M1 on `codex/personal-site-m1` until separately approved for production.
 
 ## Tech Stack
@@ -34,7 +35,7 @@ Requirements:
 - Node.js >=20.9.0 (the current workstation uses 24.16.0)
 - Next.js and eslint-config-next 16.3.3 from the lockfile; do not start the older 16.1.6 runtime. See [security correction](docs/workflows/m1-dependency-security.md).
 
-For this M1 task, choose the build/test environment before starting a server or production build. Install dependencies in this worktree only; never install through a junction pointing at the original checkout.
+The user selected this workstation for the current M1 task. Dependencies are installed in this worktree only; never install through a junction pointing at the original checkout.
 
 After the environment is selected and this worktree has its own dependencies:
 
@@ -43,7 +44,9 @@ npm ci
 npm run lint
 npx tsc --noEmit --incremental false
 npm run build
-npm run start -- --hostname 127.0.0.1
+npm run start -- --hostname 127.0.0.1 --port 3180
 ```
+
+To reopen an already built preview after a reboot, run the final command from this M1 directory, then open the local link. The background preview started during this task is temporary; its PID and build ID are recorded in `.next/m1-preview-process.json`. Closing a browser tab does not stop that process. Do not stop an unrelated process if port 3180 is already occupied.
 
 Keep `docs/design/m0-portfolio-v2/` and `docs/design/m0-about-contact-v1/` as the visual references. Runtime UI uses React/HTML/CSS; concept illustrations are separate assets with [provenance](docs/design/m1-assets.json). Do not publish concept images as evidence of product operation.

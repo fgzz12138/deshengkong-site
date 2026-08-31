@@ -97,7 +97,7 @@ export default function EziSightPage() {
           <div className="grid gap-8 md:grid-cols-2">
             <div>
               <ZoomImage
-                src="/ProjectImages/EziSight/product.png"
+                src="/ProjectImages/Ezisight/product.png"
                 alt="Product listing"
               />
               <p className="mt-3 text-sm text-gray-500 leading-6">
@@ -108,7 +108,7 @@ export default function EziSightPage() {
 
             <div>
               <ZoomImage
-                src="/ProjectImages/EziSight/product-1.png"
+                src="/ProjectImages/Ezisight/product-1.png"
                 alt="Product detail"
               />
               <p className="mt-3 text-sm text-gray-500 leading-6">
@@ -126,7 +126,7 @@ export default function EziSightPage() {
         <section className="space-y-8">
           <h2 className="text-3xl font-semibold">Cart Interaction</h2>
 
-          <ZoomImage src="/ProjectImages/EziSight/cart.png" alt="Cart system" />
+          <ZoomImage src="/ProjectImages/Ezisight/Cart.png" alt="Cart system" />
 
           <p className="max-w-3xl text-sm text-gray-500 leading-6">
             Shopping cart system with real-time updates, quantity control, and
@@ -144,7 +144,7 @@ export default function EziSightPage() {
           <div className="grid gap-8 md:grid-cols-2">
             <div>
               <ZoomImage
-                src="/ProjectImages/EziSight/login.png"
+                src="/ProjectImages/Ezisight/login.png"
                 alt="Login page"
               />
               <p className="mt-3 text-sm text-gray-500 leading-6">
@@ -155,7 +155,7 @@ export default function EziSightPage() {
 
             <div>
               <ZoomImage
-                src="/ProjectImages/EziSight/login-1.png"
+                src="/ProjectImages/Ezisight/login-1.png"
                 alt="Account page"
               />
               <p className="mt-3 text-sm text-gray-500 leading-6">
@@ -174,7 +174,7 @@ export default function EziSightPage() {
 
           <div className="grid gap-8 md:grid-cols-2">
             <div>
-              <ZoomImage src="/ProjectImages/EziSight/form.png" alt="Form" />
+              <ZoomImage src="/ProjectImages/Ezisight/form.png" alt="Form" />
               <p className="mt-3 text-sm text-gray-500 leading-6">
                 Enquiry form designed with structured input fields to collect
                 user data and simulate real business workflows.
@@ -183,7 +183,7 @@ export default function EziSightPage() {
 
             <div>
               <ZoomImage
-                src="/ProjectImages/EziSight/form-1.png"
+                src="/ProjectImages/Ezisight/form-1.png"
                 alt="Email result"
               />
               <p className="mt-3 text-sm text-gray-500 leading-6">

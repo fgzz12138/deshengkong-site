@@ -6,13 +6,13 @@ Date: 2026-08-31
 - Visual approval: user accepted the saved homepage, case-study, mobile-home, About and Get in touch direction and explicitly requested M1.
 - Supersedes the pending-approval state of [v1](m1-portfolio-workflow-v1.md). Older M0 files remain historical source records; their pending labels do not cancel this later approval.
 - Scope: portfolio UI implementation and independent preview; no production-domain release or hosting migration.
-- Execution environment: `AWAITING_USER_CHOICE` for build, dev server and browser/E2E. The user has been asked asynchronously. Source editing and lightweight static checks may proceed.
+- Execution environment: `LOCAL_APPROVED` on 2026-08-31. The user explicitly selected this workstation and confirmed the personal-project scope. Isolated dependency installation, build and browser acceptance are authorised; use loopback for the temporary preview, with no GPU, Docker, production changes or unrelated services.
 
 ## Formula and fixed implementation scope
 
 **Existing Next.js code + approved SVG visual baseline + factual case content + working navigation/states + old URL compatibility + verified build + same-artifact stable preview.**
 
-Reuse the existing Next.js 16 / React 19.2.3 / TypeScript / Tailwind 4 application and lucide-react. A verified security advisory requires the original Next.js 16.1.6 to move to 16.3.3 before server/build acceptance; the M1 manifest and lockfile are updated, while the installed-runtime replacement is still pending. See [the security correction](m1-dependency-security.md). No new content platform, database, authentication, contact backend or AI service.
+Reuse the existing Next.js 16 / React 19.2.3 / TypeScript / Tailwind 4 application and lucide-react. The security correction from Next.js 16.1.6 to 16.3.3 is now installed and verified in an isolated M1 dependency directory. Lint, TypeScript and the production build pass with that version. See [the security correction](m1-dependency-security.md). No new content platform, database, authentication, contact backend or AI service.
 
 Build the homepage, four featured case pages, a full project collection, About, contact, and a real 404. Retain all 12 existing project slugs and add the portal, media and workbench slugs, giving 15 project URLs. Historical pages retain their content and are identified as earlier work.
 
@@ -25,7 +25,7 @@ Approved contact-page addition: `/contact` groups the existing Gmail-compose, Li
 - Full scoped draft backup: `E:/gitclone/deshengkong-site-backups/m1-baseline-20260831-173042/` (zip, binary patch and file hashes).
 - Original draft retained unchanged, including its separate local `.claude` state. No reset or stash.
 - M1 worktree: `E:/gitclone/deshengkong-site-m1`, branch `codex/personal-site-m1`, created from the M0 branch and supplied with the preserved AI draft and approved M0 assets.
-- A temporary node_modules junction was used only for lightweight static tooling, then safely removed after checks. The original dependency directory is unchanged. M1 currently has no installed dependencies; install its lockfile in isolation after the environment choice.
+- The temporary node_modules junction used for preliminary checks was removed. After the local-environment choice, `npm ci` created an isolated M1 dependency directory; the original directory remains unchanged.
 
 ## Approved visuals
 
@@ -45,7 +45,7 @@ Treat pushing main as a possible production deployment. Do not push or merge int
 
 Authenticated browser access to the existing Hobby project was confirmed through the user's existing GitHub login. The project overview confirms the same production SHA and no active feature branches. CLI authentication and access to an eventual M1 Preview have not yet been verified; no security settings were changed.
 
-Source implementation and preliminary static checks are complete; see [the acceptance record](../qa/m1-2026-08-31/README.md). This does not satisfy the runtime acceptance sequence below.
+The local production preview is running at `http://127.0.0.1:3180`. It is for review on this workstation and is not the stable remote Preview. Build, route/resource checks, five-width screenshots and core navigation checks are recorded in [the acceptance record](../qa/m1-2026-08-31/README.md). Remote same-artifact verification and final user acceptance remain open.
 
 ## Acceptance sequence
 
@@ -58,4 +58,4 @@ Source implementation and preliminary static checks are complete; see [the accep
 
 ## Current stop boundaries
 
-No environment-gated workload before the user's choice. No automatic message sending, client-data publication, paid service, new server/VM, production connection or primary-domain deployment. Missing deploy access does not stop source work or excuse claiming an unavailable preview as complete.
+The user selected the local environment for this personal project. No automatic message sending, client-data publication, paid service, new server/VM, production connection or primary-domain deployment. Local preview access does not replace stable remote-preview acceptance.

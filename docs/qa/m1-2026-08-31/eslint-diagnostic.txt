@@ -1,0 +1,69 @@
+2026-08-31T08:01:47.141Z eslint:cli CLI args: [ 'app\\page.tsx', '--debug' ]
+2026-08-31T08:01:47.142Z eslint:cli Using flat config? true
+2026-08-31T08:01:47.144Z eslint:cli Running on files
+2026-08-31T08:01:47.144Z eslint:eslint Using config loader LegacyConfigLoader
+2026-08-31T08:01:47.144Z eslint:eslint Using file patterns: app\page.tsx
+2026-08-31T08:01:47.144Z eslint:eslint Deleting cache file at E:\gitclone\deshengkong-site-m1\.eslintcache
+2026-08-31T08:01:47.145Z eslint:config-loader Calculating config for file E:\gitclone\deshengkong-site-m1\app\page.tsx
+2026-08-31T08:01:47.145Z eslint:config-loader Searching for eslint.config.js
+2026-08-31T08:01:47.146Z eslint:config-loader [Legacy]: Calculating config for E:\gitclone\deshengkong-site-m1\app\page.tsx
+2026-08-31T08:01:47.146Z eslint:config-loader [Legacy]: Using config file E:\gitclone\deshengkong-site-m1\eslint.config.mjs and base path E:\gitclone\deshengkong-site-m1
+2026-08-31T08:01:47.146Z eslint:config-loader Calculating config array from config file E:\gitclone\deshengkong-site-m1\eslint.config.mjs and base path E:\gitclone\deshengkong-site-m1
+2026-08-31T08:01:47.146Z eslint:config-loader Loading config file E:\gitclone\deshengkong-site-m1\eslint.config.mjs
+2026-08-31T08:01:47.147Z eslint:config-loader Loading config from E:\gitclone\deshengkong-site-m1\eslint.config.mjs
+2026-08-31T08:01:47.147Z eslint:config-loader Config file URL is file:///E:/gitclone/deshengkong-site-m1/eslint.config.mjs
+2026-08-31T08:01:48.499Z eslint:rules Loading rule 'consistent-return' (remaining=291)
+2026-08-31T08:01:48.517Z eslint:rules Loading rule 'dot-notation' (remaining=290)
+2026-08-31T08:01:48.539Z eslint:rules Loading rule 'init-declarations' (remaining=289)
+2026-08-31T08:01:48.541Z eslint:rules Loading rule 'max-params' (remaining=288)
+2026-08-31T08:01:48.575Z eslint:rules Loading rule 'no-dupe-class-members' (remaining=287)
+2026-08-31T08:01:48.584Z eslint:rules Loading rule 'no-empty-function' (remaining=286)
+2026-08-31T08:01:48.609Z eslint:rules Loading rule 'no-invalid-this' (remaining=285)
+2026-08-31T08:01:48.613Z eslint:rules Loading rule 'no-loop-func' (remaining=284)
+2026-08-31T08:01:48.616Z eslint:rules Loading rule 'no-loss-of-precision' (remaining=283)
+2026-08-31T08:01:48.619Z eslint:rules Loading rule 'no-magic-numbers' (remaining=282)
+2026-08-31T08:01:48.658Z eslint:rules Loading rule 'no-restricted-imports' (remaining=281)
+2026-08-31T08:01:48.706Z eslint:rules Loading rule 'no-unused-expressions' (remaining=280)
+2026-08-31T08:01:48.712Z eslint:rules Loading rule 'no-useless-constructor' (remaining=279)
+2026-08-31T08:01:48.722Z eslint:rules Loading rule 'prefer-destructuring' (remaining=278)
+2026-08-31T08:01:49.332Z eslint:config-loader Config file E:\gitclone\deshengkong-site-m1\eslint.config.mjs is not empty
+2026-08-31T08:01:49.333Z eslint:eslint 1 file(s) found in 2188 ms
+2026-08-31T08:01:49.333Z eslint:eslint Linting in single-thread mode.
+2026-08-31T08:01:49.333Z eslint:config-loader Looking up cached config for E:\gitclone\deshengkong-site-m1\app\page.tsx
+2026-08-31T08:01:49.333Z eslint:config-loader [Legacy]: Looking up cached config for E:\gitclone\deshengkong-site-m1\app
+2026-08-31T08:01:49.347Z eslint:rules Loading rule 'constructor-super' (remaining=277)
+2026-08-31T08:01:49.348Z eslint:rules Loading rule 'getter-return' (remaining=276)
+2026-08-31T08:01:49.349Z eslint:rules Loading rule 'no-class-assign' (remaining=275)
+2026-08-31T08:01:49.350Z eslint:rules Loading rule 'no-const-assign' (remaining=274)
+2026-08-31T08:01:49.352Z eslint:rules Loading rule 'no-dupe-args' (remaining=273)
+2026-08-31T08:01:49.353Z eslint:rules Loading rule 'no-dupe-keys' (remaining=272)
+2026-08-31T08:01:49.354Z eslint:rules Loading rule 'no-func-assign' (remaining=271)
+2026-08-31T08:01:49.355Z eslint:rules Loading rule 'no-import-assign' (remaining=270)
+2026-08-31T08:01:49.356Z eslint:rules Loading rule 'no-new-native-nonconstructor' (remaining=269)
+2026-08-31T08:01:49.357Z eslint:rules Loading rule 'no-new-symbol' (remaining=268)
+2026-08-31T08:01:49.358Z eslint:rules Loading rule 'no-obj-calls' (remaining=267)
+2026-08-31T08:01:49.359Z eslint:rules Loading rule 'no-redeclare' (remaining=266)
+2026-08-31T08:01:49.360Z eslint:rules Loading rule 'no-setter-return' (remaining=265)
+2026-08-31T08:01:49.361Z eslint:rules Loading rule 'no-this-before-super' (remaining=264)
+2026-08-31T08:01:49.362Z eslint:rules Loading rule 'no-undef' (remaining=263)
+2026-08-31T08:01:49.362Z eslint:rules Loading rule 'no-unreachable' (remaining=262)
+2026-08-31T08:01:49.363Z eslint:rules Loading rule 'no-unsafe-negation' (remaining=261)
+2026-08-31T08:01:49.364Z eslint:rules Loading rule 'no-var' (remaining=260)
+2026-08-31T08:01:49.365Z eslint:rules Loading rule 'no-with' (remaining=259)
+2026-08-31T08:01:49.365Z eslint:rules Loading rule 'prefer-const' (remaining=258)
+2026-08-31T08:01:49.367Z eslint:rules Loading rule 'prefer-rest-params' (remaining=257)
+2026-08-31T08:01:49.368Z eslint:rules Loading rule 'prefer-spread' (remaining=256)
+2026-08-31T08:01:49.369Z eslint:rules Loading rule 'no-array-constructor' (remaining=255)
+2026-08-31T08:01:49.369Z eslint:rules Loading rule 'no-unused-vars' (remaining=254)
+2026-08-31T08:01:49.382Z eslint:eslint-helpers File "E:\gitclone\deshengkong-site-m1\app\page.tsx" read in 1 ms
+2026-08-31T08:01:49.383Z eslint:linter Linting code for E:\gitclone\deshengkong-site-m1\app\page.tsx (pass 1)
+2026-08-31T08:01:49.383Z eslint:linter Verify
+2026-08-31T08:01:49.383Z eslint:linter With flat config: E:\gitclone\deshengkong-site-m1\app\page.tsx
+2026-08-31T08:01:49.383Z eslint:languages:js Parsing: E:\gitclone\deshengkong-site-m1\app\page.tsx
+2026-08-31T08:01:49.411Z eslint:languages:js Parsing successful: E:\gitclone\deshengkong-site-m1\app\page.tsx
+2026-08-31T08:01:49.411Z eslint:languages:js Scope analysis: E:\gitclone\deshengkong-site-m1\app\page.tsx
+2026-08-31T08:01:49.411Z eslint:languages:js Scope analysis successful: E:\gitclone\deshengkong-site-m1\app\page.tsx
+2026-08-31T08:01:49.593Z eslint:linter Generating fixed text for E:\gitclone\deshengkong-site-m1\app\page.tsx (pass 1)
+2026-08-31T08:01:49.593Z eslint:source-code-fixer Applying fixes
+2026-08-31T08:01:49.593Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-08-31T08:01:49.593Z eslint:eslint-helpers File "E:\gitclone\deshengkong-site-m1\app\page.tsx" linted in 211 ms

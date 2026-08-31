@@ -1,0 +1,52 @@
+[
+  {
+    "test": "unknown project recovery",
+    "url": "http://127.0.0.1:3180/projects/__m1-route-check-not-found",
+    "dom": "- link \"Skip to content\":\n  - /url: \"#main-content\"\n- banner:\n  - link \"Desheng Kong\":\n    - /url: /\n  - navigation \"Main navigation\":\n    - link \"Work\":\n      - /url: /#projects\n    - link \"About\":\n      - /url: /about\n    - link \"Get in touch\":\n      - /url: /contact\n- main:\n  - paragraph: 404 · Page not found\n  - heading \"This page isn’t here.\" [level=1]\n  - paragraph: The link may be out of date, or the address may be incorrect. You can find current and earlier work in the project collection.\n  - link \"Explore projects\":\n    - /url: /projects\n    - text: Explore projects\n- contentinfo:\n  - generic: Desheng Kong\n  - generic: APPLIED AI · MELBOURNE\n- alert",
+    "passed": true,
+    "note": "HTTP404 separately verified; recovery content rendered after hydration."
+  },
+  {
+    "test": "404 recovery link",
+    "url": "http://127.0.0.1:3180/projects",
+    "passed": true
+  },
+  {
+    "test": "mobile Escape closes menu and returns focus",
+    "focused": "Open menu",
+    "hidden": true,
+    "passed": true
+  },
+  {
+    "test": "closed mobile menu skipped by keyboard",
+    "focusedHref": null,
+    "focusedText": "",
+    "result": "inconclusive",
+    "note": "Menu hidden state passed. Native Tab traversal in this browser driver did not yield a conclusive focused-link result; do not count this as a pass."
+  },
+  {
+    "test": "mobile About navigation closes menu",
+    "url": "http://127.0.0.1:3180/about",
+    "hidden": true,
+    "passed": true
+  },
+  {
+    "test": "unknown project recovery on final local build",
+    "buildId": "hZqpohBpUeWN8UoSwhLrU",
+    "url": "http://127.0.0.1:3180/projects/__m1-route-check-not-found",
+    "dom": "- link \"Skip to content\":\n  - /url: \"#main-content\"\n- banner:\n  - link \"Desheng Kong\":\n    - /url: /\n  - navigation \"Main navigation\":\n    - link \"Work\":\n      - /url: /#projects\n    - link \"About\":\n      - /url: /about\n    - link \"Get in touch\":\n      - /url: /contact\n- main:\n  - paragraph: 404 · Page not found\n  - heading \"This page isn’t here.\" [level=1]\n  - paragraph: The link may be out of date, or the address may be incorrect. You can find current and earlier work in the project collection.\n  - link \"Explore projects\":\n    - /url: /projects\n    - text: Explore projects\n- contentinfo:\n  - generic: Desheng Kong\n  - generic: APPLIED AI · MELBOURNE\n- alert",
+    "passed": true,
+    "note": "HTTP404 checked separately; original server HTML may not contain recovery content before hydration."
+  },
+  {
+    "test": "final-build 404 recovery link",
+    "buildId": "hZqpohBpUeWN8UoSwhLrU",
+    "url": "http://127.0.0.1:3180/projects",
+    "passed": true
+  },
+  {
+    "test": "native Enter activation via browser driver",
+    "result": "inconclusive",
+    "note": "Locator received focus but the automation did not trigger native link navigation. No source defect inferred; separate keyboard confirmation remains open."
+  }
+]

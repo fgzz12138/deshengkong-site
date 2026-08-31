@@ -1,57 +1,49 @@
-# M1 acceptance record — source complete, runtime acceptance pending
+# M1 local review and acceptance evidence
 
-Date: 2026-08-31. Branch: `codex/personal-site-m1`.
+Date: 2026-08-31. Scope: **Personal**. Branch: `codex/personal-site-m1`.
 
-The user approved the saved five visual directions and authorised M1. Homepage, four featured cases, collection, About, contact, shared responsive navigation and 404 are implemented. All twelve original project slugs remain, with three additional slugs (fifteen total). Original write-ups and local CV are retained; retaining the CV does not certify its contents as recently updated.
+## Open the current version
 
-## Checks actually performed
+- Home: http://127.0.0.1:3180/
+- About: http://127.0.0.1:3180/about
+- Get in touch: http://127.0.0.1:3180/contact
+- Featured portal case: http://127.0.0.1:3180/projects/uai-api-customer-portal
 
-- ESLint: exit 0 ([output](eslint.txt)). The first full lint run identified CommonJS imports in the preserved M0 renderer scripts; a scoped `docs/**/*.cjs` config correction resolved them without disabling application rules.
-- TypeScript: exit 0 ([output](typescript.txt)).
-- `git diff --check`: exit 0 ([output](diff-check.txt)).
-- Original draft: all fifteen scoped paths still match the pre-M1 state ([hash comparison](original-preservation.json)). Two deleted paths remain deleted in the original directory and were restored only in M1.
-- [Static tooling context](static-check-context.json): these checks used the original installed dependencies read through a junction, including Next/eslint-config-next 16.1.6. They must be repeated after the isolated 16.3.3 install. Manifest/lockfile correction is not installed-runtime verification.
-- Approved illustrations and the new native social card have [source paths and hashes](../../design/m1-assets.json).
-- Independent source review identified two issues, both corrected before the final static checks: per-page Open Graph/Twitter metadata now preserves the social image and correct page copy; compact image-error text and sizing prevent the mobile card fallback from being clipped. Actual browser verification remains pending.
+The user explicitly selected this workstation. The temporary server binds only to 127.0.0.1 and uses the production build, without GPU, Docker, production-domain changes or a hosting migration. Its current PID is in `.next/m1-preview-process.json`. This URL requires the preview process on this computer; it is **not** the independent remote Preview required for full M1 delivery.
 
-No application build, local server, browser acceptance, M1 screenshot, remote M1 deployment or production change has been performed. The user's execution-environment choice is pending. The social card PNG and M0 images are design artifacts, not M1 browser screenshots.
+Current build ID: `hZqpohBpUeWN8UoSwhLrU`.
 
-After the static checks, the temporary `node_modules` junction was removed with a non-recursive directory-link deletion, after verifying its exact path, reparse-point status, junction type and original target. The original dependency directory remains present; M1 now has no installed dependencies.
+## Verified
 
-## Hosting investigation
+- Isolated `npm ci` completed. Installed Next.js / eslint-config-next **16.3.3**, React / React DOM 19.2.3. No dependency junction remains: [versions](installed-dependencies.json).
+- ESLint, TypeScript and production build exited 0 on the final source: [checks](local-build-checks.json), [build output](build.txt), [lint output](eslint-patched.txt), [TypeScript output](typescript-patched.txt).
+- HTTP checks on this build covered 19 pages, 54 resources including the PDF CV, 13 JS/CSS resources, three 404 cases, two redirects and robots/sitemap. Resource bytes match local hashes. See the two-round [HTTP evidence](route-http-evidence.json), including the server-HTML limitation below.
+- All twelve original project URLs are retained, plus the three new featured URLs (fifteen projects total). EziSight's seven case-sensitive image references were corrected to match disk names for future Linux hosting.
+- Four primary page types were captured at 320, 390, 768, 1024 and 1440 requested CSS widths. All twenty measurements have one main element, no horizontal overflow and no failed images: [metrics](responsive-layout.json), [screenshots](screenshots/).
+- Home, About/contact and the portal case retain the approved M0 composition. Homepage spacing and title tracking were calibrated against the SVG; all four cards remain on mobile. Fonts, icons, wrapping and touch-target spacing are browser/responsive adaptations, not a claim of pixel identity with the generated references.
+- An independent visual reviewer inspected eleven screenshots across four pages and the requested small/tablet/desktop widths against all five M0 references. No visual blocker, clipped text or unintended overlap was found. This review does not replace interaction acceptance.
+- Mobile menu opens/closes, Escape closes it and returns focus to the toggle, About navigation closes it, and the unknown-project page hydrates to the full recovery screen with a working project-collection link: [browser observations](browser-actions.json).
+- The separate portal demo loaded with DEMO DATA visible in a read-only destination check: [record](portal-link.json). No external messages or portal data changes were made.
+- Original draft: all fifteen scoped paths remain unchanged: [preservation](original-preservation.json). Its old installed dependencies also remain untouched.
+- Local build files have hashes: [artifact manifest](build-artifact-manifest.json). These are ordinary `.next` files, not Vercel `.vercel/output`, and have not been verified against a remote deployment.
 
-Repository: `https://github.com/fgzz12138/deshengkong-site.git`. Existing host: Vercel, project `fgzz12138s-projects/deshengkong-site`, Hobby team. The authenticated project overview was inspected via the user's existing GitHub login, without extracting credentials or creating tokens. It shows production source `main`, commit `8bbc53e5d710c5a8bf81e433e6a74a35f18b4105`, the `www.deshengkong.com` domain and no active feature branches.
+## Control/result coverage and remaining limits
 
-Cloudflare Pages/Workers is not the personal site's verified host. The portfolio links to a separate customer-portal demo on Cloudflare Pages. Browser project access does not establish CLI authentication or a working public M1 Preview. Deployment protection and public access still require verification for the eventual independent deployment. No account-security, DNS or hosting settings were changed.
+| Control / state | Result |
+| --- | --- |
+| Brand, Work, About, contact, collection and case destinations | Implemented; routes/resources and main navigation inspected |
+| Mobile toggle, Escape and About selection | Browser behavior verified |
+| Closed mobile navigation | `hidden` state verified; native Tab traversal remains inconclusive in this browser driver |
+| Native Enter activation / full keyboard traversal | Inconclusive automation; not recorded as passed; separate keyboard confirmation remains open |
+| Unknown project | HTTP404 and browser recovery passed; original HTML recovery content absent before hydration, so no-JS recovery is a known limitation |
+| CV | PDF response and exact bytes verified; original contents retained, currency not certified |
+| Gmail / LinkedIn / GitHub | Correct destinations and new-tab behavior inspected in markup; no message sent; external compose/account behavior is not claimed as end-to-end tested |
+| Missing-image fallback | Source reviewed and compact text corrected; network-failure behavior not forced in this run |
+| Historical screenshot zoom controls | Original behavior retained; not a complete per-control keyboard/modal audit |
+| Remote preview | Not deployed; public access and same-artifact parity still pending |
 
-## Control/result acceptance checklist
+## Preserved earlier evidence
 
-The outcomes below are implemented intentions; every runtime result remains **PENDING**.
+`static-check-context.json`, `eslint.txt`, `typescript.txt` and `diff-check.txt` are the earlier source-only checks using the temporary original-dependency junction. Their pending-build statements describe that earlier step, not this later verified local build. The junction was removed before the isolated install. `eslint-diagnostic.txt` records a successful targeted check used while confirming the main check process had completed.
 
-| Surface/control | Expected result | Runtime check |
-| --- | --- | --- |
-| Brand / homepage | Return to `/` | Pending |
-| Work / Explore work | Navigate to homepage `#projects` | Pending |
-| All projects | Open complete collection at `/projects` | Pending |
-| Four featured cards | Open the matching case, preserving honest status and illustration labels | Pending |
-| About / Get in touch | Open `/about` / `/contact`; update nav state | Pending |
-| Mobile menu | Toggle with labelled button; closed items cannot receive focus; link selection closes it; Escape closes and refocuses toggle | Pending |
-| Keyboard / skip link | Visible focus; skip to page main; controls usable without pointer | Pending |
-| Portal View demo | Open the separate synthetic-data demo in a new tab | M1 click pending. Destination loaded in a read-only browser check with DEMO DATA visible; HEAD-only probe returned 403 ([record](portal-link.json)) |
-| Other case pages | No invented live-demo button | Pending |
-| Email me | Open Gmail draft for the recorded address; never send automatically | Pending |
-| LinkedIn / GitHub | Open recorded profile URL in a new tab | Pending |
-| Download CV | Download the existing local PDF | Pending |
-| Twelve old project URLs | Retain project content rather than fail or silently redirect | Pending |
-| Unknown slug | Show genuine not-found result with a working home link | Pending |
-| Missing illustration | Show a readable fallback, without presenting it as a loaded image | Pending |
-| Responsive layout | Inspect 320, 390, 768, 1024 and 1440 widths; no overflow or hidden cases | Pending |
-| Preview | Same verified artifact, accessible without keeping a maker's machine online | Pending |
-
-## Remaining work
-
-1. Obtain the user's build/browser execution-environment choice and install the lockfile in isolation. The temporary dependency junction has already been removed.
-2. Verify installed Next/eslint-config-next 16.3.3; repeat static checks and run the production build.
-3. Perform browser and screenshot comparisons against all five approved directions. Record actual dimensions, any accessibility adjustments and tested results; correct visual drift before review.
-4. Deploy an independent non-production Preview from the accepted artifact. For Vercel prebuilt deployment, `.vercel/output` is the deployment artifact; ordinary `.next` output is not interchangeable. Do not push main or disable global deployment protection.
-5. Verify the resulting link and ask Desheng to accept the real interactions. Keep the stage IN_PROGRESS until this evidence exists.
+M1 remains IN_PROGRESS until remaining interaction checks, an independent stable Preview, and user acceptance are complete. The local review link is available now; the production website has not been updated.
