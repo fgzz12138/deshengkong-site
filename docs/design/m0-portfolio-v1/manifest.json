@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-08-31",
+  "stage": "M0_VISUAL_PREVIEW",
+  "status": "USER_REVIEW_PENDING",
+  "websiteImplemented": false,
+  "deployed": false,
+  "assets": [
+    {
+      "file": "01-home-desktop.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1407524,
+      "sha256": "2dcb7892cc17819c0699bf74331d60b854f4b09aed1f470253102d6c10ac738e",
+      "type": "generated-static-ui-concept",
+      "status": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "file": "02-case-study-desktop.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1322867,
+      "sha256": "5adfc48a35a45bf5222dfdb4e97858c004dafe681cf74864c8c04e3c204da809",
+      "type": "generated-static-ui-concept",
+      "status": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "file": "03-home-mobile.png",
+      "width": 853,
+      "height": 1844,
+      "bytes": 1137528,
+      "sha256": "77ef82eb441789be62f220681fff244cb9e90869b7e7e93cf414d495cd8430de",
+      "type": "generated-static-ui-concept",
+      "status": "CANDIDATE_NOT_APPROVED"
+    }
+  ],
+  "qa": {
+    "method": "primary-agent and independent-agent visual inspection; source-contract check; file checksums",
+    "desktopTextAndClipping": "PASS",
+    "businessBoundary": "PASS_FOR_CONCEPT_REVIEW",
+    "demoDisclosure": "PASS",
+    "mobileComposition": "PASS_AFTER_VERTICAL_CARD_REVISION",
+    "userBusinessAcceptance": "PENDING",
+    "userVisualAcceptance": "PENDING",
+    "runtimeAndResponsiveImplementation": "NOT_RUN_M0_ONLY"
+  },
+  "limitations": [
+    "All project imagery is generated illustration, not actual screenshots or photographs. This disclosure must remain with the preview set.",
+    "Not every homepage thumbnail contains its own illustrative-interface caption. Before public use replace with authorised evidence or add an unambiguous caption to each.",
+    "Portal function claims are supported by existing M1 contract/source, not re-executed in this M0 task.",
+    "A real mobile implementation still needs viewport, overflow and touch-target verification."
+  ],
+  "sourceProtection": "Original main worktree uncommitted application changes retained; this branch contains M0 documents/assets only."
+}
