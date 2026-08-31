@@ -120,5 +120,5 @@
       "passed": true
     }
   ],
-  "note": "Real pointer movement and DOM computed styles. No DOM/CSS injection. Local restart currently requires manual action after tool policy blocked background launch."
+  "note": "Real pointer movement and DOM computed styles. No DOM/CSS injection. The original local background restart was blocked; service recovery and subsequent local hover verification are recorded separately in local-confirmation.json."
 }

@@ -1,0 +1,22 @@
+{
+  "checkedOn": "2026-09-01",
+  "buildId": "FAIzg0DhbVMVBPPcqHzfj",
+  "viewport": 430,
+  "localServiceResponding": true,
+  "contact": {
+    "border": "rgb(6, 79, 245)",
+    "borderWidth": "1px",
+    "className": "inline-link home-contact-mobile",
+    "color": "rgb(6, 79, 245)",
+    "decoration": "none",
+    "display": "flex",
+    "height": 44,
+    "hover": true,
+    "href": "/contact",
+    "text": "Get in touch",
+    "width": 116.28125,
+    "x": 149.359375,
+    "y": 412.6875
+  },
+  "passed": true
+}

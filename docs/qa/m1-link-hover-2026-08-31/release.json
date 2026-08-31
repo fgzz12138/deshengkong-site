@@ -36,9 +36,10 @@
     ]
   },
   "productionUnchanged": true,
-  "localAfterFixVerification": "Not run: old server stopped for rebuild; tool policy rejected background restart. Manual startup requested.",
+  "localAfterFixVerification": "Recovered 2026-09-01: real 430px mobile pointer hover and all 98 requests pass on the deployed build. See local-confirmation.json and local-http.json.",
   "newVerificationScope": "Authenticated Preview: three bordered hover states, one ordinary hover state, five link navigations. Local compiled CSS/source and full prebuilt artifact hashes checked.",
   "push": false,
   "productionDeploy": false,
-  "accessProtectionChanged": false
+  "accessProtectionChanged": false,
+  "localStartupHistory": "Not run: old server stopped for rebuild; tool policy rejected background restart. Manual startup requested."
 }
