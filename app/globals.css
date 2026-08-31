@@ -26,6 +26,7 @@ img { max-width: 100%; }
 .button-outline:hover { background: var(--pale); border-color: var(--blue); }
 .inline-link { display: inline-flex; align-items: center; gap: 12px; color: var(--blue); text-decoration: none; font-size: 16px; line-height: 1.5; }
 .inline-link:hover { text-decoration: underline; }
+.home-about:hover, .home-contact-mobile:hover, .work-all:hover { text-decoration: none; color: var(--blue); border-bottom-color: currentColor; }
 .inline-link svg { width: 18px; height: 18px; }
 .contact-band { border: 1px solid #d6e1f2; border-radius: 8px; background: var(--pale); }
 .skip-link { position: absolute; left: 20px; top: -100px; z-index: 20; background: var(--blue); color: white; padding: 12px 18px; border-radius: 4px; }
