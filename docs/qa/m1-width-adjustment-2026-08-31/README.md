@@ -1,5 +1,7 @@
 # M1 width adjustment — 2026-08-31
 
+Historical snapshot: the later [M1 completion checks](../m1-completion-2026-08-31/README.md) supersede this document's browser-URL blocker and pending-screenshot state. This record still describes its original build and must not be relabelled as evidence for the later build.
+
 The user requested less empty space at the sides and more room for the content. The revision is implemented and built; **fresh rendered visual acceptance is still pending**.
 
 ## Build and scope

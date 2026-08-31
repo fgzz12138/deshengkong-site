@@ -20,6 +20,8 @@ Retain the approved palette, font families, case order, status labels, concept-i
 
 Record the new build and checks separately in [the width-adjustment evidence](../qa/m1-width-adjustment-2026-08-31/README.md). Earlier screenshots and HTTP checks belong to the earlier build and do not verify this revision.
 
-The browser tool rejected the local URL under its security policy during this revision. Do not bypass that restriction through another browser surface. Lint, type checking, production build and static layout review can proceed; fresh rendered screenshots and responsive overflow checks remain unverified. The user can review the restarted local preview directly.
+The initial width-revision attempt was blocked by the browser URL policy. In the later user-requested continuation, the supported browser connection recovered. The [current completion record](../qa/m1-completion-2026-08-31/README.md) supersedes that blocker: the wider UI now has fresh six-width screenshots, route/resource checks, modal/fallback verification and no-JavaScript recovery. Native keyboard default-action checks remain inconclusive and need physical-keyboard confirmation.
+
+The official Vercel CLI has no verified authenticated identity. Its GitHub sign-in action requires explicit user authorisation under the browser safety gate; the attempted flow was cancelled without bypassing the restriction. Finish authentication only after that approval, then build/verify/deploy an independent Preview with the existing account protection intact.
 
 The existing remote-preview and final M1 acceptance requirements remain open. No push to main, production deployment, hosting migration, account-security change or company-system write is included.

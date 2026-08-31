@@ -1,0 +1,31 @@
+[
+  {
+    "check": "lint",
+    "command": [
+      "npm.cmd",
+      "run",
+      "lint"
+    ],
+    "exitCode": 0
+  },
+  {
+    "check": "typecheck",
+    "command": [
+      "node",
+      "node_modules/typescript/bin/tsc",
+      "--noEmit",
+      "--incremental",
+      "false"
+    ],
+    "exitCode": 0
+  },
+  {
+    "check": "build",
+    "command": [
+      "npm.cmd",
+      "run",
+      "build"
+    ],
+    "exitCode": 0
+  }
+]

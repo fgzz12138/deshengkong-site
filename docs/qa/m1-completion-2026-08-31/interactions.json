@@ -1,0 +1,285 @@
+{
+  "buildId": "yhUBmIse5tLbkcA6nmc__",
+  "actions": [
+    {
+      "action": "missing-image-case-navigation",
+      "url": "http://127.0.0.1:3181/projects/virtual-concierge",
+      "heading": "Virtual\nConcierge"
+    },
+    {
+      "action": "menu-open",
+      "expanded": "true"
+    },
+    {
+      "action": "menu-Escape",
+      "focus": "Open menu",
+      "hidden": true
+    },
+    {
+      "action": "mobile-about-link",
+      "url": "http://127.0.0.1:3180/about",
+      "closedMenu": true
+    },
+    {
+      "action": "404-recovery-link",
+      "url": "http://127.0.0.1:3180/projects"
+    },
+    {
+      "action": "dialog-backdrop-close",
+      "focus": "Expand image: Product listing",
+      "open": 0,
+      "scrollLock": ""
+    },
+    {
+      "action": "native-Tab-visible-preview",
+      "observed": {
+        "label": null,
+        "tag": "A",
+        "text": "Desheng Kong"
+      }
+    }
+  ],
+  "dialogs": [
+    {
+      "page": "company-website",
+      "label": "Expand image: USR homepage hero screenshot",
+      "opened": {
+        "count": 1,
+        "focus": "Close image preview",
+        "modal": true,
+        "scrollLock": "hidden"
+      },
+      "closed": {
+        "count": 0,
+        "focus": "Expand image: USR homepage hero screenshot",
+        "scrollLock": ""
+      },
+      "passed": true
+    },
+    {
+      "page": "company-website",
+      "label": "Expand image: USR website page preview two",
+      "opened": {
+        "count": 1,
+        "focus": "Close image preview",
+        "modal": true,
+        "scrollLock": "hidden"
+      },
+      "closed": {
+        "count": 0,
+        "focus": "Expand image: USR website page preview two",
+        "scrollLock": ""
+      },
+      "passed": true
+    },
+    {
+      "page": "company-website",
+      "label": "Expand image: SEO discussion and planning",
+      "opened": {
+        "count": 1,
+        "focus": "Close image preview",
+        "modal": true,
+        "scrollLock": "hidden"
+      },
+      "closed": {
+        "count": 0,
+        "focus": "Expand image: SEO discussion and planning",
+        "scrollLock": ""
+      },
+      "passed": true
+    },
+    {
+      "page": "company-website",
+      "label": "Expand image: SEO setup inside CMS",
+      "opened": {
+        "count": 1,
+        "focus": "Close image preview",
+        "modal": true,
+        "scrollLock": "hidden"
+      },
+      "closed": {
+        "count": 0,
+        "focus": "Expand image: SEO setup inside CMS",
+        "scrollLock": ""
+      },
+      "passed": true
+    },
+    {
+      "page": "company-website",
+      "label": "Expand image: Initial layout before refinement",
+      "opened": {
+        "count": 1,
+        "focus": "Close image preview",
+        "modal": true,
+        "scrollLock": "hidden"
+      },
+      "closed": {
+        "count": 0,
+        "focus": "Expand image: Initial layout before refinement",
+        "scrollLock": ""
+      },
+      "passed": true
+    },
+    {
+      "page": "company-website",
+      "label": "Expand image: Annotated feedback for layout refinement",
+      "opened": {
+        "count": 1,
+        "focus": "Close image preview",
+        "modal": true,
+        "scrollLock": "hidden"
+      },
+      "closed": {
+        "count": 0,
+        "focus": "Expand image: Annotated feedback for layout refinement",
+        "scrollLock": ""
+      },
+      "passed": true
+    },
+    {
+      "page": "company-website",
+      "label": "Expand image: Simple report option added to enquiry form",
+      "opened": {
+        "count": 1,
+        "focus": "Close image preview",
+        "modal": true,
+        "scrollLock": "hidden"
+      },
+      "closed": {
+        "count": 0,
+        "focus": "Expand image: Simple report option added to enquiry form",
+        "scrollLock": ""
+      },
+      "passed": true
+    },
+    {
+      "page": "company-website",
+      "label": "Expand image: Submitted enquiry email with report attachment",
+      "opened": {
+        "count": 1,
+        "focus": "Close image preview",
+        "modal": true,
+        "scrollLock": "hidden"
+      },
+      "closed": {
+        "count": 0,
+        "focus": "Expand image: Submitted enquiry email with report attachment",
+        "scrollLock": ""
+      },
+      "passed": true
+    },
+    {
+      "page": "ezisight-ecommerce",
+      "label": "Expand image: Product listing",
+      "opened": {
+        "count": 1,
+        "focus": "Close image preview",
+        "modal": true,
+        "scrollLock": "hidden"
+      },
+      "closed": {
+        "count": 0,
+        "focus": "Expand image: Product listing",
+        "scrollLock": ""
+      },
+      "passed": true
+    },
+    {
+      "page": "ezisight-ecommerce",
+      "label": "Expand image: Product detail",
+      "opened": {
+        "count": 1,
+        "focus": "Close image preview",
+        "modal": true,
+        "scrollLock": "hidden"
+      },
+      "closed": {
+        "count": 0,
+        "focus": "Expand image: Product detail",
+        "scrollLock": ""
+      },
+      "passed": true
+    },
+    {
+      "page": "ezisight-ecommerce",
+      "label": "Expand image: Cart system",
+      "opened": {
+        "count": 1,
+        "focus": "Close image preview",
+        "modal": true,
+        "scrollLock": "hidden"
+      },
+      "closed": {
+        "count": 0,
+        "focus": "Expand image: Cart system",
+        "scrollLock": ""
+      },
+      "passed": true
+    },
+    {
+      "page": "ezisight-ecommerce",
+      "label": "Expand image: Login page",
+      "opened": {
+        "count": 1,
+        "focus": "Close image preview",
+        "modal": true,
+        "scrollLock": "hidden"
+      },
+      "closed": {
+        "count": 0,
+        "focus": "Expand image: Login page",
+        "scrollLock": ""
+      },
+      "passed": true
+    },
+    {
+      "page": "ezisight-ecommerce",
+      "label": "Expand image: Account page",
+      "opened": {
+        "count": 1,
+        "focus": "Close image preview",
+        "modal": true,
+        "scrollLock": "hidden"
+      },
+      "closed": {
+        "count": 0,
+        "focus": "Expand image: Account page",
+        "scrollLock": ""
+      },
+      "passed": true
+    },
+    {
+      "page": "ezisight-ecommerce",
+      "label": "Expand image: Form",
+      "opened": {
+        "count": 1,
+        "focus": "Close image preview",
+        "modal": true,
+        "scrollLock": "hidden"
+      },
+      "closed": {
+        "count": 0,
+        "focus": "Expand image: Form",
+        "scrollLock": ""
+      },
+      "passed": true
+    },
+    {
+      "page": "ezisight-ecommerce",
+      "label": "Expand image: Email result",
+      "opened": {
+        "count": 1,
+        "focus": "Close image preview",
+        "modal": true,
+        "scrollLock": "hidden"
+      },
+      "closed": {
+        "count": 0,
+        "focus": "Expand image: Email result",
+        "scrollLock": ""
+      },
+      "passed": true
+    }
+  ],
+  "nativeKeyboard": "Tab/Enter and native dialog Escape remain inconclusive: supported browser input methods did not perform their normal default actions, including a visible-tab retry. Native semantics retained; manual physical-keyboard confirmation still required."
+}

@@ -1,59 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
-import PortfolioImage from "../../components/PortfolioImage";
-
-/* =========================
-   IMAGE COMPONENT
-========================= */
-function ZoomImage({ src, alt }: { src: string; alt: string }) {
-  const [open, setOpen] = useState(false);
-
-  return (
-    <>
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        className="group relative h-[360px] w-full overflow-hidden rounded-2xl border border-gray-200 bg-gray-50 text-left"
-      >
-        <PortfolioImage
-          src={src}
-          alt={alt}
-          className="h-full w-full object-cover object-top transition duration-300 group-hover:scale-[1.02]"
-        />
-
-        <span className="pointer-events-none absolute right-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-medium text-gray-700 shadow-sm backdrop-blur">
-          Click to expand
-        </span>
-      </button>
-
-      {open && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4"
-          onClick={() => setOpen(false)}
-        >
-          <button
-            type="button"
-            onClick={() => setOpen(false)}
-            className="absolute right-6 top-6 text-4xl text-white"
-            aria-label="Close image preview"
-          >
-            ×
-          </button>
-
-          <div onClick={(e) => e.stopPropagation()}>
-            <PortfolioImage
-              src={src}
-              alt={alt}
-              className="max-h-[90vh] max-w-[90vw] rounded-xl bg-white object-contain"
-            />
-          </div>
-        </div>
-      )}
-    </>
-  );
-}
+import ZoomImage from "../../components/ZoomImage";
 /* =========================
    PAGE
 ========================= */
@@ -97,6 +45,7 @@ export default function EziSightPage() {
           <div className="grid gap-8 md:grid-cols-2">
             <div>
               <ZoomImage
+                variant="ecommerce"
                 src="/ProjectImages/Ezisight/product.png"
                 alt="Product listing"
               />
@@ -108,6 +57,7 @@ export default function EziSightPage() {
 
             <div>
               <ZoomImage
+                variant="ecommerce"
                 src="/ProjectImages/Ezisight/product-1.png"
                 alt="Product detail"
               />
@@ -126,7 +76,7 @@ export default function EziSightPage() {
         <section className="space-y-8">
           <h2 className="text-3xl font-semibold">Cart Interaction</h2>
 
-          <ZoomImage src="/ProjectImages/Ezisight/Cart.png" alt="Cart system" />
+          <ZoomImage variant="ecommerce" src="/ProjectImages/Ezisight/Cart.png" alt="Cart system" />
 
           <p className="max-w-3xl text-sm text-gray-500 leading-6">
             Shopping cart system with real-time updates, quantity control, and
@@ -144,6 +94,7 @@ export default function EziSightPage() {
           <div className="grid gap-8 md:grid-cols-2">
             <div>
               <ZoomImage
+                variant="ecommerce"
                 src="/ProjectImages/Ezisight/login.png"
                 alt="Login page"
               />
@@ -155,6 +106,7 @@ export default function EziSightPage() {
 
             <div>
               <ZoomImage
+                variant="ecommerce"
                 src="/ProjectImages/Ezisight/login-1.png"
                 alt="Account page"
               />
@@ -174,7 +126,7 @@ export default function EziSightPage() {
 
           <div className="grid gap-8 md:grid-cols-2">
             <div>
-              <ZoomImage src="/ProjectImages/Ezisight/form.png" alt="Form" />
+              <ZoomImage variant="ecommerce" src="/ProjectImages/Ezisight/form.png" alt="Form" />
               <p className="mt-3 text-sm text-gray-500 leading-6">
                 Enquiry form designed with structured input fields to collect
                 user data and simulate real business workflows.
@@ -183,6 +135,7 @@ export default function EziSightPage() {
 
             <div>
               <ZoomImage
+                variant="ecommerce"
                 src="/ProjectImages/Ezisight/form-1.png"
                 alt="Email result"
               />

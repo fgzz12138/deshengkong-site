@@ -31,6 +31,15 @@ function Navigation({ pathname }: { pathname: string }) {
           <Link href="/about" onClick={close} aria-current={pathname === "/about" ? "page" : undefined}>About</Link>
           <Link href="/contact" onClick={close} aria-current={pathname === "/contact" ? "page" : undefined}>Get in touch</Link>
         </nav>
+        <noscript>
+          <style>{".site-header .menu-toggle { display: none; }"}</style>
+          <nav className="mobile-nav" aria-label="Mobile navigation without JavaScript">
+            <Link href="/#projects">Work</Link>
+            <Link href="/projects">All projects</Link>
+            <Link href="/about" aria-current={pathname === "/about" ? "page" : undefined}>About</Link>
+            <Link href="/contact" aria-current={pathname === "/contact" ? "page" : undefined}>Get in touch</Link>
+          </nav>
+        </noscript>
       </div>
     </header>
   );

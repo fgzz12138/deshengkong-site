@@ -8,6 +8,10 @@ import { createPageMetadata } from "../../content/site-metadata";
 
 type Props = { params: Promise<{ Slug: string }> };
 
+// All published project URLs are enumerated below; unknown slugs use the
+// static 404 so the recovery links also render without JavaScript.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   // These historical write-ups have their own static route and full page content.
   const dedicatedRoutes = new Set(["company-website", "ezisight-ecommerce", "portfolio-v1"]);

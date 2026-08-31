@@ -1,0 +1,516 @@
+{
+  "buildId": "yhUBmIse5tLbkcA6nmc__",
+  "lazyImages": "Scrolled to bottom and back to top before capture",
+  "results": [
+    {
+      "page": "home",
+      "path": "/",
+      "requestedWidth": 1920,
+      "brokenImages": [],
+      "cards": 4,
+      "clientWidth": 1905,
+      "h1": "AI systems.\nBuilt for\nreal work.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1905,
+      "shell": {
+        "left": 152.5,
+        "width": 1600
+      },
+      "width": 1920
+    },
+    {
+      "page": "home",
+      "path": "/",
+      "requestedWidth": 1440,
+      "brokenImages": [],
+      "cards": 4,
+      "clientWidth": 1425,
+      "h1": "AI systems.\nBuilt for\nreal work.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1425,
+      "shell": {
+        "left": 57.59375,
+        "width": 1309.796875
+      },
+      "width": 1440
+    },
+    {
+      "page": "home",
+      "path": "/",
+      "requestedWidth": 1024,
+      "brokenImages": [],
+      "cards": 4,
+      "clientWidth": 1009,
+      "h1": "AI systems.\nBuilt for\nreal work.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1009,
+      "shell": {
+        "left": 40.953125,
+        "width": 927.078125
+      },
+      "width": 1024
+    },
+    {
+      "page": "home",
+      "path": "/",
+      "requestedWidth": 768,
+      "brokenImages": [],
+      "cards": 4,
+      "clientWidth": 753,
+      "h1": "AI systems.\nBuilt for\nreal work.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 753,
+      "shell": {
+        "left": 40,
+        "width": 673
+      },
+      "width": 768
+    },
+    {
+      "page": "home",
+      "path": "/",
+      "requestedWidth": 390,
+      "brokenImages": [],
+      "cards": 4,
+      "clientWidth": 375,
+      "h1": "AI systems.\nBuilt for\nreal work.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 375,
+      "shell": {
+        "left": 22,
+        "width": 331
+      },
+      "width": 390
+    },
+    {
+      "page": "home",
+      "path": "/",
+      "requestedWidth": 320,
+      "brokenImages": [],
+      "cards": 4,
+      "clientWidth": 305,
+      "h1": "AI systems.\nBuilt for\nreal work.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 305,
+      "shell": {
+        "left": 22,
+        "width": 261
+      },
+      "width": 320
+    },
+    {
+      "page": "about",
+      "path": "/about",
+      "requestedWidth": 1920,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 1905,
+      "h1": "From interfaces\nto AI systems.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1905,
+      "shell": {
+        "left": 152.5,
+        "width": 1600
+      },
+      "width": 1920
+    },
+    {
+      "page": "about",
+      "path": "/about",
+      "requestedWidth": 1440,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 1425,
+      "h1": "From interfaces\nto AI systems.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1425,
+      "shell": {
+        "left": 57.59375,
+        "width": 1309.796875
+      },
+      "width": 1440
+    },
+    {
+      "page": "about",
+      "path": "/about",
+      "requestedWidth": 1024,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 1009,
+      "h1": "From interfaces\nto AI systems.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1009,
+      "shell": {
+        "left": 40.953125,
+        "width": 927.078125
+      },
+      "width": 1024
+    },
+    {
+      "page": "about",
+      "path": "/about",
+      "requestedWidth": 768,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 753,
+      "h1": "From interfaces\nto AI systems.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 753,
+      "shell": {
+        "left": 40,
+        "width": 673
+      },
+      "width": 768
+    },
+    {
+      "page": "about",
+      "path": "/about",
+      "requestedWidth": 390,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 375,
+      "h1": "From interfaces\nto AI systems.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 375,
+      "shell": {
+        "left": 22,
+        "width": 331
+      },
+      "width": 390
+    },
+    {
+      "page": "about",
+      "path": "/about",
+      "requestedWidth": 320,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 305,
+      "h1": "From interfaces\nto AI systems.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 305,
+      "shell": {
+        "left": 22,
+        "width": 261
+      },
+      "width": 320
+    },
+    {
+      "page": "contact",
+      "path": "/contact",
+      "requestedWidth": 1920,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 1905,
+      "h1": "Let’s talk.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1905,
+      "shell": {
+        "left": 152.5,
+        "width": 1600
+      },
+      "width": 1920
+    },
+    {
+      "page": "contact",
+      "path": "/contact",
+      "requestedWidth": 1440,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 1425,
+      "h1": "Let’s talk.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1425,
+      "shell": {
+        "left": 57.59375,
+        "width": 1309.796875
+      },
+      "width": 1440
+    },
+    {
+      "page": "contact",
+      "path": "/contact",
+      "requestedWidth": 1024,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 1009,
+      "h1": "Let’s talk.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1009,
+      "shell": {
+        "left": 40.953125,
+        "width": 927.078125
+      },
+      "width": 1024
+    },
+    {
+      "page": "contact",
+      "path": "/contact",
+      "requestedWidth": 768,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 753,
+      "h1": "Let’s talk.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 753,
+      "shell": {
+        "left": 40,
+        "width": 673
+      },
+      "width": 768
+    },
+    {
+      "page": "contact",
+      "path": "/contact",
+      "requestedWidth": 390,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 375,
+      "h1": "Let’s talk.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 375,
+      "shell": {
+        "left": 22,
+        "width": 331
+      },
+      "width": 390
+    },
+    {
+      "page": "contact",
+      "path": "/contact",
+      "requestedWidth": 320,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 305,
+      "h1": "Let’s talk.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 305,
+      "shell": {
+        "left": 22,
+        "width": 261
+      },
+      "width": 320
+    },
+    {
+      "page": "projects",
+      "path": "/projects",
+      "requestedWidth": 1920,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 1905,
+      "h1": "Projects",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1905,
+      "shell": {
+        "left": 152.5,
+        "width": 1600
+      },
+      "width": 1920
+    },
+    {
+      "page": "projects",
+      "path": "/projects",
+      "requestedWidth": 1440,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 1425,
+      "h1": "Projects",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1425,
+      "shell": {
+        "left": 57.59375,
+        "width": 1309.796875
+      },
+      "width": 1440
+    },
+    {
+      "page": "projects",
+      "path": "/projects",
+      "requestedWidth": 1024,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 1009,
+      "h1": "Projects",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1009,
+      "shell": {
+        "left": 40.953125,
+        "width": 927.078125
+      },
+      "width": 1024
+    },
+    {
+      "page": "projects",
+      "path": "/projects",
+      "requestedWidth": 768,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 753,
+      "h1": "Projects",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 753,
+      "shell": {
+        "left": 40,
+        "width": 673
+      },
+      "width": 768
+    },
+    {
+      "page": "projects",
+      "path": "/projects",
+      "requestedWidth": 390,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 375,
+      "h1": "Projects",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 375,
+      "shell": {
+        "left": 22,
+        "width": 331
+      },
+      "width": 390
+    },
+    {
+      "page": "projects",
+      "path": "/projects",
+      "requestedWidth": 320,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 305,
+      "h1": "Projects",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 305,
+      "shell": {
+        "left": 22,
+        "width": 261
+      },
+      "width": 320
+    },
+    {
+      "page": "portal",
+      "path": "/projects/uai-api-customer-portal",
+      "requestedWidth": 1920,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 1905,
+      "h1": "UAI API\nCustomer Portal",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1905,
+      "shell": {
+        "left": 152.5,
+        "width": 1600
+      },
+      "width": 1920
+    },
+    {
+      "page": "portal",
+      "path": "/projects/uai-api-customer-portal",
+      "requestedWidth": 1440,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 1425,
+      "h1": "UAI API\nCustomer Portal",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1425,
+      "shell": {
+        "left": 57.59375,
+        "width": 1309.796875
+      },
+      "width": 1440
+    },
+    {
+      "page": "portal",
+      "path": "/projects/uai-api-customer-portal",
+      "requestedWidth": 1024,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 1009,
+      "h1": "UAI API\nCustomer Portal",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1009,
+      "shell": {
+        "left": 40.953125,
+        "width": 927.078125
+      },
+      "width": 1024
+    },
+    {
+      "page": "portal",
+      "path": "/projects/uai-api-customer-portal",
+      "requestedWidth": 768,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 753,
+      "h1": "UAI API\nCustomer Portal",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 753,
+      "shell": {
+        "left": 40,
+        "width": 673
+      },
+      "width": 768
+    },
+    {
+      "page": "portal",
+      "path": "/projects/uai-api-customer-portal",
+      "requestedWidth": 390,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 375,
+      "h1": "UAI API\nCustomer Portal",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 375,
+      "shell": {
+        "left": 22,
+        "width": 331
+      },
+      "width": 390
+    },
+    {
+      "page": "portal",
+      "path": "/projects/uai-api-customer-portal",
+      "requestedWidth": 320,
+      "brokenImages": [],
+      "cards": 0,
+      "clientWidth": 305,
+      "h1": "UAI API\nCustomer Portal",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 305,
+      "shell": {
+        "left": 22,
+        "width": 261
+      },
+      "width": 320
+    }
+  ]
+}

@@ -22,6 +22,7 @@ const enquiryContext = [
 ];
 
 export default function ContactPage() {
+  const [emailName, emailDomain] = contactLinks.email.split("@");
   return (
     <main id="main-content" className="ac-page ac-contact-page">
       <div className="site-shell">
@@ -39,7 +40,7 @@ export default function ContactPage() {
 
         <section className="ac-email-card" aria-labelledby="email-heading">
           <h2 id="email-heading" className="eyebrow">Email</h2>
-          <p className="ac-email-address">{contactLinks.email}</p>
+          <p className="ac-email-address">{emailName}<wbr />@{emailDomain}</p>
           <div className="ac-email-actions">
             <a
               href={contactLinks.gmailCompose}

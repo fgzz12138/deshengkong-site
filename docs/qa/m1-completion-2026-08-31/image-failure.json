@@ -1,0 +1,59 @@
+{
+  "buildId": "yhUBmIse5tLbkcA6nmc__",
+  "mechanism": "Temporary loopback fixture returns HTTP404 for four portfolio PNGs; original assets untouched",
+  "results": [
+    {
+      "caseLinks": 4,
+      "clientWidth": 305,
+      "fallbacks": [
+        {
+          "label": "Concept illustration of a voice-enabled concierge kiosk. Illustration unavailable.",
+          "text": "Illustration unavailable."
+        },
+        {
+          "label": "Illustrative customer portal interface marked as demo data. Illustration unavailable.",
+          "text": "Illustration unavailable."
+        },
+        {
+          "label": "Illustrative editing workspace with visual templates and a review queue. Illustration unavailable.",
+          "text": "Illustration unavailable."
+        },
+        {
+          "label": "Illustrative local project workbench showing project context and next steps. Illustration unavailable.",
+          "text": "Illustration unavailable."
+        }
+      ],
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "caseLinks": 4,
+      "clientWidth": 1425,
+      "fallbacks": [
+        {
+          "label": "Concept illustration of a voice-enabled concierge kiosk. Illustration unavailable.",
+          "text": "Illustration unavailable."
+        },
+        {
+          "label": "Illustrative customer portal interface marked as demo data. Illustration unavailable.",
+          "text": "Illustration unavailable."
+        },
+        {
+          "label": "Illustrative editing workspace with visual templates and a review queue. Illustration unavailable.",
+          "text": "Illustration unavailable."
+        },
+        {
+          "label": "Illustrative local project workbench showing project context and next steps. Illustration unavailable.",
+          "text": "Illustration unavailable."
+        }
+      ],
+      "scrollWidth": 1425,
+      "width": 1440
+    }
+  ],
+  "caseNavigation": {
+    "action": "missing-image-case-navigation",
+    "url": "http://127.0.0.1:3181/projects/virtual-concierge",
+    "heading": "Virtual\nConcierge"
+  }
+}

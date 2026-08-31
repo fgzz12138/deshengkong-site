@@ -3,7 +3,7 @@
 Personal portfolio website built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**.
 The M1 upgrade implements the approved portfolio, About and contact designs, with four featured cases and the existing project archive.
 
-M1 is available for local review at **http://127.0.0.1:3180** while its preview process is running. The latest revision widens the whole site in response to local-preview feedback. Lint, type checking and production build pass; fresh visual acceptance, remote preview and final M1 acceptance remain pending. See [the active workflow contract](docs/workflows/m1-portfolio-workflow-v3.md) and [width-adjustment evidence](docs/qa/m1-width-adjustment-2026-08-31/README.md). The earlier [screenshots and route checks](docs/qa/m1-2026-08-31/README.md) apply to the preceding build. The production site has not been updated.
+M1 is available for local review at **http://127.0.0.1:3180** while its preview process is running. The wider layout now has 30 fresh responsive captures and 98 passing route/resource checks. Historical image dialogs, mobile no-JavaScript navigation and 404 recovery have been repaired; real missing-image fallbacks and all 15 image controls were checked. See [the active workflow contract](docs/workflows/m1-portfolio-workflow-v3.md) and [current completion evidence](docs/qa/m1-completion-2026-08-31/README.md). Physical-keyboard confirmation, explicit Vercel login authorisation, stable remote Preview and final M1 acceptance remain open. The production site has not been updated.
 
 ## Live
 

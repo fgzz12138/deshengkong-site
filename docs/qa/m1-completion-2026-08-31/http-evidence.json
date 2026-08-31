@@ -1,0 +1,1577 @@
+{
+  "schemaVersion": 1,
+  "project": "deshengkong-site",
+  "baseUrl": "http://127.0.0.1:3180",
+  "startedAt": "2026-08-31T13:09:05.332339+00:00",
+  "completedAt": "2026-08-31T13:09:05.918707+00:00",
+  "buildId": "yhUBmIse5tLbkcA6nmc__",
+  "scope": "Fixed loopback-only GET requests; no redirects followed, external URLs, credentials, or message sending.",
+  "routeFixture": "docs/qa/m1-2026-08-31/route-http-evidence.json:last run + current prerender-manifest.json",
+  "checks": {
+    "unchangedBuildDuringRun": true,
+    "fifteenProjectRoutes": true
+  },
+  "counts": {
+    "routes": 19,
+    "assets": 55,
+    "chunks": 17,
+    "notFound": 3,
+    "redirects": 2,
+    "metadata": 2
+  },
+  "passed": true,
+  "failures": [],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 37552,
+      "sha256": "f52c8b2ebcc509f78c8f12fabdd70e98cc97d6cd458a118ad527a6f3be8f0b4a",
+      "h1": [
+        "AI systems. Built for real work."
+      ],
+      "noscriptNavigation": [
+        "/#projects",
+        "/about",
+        "/contact",
+        "/projects"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true,
+        "nativeNoscriptNavigation": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 24777,
+      "sha256": "40daedcfcd60a6d726c757c0c1ba01ab33787bb4a4741bd8fd7691b42a6c6aea",
+      "h1": [
+        "From interfaces to AI systems."
+      ],
+      "noscriptNavigation": [
+        "/#projects",
+        "/about",
+        "/contact",
+        "/projects"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true,
+        "nativeNoscriptNavigation": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 28836,
+      "sha256": "093d034bfae853d33331ff5bcd0847856f206554c6de258ec1caefe8b2e0bba3",
+      "h1": [
+        "Let’s talk."
+      ],
+      "noscriptNavigation": [
+        "/#projects",
+        "/about",
+        "/contact",
+        "/projects"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true,
+        "nativeNoscriptNavigation": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 48764,
+      "sha256": "0183cdbd7f656b7618625484c6f3b8a2de27fe1ab73782ec829045177debd3e6",
+      "h1": [
+        "Projects"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/3d-character-study",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 31346,
+      "sha256": "1532118952f0de859f6fb8711a249ced08daecff71f0cbd90cd5b58424e48720",
+      "h1": [
+        "3D Character Study"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/3d-environment-01",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 32223,
+      "sha256": "c5e2415fd884f3e8d5141c0be60e262dfbe93828244d8d7fa7e93a14d7f50581",
+      "h1": [
+        "3D Environment Study"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/alpha-ai",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 24236,
+      "sha256": "621eaa0055bc1e43e40f215e2582bdfa9b8a15fd7edea6793a5108aff51a849f",
+      "h1": [
+        "AI Platform — Annotation & Evaluation Workflow"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/autoxing-robotics",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 26532,
+      "sha256": "cb2c99c5d3c5586fe140075f2dc4a34505646bbbd2bd11ed9a3ccb9420af4d4a",
+      "h1": [
+        "Autonomous Robot Deployment — Enterprise Data Center"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/company-website",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 40048,
+      "sha256": "5fa8648873219d57790536342d96fc55588f76af336cb82b42e885e6346fcdf8",
+      "h1": [
+        "Ultimaite Strata Robotics Corporate Website"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/enterprise-ai-infrastructure",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 25403,
+      "sha256": "d8e45096cb72ceda739bb1bc4bf9e33d6287075817df570638f21680f8a69aa1",
+      "h1": [
+        "Enterprise AI Infrastructure Deployment Support"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/ezisight-ecommerce",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 24583,
+      "sha256": "933cb00d15b64a3ff01c9c8251acd39d9f5c0c893182908c1bd4cb2638d1562f",
+      "h1": [
+        "EziSight Website Migration & Frontend Rebuild"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/iclaude-workbench",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 25544,
+      "sha256": "2f8ac69f6f47657d7aa93d893ba142def3eddb4a65448c96daf743d6f947298f",
+      "h1": [
+        "iClaude Workbench"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/media-visual-tools",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 25558,
+      "sha256": "1544b7b6b56ac79c0e181e60333c581a53da9441c0cac72aeaa090358ec99ddd",
+      "h1": [
+        "Media & Visual Tools"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/no-boss",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 33829,
+      "sha256": "1668e62cb2dbfc5bb0b9a23d7053cfc4d5b8ff6557281822596bc41e371ae5ef",
+      "h1": [
+        "NO BOSS"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/paint-cube",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 36315,
+      "sha256": "f6f5c28a05e7fce63fc2e48d042b0c13180c5aa76a018ba0f9d04f1ef83fca30",
+      "h1": [
+        "Paint Cube"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/portfolio-v1",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 32025,
+      "sha256": "852be4f1f037d9592cf4c28fc66d143371bafc816ff27d03a29bafa61b4873ea",
+      "h1": [
+        "Portfolio"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/run-sheep",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 34219,
+      "sha256": "3d875a06728d1f737eb9fb2f50d3e32eb9e39a7144f312f5aa9023d005c23a90",
+      "h1": [
+        "Run Sheep"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/uai-api-customer-portal",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 27089,
+      "sha256": "fd0c246ae331821bfe55bb4c2dd307722c87592c994f54c314a5d1f2fed8c407",
+      "h1": [
+        "UAI API Customer Portal"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/virtual-concierge",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 25592,
+      "sha256": "6e87b5ed4f9798161452cec93671d45b1d624f379413b707e2220236f9090a59",
+      "h1": [
+        "Virtual Concierge"
+      ],
+      "checks": {
+        "status200": true,
+        "htmlContent": true,
+        "oneVisibleMain": true,
+        "oneVisibleH1": true,
+        "listedInCurrentPrerenderManifest": true
+      },
+      "pass": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "/Desheng_Kong_CV.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 77678,
+      "sha256": "ba933934fde5249ec88a833e6994ccf99b5abf9dd1de291b872be608b7010b26",
+      "localPath": "public/Desheng_Kong_CV.pdf",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true,
+        "pdfContent": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/CompanySite/Feedback.jpeg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 306928,
+      "sha256": "5a3f188e0b69f7374ddcf948f573c4e60e011088890c7b69aa06fe92721c0471",
+      "localPath": "public/ProjectImages/CompanySite/Feedback.jpeg",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/CompanySite/Feedback1.jpeg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 379445,
+      "sha256": "0dff83425508ed17db96b24e1c2243cc56b30172977f9542765ecc57adcf917d",
+      "localPath": "public/ProjectImages/CompanySite/Feedback1.jpeg",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/CompanySite/Form1.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 30987,
+      "sha256": "c6ebffa53ce164a80d7740c68da4c26e9cccc14c6bae4b1b582205c55db06dd2",
+      "localPath": "public/ProjectImages/CompanySite/Form1.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/CompanySite/From.jpeg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 61183,
+      "sha256": "1a82e09038a4b315fb9efaad2995d005379a8d64b0e8a47b003adcd85e1d20ed",
+      "localPath": "public/ProjectImages/CompanySite/From.jpeg",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/CompanySite/WorkFlow2.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 233330,
+      "sha256": "6099bf24548cc6fe4a34228e154a4e688e829bbb38c27825028c1fd1e145a57e",
+      "localPath": "public/ProjectImages/CompanySite/WorkFlow2.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/CompanySite/screencapture-0.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 953269,
+      "sha256": "21b173e35c756aa6252ecdcc131ad97f48825c3a296403ea7ed72e5c18e208b0",
+      "localPath": "public/ProjectImages/CompanySite/screencapture-0.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/CompanySite/screencapture-1.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 188501,
+      "sha256": "bfb75a12106b6ee79dfc00ecb5ac889422b95a9787d113e942ccf757609b7bee",
+      "localPath": "public/ProjectImages/CompanySite/screencapture-1.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/CompanySite/screencapture-2.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 35524,
+      "sha256": "7d41568e129112138f9b7c28ad52f9690c154ecf77645244eaf85c820aaacaa9",
+      "localPath": "public/ProjectImages/CompanySite/screencapture-2.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/Ezisight/Cart.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 68168,
+      "sha256": "fa4e4f08fac5aa75302f0d22d7b548420f0586a24fd1a11d2464118a8a5a9ee5",
+      "localPath": "public/ProjectImages/Ezisight/Cart.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/Ezisight/form-1.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 27416,
+      "sha256": "160108537923d4281e9da61e41506daad54737703d8b5224f381fb352badfda8",
+      "localPath": "public/ProjectImages/Ezisight/form-1.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/Ezisight/form.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 23271,
+      "sha256": "ede31807f426796d6a0b338e5086e2d6e264d708ff55519a5a62d2158878dc4f",
+      "localPath": "public/ProjectImages/Ezisight/form.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/Ezisight/login-1.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 18806,
+      "sha256": "014d6bf4835873ac3886bd6446fa04f33f7813a82a7150700f150fd4f3349411",
+      "localPath": "public/ProjectImages/Ezisight/login-1.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/Ezisight/login.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 19420,
+      "sha256": "55285d1cd2d8b7632cb49001fd724e426d1ba478a7e117872c86e5f8f8cb26eb",
+      "localPath": "public/ProjectImages/Ezisight/login.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/Ezisight/product-1.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 133101,
+      "sha256": "f1944230e74dc493907a0be272f01120701855c1fbc78046a3d9d8b311df9fd3",
+      "localPath": "public/ProjectImages/Ezisight/product-1.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/Ezisight/product.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 156099,
+      "sha256": "462b71d9548f8d07ec9c248f0fd65e98f36ba0f07d9d28ecb53a7f49cbba6927",
+      "localPath": "public/ProjectImages/Ezisight/product.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/GirlMode/girl1.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 139862,
+      "sha256": "fb12b95c2e93d2af140ee586eb7ff59dcd090a41be5380a607eb21916fed7a37",
+      "localPath": "public/ProjectImages/GirlMode/girl1.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/GirlMode/girl2.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 327893,
+      "sha256": "44d40ae6d250977f2f1d3cbcf310ede4e92cece007a82b4b0958c15541156820",
+      "localPath": "public/ProjectImages/GirlMode/girl2.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/NoBoss/NoBoss1.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 329774,
+      "sha256": "65501f270f81d787d214f9a923a57f4eb10bf89a1806cd472547267ae80d1ce7",
+      "localPath": "public/ProjectImages/NoBoss/NoBoss1.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/NoBoss/NoBoss2.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 503915,
+      "sha256": "9160e9a5829021f6d997d72918274f74555d4b3b0bb3fdf96e35e1decfa0c7ea",
+      "localPath": "public/ProjectImages/NoBoss/NoBoss2.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/NoBoss/NoBoss3.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 772432,
+      "sha256": "94f19855ad92dc3ff117439187c9a8f11cc799826d4408024bd26e0c068d6d61",
+      "localPath": "public/ProjectImages/NoBoss/NoBoss3.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/NoBoss/NoBoss4.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 340138,
+      "sha256": "ec8e972666f591ddee680dda63fa87d8a834dae595fe72633f09213f4e6150e8",
+      "localPath": "public/ProjectImages/NoBoss/NoBoss4.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/PaintBox/paintbox1.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 80238,
+      "sha256": "ff7a694bdc385b928cf24556c5d12a6cc0cb0751350700928ca4cbc0dec333fa",
+      "localPath": "public/ProjectImages/PaintBox/paintbox1.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/PaintBox/paintbox2.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 41643,
+      "sha256": "728aaec7da086b9b776eae3575df1511bccdb5adb05194aa2cece8c7ac226f7d",
+      "localPath": "public/ProjectImages/PaintBox/paintbox2.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/PaintBox/paintbox3.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 80404,
+      "sha256": "72da03e396c9877650a9df0fd80077b71f3236db6fb7b180febb98cd223e5726",
+      "localPath": "public/ProjectImages/PaintBox/paintbox3.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/PaintBox/paintbox7.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 307138,
+      "sha256": "883e6628eb9de0bb74ef01242a80f740e402c3ad351a04366a5e4cb5d60582fe",
+      "localPath": "public/ProjectImages/PaintBox/paintbox7.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/Portfolio/Hero.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 47373,
+      "sha256": "90909c469a44838512e754c353e79055a45dcd5d46d2b3b64ae2a2f108ff6e7b",
+      "localPath": "public/ProjectImages/Portfolio/Hero.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/Portfolio/ProjectDetail.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 89509,
+      "sha256": "0839097ee8cc8629973ab3aea8e39fcabc12b31c4ebc0bd14ab0ea4d1efc892b",
+      "localPath": "public/ProjectImages/Portfolio/ProjectDetail.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/Portfolio/Projects.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 289973,
+      "sha256": "a046bbfb8f033b40746600ddf8760fa13fd859206d98af96c9f5b82e2e2bdbec",
+      "localPath": "public/ProjectImages/Portfolio/Projects.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/RunSheep/runSheep3.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 374921,
+      "sha256": "73853dfe647835d25312c3d4873c8cf3722a47839085beea9f9d665b1259927a",
+      "localPath": "public/ProjectImages/RunSheep/runSheep3.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/RunSheep/runSheep6.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 245838,
+      "sha256": "72cb1a893960cb95c84720b7de6c9b3de646b0289f3b0be4ce52ba21aeb71bac",
+      "localPath": "public/ProjectImages/RunSheep/runSheep6.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/RunSheep/runSheep7.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 329400,
+      "sha256": "a971199f044425bf719aedc84daed43d1982b5b12d32ecfbb26851228e0eba1a",
+      "localPath": "public/ProjectImages/RunSheep/runSheep7.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ProjectImages/RunSheep/runSheep8.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 189907,
+      "sha256": "858466115933724eed4e2430e32ddf9d6849ed9e52c89eaf24698da005010f9e",
+      "localPath": "public/ProjectImages/RunSheep/runSheep8.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/favicon.ico",
+      "status": 200,
+      "contentType": "image/x-icon",
+      "bytes": 150082,
+      "sha256": "4949ea3c71099d33b14cb180fb96f015c5ab1a64b695284ce3c9cb0fbc6b6761",
+      "localPath": ".next/server/app/favicon.ico.body",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/favicon.ico?favicon.3wken74jwtje5.ico",
+      "status": 200,
+      "contentType": "image/x-icon",
+      "bytes": 150082,
+      "sha256": "4949ea3c71099d33b14cb180fb96f015c5ab1a64b695284ce3c9cb0fbc6b6761",
+      "localPath": ".next/server/app/favicon.ico.body",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/portfolio/concierge.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 83504,
+      "sha256": "cd63a92172452de23c663b5b5ba8f2675fb8fa7934eb2fead31e8813f8839120",
+      "localPath": "public/portfolio/concierge.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/portfolio/hero-system.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 169439,
+      "sha256": "6b65fec02abfea3d4f0b410ad8914ea72a3f125e104656e7ae66095fa504b088",
+      "localPath": "public/portfolio/hero-system.svg",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/portfolio/media.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 70322,
+      "sha256": "7df88acd0f72ee01af1f1cb742b3fb05862b70ff054146751bddc26925a02fba",
+      "localPath": "public/portfolio/media.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/portfolio/portal-detail.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 7033,
+      "sha256": "12eb4292f32b7e133e4c2b420a6336a1832e90c3cb601b23ee52711653d1e20c",
+      "localPath": "public/portfolio/portal-detail.svg",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/portfolio/portal.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 61398,
+      "sha256": "1a2c1a287a14f7b347df8fc2f199ced3400232f8224c5713db6cfbe8cfa9face",
+      "localPath": "public/portfolio/portal.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/portfolio/social-card.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 63605,
+      "sha256": "971683b9ef4ff8675ed894ea292fafdd1382928b31ab17b37d0aaf312fcd0f8e",
+      "localPath": "public/portfolio/social-card.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/portfolio/workbench.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 75761,
+      "sha256": "c88013f217bb8ccfa1d824a110454d62c0e255e95845fd4b94751193384b22e4",
+      "localPath": "public/portfolio/workbench.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projectThumbnail/Ezisight.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 528463,
+      "sha256": "7c4be7bb33998e315b7c1b0d14d814cc94d0123b1ebe871c910b76d3e758000f",
+      "localPath": "public/projectThumbnail/Ezisight.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projectThumbnail/ai-concierge.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 1681,
+      "sha256": "1ae72e2eee98a582e84facadc76e310d89b341f6a2ba18a4f2a9089042b215bc",
+      "localPath": "public/projectThumbnail/ai-concierge.svg",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projectThumbnail/alpha-ai.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 1828,
+      "sha256": "38d2cb2ade3cab46c2f9b232c851dfcc39a87921da589f1907d550f68272a3c7",
+      "localPath": "public/projectThumbnail/alpha-ai.svg",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projectThumbnail/artwork1.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 124956,
+      "sha256": "b888e6900edb2539db2597ccb446428bcf9239dbaafb99c2b95d1c1ee220a009",
+      "localPath": "public/projectThumbnail/artwork1.jpg",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projectThumbnail/artwork1.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 684940,
+      "sha256": "05c532e41ab2b5e8b237fbb77051d16918876cd7ee96ad0ebab6f547632a55ed",
+      "localPath": "public/projectThumbnail/artwork1.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projectThumbnail/artwork2.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 848102,
+      "sha256": "04ca7d42bbf7b4b2f6e00012eecec00553efcbf502502e0040fc0d36e15abc32",
+      "localPath": "public/projectThumbnail/artwork2.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projectThumbnail/autoxing-robotics.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 1934,
+      "sha256": "9a60a0d8332ab1a0692dffb7995f6183a92e9ca968457d2328c156a522710af2",
+      "localPath": "public/projectThumbnail/autoxing-robotics.svg",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projectThumbnail/company2.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 2202479,
+      "sha256": "8f09c98ac853a84f17f26f5513f32e9e5b6aa3d521fc08a8aec508473d7d4c7a",
+      "localPath": "public/projectThumbnail/company2.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projectThumbnail/enterprise-ai-infra.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 1802,
+      "sha256": "978bdd1595806aec678b86be32b41e7c4103edc4f4d401ce1c78d40e9b75a6f5",
+      "localPath": "public/projectThumbnail/enterprise-ai-infra.svg",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projectThumbnail/noboss1.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 315601,
+      "sha256": "1600df9b6d9c10451ec14cda521bd14d9f81936722361c61dd5c176444859c38",
+      "localPath": "public/projectThumbnail/noboss1.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projectThumbnail/paintbox.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 233659,
+      "sha256": "cd913b120e788086c25092c801c8f9ad0457c9640f621c850f317742c3dd90c8",
+      "localPath": "public/projectThumbnail/paintbox.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projectThumbnail/portfolio.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 2326688,
+      "sha256": "23221cd6ff5b924ed6a616bc10265d405c8f2c48417ce5ff225a9485d46a9203",
+      "localPath": "public/projectThumbnail/portfolio.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projectThumbnail/runsheep1.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 1133501,
+      "sha256": "962e4662ed52021e26b3d11a425c53167ddf75b7eeb4864831a2e4e5861403b5",
+      "localPath": "public/projectThumbnail/runsheep1.png",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    }
+  ],
+  "chunks": [
+    {
+      "path": "/_next/static/chunks/00cvhsdymph0q.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 8374,
+      "sha256": "ced00464ec091457875d9cb08997f1951bbbe711dc02a1182bdde53c2dd00efc",
+      "localPath": ".next/static/chunks/00cvhsdymph0q.js",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/chunks/09ek3uh0x7hoj.css",
+      "status": 200,
+      "contentType": "text/css; charset=UTF-8",
+      "bytes": 11259,
+      "sha256": "272017dfd7fac6da01c5300ccee2e33e34cef36bc27f426d9966eedb691f3d6f",
+      "localPath": ".next/static/chunks/09ek3uh0x7hoj.css",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+      "localPath": ".next/static/chunks/0cz1d0mv5g_q7.js",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/chunks/0kkqe88rjufgu.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 20259,
+      "sha256": "551984d8c3da72620c3d4c91799367013428b0ba6c7e3959d424b7fd189c98cd",
+      "localPath": ".next/static/chunks/0kkqe88rjufgu.js",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/chunks/0uvsp_283537o.css",
+      "status": 200,
+      "contentType": "text/css; charset=UTF-8",
+      "bytes": 39148,
+      "sha256": "82f2b05d9b6e496ba666fd674d0d7ffc043d97a098f04b102b37c35bdd701c89",
+      "localPath": ".next/static/chunks/0uvsp_283537o.css",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/chunks/19mx3mg6lkumu.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 28907,
+      "sha256": "170f3982866674a829571beec30cc23c69fcd36196739ff34b9d586b3ad73cd7",
+      "localPath": ".next/static/chunks/19mx3mg6lkumu.js",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/chunks/1kucgtunavrsu.css",
+      "status": 200,
+      "contentType": "text/css; charset=UTF-8",
+      "bytes": 9441,
+      "sha256": "ac87c6d4bd6ab1567b1d0205eb116550f86fa1803901a3da29380242610330d8",
+      "localPath": ".next/static/chunks/1kucgtunavrsu.css",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/chunks/1nepll4aa2-c1.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 26733,
+      "sha256": "b8078a36fa81106a51bcea3fc948a7a810d2c868f8696cd60cb4859130f2c494",
+      "localPath": ".next/static/chunks/1nepll4aa2-c1.js",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/chunks/2-rtuqsgzmno4.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 165743,
+      "sha256": "4d2bfb13eedd0cf43d07810d7790ce423e01097d1406ef604e7c4f3ab4db8d79",
+      "localPath": ".next/static/chunks/2-rtuqsgzmno4.js",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/chunks/2lme1e0j8b0-j.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 550,
+      "sha256": "c954235217984957f4698ace51e47cbd729a32bd8ca32aa8fb43c012935c8811",
+      "localPath": ".next/static/chunks/2lme1e0j8b0-j.js",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/chunks/310vm2bl3xxpt.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 5364,
+      "sha256": "8a943b00599e56b53569f36f4341e3465ae7705c1391562cd6c7e1f290c0c387",
+      "localPath": ".next/static/chunks/310vm2bl3xxpt.js",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/chunks/3byuobrkyz9bj.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 229156,
+      "sha256": "2998459ef0c506d9417d5337fd7c562b13913d9eb939016648e0352c0b037eb2",
+      "localPath": ".next/static/chunks/3byuobrkyz9bj.js",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/chunks/3fntmmi971322.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 14377,
+      "sha256": "34ed6abf4c6d0d1bb3dc56d3f133d2a5dbc3a3c89c791deab314e27143ac14ce",
+      "localPath": ".next/static/chunks/3fntmmi971322.js",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/chunks/turbopack-1lyg-46tj38sh.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 9721,
+      "sha256": "ab09b8b2e1e03ed4d1a56e90c6932d255ac70849c99fcdf660d42bd1f8dfd959",
+      "localPath": ".next/static/chunks/turbopack-1lyg-46tj38sh.js",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/yhUBmIse5tLbkcA6nmc__/_buildManifest.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 219,
+      "sha256": "9476e0afd3f9da68a64e6ec58631191fd3eaca62c9f5a377e7517fe9a89e59ea",
+      "localPath": ".next/static/yhUBmIse5tLbkcA6nmc__/_buildManifest.js",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/yhUBmIse5tLbkcA6nmc__/_clientMiddlewareManifest.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 96,
+      "sha256": "5483e3295dc35dfe29ea932efc85341c916f10ff78ff5b0e965e003710893a4a",
+      "localPath": ".next/static/yhUBmIse5tLbkcA6nmc__/_clientMiddlewareManifest.js",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/_next/static/yhUBmIse5tLbkcA6nmc__/_ssgManifest.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 108,
+      "sha256": "2d63a973813267b30ca96d035564944a6bc257f951dad2ed0618d4f57578af1e",
+      "localPath": ".next/static/yhUBmIse5tLbkcA6nmc__/_ssgManifest.js",
+      "checks": {
+        "status200": true,
+        "nonempty": true,
+        "localFileExists": true,
+        "sameLocalBytes": true
+      },
+      "pass": true
+    }
+  ],
+  "notFound": [
+    {
+      "path": "/__m1-route-check-not-found",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 13089,
+      "sha256": "7834db8fae6cc66238969397d57f791dbe996ee3c5cb96c7e1d851ea694e7145",
+      "h1": [
+        "This page isn’t here."
+      ],
+      "htmlInspection": "Literal HTMLParser output; script/style/template/head/hidden subtrees excluded; no JavaScript executed.",
+      "checks": {
+        "status404": true,
+        "literalVisible404Heading": true,
+        "literalExploreProjectsLink": true,
+        "oneVisibleMain": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/__m1-route-check-not-found",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 13089,
+      "sha256": "7834db8fae6cc66238969397d57f791dbe996ee3c5cb96c7e1d851ea694e7145",
+      "h1": [
+        "This page isn’t here."
+      ],
+      "htmlInspection": "Literal HTMLParser output; script/style/template/head/hidden subtrees excluded; no JavaScript executed.",
+      "checks": {
+        "status404": true,
+        "literalVisible404Heading": true,
+        "literalExploreProjectsLink": true,
+        "oneVisibleMain": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/portfolio/__m1-missing-asset.png",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 13089,
+      "sha256": "7834db8fae6cc66238969397d57f791dbe996ee3c5cb96c7e1d851ea694e7145",
+      "checks": {
+        "status404": true
+      },
+      "pass": true
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/about/",
+      "status": 308,
+      "contentType": "",
+      "bytes": 6,
+      "sha256": "979bddc4a8caafdda41370de2a2e0781a1af2f53c9f36fb804df9af860a53cf5",
+      "location": "/about",
+      "checks": {
+        "redirectStatus": true,
+        "expectedLocalLocation": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/projects/no-boss/",
+      "status": 308,
+      "contentType": "",
+      "bytes": 17,
+      "sha256": "8406e1eb7ac8c3d79f5dccdc865357aa80e505abf3be1643338a80c2fe39cdc5",
+      "location": "/projects/no-boss",
+      "checks": {
+        "redirectStatus": true,
+        "expectedLocalLocation": true
+      },
+      "pass": true
+    }
+  ],
+  "metadata": [
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "contentType": "text/plain",
+      "bytes": 73,
+      "sha256": "6b682b980b817fc965cda4b753eb2e09c1b024f993c06c7c90d3ab6c7a8a34ca",
+      "checks": {
+        "status200": true,
+        "nonempty": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "bytes": 2604,
+      "sha256": "3ee7533e4d0b21f512a3ff32b6d4f040817b8d7074a4c510f5424e1f50e57ad0",
+      "checks": {
+        "status200": true,
+        "nonempty": true
+      },
+      "pass": true
+    }
+  ]
+}
