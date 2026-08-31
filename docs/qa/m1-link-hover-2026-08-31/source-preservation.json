@@ -1,0 +1,578 @@
+{
+  "sourceCommit": "24f6d20",
+  "fileCount": 114,
+  "allMatch": true,
+  "textNormalization": "Windows checkout/archive CRLF accepted as same source text; binary bytes exact.",
+  "files": [
+    {
+      "path": "app/about/page.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "efa24a5097522ac4e3818867de88d0ed5996a3dcad02ae7c9d009569e4e5d809"
+    },
+    {
+      "path": "app/components/CaseStudy.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "23437f888a2d4b0861f4cf8ca59241c2cf716cb6c2cb35efdf9d922893fef318"
+    },
+    {
+      "path": "app/components/CurrentlyLearning.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "a3d322c191326c02e6c4a2ffdf8c3c0da488c3d120bbd2ff710e7071065c6962"
+    },
+    {
+      "path": "app/components/Header.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "b10f7d5c1f60cdf91ba234f20d99b91fb924a9810d4edef94e893e8ec40e2fff"
+    },
+    {
+      "path": "app/components/LegacyProjectDetail.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "0ef711ac1ee37579514474a7633d914a5537c5b2486697ee24cb7b85a29edc0e"
+    },
+    {
+      "path": "app/components/PortfolioImage.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "684ab2016f05e4097749c4b9502932bd7bb4cf640ae76d88ba23ed93c5036905"
+    },
+    {
+      "path": "app/components/ProjectCard.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "bd8277f40236b25cab148d0099fb70cb1e020d639446028c08c9d792c0931f57"
+    },
+    {
+      "path": "app/components/ProjectCollection.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "5c01a8daa4d62d757c6c34bcf1966fa5d9a71307774b1e7ebf64b3f745349fff"
+    },
+    {
+      "path": "app/components/SiteFooter.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "46beee3aaef3eaf956f714ba401ba90cabf0e136771a578e72537b1957c5c6cf"
+    },
+    {
+      "path": "app/components/SkillsPanel.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "4a9691b8e31c9dc2661c606726c97c98b47669b9ac054bed79796ff84f6b2e82"
+    },
+    {
+      "path": "app/components/ZoomImage.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "d4131cd74cf38b53055c761d55ff9d80907c8435325f61db1b72b65364df4198"
+    },
+    {
+      "path": "app/contact/page.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "49a7035a97e7fd180a57f5f2dade824b9bc270bc424ec2f562ab5bbc575bdfa0"
+    },
+    {
+      "path": "app/content/contact.ts",
+      "matchesSourceContent": true,
+      "buildSha256": "1062567fe037915816cfbd154548b7d0e6a886954b4d5c1aa87d1e3c9adee925"
+    },
+    {
+      "path": "app/content/portfolio.ts",
+      "matchesSourceContent": true,
+      "buildSha256": "1664fec28bb6e1a64e2e62fcd315ed5e74e4ae8425b47ad914d8f979e32122ba"
+    },
+    {
+      "path": "app/content/projects.ts",
+      "matchesSourceContent": true,
+      "buildSha256": "d8497450f93b81426da1e530453ee68e4a6567570644e8feb904fa4fdcf3a9d5"
+    },
+    {
+      "path": "app/content/site-metadata.ts",
+      "matchesSourceContent": true,
+      "buildSha256": "023a59a49d20228f2e72ed68b03221a1f64978a0f94eeab7db91451a39083ea9"
+    },
+    {
+      "path": "app/favicon.ico",
+      "matchesSourceContent": true,
+      "buildSha256": "4949ea3c71099d33b14cb180fb96f015c5ab1a64b695284ce3c9cb0fbc6b6761"
+    },
+    {
+      "path": "app/globals.css",
+      "matchesSourceContent": true,
+      "buildSha256": "c2e8f3ac7fab19bdf591b653bca7f18845ece495c1f963e6445cc0f4727eeb1c"
+    },
+    {
+      "path": "app/layout.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "e43cfc4b1201b1ce2ce84e65a732aa641135f721dc065693131aa84d0795acfa"
+    },
+    {
+      "path": "app/not-found.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "0175b9cf9dd9c39121427b9df89ba88787aa0558ef04edcc3ea46df3584a040b"
+    },
+    {
+      "path": "app/page.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "78d9a56633914552827f2aac4a7e1ec609f042b42affb2688811b2d6bb58c17b"
+    },
+    {
+      "path": "app/projects/[Slug]/page.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "6bbe84dbe951122e500efdd447eb898dbb97e24289b1272908155aef4d750d7c"
+    },
+    {
+      "path": "app/projects/company-website/layout.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "9e0544104cbf8b3768cc08cd4f2f01b0c3d6242b99899c16a609218fa65d29a2"
+    },
+    {
+      "path": "app/projects/company-website/page.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "e9214e1467ad3f92ced3d7cb653d5a367ad1d81ce6b77f0ef65d7904c1222328"
+    },
+    {
+      "path": "app/projects/ezisight-ecommerce/layout.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "08d68ad3bc662faf240754ed16128b00de0f9dbff683b6f1f034556e2c6e2815"
+    },
+    {
+      "path": "app/projects/ezisight-ecommerce/page.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "261d5aae0a45adb9930dc6440df581386229ac4588b6b886d044c7ff06fc8f30"
+    },
+    {
+      "path": "app/projects/page.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "c5df488b98b7aa4b2e80db88fe98cf81c4ec4a19a2760824f6113fe0aa26ae29"
+    },
+    {
+      "path": "app/projects/portfolio-v1/layout.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "89c6cc1cdfdf5b2a6336264950407bacab1ef786e9445dda21fc2c3d64f9b5e7"
+    },
+    {
+      "path": "app/projects/portfolio-v1/page.tsx",
+      "matchesSourceContent": true,
+      "buildSha256": "f2efb2e5a9a97b255ce93bdff0c7b7d089da9da9e84057faadaa5d49d3c99563"
+    },
+    {
+      "path": "app/robots.ts",
+      "matchesSourceContent": true,
+      "buildSha256": "beea31aba38ad3efa13362b063fda25bbb87610b0bd8de6f625b67961ff2c1ce"
+    },
+    {
+      "path": "app/sitemap.ts",
+      "matchesSourceContent": true,
+      "buildSha256": "78d05e84e0661b3ff2dc574868df21904e78465167c1a3a002e85f5aecf17fc2"
+    },
+    {
+      "path": "app/styles/about-contact.css",
+      "matchesSourceContent": true,
+      "buildSha256": "2a3aba18821606dae5e8287fe289efdc4724a9aaf012d11def560db3faf74fdd"
+    },
+    {
+      "path": "app/styles/projects.css",
+      "matchesSourceContent": true,
+      "buildSha256": "3c8f6d679b9bfc6f3333a38302065531857e8cc17c41ceca8e7a41871eb5e024"
+    },
+    {
+      "path": "public/Desheng_Kong_CV.pdf",
+      "matchesSourceContent": true,
+      "buildSha256": "ba933934fde5249ec88a833e6994ccf99b5abf9dd1de291b872be608b7010b26"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/Feedback.jpeg",
+      "matchesSourceContent": true,
+      "buildSha256": "5a3f188e0b69f7374ddcf948f573c4e60e011088890c7b69aa06fe92721c0471"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/Feedback1.jpeg",
+      "matchesSourceContent": true,
+      "buildSha256": "0dff83425508ed17db96b24e1c2243cc56b30172977f9542765ecc57adcf917d"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/Feedback2.png",
+      "matchesSourceContent": true,
+      "buildSha256": "133f1e6b0a8f63b79c2ad41769a79b6d5eac8c8a03db28a2a4109ed1b94f7662"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/Feedback3.png",
+      "matchesSourceContent": true,
+      "buildSha256": "16a74c4f797508f240c83c40f4f82e9858c90b8148bc2f501b46329f4b9c91b6"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/Form1.png",
+      "matchesSourceContent": true,
+      "buildSha256": "c6ebffa53ce164a80d7740c68da4c26e9cccc14c6bae4b1b582205c55db06dd2"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/From.jpeg",
+      "matchesSourceContent": true,
+      "buildSha256": "1a82e09038a4b315fb9efaad2995d005379a8d64b0e8a47b003adcd85e1d20ed"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/HowToMaintain.jpeg",
+      "matchesSourceContent": true,
+      "buildSha256": "7365d0ebd3821de6555619719bfa2314f8e886cc69a7a5150ebe90d22d124b3b"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/SETSEO.jpeg",
+      "matchesSourceContent": true,
+      "buildSha256": "4ec896e8eb1771667964d9c3414e63d0a02c7c3cfec0f48e4310d9f626c053b4"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/ScreenShot_2026-03-22_135337_598.png",
+      "matchesSourceContent": true,
+      "buildSha256": "ded03e4a1ce13e851959b0c704502e7da047c7f54a674aeeb1773850edff9cfd"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/TestForm1.jpeg",
+      "matchesSourceContent": true,
+      "buildSha256": "dd693c979f44b52c37323688d51b3931eaaf26e0fd114b0f9434251c77f9b8dd"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/WhatsApp Chat2.png",
+      "matchesSourceContent": true,
+      "buildSha256": "2dcd4f90fc7e13d82bb88ff2c769020853dd033bf42f21bbd291cdc36925a86b"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/WhatsApp Chat5.png",
+      "matchesSourceContent": true,
+      "buildSha256": "9ed2e3d7580cc90467f67c7a5800b7c5e9aa2663e853fc0f162423a5f039019c"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/WorkFlow1.png",
+      "matchesSourceContent": true,
+      "buildSha256": "b1f3c5fbc7941ea8a137f2e27efe45e6117fcda939c0ca969f6368efede381c2"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/WorkFlow2.png",
+      "matchesSourceContent": true,
+      "buildSha256": "6099bf24548cc6fe4a34228e154a4e688e829bbb38c27825028c1fd1e145a57e"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/screencapture-0.png",
+      "matchesSourceContent": true,
+      "buildSha256": "21b173e35c756aa6252ecdcc131ad97f48825c3a296403ea7ed72e5c18e208b0"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/screencapture-1.png",
+      "matchesSourceContent": true,
+      "buildSha256": "bfb75a12106b6ee79dfc00ecb5ac889422b95a9787d113e942ccf757609b7bee"
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/screencapture-2.png",
+      "matchesSourceContent": true,
+      "buildSha256": "7d41568e129112138f9b7c28ad52f9690c154ecf77645244eaf85c820aaacaa9"
+    },
+    {
+      "path": "public/ProjectImages/Ezisight/Cart.png",
+      "matchesSourceContent": true,
+      "buildSha256": "fa4e4f08fac5aa75302f0d22d7b548420f0586a24fd1a11d2464118a8a5a9ee5"
+    },
+    {
+      "path": "public/ProjectImages/Ezisight/form-1.png",
+      "matchesSourceContent": true,
+      "buildSha256": "160108537923d4281e9da61e41506daad54737703d8b5224f381fb352badfda8"
+    },
+    {
+      "path": "public/ProjectImages/Ezisight/form.png",
+      "matchesSourceContent": true,
+      "buildSha256": "ede31807f426796d6a0b338e5086e2d6e264d708ff55519a5a62d2158878dc4f"
+    },
+    {
+      "path": "public/ProjectImages/Ezisight/login-1.png",
+      "matchesSourceContent": true,
+      "buildSha256": "014d6bf4835873ac3886bd6446fa04f33f7813a82a7150700f150fd4f3349411"
+    },
+    {
+      "path": "public/ProjectImages/Ezisight/login.png",
+      "matchesSourceContent": true,
+      "buildSha256": "55285d1cd2d8b7632cb49001fd724e426d1ba478a7e117872c86e5f8f8cb26eb"
+    },
+    {
+      "path": "public/ProjectImages/Ezisight/product-1.png",
+      "matchesSourceContent": true,
+      "buildSha256": "f1944230e74dc493907a0be272f01120701855c1fbc78046a3d9d8b311df9fd3"
+    },
+    {
+      "path": "public/ProjectImages/Ezisight/product.png",
+      "matchesSourceContent": true,
+      "buildSha256": "462b71d9548f8d07ec9c248f0fd65e98f36ba0f07d9d28ecb53a7f49cbba6927"
+    },
+    {
+      "path": "public/ProjectImages/GirlMode/girl1.png",
+      "matchesSourceContent": true,
+      "buildSha256": "fb12b95c2e93d2af140ee586eb7ff59dcd090a41be5380a607eb21916fed7a37"
+    },
+    {
+      "path": "public/ProjectImages/GirlMode/girl2.png",
+      "matchesSourceContent": true,
+      "buildSha256": "44d40ae6d250977f2f1d3cbcf310ede4e92cece007a82b4b0958c15541156820"
+    },
+    {
+      "path": "public/ProjectImages/GirlMode/girl3.png",
+      "matchesSourceContent": true,
+      "buildSha256": "7cebf1e22d4894644bbc1259e60e3d7cab7940e09791ef10aa8ffc09e9b5f03c"
+    },
+    {
+      "path": "public/ProjectImages/NoBoss/NoBoss1.png",
+      "matchesSourceContent": true,
+      "buildSha256": "65501f270f81d787d214f9a923a57f4eb10bf89a1806cd472547267ae80d1ce7"
+    },
+    {
+      "path": "public/ProjectImages/NoBoss/NoBoss2.png",
+      "matchesSourceContent": true,
+      "buildSha256": "9160e9a5829021f6d997d72918274f74555d4b3b0bb3fdf96e35e1decfa0c7ea"
+    },
+    {
+      "path": "public/ProjectImages/NoBoss/NoBoss3.png",
+      "matchesSourceContent": true,
+      "buildSha256": "94f19855ad92dc3ff117439187c9a8f11cc799826d4408024bd26e0c068d6d61"
+    },
+    {
+      "path": "public/ProjectImages/NoBoss/NoBoss4.png",
+      "matchesSourceContent": true,
+      "buildSha256": "ec8e972666f591ddee680dda63fa87d8a834dae595fe72633f09213f4e6150e8"
+    },
+    {
+      "path": "public/ProjectImages/PaintBox/paintbox1.png",
+      "matchesSourceContent": true,
+      "buildSha256": "ff7a694bdc385b928cf24556c5d12a6cc0cb0751350700928ca4cbc0dec333fa"
+    },
+    {
+      "path": "public/ProjectImages/PaintBox/paintbox2.png",
+      "matchesSourceContent": true,
+      "buildSha256": "728aaec7da086b9b776eae3575df1511bccdb5adb05194aa2cece8c7ac226f7d"
+    },
+    {
+      "path": "public/ProjectImages/PaintBox/paintbox3.png",
+      "matchesSourceContent": true,
+      "buildSha256": "72da03e396c9877650a9df0fd80077b71f3236db6fb7b180febb98cd223e5726"
+    },
+    {
+      "path": "public/ProjectImages/PaintBox/paintbox5.png",
+      "matchesSourceContent": true,
+      "buildSha256": "d4261d6d7669a3e4362a8a0de9d3ea2ec909a65bda8039abc645efcd75d58ffc"
+    },
+    {
+      "path": "public/ProjectImages/PaintBox/paintbox6.png",
+      "matchesSourceContent": true,
+      "buildSha256": "2c98013a0af542ed2c049476806a92be35e87bac5d300c82e17b27935dfd5d5d"
+    },
+    {
+      "path": "public/ProjectImages/PaintBox/paintbox7.png",
+      "matchesSourceContent": true,
+      "buildSha256": "883e6628eb9de0bb74ef01242a80f740e402c3ad351a04366a5e4cb5d60582fe"
+    },
+    {
+      "path": "public/ProjectImages/Portfolio/Hero.png",
+      "matchesSourceContent": true,
+      "buildSha256": "90909c469a44838512e754c353e79055a45dcd5d46d2b3b64ae2a2f108ff6e7b"
+    },
+    {
+      "path": "public/ProjectImages/Portfolio/ProjectDetail.png",
+      "matchesSourceContent": true,
+      "buildSha256": "0839097ee8cc8629973ab3aea8e39fcabc12b31c4ebc0bd14ab0ea4d1efc892b"
+    },
+    {
+      "path": "public/ProjectImages/Portfolio/Projects.png",
+      "matchesSourceContent": true,
+      "buildSha256": "a046bbfb8f033b40746600ddf8760fa13fd859206d98af96c9f5b82e2e2bdbec"
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep1.png",
+      "matchesSourceContent": true,
+      "buildSha256": "dd075077452175e2ee3c026babbfde0661d15c37079e812433bc0c2a8d129cde"
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep2.png",
+      "matchesSourceContent": true,
+      "buildSha256": "871d5a23f18a76645cb2c1d859032d8616088899582c1e29a56e19936f0a6bcd"
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep3.png",
+      "matchesSourceContent": true,
+      "buildSha256": "73853dfe647835d25312c3d4873c8cf3722a47839085beea9f9d665b1259927a"
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep4.png",
+      "matchesSourceContent": true,
+      "buildSha256": "20ce7a2eaf7e1b5aa5004b739dad6ed5b97477ebb00e7f38fa7d782073935f4b"
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep5.png",
+      "matchesSourceContent": true,
+      "buildSha256": "f4ff90fd5c060d5f12027a8e81e7ac981f682bc379fcd97b263fc42b7435ca4a"
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep6.png",
+      "matchesSourceContent": true,
+      "buildSha256": "72cb1a893960cb95c84720b7de6c9b3de646b0289f3b0be4ce52ba21aeb71bac"
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep7.png",
+      "matchesSourceContent": true,
+      "buildSha256": "a971199f044425bf719aedc84daed43d1982b5b12d32ecfbb26851228e0eba1a"
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep8.png",
+      "matchesSourceContent": true,
+      "buildSha256": "858466115933724eed4e2430e32ddf9d6849ed9e52c89eaf24698da005010f9e"
+    },
+    {
+      "path": "public/file.svg",
+      "matchesSourceContent": true,
+      "buildSha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4"
+    },
+    {
+      "path": "public/globe.svg",
+      "matchesSourceContent": true,
+      "buildSha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf"
+    },
+    {
+      "path": "public/next.svg",
+      "matchesSourceContent": true,
+      "buildSha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc"
+    },
+    {
+      "path": "public/portfolio/concierge.png",
+      "matchesSourceContent": true,
+      "buildSha256": "cd63a92172452de23c663b5b5ba8f2675fb8fa7934eb2fead31e8813f8839120"
+    },
+    {
+      "path": "public/portfolio/hero-system.svg",
+      "matchesSourceContent": true,
+      "buildSha256": "6b65fec02abfea3d4f0b410ad8914ea72a3f125e104656e7ae66095fa504b088"
+    },
+    {
+      "path": "public/portfolio/media.png",
+      "matchesSourceContent": true,
+      "buildSha256": "7df88acd0f72ee01af1f1cb742b3fb05862b70ff054146751bddc26925a02fba"
+    },
+    {
+      "path": "public/portfolio/portal-detail.svg",
+      "matchesSourceContent": true,
+      "buildSha256": "12eb4292f32b7e133e4c2b420a6336a1832e90c3cb601b23ee52711653d1e20c"
+    },
+    {
+      "path": "public/portfolio/portal.png",
+      "matchesSourceContent": true,
+      "buildSha256": "1a2c1a287a14f7b347df8fc2f199ced3400232f8224c5713db6cfbe8cfa9face"
+    },
+    {
+      "path": "public/portfolio/social-card.png",
+      "matchesSourceContent": true,
+      "buildSha256": "971683b9ef4ff8675ed894ea292fafdd1382928b31ab17b37d0aaf312fcd0f8e"
+    },
+    {
+      "path": "public/portfolio/workbench.png",
+      "matchesSourceContent": true,
+      "buildSha256": "c88013f217bb8ccfa1d824a110454d62c0e255e95845fd4b94751193384b22e4"
+    },
+    {
+      "path": "public/projectThumbnail/Ezisight.png",
+      "matchesSourceContent": true,
+      "buildSha256": "7c4be7bb33998e315b7c1b0d14d814cc94d0123b1ebe871c910b76d3e758000f"
+    },
+    {
+      "path": "public/projectThumbnail/ai-concierge.svg",
+      "matchesSourceContent": true,
+      "buildSha256": "0c7d12536dbc61da9ce2fe903de206359dc9810aa72d0020a89b347fc108b5c2"
+    },
+    {
+      "path": "public/projectThumbnail/alpha-ai.svg",
+      "matchesSourceContent": true,
+      "buildSha256": "b3800bb4a81e0cfc9b4f7160d4e0f39102a37ec1cadaef5382ffb8b2b8cd3ca9"
+    },
+    {
+      "path": "public/projectThumbnail/artwork1.jpg",
+      "matchesSourceContent": true,
+      "buildSha256": "b888e6900edb2539db2597ccb446428bcf9239dbaafb99c2b95d1c1ee220a009"
+    },
+    {
+      "path": "public/projectThumbnail/artwork1.png",
+      "matchesSourceContent": true,
+      "buildSha256": "05c532e41ab2b5e8b237fbb77051d16918876cd7ee96ad0ebab6f547632a55ed"
+    },
+    {
+      "path": "public/projectThumbnail/artwork2.png",
+      "matchesSourceContent": true,
+      "buildSha256": "04ca7d42bbf7b4b2f6e00012eecec00553efcbf502502e0040fc0d36e15abc32"
+    },
+    {
+      "path": "public/projectThumbnail/autoxing-robotics.svg",
+      "matchesSourceContent": true,
+      "buildSha256": "d26f861de5b27b2233eefc30f41cc1cc64e90ae73d62f79727b866376000bf37"
+    },
+    {
+      "path": "public/projectThumbnail/company2.png",
+      "matchesSourceContent": true,
+      "buildSha256": "8f09c98ac853a84f17f26f5513f32e9e5b6aa3d521fc08a8aec508473d7d4c7a"
+    },
+    {
+      "path": "public/projectThumbnail/enterprise-ai-infra.svg",
+      "matchesSourceContent": true,
+      "buildSha256": "6d945b5c048004bb66f3008076e71d249679cd17b0c90830dafb82cb7a66b164"
+    },
+    {
+      "path": "public/projectThumbnail/noboss1.png",
+      "matchesSourceContent": true,
+      "buildSha256": "1600df9b6d9c10451ec14cda521bd14d9f81936722361c61dd5c176444859c38"
+    },
+    {
+      "path": "public/projectThumbnail/paintbox.png",
+      "matchesSourceContent": true,
+      "buildSha256": "cd913b120e788086c25092c801c8f9ad0457c9640f621c850f317742c3dd90c8"
+    },
+    {
+      "path": "public/projectThumbnail/portfolio.png",
+      "matchesSourceContent": true,
+      "buildSha256": "23221cd6ff5b924ed6a616bc10265d405c8f2c48417ce5ff225a9485d46a9203"
+    },
+    {
+      "path": "public/projectThumbnail/runsheep1.png",
+      "matchesSourceContent": true,
+      "buildSha256": "962e4662ed52021e26b3d11a425c53167ddf75b7eeb4864831a2e4e5861403b5"
+    },
+    {
+      "path": "public/vercel.svg",
+      "matchesSourceContent": true,
+      "buildSha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4"
+    },
+    {
+      "path": "public/window.svg",
+      "matchesSourceContent": true,
+      "buildSha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "matchesSourceContent": true,
+      "buildSha256": "b0e260b644e4a90ad8c8745bd5629ff77259e62ac51bf9bcb10f7433fe1b4546"
+    },
+    {
+      "path": "next.config.ts",
+      "matchesSourceContent": true,
+      "buildSha256": "7efcf278030179dfc38c4365e7b8ac5a356d3a193e2de12749ad752a9c625446"
+    },
+    {
+      "path": "package-lock.json",
+      "matchesSourceContent": true,
+      "buildSha256": "6df269a30628daf39a6774c9de1be497411c4f4eb4bcee1a349df5f0836b2bec"
+    },
+    {
+      "path": "package.json",
+      "matchesSourceContent": true,
+      "buildSha256": "d9f107833ff50de5e20c71a221fb983d87a42802a28245b0c64effba5b67ef6b"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "matchesSourceContent": true,
+      "buildSha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21"
+    },
+    {
+      "path": "tailwind.config.js",
+      "matchesSourceContent": true,
+      "buildSha256": "bffa62e96ddb88032b08545aed4f9746640e6de79c79011c1885610ecabdb56b"
+    },
+    {
+      "path": "tsconfig.json",
+      "matchesSourceContent": true,
+      "buildSha256": "fbff01604d6cb54694be707f26e7a0eb21a6ef796b888c6a1dab1839fa7c6ccc"
+    }
+  ]
+}

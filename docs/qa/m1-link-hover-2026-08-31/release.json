@@ -1,0 +1,44 @@
+{
+  "sourceCommit": "24f6d20",
+  "buildId": "FAIzg0DhbVMVBPPcqHzfj",
+  "preview": {
+    "id": "dpl_FfGexpBwBftrgRRdKsXiQ1oPL8UY",
+    "target": "preview",
+    "state": "Ready",
+    "url": "https://deshengkong-site-8x2pu57c6-fgzz12138s-projects.vercel.app"
+  },
+  "identity": "fgzz12138",
+  "projectId": "prj_B19Xq8UXrguNEFGBX4jTXQlbu7JQ",
+  "artifactSha256": "d1a427cadf150c1c8526aa80aad1fb0e3bd27e0f852a05cb1c0f9d9ae206f72f",
+  "artifactUnchanged": true,
+  "files": 336,
+  "symlinks": 110,
+  "productionBefore": {
+    "id": "dpl_8Yfsm7janYL8nMiLU8RPakv96UHa",
+    "target": "production",
+    "state": "Ready",
+    "aliases": [
+      "https://www.deshengkong.com",
+      "https://deshengkong.com",
+      "https://deshengkong-site-fgzz12138s-projects.vercel.app",
+      "https://deshengkong-site-git-main-fgzz12138s-projects.vercel.app"
+    ]
+  },
+  "productionAfter": {
+    "id": "dpl_8Yfsm7janYL8nMiLU8RPakv96UHa",
+    "target": "production",
+    "state": "Ready",
+    "aliases": [
+      "https://www.deshengkong.com",
+      "https://deshengkong.com",
+      "https://deshengkong-site-fgzz12138s-projects.vercel.app",
+      "https://deshengkong-site-git-main-fgzz12138s-projects.vercel.app"
+    ]
+  },
+  "productionUnchanged": true,
+  "localAfterFixVerification": "Not run: old server stopped for rebuild; tool policy rejected background restart. Manual startup requested.",
+  "newVerificationScope": "Authenticated Preview: three bordered hover states, one ordinary hover state, five link navigations. Local compiled CSS/source and full prebuilt artifact hashes checked.",
+  "push": false,
+  "productionDeploy": false,
+  "accessProtectionChanged": false
+}

@@ -1,0 +1,6 @@
+[
+  {
+    "asset": "_next/static/chunks/38amwlxwc2o5y.css",
+    "rule": ".home-about:hover,.home-contact-mobile:hover,.work-all:hover{color:var(--blue);border-bottom-color:currentColor;text-decoration:none}"
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "scope": "Personal M1 link hover correction",
+  "sourceCommit": "24f6d20",
+  "buildId": "FAIzg0DhbVMVBPPcqHzfj",
+  "startedOn": "2026-08-31",
+  "completedOn": "2026-09-01",
+  "before": {
+    "border": "rgb(154, 164, 177)",
+    "borderWidth": "1px",
+    "color": "rgb(8, 11, 16)",
+    "decoration": "underline",
+    "height": 44,
+    "hover": true,
+    "href": "/contact",
+    "width": 116.28125
+  },
+  "after": [
+    {
+      "surface": "remote",
+      "viewport": 390,
+      "border": "rgb(6, 79, 245)",
+      "borderWidth": "1px",
+      "className": "inline-link home-contact-mobile",
+      "color": "rgb(6, 79, 245)",
+      "decoration": "none",
+      "display": "flex",
+      "height": 44,
+      "hover": true,
+      "href": "/contact",
+      "text": "Get in touch",
+      "width": 116.28125,
+      "x": 129.359375,
+      "y": 399.84375,
+      "passed": true
+    },
+    {
+      "surface": "remote",
+      "viewport": 1440,
+      "border": "rgb(6, 79, 245)",
+      "borderWidth": "1px",
+      "className": "inline-link home-about",
+      "color": "rgb(6, 79, 245)",
+      "decoration": "none",
+      "display": "flex",
+      "height": 35,
+      "hover": true,
+      "href": "/about",
+      "text": "About me",
+      "width": 103.78125,
+      "x": 319.109375,
+      "y": 571.21875,
+      "passed": true
+    },
+    {
+      "surface": "remote",
+      "viewport": 1440,
+      "border": "rgb(6, 79, 245)",
+      "borderWidth": "1px",
+      "className": "inline-link work-all",
+      "color": "rgb(6, 79, 245)",
+      "decoration": "none",
+      "display": "flex",
+      "height": 26,
+      "hover": true,
+      "href": "/projects",
+      "text": "All projects",
+      "width": 98.46875,
+      "x": 1268.921875,
+      "y": 71.453125,
+      "passed": true
+    },
+    {
+      "surface": "remote",
+      "viewport": 1440,
+      "border": "rgb(6, 79, 245)",
+      "borderWidth": "0px",
+      "className": "inline-link",
+      "color": "rgb(6, 79, 245)",
+      "decoration": "underline",
+      "display": "flex",
+      "height": 22.5,
+      "hover": true,
+      "href": "/projects/virtual-concierge",
+      "text": "View case study",
+      "width": 137.125,
+      "x": 80.59375,
+      "y": 457.90625,
+      "passed": true
+    }
+  ],
+  "navigation": [
+    {
+      "surface": "remote",
+      "action": "mobile Get in touch",
+      "destination": "/contact",
+      "passed": true
+    },
+    {
+      "surface": "remote",
+      "action": "mobile Explore my work",
+      "destination": "/#projects",
+      "passed": true
+    },
+    {
+      "surface": "remote",
+      "action": "desktop About me",
+      "destination": "/about",
+      "passed": true
+    },
+    {
+      "surface": "remote",
+      "action": "desktop Explore selected work",
+      "destination": "/#projects",
+      "passed": true
+    },
+    {
+      "surface": "remote",
+      "action": "desktop All projects",
+      "destination": "/projects",
+      "passed": true
+    }
+  ],
+  "note": "Real pointer movement and DOM computed styles. No DOM/CSS injection. Local restart currently requires manual action after tool policy blocked background launch."
+}
