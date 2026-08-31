@@ -2,6 +2,8 @@
 
 Date: 2026-08-31
 
+The active contract is now [v3](m1-portfolio-workflow-v3.md), which records the user's subsequent request for a wider layout. This v2 remains the inherited scope record; its fixed desktop-width requirement is superseded.
+
 - Status: `M1_IMPLEMENTATION_AUTHORISED / IN_PROGRESS`.
 - Visual approval: user accepted the saved homepage, case-study, mobile-home, About and Get in touch direction and explicitly requested M1.
 - Supersedes the pending-approval state of [v1](m1-portfolio-workflow-v1.md). Older M0 files remain historical source records; their pending labels do not cancel this later approval.

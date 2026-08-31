@@ -1,0 +1,23 @@
+{
+  "buildId": "KTaQdTVINCQ_6pEiYJpzr",
+  "sourceSha256": {
+    "app/globals.css": "ca81e5d9b323476ff0f16e217a5c05d6fbd01d5f9f1d52cbc9ba9f5f5ee3dde5",
+    "app/styles/about-contact.css": "d596e9ff87e37587206fb81862d15746fbf5af13eb0b3e8ed8843722082c7917",
+    "app/styles/projects.css": "056c2fb95a7ff935d14d1e2d89094cf24c7eb545c728f6026a37fdf2f0dfc8d9",
+    "app/projects/company-website/page.tsx": "9e30329dc30314347f02bbad1237ead0f0f20c98e170292d7ac6e8b73da1add6",
+    "app/projects/ezisight-ecommerce/page.tsx": "97535fba93a16ed27134a21c30456c73f38ccaae4f2578acf77dfbc15eabd16a",
+    "app/projects/portfolio-v1/page.tsx": "50ac773c940e414ca39770e38e2c1204b6a0492132f76f6317b0772dfc107e8c"
+  },
+  "cssSha256": {
+    ".next/static/chunks/09ek3uh0x7hoj.css": "272017dfd7fac6da01c5300ccee2e33e34cef36bc27f426d9966eedb691f3d6f",
+    ".next/static/chunks/17nfhg0h-lt4k.css": "cb4b7eab3e0843ac77136ab131e2f638dcc03d3ae687aafb6a445d1fb2e3601f",
+    ".next/static/chunks/1kucgtunavrsu.css": "ac87c6d4bd6ab1567b1d0205eb116550f86fa1803901a3da29380242610330d8"
+  },
+  "verification": {
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "productionBuild": "PASS",
+    "freshBrowserVerification": "BLOCKED_BY_BROWSER_URL_POLICY",
+    "remotePreview": "NOT_DEPLOYED"
+  }
+}

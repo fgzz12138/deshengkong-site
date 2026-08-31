@@ -59,8 +59,8 @@ function ZoomImage({ src, alt }: { src: string; alt: string }) {
 ========================= */
 export default function EziSightPage() {
   return (
-    <main id="main-content" className="mx-auto max-w-6xl px-6 py-16">
-      <aside className="mx-auto mb-8 max-w-6xl border-l-4 border-blue-200 bg-blue-50 px-5 py-4 text-sm leading-6 text-slate-600">
+    <main id="main-content" className="site-shell py-16">
+      <aside className="mb-8 border-l-4 border-blue-200 bg-blue-50 px-5 py-4 text-sm leading-6 text-slate-600">
         Historical project write-up. Descriptions and screenshots reflect the project period; current service availability and historical outcomes have not been reverified for this portfolio update.
       </aside>
       <Link

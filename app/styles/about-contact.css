@@ -32,8 +32,8 @@
 /* About: introduction and typographic profile. */
 .ac-about-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 306px;
-  gap: 44px;
+  grid-template-columns: minmax(0, 1fr) clamp(306px, 28vw, 380px);
+  gap: clamp(44px, 5vw, 80px);
   padding: 44px 0 6px;
   border-bottom: 1px solid #cfd7e3;
 }
@@ -46,7 +46,7 @@
   letter-spacing: 0;
 }
 .ac-about-title span { display: block; }
-.ac-about-bio { margin-top: 29px; font-size: 18px; line-height: 27px; }
+.ac-about-bio { max-width: 62ch; margin-top: 29px; font-size: 18px; line-height: 27px; }
 .ac-about-bio p:first-child { font-size: 19px; line-height: 28px; }
 .ac-about-bio p + p { margin-top: 18px; }
 .ac-page .ac-selected-work-link {
@@ -112,10 +112,10 @@
 .ac-approach-list li:last-child { padding-right: 0; }
 .ac-section-number { display: block; line-height: 18px; letter-spacing: 0; }
 .ac-approach-list h3 { margin-top: 14px; font-size: 19px; line-height: 26px; font-weight: 700; }
-.ac-approach-list p { max-width: 282px; margin-top: 13px; font-size: 15px; line-height: 23px; color: #334255; }
+.ac-approach-list p { max-width: 48ch; margin-top: 13px; font-size: 15px; line-height: 23px; color: #334255; }
 .ac-toolkit-section {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 447px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 48px;
   padding-top: 28px;
 }
@@ -141,7 +141,7 @@
 .ac-page .ac-learning-topics { margin-top: 12px; font-size: 16px; line-height: 25px; color: #334255; }
 .ac-course-boundary { margin-top: 8px; padding-top: 13px; border-top: 1px solid #d6e1f2; }
 .ac-course-boundary p:first-child { font-size: 15px; line-height: 21px; }
-.ac-course-boundary p + p { max-width: 300px; margin-top: 6px; color: #59697b; font-size: 14px; line-height: 20px; }
+.ac-course-boundary p + p { max-width: 52ch; margin-top: 6px; color: #59697b; font-size: 14px; line-height: 20px; }
 .ac-background { margin-top: 39px; }
 .ac-page .ac-background-list { margin-top: 6px; }
 .ac-background-list > div {
@@ -243,12 +243,16 @@
   border-bottom: 1px solid #cfd7e3;
 }
 .ac-enquiry-list h3 { font-size: 21px; line-height: 28px; font-weight: 700; }
-.ac-enquiry-list p { font-size: 17px; line-height: 26px; color: #334255; }
+.ac-enquiry-list p { max-width: 70ch; font-size: 17px; line-height: 26px; color: #334255; }
 .ac-contact-work-band { margin-top: 97px; }
 .ac-contact-work-band .ac-contact-band-copy p { color: #334255; font-size: 17px; line-height: 25px; }
 .ac-contact-work-band .ac-contact-band-copy h2 { font-size: 26px; line-height: 34px; }
 
 /* Intermediate widths keep the desktop composition without squeezing long copy. */
+@media (min-width: 1200px) {
+  .ac-desktop-break { display: none; }
+  .ac-about-hero { padding-bottom: 30px; }
+}
 @media (max-width: 960px) {
   .ac-about-hero { grid-template-columns: minmax(0, 1fr) 275px; gap: 28px; }
   .ac-page .ac-about-title { font-size: 54px; line-height: 60px; }
