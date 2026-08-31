@@ -1,0 +1,1044 @@
+{
+  "sourceCommit": "97254f6",
+  "comparison": "Git archive follows this workstation CRLF settings. Text source is compared to committed blobs after CRLF normalization; binary assets must match exact bytes. Archive and isolated bytes are recorded separately.",
+  "count": 115,
+  "allArchiveBytesMatch": true,
+  "allSourceContentMatch": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "gitBlobSha256": "84c61e0bc786726d6262bb62c1ddbaaa8e99ed01a663c4af0421b108bee7441a",
+      "archiveSha256": "865f9645e922ed7d7c58d2033a810ca7b69992a4b4e5a2964de492f514b6c37d",
+      "isolatedSha256": "865f9645e922ed7d7c58d2033a810ca7b69992a4b4e5a2964de492f514b6c37d",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/about/page.tsx",
+      "gitBlobSha256": "b8703ac71d9445e8dca08b013b28de84de5488ee36a9f3a249430b0b32671e25",
+      "archiveSha256": "efa24a5097522ac4e3818867de88d0ed5996a3dcad02ae7c9d009569e4e5d809",
+      "isolatedSha256": "efa24a5097522ac4e3818867de88d0ed5996a3dcad02ae7c9d009569e4e5d809",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/components/CaseStudy.tsx",
+      "gitBlobSha256": "aa1211a35c160a4c5e520782fedca45261149cd24585250810a944310dbed33b",
+      "archiveSha256": "23437f888a2d4b0861f4cf8ca59241c2cf716cb6c2cb35efdf9d922893fef318",
+      "isolatedSha256": "23437f888a2d4b0861f4cf8ca59241c2cf716cb6c2cb35efdf9d922893fef318",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/components/CurrentlyLearning.tsx",
+      "gitBlobSha256": "d3beb1590a18e33caa37482694414b000eca34f7803f5fd3599522c20baf880e",
+      "archiveSha256": "a3d322c191326c02e6c4a2ffdf8c3c0da488c3d120bbd2ff710e7071065c6962",
+      "isolatedSha256": "a3d322c191326c02e6c4a2ffdf8c3c0da488c3d120bbd2ff710e7071065c6962",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/components/Header.tsx",
+      "gitBlobSha256": "40918b79d141c1b752c52ccc3cd83fa8311a829179a907bd0e186a0403efb88d",
+      "archiveSha256": "b10f7d5c1f60cdf91ba234f20d99b91fb924a9810d4edef94e893e8ec40e2fff",
+      "isolatedSha256": "b10f7d5c1f60cdf91ba234f20d99b91fb924a9810d4edef94e893e8ec40e2fff",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/components/LegacyProjectDetail.tsx",
+      "gitBlobSha256": "ed9b09bfbffd6df44652f74f5ef1793364e26eb497c6486264481043c4324231",
+      "archiveSha256": "0ef711ac1ee37579514474a7633d914a5537c5b2486697ee24cb7b85a29edc0e",
+      "isolatedSha256": "0ef711ac1ee37579514474a7633d914a5537c5b2486697ee24cb7b85a29edc0e",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/components/PortfolioImage.tsx",
+      "gitBlobSha256": "995b517b464e50338e4174bce47548a8a380a84f50d86e496a96a0a463b73ff6",
+      "archiveSha256": "684ab2016f05e4097749c4b9502932bd7bb4cf640ae76d88ba23ed93c5036905",
+      "isolatedSha256": "684ab2016f05e4097749c4b9502932bd7bb4cf640ae76d88ba23ed93c5036905",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/components/ProjectCard.tsx",
+      "gitBlobSha256": "250ab68fd09ad688fef941e2c19d6a83e3c99a87caeb77e81a405412243f8a6d",
+      "archiveSha256": "bd8277f40236b25cab148d0099fb70cb1e020d639446028c08c9d792c0931f57",
+      "isolatedSha256": "bd8277f40236b25cab148d0099fb70cb1e020d639446028c08c9d792c0931f57",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/components/ProjectCollection.tsx",
+      "gitBlobSha256": "2cb19e1665d81a53b7f8f08c32144ae132b81ee8733640df71846c4a174e03ad",
+      "archiveSha256": "5c01a8daa4d62d757c6c34bcf1966fa5d9a71307774b1e7ebf64b3f745349fff",
+      "isolatedSha256": "5c01a8daa4d62d757c6c34bcf1966fa5d9a71307774b1e7ebf64b3f745349fff",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/components/SiteFooter.tsx",
+      "gitBlobSha256": "0fb8f012c486443e5451602a5e04eec0560c4a1089885f1d8b0267ac8d436f77",
+      "archiveSha256": "46beee3aaef3eaf956f714ba401ba90cabf0e136771a578e72537b1957c5c6cf",
+      "isolatedSha256": "46beee3aaef3eaf956f714ba401ba90cabf0e136771a578e72537b1957c5c6cf",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/components/SkillsPanel.tsx",
+      "gitBlobSha256": "75846c61607d58a4f36d13c21b709f2489f2de94c81e656c47031f3bb0f97fda",
+      "archiveSha256": "4a9691b8e31c9dc2661c606726c97c98b47669b9ac054bed79796ff84f6b2e82",
+      "isolatedSha256": "4a9691b8e31c9dc2661c606726c97c98b47669b9ac054bed79796ff84f6b2e82",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/components/ZoomImage.tsx",
+      "gitBlobSha256": "1716ad6e5b9c2452f29af784a3c56862ea1acdf1a5d1ff18efded176e5292871",
+      "archiveSha256": "d4131cd74cf38b53055c761d55ff9d80907c8435325f61db1b72b65364df4198",
+      "isolatedSha256": "d4131cd74cf38b53055c761d55ff9d80907c8435325f61db1b72b65364df4198",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/contact/page.tsx",
+      "gitBlobSha256": "78d09a21b2cf070c47978a1ec514b946ccd2be24372d901df695bdd294cc1008",
+      "archiveSha256": "49a7035a97e7fd180a57f5f2dade824b9bc270bc424ec2f562ab5bbc575bdfa0",
+      "isolatedSha256": "49a7035a97e7fd180a57f5f2dade824b9bc270bc424ec2f562ab5bbc575bdfa0",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/content/contact.ts",
+      "gitBlobSha256": "1f2ac505279242bb26f5ae7e861920b417647a05fb4c6d9e167392f6958e030a",
+      "archiveSha256": "1062567fe037915816cfbd154548b7d0e6a886954b4d5c1aa87d1e3c9adee925",
+      "isolatedSha256": "1062567fe037915816cfbd154548b7d0e6a886954b4d5c1aa87d1e3c9adee925",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/content/portfolio.ts",
+      "gitBlobSha256": "fe690c2be19aae1d31a44aaf4cb7dbc51edc98fa79752c14fd251984e410d7b4",
+      "archiveSha256": "1664fec28bb6e1a64e2e62fcd315ed5e74e4ae8425b47ad914d8f979e32122ba",
+      "isolatedSha256": "1664fec28bb6e1a64e2e62fcd315ed5e74e4ae8425b47ad914d8f979e32122ba",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/content/projects.ts",
+      "gitBlobSha256": "36c493b238b1da5e140335e36afdd4be3f2cbb60a74f44e021217dbf21eebf9e",
+      "archiveSha256": "d8497450f93b81426da1e530453ee68e4a6567570644e8feb904fa4fdcf3a9d5",
+      "isolatedSha256": "d8497450f93b81426da1e530453ee68e4a6567570644e8feb904fa4fdcf3a9d5",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/content/site-metadata.ts",
+      "gitBlobSha256": "5777a7dd0e48bf1358a40376fe3d149b09000026c471d59774e65360c90a592b",
+      "archiveSha256": "023a59a49d20228f2e72ed68b03221a1f64978a0f94eeab7db91451a39083ea9",
+      "isolatedSha256": "023a59a49d20228f2e72ed68b03221a1f64978a0f94eeab7db91451a39083ea9",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/favicon.ico",
+      "gitBlobSha256": "4949ea3c71099d33b14cb180fb96f015c5ab1a64b695284ce3c9cb0fbc6b6761",
+      "archiveSha256": "4949ea3c71099d33b14cb180fb96f015c5ab1a64b695284ce3c9cb0fbc6b6761",
+      "isolatedSha256": "4949ea3c71099d33b14cb180fb96f015c5ab1a64b695284ce3c9cb0fbc6b6761",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "app/globals.css",
+      "gitBlobSha256": "e4d11690e301e9a5353df1acd9d7612cd3887f2f287bd748d404ab3eca10d2c4",
+      "archiveSha256": "dfe628b9ba560e083907c73cd29ae88b9ac3f0c9ae2a23d5bdae656e7a5638fb",
+      "isolatedSha256": "dfe628b9ba560e083907c73cd29ae88b9ac3f0c9ae2a23d5bdae656e7a5638fb",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/layout.tsx",
+      "gitBlobSha256": "175ff1abed977954d28b15245bf5e133889294eac1880aa116fe8eb9e0ad0ad9",
+      "archiveSha256": "e43cfc4b1201b1ce2ce84e65a732aa641135f721dc065693131aa84d0795acfa",
+      "isolatedSha256": "e43cfc4b1201b1ce2ce84e65a732aa641135f721dc065693131aa84d0795acfa",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/not-found.tsx",
+      "gitBlobSha256": "e8f9d1747cd9f7909c63096d744d9c7cd7f357fcea371b8e815fbef387159d0f",
+      "archiveSha256": "0175b9cf9dd9c39121427b9df89ba88787aa0558ef04edcc3ea46df3584a040b",
+      "isolatedSha256": "0175b9cf9dd9c39121427b9df89ba88787aa0558ef04edcc3ea46df3584a040b",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/page.tsx",
+      "gitBlobSha256": "ac89dc927dccc4820cd7e2685e506e580f0f9bab47e69ca5bc71cf029fc6c08a",
+      "archiveSha256": "78d9a56633914552827f2aac4a7e1ec609f042b42affb2688811b2d6bb58c17b",
+      "isolatedSha256": "78d9a56633914552827f2aac4a7e1ec609f042b42affb2688811b2d6bb58c17b",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/projects/[Slug]/page.tsx",
+      "gitBlobSha256": "010b69e809641ab9c054da816c03ced8f501a2e997f8de520a36ac8f6a2679f8",
+      "archiveSha256": "6bbe84dbe951122e500efdd447eb898dbb97e24289b1272908155aef4d750d7c",
+      "isolatedSha256": "6bbe84dbe951122e500efdd447eb898dbb97e24289b1272908155aef4d750d7c",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/projects/company-website/layout.tsx",
+      "gitBlobSha256": "9d89c460ceaf0f81dcea9121c05fbdb5640a376287d18e149a38ba744138e9ab",
+      "archiveSha256": "9e0544104cbf8b3768cc08cd4f2f01b0c3d6242b99899c16a609218fa65d29a2",
+      "isolatedSha256": "9e0544104cbf8b3768cc08cd4f2f01b0c3d6242b99899c16a609218fa65d29a2",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/projects/company-website/page.tsx",
+      "gitBlobSha256": "da359c429f8fe3ff3300cf63ee008c2034f46976f53aab5488f04059dc07cd0a",
+      "archiveSha256": "e9214e1467ad3f92ced3d7cb653d5a367ad1d81ce6b77f0ef65d7904c1222328",
+      "isolatedSha256": "e9214e1467ad3f92ced3d7cb653d5a367ad1d81ce6b77f0ef65d7904c1222328",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/projects/ezisight-ecommerce/layout.tsx",
+      "gitBlobSha256": "4ab125fbac3a6ae978343b6ef7c2d235094a860de96b102b0d5b9c07ed8965dc",
+      "archiveSha256": "08d68ad3bc662faf240754ed16128b00de0f9dbff683b6f1f034556e2c6e2815",
+      "isolatedSha256": "08d68ad3bc662faf240754ed16128b00de0f9dbff683b6f1f034556e2c6e2815",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/projects/ezisight-ecommerce/page.tsx",
+      "gitBlobSha256": "1d8eb3e0f88a03a94aea010738c943296609e20e29290216db15987d4d73a2d8",
+      "archiveSha256": "261d5aae0a45adb9930dc6440df581386229ac4588b6b886d044c7ff06fc8f30",
+      "isolatedSha256": "261d5aae0a45adb9930dc6440df581386229ac4588b6b886d044c7ff06fc8f30",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/projects/page.tsx",
+      "gitBlobSha256": "f7a49c623de858e8e30b9ebf98a7172d4e93b2baa084d31be7783f9258b956d3",
+      "archiveSha256": "c5df488b98b7aa4b2e80db88fe98cf81c4ec4a19a2760824f6113fe0aa26ae29",
+      "isolatedSha256": "c5df488b98b7aa4b2e80db88fe98cf81c4ec4a19a2760824f6113fe0aa26ae29",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/projects/portfolio-v1/layout.tsx",
+      "gitBlobSha256": "c9a417c0d790baef71d5c92ab6d2e96a6fe2086f51b78163999fdad017869f39",
+      "archiveSha256": "89c6cc1cdfdf5b2a6336264950407bacab1ef786e9445dda21fc2c3d64f9b5e7",
+      "isolatedSha256": "89c6cc1cdfdf5b2a6336264950407bacab1ef786e9445dda21fc2c3d64f9b5e7",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/projects/portfolio-v1/page.tsx",
+      "gitBlobSha256": "50ac773c940e414ca39770e38e2c1204b6a0492132f76f6317b0772dfc107e8c",
+      "archiveSha256": "f2efb2e5a9a97b255ce93bdff0c7b7d089da9da9e84057faadaa5d49d3c99563",
+      "isolatedSha256": "f2efb2e5a9a97b255ce93bdff0c7b7d089da9da9e84057faadaa5d49d3c99563",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/robots.ts",
+      "gitBlobSha256": "4e69e242c7b9b5545df0c0a0abdf533d8e8cad9d5161317ea4f72a941037482e",
+      "archiveSha256": "beea31aba38ad3efa13362b063fda25bbb87610b0bd8de6f625b67961ff2c1ce",
+      "isolatedSha256": "beea31aba38ad3efa13362b063fda25bbb87610b0bd8de6f625b67961ff2c1ce",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/sitemap.ts",
+      "gitBlobSha256": "185e172d09719e47e52b79b9677671d9d4fd28567cd7b14c167c57b79962a611",
+      "archiveSha256": "78d05e84e0661b3ff2dc574868df21904e78465167c1a3a002e85f5aecf17fc2",
+      "isolatedSha256": "78d05e84e0661b3ff2dc574868df21904e78465167c1a3a002e85f5aecf17fc2",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/styles/about-contact.css",
+      "gitBlobSha256": "d596e9ff87e37587206fb81862d15746fbf5af13eb0b3e8ed8843722082c7917",
+      "archiveSha256": "2a3aba18821606dae5e8287fe289efdc4724a9aaf012d11def560db3faf74fdd",
+      "isolatedSha256": "2a3aba18821606dae5e8287fe289efdc4724a9aaf012d11def560db3faf74fdd",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "app/styles/projects.css",
+      "gitBlobSha256": "056c2fb95a7ff935d14d1e2d89094cf24c7eb545c728f6026a37fdf2f0dfc8d9",
+      "archiveSha256": "3c8f6d679b9bfc6f3333a38302065531857e8cc17c41ceca8e7a41871eb5e024",
+      "isolatedSha256": "3c8f6d679b9bfc6f3333a38302065531857e8cc17c41ceca8e7a41871eb5e024",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "eslint.config.mjs",
+      "gitBlobSha256": "a332fe60d3c3fba29728557da3cd5cadc450444fa80b95687017b7d64c1f0d94",
+      "archiveSha256": "b0e260b644e4a90ad8c8745bd5629ff77259e62ac51bf9bcb10f7433fe1b4546",
+      "isolatedSha256": "b0e260b644e4a90ad8c8745bd5629ff77259e62ac51bf9bcb10f7433fe1b4546",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "next.config.ts",
+      "gitBlobSha256": "7ca86d5ef4b8951eaf4a97f4fa0e4ac4baaaadeed323cfd8b2dd1ff8fa94c230",
+      "archiveSha256": "7efcf278030179dfc38c4365e7b8ac5a356d3a193e2de12749ad752a9c625446",
+      "isolatedSha256": "7efcf278030179dfc38c4365e7b8ac5a356d3a193e2de12749ad752a9c625446",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "package-lock.json",
+      "gitBlobSha256": "351325950c63ed9c90a4e26e21d68a5c734fcbd06c0e81ef77ca4a251443254a",
+      "archiveSha256": "6df269a30628daf39a6774c9de1be497411c4f4eb4bcee1a349df5f0836b2bec",
+      "isolatedSha256": "6df269a30628daf39a6774c9de1be497411c4f4eb4bcee1a349df5f0836b2bec",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "package.json",
+      "gitBlobSha256": "da916bd88cadc6c13dda39cf628135b9240bdcae2a84a7e49010be9ba086985f",
+      "archiveSha256": "d9f107833ff50de5e20c71a221fb983d87a42802a28245b0c64effba5b67ef6b",
+      "isolatedSha256": "d9f107833ff50de5e20c71a221fb983d87a42802a28245b0c64effba5b67ef6b",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "postcss.config.mjs",
+      "gitBlobSha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+      "archiveSha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+      "isolatedSha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "public/Desheng_Kong_CV.pdf",
+      "gitBlobSha256": "ba933934fde5249ec88a833e6994ccf99b5abf9dd1de291b872be608b7010b26",
+      "archiveSha256": "ba933934fde5249ec88a833e6994ccf99b5abf9dd1de291b872be608b7010b26",
+      "isolatedSha256": "ba933934fde5249ec88a833e6994ccf99b5abf9dd1de291b872be608b7010b26",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/Feedback.jpeg",
+      "gitBlobSha256": "5a3f188e0b69f7374ddcf948f573c4e60e011088890c7b69aa06fe92721c0471",
+      "archiveSha256": "5a3f188e0b69f7374ddcf948f573c4e60e011088890c7b69aa06fe92721c0471",
+      "isolatedSha256": "5a3f188e0b69f7374ddcf948f573c4e60e011088890c7b69aa06fe92721c0471",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/Feedback1.jpeg",
+      "gitBlobSha256": "0dff83425508ed17db96b24e1c2243cc56b30172977f9542765ecc57adcf917d",
+      "archiveSha256": "0dff83425508ed17db96b24e1c2243cc56b30172977f9542765ecc57adcf917d",
+      "isolatedSha256": "0dff83425508ed17db96b24e1c2243cc56b30172977f9542765ecc57adcf917d",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/Feedback2.png",
+      "gitBlobSha256": "133f1e6b0a8f63b79c2ad41769a79b6d5eac8c8a03db28a2a4109ed1b94f7662",
+      "archiveSha256": "133f1e6b0a8f63b79c2ad41769a79b6d5eac8c8a03db28a2a4109ed1b94f7662",
+      "isolatedSha256": "133f1e6b0a8f63b79c2ad41769a79b6d5eac8c8a03db28a2a4109ed1b94f7662",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/Feedback3.png",
+      "gitBlobSha256": "16a74c4f797508f240c83c40f4f82e9858c90b8148bc2f501b46329f4b9c91b6",
+      "archiveSha256": "16a74c4f797508f240c83c40f4f82e9858c90b8148bc2f501b46329f4b9c91b6",
+      "isolatedSha256": "16a74c4f797508f240c83c40f4f82e9858c90b8148bc2f501b46329f4b9c91b6",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/Form1.png",
+      "gitBlobSha256": "c6ebffa53ce164a80d7740c68da4c26e9cccc14c6bae4b1b582205c55db06dd2",
+      "archiveSha256": "c6ebffa53ce164a80d7740c68da4c26e9cccc14c6bae4b1b582205c55db06dd2",
+      "isolatedSha256": "c6ebffa53ce164a80d7740c68da4c26e9cccc14c6bae4b1b582205c55db06dd2",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/From.jpeg",
+      "gitBlobSha256": "1a82e09038a4b315fb9efaad2995d005379a8d64b0e8a47b003adcd85e1d20ed",
+      "archiveSha256": "1a82e09038a4b315fb9efaad2995d005379a8d64b0e8a47b003adcd85e1d20ed",
+      "isolatedSha256": "1a82e09038a4b315fb9efaad2995d005379a8d64b0e8a47b003adcd85e1d20ed",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/HowToMaintain.jpeg",
+      "gitBlobSha256": "7365d0ebd3821de6555619719bfa2314f8e886cc69a7a5150ebe90d22d124b3b",
+      "archiveSha256": "7365d0ebd3821de6555619719bfa2314f8e886cc69a7a5150ebe90d22d124b3b",
+      "isolatedSha256": "7365d0ebd3821de6555619719bfa2314f8e886cc69a7a5150ebe90d22d124b3b",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/SETSEO.jpeg",
+      "gitBlobSha256": "4ec896e8eb1771667964d9c3414e63d0a02c7c3cfec0f48e4310d9f626c053b4",
+      "archiveSha256": "4ec896e8eb1771667964d9c3414e63d0a02c7c3cfec0f48e4310d9f626c053b4",
+      "isolatedSha256": "4ec896e8eb1771667964d9c3414e63d0a02c7c3cfec0f48e4310d9f626c053b4",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/ScreenShot_2026-03-22_135337_598.png",
+      "gitBlobSha256": "ded03e4a1ce13e851959b0c704502e7da047c7f54a674aeeb1773850edff9cfd",
+      "archiveSha256": "ded03e4a1ce13e851959b0c704502e7da047c7f54a674aeeb1773850edff9cfd",
+      "isolatedSha256": "ded03e4a1ce13e851959b0c704502e7da047c7f54a674aeeb1773850edff9cfd",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/TestForm1.jpeg",
+      "gitBlobSha256": "dd693c979f44b52c37323688d51b3931eaaf26e0fd114b0f9434251c77f9b8dd",
+      "archiveSha256": "dd693c979f44b52c37323688d51b3931eaaf26e0fd114b0f9434251c77f9b8dd",
+      "isolatedSha256": "dd693c979f44b52c37323688d51b3931eaaf26e0fd114b0f9434251c77f9b8dd",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/WhatsApp Chat2.png",
+      "gitBlobSha256": "2dcd4f90fc7e13d82bb88ff2c769020853dd033bf42f21bbd291cdc36925a86b",
+      "archiveSha256": "2dcd4f90fc7e13d82bb88ff2c769020853dd033bf42f21bbd291cdc36925a86b",
+      "isolatedSha256": "2dcd4f90fc7e13d82bb88ff2c769020853dd033bf42f21bbd291cdc36925a86b",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/WhatsApp Chat5.png",
+      "gitBlobSha256": "9ed2e3d7580cc90467f67c7a5800b7c5e9aa2663e853fc0f162423a5f039019c",
+      "archiveSha256": "9ed2e3d7580cc90467f67c7a5800b7c5e9aa2663e853fc0f162423a5f039019c",
+      "isolatedSha256": "9ed2e3d7580cc90467f67c7a5800b7c5e9aa2663e853fc0f162423a5f039019c",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/WorkFlow1.png",
+      "gitBlobSha256": "b1f3c5fbc7941ea8a137f2e27efe45e6117fcda939c0ca969f6368efede381c2",
+      "archiveSha256": "b1f3c5fbc7941ea8a137f2e27efe45e6117fcda939c0ca969f6368efede381c2",
+      "isolatedSha256": "b1f3c5fbc7941ea8a137f2e27efe45e6117fcda939c0ca969f6368efede381c2",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/WorkFlow2.png",
+      "gitBlobSha256": "6099bf24548cc6fe4a34228e154a4e688e829bbb38c27825028c1fd1e145a57e",
+      "archiveSha256": "6099bf24548cc6fe4a34228e154a4e688e829bbb38c27825028c1fd1e145a57e",
+      "isolatedSha256": "6099bf24548cc6fe4a34228e154a4e688e829bbb38c27825028c1fd1e145a57e",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/screencapture-0.png",
+      "gitBlobSha256": "21b173e35c756aa6252ecdcc131ad97f48825c3a296403ea7ed72e5c18e208b0",
+      "archiveSha256": "21b173e35c756aa6252ecdcc131ad97f48825c3a296403ea7ed72e5c18e208b0",
+      "isolatedSha256": "21b173e35c756aa6252ecdcc131ad97f48825c3a296403ea7ed72e5c18e208b0",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/screencapture-1.png",
+      "gitBlobSha256": "bfb75a12106b6ee79dfc00ecb5ac889422b95a9787d113e942ccf757609b7bee",
+      "archiveSha256": "bfb75a12106b6ee79dfc00ecb5ac889422b95a9787d113e942ccf757609b7bee",
+      "isolatedSha256": "bfb75a12106b6ee79dfc00ecb5ac889422b95a9787d113e942ccf757609b7bee",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/CompanySite/screencapture-2.png",
+      "gitBlobSha256": "7d41568e129112138f9b7c28ad52f9690c154ecf77645244eaf85c820aaacaa9",
+      "archiveSha256": "7d41568e129112138f9b7c28ad52f9690c154ecf77645244eaf85c820aaacaa9",
+      "isolatedSha256": "7d41568e129112138f9b7c28ad52f9690c154ecf77645244eaf85c820aaacaa9",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/Ezisight/Cart.png",
+      "gitBlobSha256": "fa4e4f08fac5aa75302f0d22d7b548420f0586a24fd1a11d2464118a8a5a9ee5",
+      "archiveSha256": "fa4e4f08fac5aa75302f0d22d7b548420f0586a24fd1a11d2464118a8a5a9ee5",
+      "isolatedSha256": "fa4e4f08fac5aa75302f0d22d7b548420f0586a24fd1a11d2464118a8a5a9ee5",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/Ezisight/form-1.png",
+      "gitBlobSha256": "160108537923d4281e9da61e41506daad54737703d8b5224f381fb352badfda8",
+      "archiveSha256": "160108537923d4281e9da61e41506daad54737703d8b5224f381fb352badfda8",
+      "isolatedSha256": "160108537923d4281e9da61e41506daad54737703d8b5224f381fb352badfda8",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/Ezisight/form.png",
+      "gitBlobSha256": "ede31807f426796d6a0b338e5086e2d6e264d708ff55519a5a62d2158878dc4f",
+      "archiveSha256": "ede31807f426796d6a0b338e5086e2d6e264d708ff55519a5a62d2158878dc4f",
+      "isolatedSha256": "ede31807f426796d6a0b338e5086e2d6e264d708ff55519a5a62d2158878dc4f",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/Ezisight/login-1.png",
+      "gitBlobSha256": "014d6bf4835873ac3886bd6446fa04f33f7813a82a7150700f150fd4f3349411",
+      "archiveSha256": "014d6bf4835873ac3886bd6446fa04f33f7813a82a7150700f150fd4f3349411",
+      "isolatedSha256": "014d6bf4835873ac3886bd6446fa04f33f7813a82a7150700f150fd4f3349411",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/Ezisight/login.png",
+      "gitBlobSha256": "55285d1cd2d8b7632cb49001fd724e426d1ba478a7e117872c86e5f8f8cb26eb",
+      "archiveSha256": "55285d1cd2d8b7632cb49001fd724e426d1ba478a7e117872c86e5f8f8cb26eb",
+      "isolatedSha256": "55285d1cd2d8b7632cb49001fd724e426d1ba478a7e117872c86e5f8f8cb26eb",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/Ezisight/product-1.png",
+      "gitBlobSha256": "f1944230e74dc493907a0be272f01120701855c1fbc78046a3d9d8b311df9fd3",
+      "archiveSha256": "f1944230e74dc493907a0be272f01120701855c1fbc78046a3d9d8b311df9fd3",
+      "isolatedSha256": "f1944230e74dc493907a0be272f01120701855c1fbc78046a3d9d8b311df9fd3",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/Ezisight/product.png",
+      "gitBlobSha256": "462b71d9548f8d07ec9c248f0fd65e98f36ba0f07d9d28ecb53a7f49cbba6927",
+      "archiveSha256": "462b71d9548f8d07ec9c248f0fd65e98f36ba0f07d9d28ecb53a7f49cbba6927",
+      "isolatedSha256": "462b71d9548f8d07ec9c248f0fd65e98f36ba0f07d9d28ecb53a7f49cbba6927",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/GirlMode/girl1.png",
+      "gitBlobSha256": "fb12b95c2e93d2af140ee586eb7ff59dcd090a41be5380a607eb21916fed7a37",
+      "archiveSha256": "fb12b95c2e93d2af140ee586eb7ff59dcd090a41be5380a607eb21916fed7a37",
+      "isolatedSha256": "fb12b95c2e93d2af140ee586eb7ff59dcd090a41be5380a607eb21916fed7a37",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/GirlMode/girl2.png",
+      "gitBlobSha256": "44d40ae6d250977f2f1d3cbcf310ede4e92cece007a82b4b0958c15541156820",
+      "archiveSha256": "44d40ae6d250977f2f1d3cbcf310ede4e92cece007a82b4b0958c15541156820",
+      "isolatedSha256": "44d40ae6d250977f2f1d3cbcf310ede4e92cece007a82b4b0958c15541156820",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/GirlMode/girl3.png",
+      "gitBlobSha256": "7cebf1e22d4894644bbc1259e60e3d7cab7940e09791ef10aa8ffc09e9b5f03c",
+      "archiveSha256": "7cebf1e22d4894644bbc1259e60e3d7cab7940e09791ef10aa8ffc09e9b5f03c",
+      "isolatedSha256": "7cebf1e22d4894644bbc1259e60e3d7cab7940e09791ef10aa8ffc09e9b5f03c",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/NoBoss/NoBoss1.png",
+      "gitBlobSha256": "65501f270f81d787d214f9a923a57f4eb10bf89a1806cd472547267ae80d1ce7",
+      "archiveSha256": "65501f270f81d787d214f9a923a57f4eb10bf89a1806cd472547267ae80d1ce7",
+      "isolatedSha256": "65501f270f81d787d214f9a923a57f4eb10bf89a1806cd472547267ae80d1ce7",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/NoBoss/NoBoss2.png",
+      "gitBlobSha256": "9160e9a5829021f6d997d72918274f74555d4b3b0bb3fdf96e35e1decfa0c7ea",
+      "archiveSha256": "9160e9a5829021f6d997d72918274f74555d4b3b0bb3fdf96e35e1decfa0c7ea",
+      "isolatedSha256": "9160e9a5829021f6d997d72918274f74555d4b3b0bb3fdf96e35e1decfa0c7ea",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/NoBoss/NoBoss3.png",
+      "gitBlobSha256": "94f19855ad92dc3ff117439187c9a8f11cc799826d4408024bd26e0c068d6d61",
+      "archiveSha256": "94f19855ad92dc3ff117439187c9a8f11cc799826d4408024bd26e0c068d6d61",
+      "isolatedSha256": "94f19855ad92dc3ff117439187c9a8f11cc799826d4408024bd26e0c068d6d61",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/NoBoss/NoBoss4.png",
+      "gitBlobSha256": "ec8e972666f591ddee680dda63fa87d8a834dae595fe72633f09213f4e6150e8",
+      "archiveSha256": "ec8e972666f591ddee680dda63fa87d8a834dae595fe72633f09213f4e6150e8",
+      "isolatedSha256": "ec8e972666f591ddee680dda63fa87d8a834dae595fe72633f09213f4e6150e8",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/PaintBox/paintbox1.png",
+      "gitBlobSha256": "ff7a694bdc385b928cf24556c5d12a6cc0cb0751350700928ca4cbc0dec333fa",
+      "archiveSha256": "ff7a694bdc385b928cf24556c5d12a6cc0cb0751350700928ca4cbc0dec333fa",
+      "isolatedSha256": "ff7a694bdc385b928cf24556c5d12a6cc0cb0751350700928ca4cbc0dec333fa",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/PaintBox/paintbox2.png",
+      "gitBlobSha256": "728aaec7da086b9b776eae3575df1511bccdb5adb05194aa2cece8c7ac226f7d",
+      "archiveSha256": "728aaec7da086b9b776eae3575df1511bccdb5adb05194aa2cece8c7ac226f7d",
+      "isolatedSha256": "728aaec7da086b9b776eae3575df1511bccdb5adb05194aa2cece8c7ac226f7d",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/PaintBox/paintbox3.png",
+      "gitBlobSha256": "72da03e396c9877650a9df0fd80077b71f3236db6fb7b180febb98cd223e5726",
+      "archiveSha256": "72da03e396c9877650a9df0fd80077b71f3236db6fb7b180febb98cd223e5726",
+      "isolatedSha256": "72da03e396c9877650a9df0fd80077b71f3236db6fb7b180febb98cd223e5726",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/PaintBox/paintbox5.png",
+      "gitBlobSha256": "d4261d6d7669a3e4362a8a0de9d3ea2ec909a65bda8039abc645efcd75d58ffc",
+      "archiveSha256": "d4261d6d7669a3e4362a8a0de9d3ea2ec909a65bda8039abc645efcd75d58ffc",
+      "isolatedSha256": "d4261d6d7669a3e4362a8a0de9d3ea2ec909a65bda8039abc645efcd75d58ffc",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/PaintBox/paintbox6.png",
+      "gitBlobSha256": "2c98013a0af542ed2c049476806a92be35e87bac5d300c82e17b27935dfd5d5d",
+      "archiveSha256": "2c98013a0af542ed2c049476806a92be35e87bac5d300c82e17b27935dfd5d5d",
+      "isolatedSha256": "2c98013a0af542ed2c049476806a92be35e87bac5d300c82e17b27935dfd5d5d",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/PaintBox/paintbox7.png",
+      "gitBlobSha256": "883e6628eb9de0bb74ef01242a80f740e402c3ad351a04366a5e4cb5d60582fe",
+      "archiveSha256": "883e6628eb9de0bb74ef01242a80f740e402c3ad351a04366a5e4cb5d60582fe",
+      "isolatedSha256": "883e6628eb9de0bb74ef01242a80f740e402c3ad351a04366a5e4cb5d60582fe",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/Portfolio/Hero.png",
+      "gitBlobSha256": "90909c469a44838512e754c353e79055a45dcd5d46d2b3b64ae2a2f108ff6e7b",
+      "archiveSha256": "90909c469a44838512e754c353e79055a45dcd5d46d2b3b64ae2a2f108ff6e7b",
+      "isolatedSha256": "90909c469a44838512e754c353e79055a45dcd5d46d2b3b64ae2a2f108ff6e7b",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/Portfolio/ProjectDetail.png",
+      "gitBlobSha256": "0839097ee8cc8629973ab3aea8e39fcabc12b31c4ebc0bd14ab0ea4d1efc892b",
+      "archiveSha256": "0839097ee8cc8629973ab3aea8e39fcabc12b31c4ebc0bd14ab0ea4d1efc892b",
+      "isolatedSha256": "0839097ee8cc8629973ab3aea8e39fcabc12b31c4ebc0bd14ab0ea4d1efc892b",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/Portfolio/Projects.png",
+      "gitBlobSha256": "a046bbfb8f033b40746600ddf8760fa13fd859206d98af96c9f5b82e2e2bdbec",
+      "archiveSha256": "a046bbfb8f033b40746600ddf8760fa13fd859206d98af96c9f5b82e2e2bdbec",
+      "isolatedSha256": "a046bbfb8f033b40746600ddf8760fa13fd859206d98af96c9f5b82e2e2bdbec",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep1.png",
+      "gitBlobSha256": "dd075077452175e2ee3c026babbfde0661d15c37079e812433bc0c2a8d129cde",
+      "archiveSha256": "dd075077452175e2ee3c026babbfde0661d15c37079e812433bc0c2a8d129cde",
+      "isolatedSha256": "dd075077452175e2ee3c026babbfde0661d15c37079e812433bc0c2a8d129cde",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep2.png",
+      "gitBlobSha256": "871d5a23f18a76645cb2c1d859032d8616088899582c1e29a56e19936f0a6bcd",
+      "archiveSha256": "871d5a23f18a76645cb2c1d859032d8616088899582c1e29a56e19936f0a6bcd",
+      "isolatedSha256": "871d5a23f18a76645cb2c1d859032d8616088899582c1e29a56e19936f0a6bcd",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep3.png",
+      "gitBlobSha256": "73853dfe647835d25312c3d4873c8cf3722a47839085beea9f9d665b1259927a",
+      "archiveSha256": "73853dfe647835d25312c3d4873c8cf3722a47839085beea9f9d665b1259927a",
+      "isolatedSha256": "73853dfe647835d25312c3d4873c8cf3722a47839085beea9f9d665b1259927a",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep4.png",
+      "gitBlobSha256": "20ce7a2eaf7e1b5aa5004b739dad6ed5b97477ebb00e7f38fa7d782073935f4b",
+      "archiveSha256": "20ce7a2eaf7e1b5aa5004b739dad6ed5b97477ebb00e7f38fa7d782073935f4b",
+      "isolatedSha256": "20ce7a2eaf7e1b5aa5004b739dad6ed5b97477ebb00e7f38fa7d782073935f4b",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep5.png",
+      "gitBlobSha256": "f4ff90fd5c060d5f12027a8e81e7ac981f682bc379fcd97b263fc42b7435ca4a",
+      "archiveSha256": "f4ff90fd5c060d5f12027a8e81e7ac981f682bc379fcd97b263fc42b7435ca4a",
+      "isolatedSha256": "f4ff90fd5c060d5f12027a8e81e7ac981f682bc379fcd97b263fc42b7435ca4a",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep6.png",
+      "gitBlobSha256": "72cb1a893960cb95c84720b7de6c9b3de646b0289f3b0be4ce52ba21aeb71bac",
+      "archiveSha256": "72cb1a893960cb95c84720b7de6c9b3de646b0289f3b0be4ce52ba21aeb71bac",
+      "isolatedSha256": "72cb1a893960cb95c84720b7de6c9b3de646b0289f3b0be4ce52ba21aeb71bac",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep7.png",
+      "gitBlobSha256": "a971199f044425bf719aedc84daed43d1982b5b12d32ecfbb26851228e0eba1a",
+      "archiveSha256": "a971199f044425bf719aedc84daed43d1982b5b12d32ecfbb26851228e0eba1a",
+      "isolatedSha256": "a971199f044425bf719aedc84daed43d1982b5b12d32ecfbb26851228e0eba1a",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/ProjectImages/RunSheep/runSheep8.png",
+      "gitBlobSha256": "858466115933724eed4e2430e32ddf9d6849ed9e52c89eaf24698da005010f9e",
+      "archiveSha256": "858466115933724eed4e2430e32ddf9d6849ed9e52c89eaf24698da005010f9e",
+      "isolatedSha256": "858466115933724eed4e2430e32ddf9d6849ed9e52c89eaf24698da005010f9e",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/file.svg",
+      "gitBlobSha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
+      "archiveSha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
+      "isolatedSha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/globe.svg",
+      "gitBlobSha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
+      "archiveSha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
+      "isolatedSha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/next.svg",
+      "gitBlobSha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
+      "archiveSha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
+      "isolatedSha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/portfolio/concierge.png",
+      "gitBlobSha256": "cd63a92172452de23c663b5b5ba8f2675fb8fa7934eb2fead31e8813f8839120",
+      "archiveSha256": "cd63a92172452de23c663b5b5ba8f2675fb8fa7934eb2fead31e8813f8839120",
+      "isolatedSha256": "cd63a92172452de23c663b5b5ba8f2675fb8fa7934eb2fead31e8813f8839120",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/portfolio/hero-system.svg",
+      "gitBlobSha256": "3ff0a82bda129be5ae3f7f4f4e396a075fdd68d36e8d098cb1e59f17186e46e6",
+      "archiveSha256": "6b65fec02abfea3d4f0b410ad8914ea72a3f125e104656e7ae66095fa504b088",
+      "isolatedSha256": "6b65fec02abfea3d4f0b410ad8914ea72a3f125e104656e7ae66095fa504b088",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "public/portfolio/media.png",
+      "gitBlobSha256": "7df88acd0f72ee01af1f1cb742b3fb05862b70ff054146751bddc26925a02fba",
+      "archiveSha256": "7df88acd0f72ee01af1f1cb742b3fb05862b70ff054146751bddc26925a02fba",
+      "isolatedSha256": "7df88acd0f72ee01af1f1cb742b3fb05862b70ff054146751bddc26925a02fba",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/portfolio/portal-detail.svg",
+      "gitBlobSha256": "74d1318eceb7e60ed4b3a416b575aa8b5c9d366dd05296c51623b9854f49528c",
+      "archiveSha256": "12eb4292f32b7e133e4c2b420a6336a1832e90c3cb601b23ee52711653d1e20c",
+      "isolatedSha256": "12eb4292f32b7e133e4c2b420a6336a1832e90c3cb601b23ee52711653d1e20c",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "public/portfolio/portal.png",
+      "gitBlobSha256": "1a2c1a287a14f7b347df8fc2f199ced3400232f8224c5713db6cfbe8cfa9face",
+      "archiveSha256": "1a2c1a287a14f7b347df8fc2f199ced3400232f8224c5713db6cfbe8cfa9face",
+      "isolatedSha256": "1a2c1a287a14f7b347df8fc2f199ced3400232f8224c5713db6cfbe8cfa9face",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/portfolio/social-card.png",
+      "gitBlobSha256": "971683b9ef4ff8675ed894ea292fafdd1382928b31ab17b37d0aaf312fcd0f8e",
+      "archiveSha256": "971683b9ef4ff8675ed894ea292fafdd1382928b31ab17b37d0aaf312fcd0f8e",
+      "isolatedSha256": "971683b9ef4ff8675ed894ea292fafdd1382928b31ab17b37d0aaf312fcd0f8e",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/portfolio/workbench.png",
+      "gitBlobSha256": "c88013f217bb8ccfa1d824a110454d62c0e255e95845fd4b94751193384b22e4",
+      "archiveSha256": "c88013f217bb8ccfa1d824a110454d62c0e255e95845fd4b94751193384b22e4",
+      "isolatedSha256": "c88013f217bb8ccfa1d824a110454d62c0e255e95845fd4b94751193384b22e4",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/projectThumbnail/Ezisight.png",
+      "gitBlobSha256": "7c4be7bb33998e315b7c1b0d14d814cc94d0123b1ebe871c910b76d3e758000f",
+      "archiveSha256": "7c4be7bb33998e315b7c1b0d14d814cc94d0123b1ebe871c910b76d3e758000f",
+      "isolatedSha256": "7c4be7bb33998e315b7c1b0d14d814cc94d0123b1ebe871c910b76d3e758000f",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/projectThumbnail/ai-concierge.svg",
+      "gitBlobSha256": "1ae72e2eee98a582e84facadc76e310d89b341f6a2ba18a4f2a9089042b215bc",
+      "archiveSha256": "0c7d12536dbc61da9ce2fe903de206359dc9810aa72d0020a89b347fc108b5c2",
+      "isolatedSha256": "0c7d12536dbc61da9ce2fe903de206359dc9810aa72d0020a89b347fc108b5c2",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "public/projectThumbnail/alpha-ai.svg",
+      "gitBlobSha256": "38d2cb2ade3cab46c2f9b232c851dfcc39a87921da589f1907d550f68272a3c7",
+      "archiveSha256": "b3800bb4a81e0cfc9b4f7160d4e0f39102a37ec1cadaef5382ffb8b2b8cd3ca9",
+      "isolatedSha256": "b3800bb4a81e0cfc9b4f7160d4e0f39102a37ec1cadaef5382ffb8b2b8cd3ca9",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "public/projectThumbnail/artwork1.jpg",
+      "gitBlobSha256": "b888e6900edb2539db2597ccb446428bcf9239dbaafb99c2b95d1c1ee220a009",
+      "archiveSha256": "b888e6900edb2539db2597ccb446428bcf9239dbaafb99c2b95d1c1ee220a009",
+      "isolatedSha256": "b888e6900edb2539db2597ccb446428bcf9239dbaafb99c2b95d1c1ee220a009",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/projectThumbnail/artwork1.png",
+      "gitBlobSha256": "05c532e41ab2b5e8b237fbb77051d16918876cd7ee96ad0ebab6f547632a55ed",
+      "archiveSha256": "05c532e41ab2b5e8b237fbb77051d16918876cd7ee96ad0ebab6f547632a55ed",
+      "isolatedSha256": "05c532e41ab2b5e8b237fbb77051d16918876cd7ee96ad0ebab6f547632a55ed",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/projectThumbnail/artwork2.png",
+      "gitBlobSha256": "04ca7d42bbf7b4b2f6e00012eecec00553efcbf502502e0040fc0d36e15abc32",
+      "archiveSha256": "04ca7d42bbf7b4b2f6e00012eecec00553efcbf502502e0040fc0d36e15abc32",
+      "isolatedSha256": "04ca7d42bbf7b4b2f6e00012eecec00553efcbf502502e0040fc0d36e15abc32",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/projectThumbnail/autoxing-robotics.svg",
+      "gitBlobSha256": "9a60a0d8332ab1a0692dffb7995f6183a92e9ca968457d2328c156a522710af2",
+      "archiveSha256": "d26f861de5b27b2233eefc30f41cc1cc64e90ae73d62f79727b866376000bf37",
+      "isolatedSha256": "d26f861de5b27b2233eefc30f41cc1cc64e90ae73d62f79727b866376000bf37",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "public/projectThumbnail/company2.png",
+      "gitBlobSha256": "8f09c98ac853a84f17f26f5513f32e9e5b6aa3d521fc08a8aec508473d7d4c7a",
+      "archiveSha256": "8f09c98ac853a84f17f26f5513f32e9e5b6aa3d521fc08a8aec508473d7d4c7a",
+      "isolatedSha256": "8f09c98ac853a84f17f26f5513f32e9e5b6aa3d521fc08a8aec508473d7d4c7a",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/projectThumbnail/enterprise-ai-infra.svg",
+      "gitBlobSha256": "978bdd1595806aec678b86be32b41e7c4103edc4f4d401ce1c78d40e9b75a6f5",
+      "archiveSha256": "6d945b5c048004bb66f3008076e71d249679cd17b0c90830dafb82cb7a66b164",
+      "isolatedSha256": "6d945b5c048004bb66f3008076e71d249679cd17b0c90830dafb82cb7a66b164",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "public/projectThumbnail/noboss1.png",
+      "gitBlobSha256": "1600df9b6d9c10451ec14cda521bd14d9f81936722361c61dd5c176444859c38",
+      "archiveSha256": "1600df9b6d9c10451ec14cda521bd14d9f81936722361c61dd5c176444859c38",
+      "isolatedSha256": "1600df9b6d9c10451ec14cda521bd14d9f81936722361c61dd5c176444859c38",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/projectThumbnail/paintbox.png",
+      "gitBlobSha256": "cd913b120e788086c25092c801c8f9ad0457c9640f621c850f317742c3dd90c8",
+      "archiveSha256": "cd913b120e788086c25092c801c8f9ad0457c9640f621c850f317742c3dd90c8",
+      "isolatedSha256": "cd913b120e788086c25092c801c8f9ad0457c9640f621c850f317742c3dd90c8",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/projectThumbnail/portfolio.png",
+      "gitBlobSha256": "23221cd6ff5b924ed6a616bc10265d405c8f2c48417ce5ff225a9485d46a9203",
+      "archiveSha256": "23221cd6ff5b924ed6a616bc10265d405c8f2c48417ce5ff225a9485d46a9203",
+      "isolatedSha256": "23221cd6ff5b924ed6a616bc10265d405c8f2c48417ce5ff225a9485d46a9203",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/projectThumbnail/runsheep1.png",
+      "gitBlobSha256": "962e4662ed52021e26b3d11a425c53167ddf75b7eeb4864831a2e4e5861403b5",
+      "archiveSha256": "962e4662ed52021e26b3d11a425c53167ddf75b7eeb4864831a2e4e5861403b5",
+      "isolatedSha256": "962e4662ed52021e26b3d11a425c53167ddf75b7eeb4864831a2e4e5861403b5",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/vercel.svg",
+      "gitBlobSha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
+      "archiveSha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
+      "isolatedSha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "public/window.svg",
+      "gitBlobSha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
+      "archiveSha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
+      "isolatedSha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": false
+    },
+    {
+      "path": "tailwind.config.js",
+      "gitBlobSha256": "b7b3c53e996bae0224139a7b63ba46dd9ad9ae4e968312fda2a7cac6868ae964",
+      "archiveSha256": "bffa62e96ddb88032b08545aed4f9746640e6de79c79011c1885610ecabdb56b",
+      "isolatedSha256": "bffa62e96ddb88032b08545aed4f9746640e6de79c79011c1885610ecabdb56b",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    },
+    {
+      "path": "tsconfig.json",
+      "gitBlobSha256": "be18523b23b78b6e1a876ddd107d330f0168bddf09d751b57e0b5edce69c66f3",
+      "archiveSha256": "fbff01604d6cb54694be707f26e7a0eb21a6ef796b888c6a1dab1839fa7c6ccc",
+      "isolatedSha256": "fbff01604d6cb54694be707f26e7a0eb21a6ef796b888c6a1dab1839fa7c6ccc",
+      "archiveBytesMatch": true,
+      "sourceContentMatch": true,
+      "onlyCRLFDiffers": true
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "browser": "Chrome",
+  "method": "Supported locator.press; Tab/Enter navigation and native Escape verified; full dialog Tab cycle remains inconclusive",
+  "results": [
+    {
+      "check": "Tab from skip link advances to brand link",
+      "href": "/",
+      "tag": "A",
+      "text": "Desheng Kong",
+      "pass": true
+    },
+    {
+      "check": "Native Enter activates About navigation",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/about",
+      "pass": true
+    },
+    {
+      "check": "Native Enter opens historical image dialog",
+      "pass": true
+    },
+    {
+      "check": "Tab stays inside native dialog",
+      "focused": null,
+      "inDialog": false,
+      "pass": false,
+      "result": "inconclusive",
+      "note": "Focus left DOM dialog; native browser chrome focus cannot be distinguished through this read-only browser surface. Requires physical-keyboard confirmation; not counted as passed."
+    },
+    {
+      "check": "Native Escape closes dialog and restores trigger",
+      "focused": "Expand image: USR homepage hero screenshot",
+      "modals": 0,
+      "overflow": "hidden",
+      "pass": true
+    },
+    {
+      "check": "Native Escape after close event restores scrolling",
+      "before": {
+        "modals": 1,
+        "overflow": "hidden"
+      },
+      "after": {
+        "focused": "Expand image: USR homepage hero screenshot",
+        "modals": 0,
+        "overflow": ""
+      },
+      "pass": true
+    }
+  ]
+}

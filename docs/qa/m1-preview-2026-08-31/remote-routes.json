@@ -1,0 +1,196 @@
+{
+  "buildId": "MzdCOZ9TZQHLE8lpG6fHV",
+  "method": "Authenticated Chrome DOM through ordinary Vercel login; innerText preserves visible br boundaries; no raw HTTP status claim",
+  "results": [
+    {
+      "path": "/",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/",
+      "h1": [
+        "AI systems. Built for real work."
+      ],
+      "mainCount": 1,
+      "title": "Desheng Kong — Applied AI & Practical Systems",
+      "pass": true
+    },
+    {
+      "path": "/about",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/about",
+      "h1": [
+        "From interfaces to AI systems."
+      ],
+      "mainCount": 1,
+      "title": "About | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/contact",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/contact",
+      "h1": [
+        "Let’s talk."
+      ],
+      "mainCount": 1,
+      "title": "Get in touch | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects",
+      "h1": [
+        "Projects"
+      ],
+      "mainCount": 1,
+      "title": "Projects | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects/3d-character-study",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects/3d-character-study",
+      "h1": [
+        "3D Character Study"
+      ],
+      "mainCount": 1,
+      "title": "3D Character Study | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects/3d-environment-01",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects/3d-environment-01",
+      "h1": [
+        "3D Environment Study"
+      ],
+      "mainCount": 1,
+      "title": "3D Environment Study | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects/alpha-ai",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects/alpha-ai",
+      "h1": [
+        "AI Platform — Annotation & Evaluation Workflow"
+      ],
+      "mainCount": 1,
+      "title": "AI Platform — Annotation & Evaluation Workflow | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects/autoxing-robotics",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects/autoxing-robotics",
+      "h1": [
+        "Autonomous Robot Deployment — Enterprise Data Center"
+      ],
+      "mainCount": 1,
+      "title": "Autonomous Robot Deployment — Enterprise Data Center | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects/company-website",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects/company-website",
+      "h1": [
+        "Ultimaite Strata Robotics Corporate Website"
+      ],
+      "mainCount": 1,
+      "title": "Corporate Website Development | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects/enterprise-ai-infrastructure",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects/enterprise-ai-infrastructure",
+      "h1": [
+        "Enterprise AI Infrastructure Deployment Support"
+      ],
+      "mainCount": 1,
+      "title": "Enterprise AI Infrastructure Deployment Support | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects/ezisight-ecommerce",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects/ezisight-ecommerce",
+      "h1": [
+        "EziSight Website Migration & Frontend Rebuild"
+      ],
+      "mainCount": 1,
+      "title": "EziSight E-commerce Website | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects/iclaude-workbench",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects/iclaude-workbench",
+      "h1": [
+        "iClaude Workbench"
+      ],
+      "mainCount": 1,
+      "title": "iClaude Workbench | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects/media-visual-tools",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects/media-visual-tools",
+      "h1": [
+        "Media & Visual Tools"
+      ],
+      "mainCount": 1,
+      "title": "Media & Visual Tools | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects/no-boss",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects/no-boss",
+      "h1": [
+        "NO BOSS"
+      ],
+      "mainCount": 1,
+      "title": "NO BOSS | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects/paint-cube",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects/paint-cube",
+      "h1": [
+        "Paint Cube"
+      ],
+      "mainCount": 1,
+      "title": "Paint Cube | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects/portfolio-v1",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects/portfolio-v1",
+      "h1": [
+        "Portfolio"
+      ],
+      "mainCount": 1,
+      "title": "Portfolio v1 | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects/run-sheep",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects/run-sheep",
+      "h1": [
+        "Run Sheep"
+      ],
+      "mainCount": 1,
+      "title": "Run Sheep | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects/uai-api-customer-portal",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects/uai-api-customer-portal",
+      "h1": [
+        "UAI API Customer Portal"
+      ],
+      "mainCount": 1,
+      "title": "UAI API Customer Portal | Desheng Kong",
+      "pass": true
+    },
+    {
+      "path": "/projects/virtual-concierge",
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/projects/virtual-concierge",
+      "h1": [
+        "Virtual Concierge"
+      ],
+      "mainCount": 1,
+      "title": "Virtual Concierge | Desheng Kong",
+      "pass": true
+    }
+  ]
+}

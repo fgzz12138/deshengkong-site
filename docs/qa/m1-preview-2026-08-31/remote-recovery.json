@@ -1,0 +1,16 @@
+[
+  {
+    "path": "/__m1-preview-not-found",
+    "heading": true,
+    "recovery": true
+  },
+  {
+    "path": "/projects/__m1-preview-not-found",
+    "heading": true,
+    "recovery": true
+  },
+  {
+    "check": "404 recovery link navigates to projects",
+    "pass": true
+  }
+]

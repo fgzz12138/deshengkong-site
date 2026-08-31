@@ -1,0 +1,83 @@
+{
+  "scope": "Personal portfolio M1 independent Preview only",
+  "status": "ready-preview",
+  "authorization": "User explicitly authorised GitHub/Vercel login and official CLI independent Preview publishing on 2026-08-31; show manual login if needed.",
+  "sourceCommit": "97254f6",
+  "identity": "fgzz12138",
+  "project": "fgzz12138s-projects/deshengkong-site",
+  "projectId": "prj_B19Xq8UXrguNEFGBX4jTXQlbu7JQ",
+  "productionBefore": {
+    "id": "dpl_8Yfsm7janYL8nMiLU8RPakv96UHa",
+    "target": "production",
+    "state": "Ready",
+    "url": "https://deshengkong-site-akrxqlyo3-fgzz12138s-projects.vercel.app",
+    "aliases": [
+      "https://www.deshengkong.com",
+      "https://deshengkong.com",
+      "https://deshengkong-site-fgzz12138s-projects.vercel.app",
+      "https://deshengkong-site-git-main-fgzz12138s-projects.vercel.app"
+    ]
+  },
+  "projectSettings": {
+    "framework": "nextjs",
+    "nodeVersion": "24.x",
+    "rootDirectory": null,
+    "buildCommand": null,
+    "installCommand": null,
+    "outputDirectory": null
+  },
+  "windowsAttempt": {
+    "nextBuild": "passed",
+    "buildId": "o74kCqpNGh3D48-sQcWjD",
+    "packaging": "failed",
+    "error": "Unable to find lambda for route: /projects/3d-character-study",
+    "diagnosis": "Vercel adapter records projects\\[Slug] with Windows path.join and queries projects/[Slug] with POSIX joining; all Next page and trace files exist. No failed artifact was uploaded."
+  },
+  "isolatedBuild": {
+    "root": ".vercel/linux-build",
+    "os": "Existing Ubuntu WSL on this workstation",
+    "node": "24.16.0",
+    "nodeArchive": "https://nodejs.org/download/release/v24.16.0/node-v24.16.0-linux-x64.tar.xz",
+    "nodeArchiveSha256": "d804845d34eddc21dc1092b519d643ef40b1f58ec5dec5c22b1f4bd8fabde6c9",
+    "vercelCli": "59.10.0",
+    "next": "16.3.3",
+    "source": "git archive of 97254f6: app, public and all root build/dependency configuration",
+    "credentials": "Official CLI storage only; no credential value is recorded in this evidence.",
+    "packaging": "passed",
+    "identityVerified": "fgzz12138",
+    "crossOsCredentialReuse": "failed; separate official Ubuntu login completed"
+  },
+  "releaseBoundaries": {
+    "target": "preview",
+    "prebuilt": true,
+    "skipDomain": false,
+    "skipDomainNote": "CLI rejected --skip-domain as production-only before uploading. Retried without that option while retaining --target=preview; never switched to production.",
+    "pushMain": false,
+    "productionDeploy": false,
+    "protectionChanges": false,
+    "companySystemWrites": false
+  },
+  "buildId": "MzdCOZ9TZQHLE8lpG6fHV",
+  "preview": {
+    "id": "dpl_3Bg4obR6Km9kNnEJqDJr1AAJee2E",
+    "target": "preview",
+    "state": "Ready",
+    "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app",
+    "access": "Existing Vercel login required"
+  },
+  "productionAfter": {
+    "id": "dpl_8Yfsm7janYL8nMiLU8RPakv96UHa",
+    "target": "production",
+    "state": "Ready",
+    "url": "https://deshengkong-site-akrxqlyo3-fgzz12138s-projects.vercel.app",
+    "aliases": [
+      "https://www.deshengkong.com",
+      "https://deshengkong.com",
+      "https://deshengkong-site-fgzz12138s-projects.vercel.app",
+      "https://deshengkong-site-git-main-fgzz12138s-projects.vercel.app"
+    ]
+  },
+  "productionUnchanged": true,
+  "artifactUnchangedBeforeAfterUpload": true,
+  "outputSha256": "3dc69d55cfe05a889249711074494f22e059fc926ad9a01b437f3512c13b1833"
+}

@@ -1,0 +1,246 @@
+{
+  "buildId": "MzdCOZ9TZQHLE8lpG6fHV",
+  "local": [
+    {
+      "base": "http://127.0.0.1:3180",
+      "page": "local-home",
+      "path": "/",
+      "requestedWidth": 1440,
+      "brokenImages": [],
+      "clientWidth": 1425,
+      "h1": "AI systems.\nBuilt for\nreal work.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1425,
+      "shell": {
+        "left": 57.59375,
+        "width": 1309.796875
+      },
+      "width": 1440
+    },
+    {
+      "base": "http://127.0.0.1:3180",
+      "page": "local-home",
+      "path": "/",
+      "requestedWidth": 390,
+      "brokenImages": [],
+      "clientWidth": 375,
+      "h1": "AI systems.\nBuilt for\nreal work.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 375,
+      "shell": {
+        "left": 22,
+        "width": 331
+      },
+      "width": 390
+    },
+    {
+      "base": "http://127.0.0.1:3180",
+      "page": "local-about",
+      "path": "/about",
+      "requestedWidth": 1440,
+      "brokenImages": [],
+      "clientWidth": 1425,
+      "h1": "From interfaces\nto AI systems.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1425,
+      "shell": {
+        "left": 57.59375,
+        "width": 1309.796875
+      },
+      "width": 1440
+    },
+    {
+      "base": "http://127.0.0.1:3180",
+      "page": "local-about",
+      "path": "/about",
+      "requestedWidth": 390,
+      "brokenImages": [],
+      "clientWidth": 375,
+      "h1": "From interfaces\nto AI systems.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 375,
+      "shell": {
+        "left": 22,
+        "width": 331
+      },
+      "width": 390
+    },
+    {
+      "base": "http://127.0.0.1:3180",
+      "page": "local-contact",
+      "path": "/contact",
+      "requestedWidth": 1440,
+      "brokenImages": [],
+      "clientWidth": 1425,
+      "h1": "Let’s talk.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1425,
+      "shell": {
+        "left": 57.59375,
+        "width": 1309.796875
+      },
+      "width": 1440
+    },
+    {
+      "base": "http://127.0.0.1:3180",
+      "page": "local-contact",
+      "path": "/contact",
+      "requestedWidth": 390,
+      "brokenImages": [],
+      "clientWidth": 375,
+      "h1": "Let’s talk.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 375,
+      "shell": {
+        "left": 22,
+        "width": 331
+      },
+      "width": 390
+    },
+    {
+      "base": "http://127.0.0.1:3180",
+      "page": "local-projects",
+      "path": "/projects",
+      "requestedWidth": 1440,
+      "brokenImages": [],
+      "clientWidth": 1425,
+      "h1": "Projects",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1425,
+      "shell": {
+        "left": 57.59375,
+        "width": 1309.796875
+      },
+      "width": 1440
+    },
+    {
+      "base": "http://127.0.0.1:3180",
+      "page": "local-projects",
+      "path": "/projects",
+      "requestedWidth": 390,
+      "brokenImages": [],
+      "clientWidth": 375,
+      "h1": "Projects",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 375,
+      "shell": {
+        "left": 22,
+        "width": 331
+      },
+      "width": 390
+    },
+    {
+      "base": "http://127.0.0.1:3180",
+      "page": "local-portal",
+      "path": "/projects/uai-api-customer-portal",
+      "requestedWidth": 1440,
+      "brokenImages": [],
+      "clientWidth": 1425,
+      "h1": "UAI API\nCustomer Portal",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1425,
+      "shell": {
+        "left": 57.59375,
+        "width": 1309.796875
+      },
+      "width": 1440
+    },
+    {
+      "base": "http://127.0.0.1:3180",
+      "page": "local-portal",
+      "path": "/projects/uai-api-customer-portal",
+      "requestedWidth": 390,
+      "brokenImages": [],
+      "clientWidth": 375,
+      "h1": "UAI API\nCustomer Portal",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 375,
+      "shell": {
+        "left": 22,
+        "width": 331
+      },
+      "width": 390
+    }
+  ],
+  "remote": [
+    {
+      "base": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app",
+      "page": "home",
+      "path": "/",
+      "requestedWidth": 1440,
+      "brokenImages": [],
+      "clientWidth": 1425,
+      "h1": "AI systems.\nBuilt for\nreal work.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1425,
+      "shell": {
+        "left": 57.59375,
+        "width": 1309.796875
+      },
+      "width": 1440
+    },
+    {
+      "base": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app",
+      "page": "home",
+      "path": "/",
+      "requestedWidth": 390,
+      "brokenImages": [],
+      "clientWidth": 375,
+      "h1": "AI systems.\nBuilt for\nreal work.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 375,
+      "shell": {
+        "left": 22,
+        "width": 331
+      },
+      "width": 390
+    },
+    {
+      "base": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app",
+      "page": "about",
+      "path": "/about",
+      "requestedWidth": 1440,
+      "brokenImages": [],
+      "clientWidth": 1425,
+      "h1": "From interfaces\nto AI systems.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 1425,
+      "shell": {
+        "left": 57.59375,
+        "width": 1309.796875
+      },
+      "width": 1440
+    },
+    {
+      "base": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app",
+      "page": "about",
+      "path": "/about",
+      "requestedWidth": 390,
+      "brokenImages": [],
+      "clientWidth": 375,
+      "h1": "From interfaces\nto AI systems.",
+      "mainCount": 1,
+      "pendingImages": 0,
+      "scrollWidth": 375,
+      "shell": {
+        "left": 22,
+        "width": 331
+      },
+      "width": 390
+    }
+  ],
+  "remoteScreenshotLimit": "Four captures (home/About at1440/390) completed; subsequent CDP screenshot/scroll commands timed out. Other routes verified in authenticated DOM; no uncompleted capture is counted."
+}

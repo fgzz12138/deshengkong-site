@@ -1,5 +1,7 @@
 # M1 completion checks — 2026-08-31
 
+Historical checkpoint: the later [Preview release evidence](../m1-preview-2026-08-31/README.md) supersedes the login/deployment gate below. This directory continues to identify its original local build and tests.
+
 Scope: Personal. Worktree: `E:/gitclone/deshengkong-site-m1`. Branch: `codex/personal-site-m1`.
 
 The browser connection recovered in this continuation. The wider layout now has fresh rendered evidence. Remaining implementation defects were fixed and verified locally. **M1 is still awaiting native keyboard confirmation, Vercel login authorisation, stable remote Preview and user acceptance.** No production deployment or remote push occurred.

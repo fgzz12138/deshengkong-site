@@ -1,0 +1,69 @@
+{
+  "method": "Supported Chrome pageAssets inventory and bundle; existing Vercel browser login, no cookie access or authentication bypass",
+  "buildId": "MzdCOZ9TZQHLE8lpG6fHV",
+  "results": [
+    {
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/portfolio/hero-system.svg",
+      "kind": "image",
+      "bytes": 169439,
+      "sha256": "6b65fec02abfea3d4f0b410ad8914ea72a3f125e104656e7ae66095fa504b088",
+      "matchesVercelArtifact": true
+    },
+    {
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/_next/static/chunks/25voekzkjp_ge.css",
+      "kind": "stylesheet",
+      "bytes": 91139,
+      "sha256": "851d433808edb3726a6daf2e59f566a001a0559555bedcb9e5d5e09538a36f91",
+      "matchesVercelArtifact": true
+    },
+    {
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/portfolio/concierge.png",
+      "kind": "image",
+      "bytes": 83504,
+      "sha256": "cd63a92172452de23c663b5b5ba8f2675fb8fa7934eb2fead31e8813f8839120",
+      "matchesVercelArtifact": true
+    },
+    {
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/portfolio/portal.png",
+      "kind": "image",
+      "bytes": 61398,
+      "sha256": "1a2c1a287a14f7b347df8fc2f199ced3400232f8224c5713db6cfbe8cfa9face",
+      "matchesVercelArtifact": true
+    },
+    {
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/portfolio/workbench.png",
+      "kind": "image",
+      "bytes": 75761,
+      "sha256": "c88013f217bb8ccfa1d824a110454d62c0e255e95845fd4b94751193384b22e4",
+      "matchesVercelArtifact": true
+    },
+    {
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/portfolio/media.png",
+      "kind": "image",
+      "bytes": 70322,
+      "sha256": "7df88acd0f72ee01af1f1cb742b3fb05862b70ff054146751bddc26925a02fba",
+      "matchesVercelArtifact": true
+    },
+    {
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/favicon.ico?favicon.3wken74jwtje5.ico",
+      "kind": "image",
+      "bytes": 150082,
+      "sha256": "4949ea3c71099d33b14cb180fb96f015c5ab1a64b695284ce3c9cb0fbc6b6761",
+      "matchesVercelArtifact": true
+    },
+    {
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/_next/static/chunks/1kucgtunavrsu.css",
+      "kind": "stylesheet",
+      "bytes": 9441,
+      "sha256": "ac87c6d4bd6ab1567b1d0205eb116550f86fa1803901a3da29380242610330d8",
+      "matchesVercelArtifact": true
+    },
+    {
+      "url": "https://deshengkong-site-bysxwt2p0-fgzz12138s-projects.vercel.app/_next/static/chunks/09ek3uh0x7hoj.css",
+      "kind": "stylesheet",
+      "bytes": 11259,
+      "sha256": "272017dfd7fac6da01c5300ccee2e33e34cef36bc27f426d9966eedb691f3d6f",
+      "matchesVercelArtifact": true
+    }
+  ]
+}
