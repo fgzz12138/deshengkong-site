@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "checks": [
+    {
+      "id": "editable-master-reopened",
+      "status": "pass",
+      "evidence": "Root read the real source-edit evidence; QA reviewer viewed the reopened and edited PNGs. XML serialize/parse/reopen preserves native objects and produces zero unchanged-render pixel differences. Native title From interfaces becomes From ideas, and about-introduction moves by translate(12 6), producing 52295 changed pixels. The delivery master was not modified. This is XML source editor round-trip + sharp/librsvg rendering, not GUI-editor acceptance. See qa/roundtrip-evidence.json."
+    },
+    {
+      "id": "text-overflow-reviewed",
+      "status": "pass",
+      "evidence": "Root and QA reviewer visually inspected both original-size page PNGs and the final combined PNG. No visible text overflow or unintended clipping: long contact email, About introduction, three work-method columns, learning card, buttons and both footers fit their intended regions."
+    },
+    {
+      "id": "unexpected-overlap-reviewed",
+      "status": "pass",
+      "evidence": "Root reviewed the final combined PNG after the CV-arrow correction; QA reviewer also viewed it and both source-page renders. No unintended element overlap. DK profile card, About columns/toolkit/background sections and contact email/three-link-card/guidance sections remain separated. Contact CV uses a downward arrow; LinkedIn/GitHub retain outbound arrows."
+    },
+    {
+      "id": "orphan-wrap-reviewed",
+      "status": "pass",
+      "evidence": "Root and QA reviewer inspected deliberate heading, paragraph and list line breaks. No visible one-letter or one-character orphan wrapping was found in either final page. The learning-topic disclaimer remains readable and separate from current-work claims."
+    },
+    {
+      "id": "canvas-ratio-reviewed",
+      "status": "pass",
+      "evidence": "Root visually confirmed both complete 1024x1536 artboards, including header and footer. Actual XML/viewBox and PNG metadata match each page at 1024x1536 and the combined master at 2112x1536 with a 64-unit gap. See qa/svg-structure.json and qa/render-evidence.json."
+    },
+    {
+      "id": "native-only-svg-structure-security",
+      "status": "pass",
+      "evidence": "qa/svg-structure.json"
+    },
+    {
+      "id": "native-edit-roundtrip",
+      "status": "pass",
+      "evidence": "qa/roundtrip-evidence.json"
+    },
+    {
+      "id": "prior-approved-bundle-unchanged",
+      "status": "pass",
+      "evidence": "qa/prior-bundle-guard.json"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_id": "deshengkong-site-m0-about-contact-v1",
+  "artifact_type": "diagram",
+  "delivery_mode": "editable",
+  "explicit_raster_only_request": false,
+  "master": {
+    "path": "about-contact-master.svg",
+    "format": "svg"
+  },
+  "previews": [
+    {
+      "path": "qa/previews/01-about-desktop.png",
+      "format": "png"
+    },
+    {
+      "path": "qa/previews/02-contact-desktop.png",
+      "format": "png"
+    },
+    {
+      "path": "qa/previews/about-contact-master.png",
+      "format": "png"
+    }
+  ],
+  "assets_manifest": "assets-manifest.json",
+  "qa_report": "qa/qa-report.json"
+}

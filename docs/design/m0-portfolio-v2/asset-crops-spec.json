@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "home-system-illustration",
+      "file": "assets/home-system-illustration.png",
+      "source": "../m0-portfolio-v1/01-home-desktop.png",
+      "source_sha256": "2dcb7892cc17819c0699bf74331d60b854f4b09aed1f470253102d6c10ac738e",
+      "crop_box_xyxy": [
+        617,
+        109,
+        987,
+        520
+      ],
+      "dimensions_px": [
+        370,
+        411
+      ],
+      "sha256": "58911a2cf435c463cba05e57efed290d371bf8a5786db64443ec120168096d91",
+      "provenance": "Local Pillow crop of user-authorized ImageGen M0 reference; generated concept illustration, not product evidence.",
+      "editability": "Independently replaceable raster illustration. Small text within the illustration remains raster; all enclosing portfolio copy and disclosure labels are native SVG text."
+    },
+    {
+      "id": "home-concierge-illustration",
+      "file": "assets/home-concierge-illustration.png",
+      "source": "../m0-portfolio-v1/01-home-desktop.png",
+      "source_sha256": "2dcb7892cc17819c0699bf74331d60b854f4b09aed1f470253102d6c10ac738e",
+      "crop_box_xyxy": [
+        40,
+        781,
+        499,
+        946
+      ],
+      "dimensions_px": [
+        459,
+        165
+      ],
+      "sha256": "cd63a92172452de23c663b5b5ba8f2675fb8fa7934eb2fead31e8813f8839120",
+      "provenance": "Local Pillow crop of user-authorized ImageGen M0 reference; generated concept illustration, not product evidence.",
+      "editability": "Independently replaceable raster illustration. Small text within the illustration remains raster; all enclosing portfolio copy and disclosure labels are native SVG text."
+    },
+    {
+      "id": "home-portal-illustration",
+      "file": "assets/home-portal-illustration.png",
+      "source": "../m0-portfolio-v1/01-home-desktop.png",
+      "source_sha256": "2dcb7892cc17819c0699bf74331d60b854f4b09aed1f470253102d6c10ac738e",
+      "crop_box_xyxy": [
+        515,
+        781,
+        982,
+        946
+      ],
+      "dimensions_px": [
+        467,
+        165
+      ],
+      "sha256": "1a2c1a287a14f7b347df8fc2f199ced3400232f8224c5713db6cfbe8cfa9face",
+      "provenance": "Local Pillow crop of user-authorized ImageGen M0 reference; generated concept illustration, not product evidence.",
+      "editability": "Independently replaceable raster illustration. Small text within the illustration remains raster; all enclosing portfolio copy and disclosure labels are native SVG text."
+    },
+    {
+      "id": "home-media-illustration",
+      "file": "assets/home-media-illustration.png",
+      "source": "../m0-portfolio-v1/01-home-desktop.png",
+      "source_sha256": "2dcb7892cc17819c0699bf74331d60b854f4b09aed1f470253102d6c10ac738e",
+      "crop_box_xyxy": [
+        40,
+        1079,
+        499,
+        1243
+      ],
+      "dimensions_px": [
+        459,
+        164
+      ],
+      "sha256": "7df88acd0f72ee01af1f1cb742b3fb05862b70ff054146751bddc26925a02fba",
+      "provenance": "Local Pillow crop of user-authorized ImageGen M0 reference; generated concept illustration, not product evidence.",
+      "editability": "Independently replaceable raster illustration. Small text within the illustration remains raster; all enclosing portfolio copy and disclosure labels are native SVG text."
+    },
+    {
+      "id": "home-workbench-illustration",
+      "file": "assets/home-workbench-illustration.png",
+      "source": "../m0-portfolio-v1/01-home-desktop.png",
+      "source_sha256": "2dcb7892cc17819c0699bf74331d60b854f4b09aed1f470253102d6c10ac738e",
+      "crop_box_xyxy": [
+        515,
+        1079,
+        982,
+        1250
+      ],
+      "dimensions_px": [
+        467,
+        171
+      ],
+      "sha256": "c88013f217bb8ccfa1d824a110454d62c0e255e95845fd4b94751193384b22e4",
+      "provenance": "Local Pillow crop of user-authorized ImageGen M0 reference; generated concept illustration, not product evidence.",
+      "editability": "Independently replaceable raster illustration. Small text within the illustration remains raster; all enclosing portfolio copy and disclosure labels are native SVG text."
+    },
+    {
+      "id": "mobile-concierge-illustration",
+      "file": "assets/mobile-concierge-illustration.png",
+      "source": "../m0-portfolio-v1/03-home-mobile.png",
+      "source_sha256": "77ef82eb441789be62f220681fff244cb9e90869b7e7e93cf414d495cd8430de",
+      "crop_box_xyxy": [
+        52,
+        908,
+        801,
+        1139
+      ],
+      "dimensions_px": [
+        749,
+        231
+      ],
+      "sha256": "aad675fc5928ebe8af7e3913cd9d2c358b4ca5d1f58bb4b3c35cb900b013e60a",
+      "provenance": "Local Pillow crop of user-authorized ImageGen M0 reference; generated concept illustration, not product evidence.",
+      "editability": "Independently replaceable raster illustration. Small text within the illustration remains raster; all enclosing portfolio copy and disclosure labels are native SVG text."
+    },
+    {
+      "id": "mobile-portal-illustration",
+      "file": "assets/mobile-portal-illustration.png",
+      "source": "../m0-portfolio-v1/03-home-mobile.png",
+      "source_sha256": "77ef82eb441789be62f220681fff244cb9e90869b7e7e93cf414d495cd8430de",
+      "crop_box_xyxy": [
+        52,
+        1349,
+        802,
+        1566
+      ],
+      "dimensions_px": [
+        750,
+        217
+      ],
+      "sha256": "ac5d026d8d606cdc5964012418dbb9b478194beef2b6ebc009866e9bed63df6b",
+      "provenance": "Local Pillow crop of user-authorized ImageGen M0 reference; generated concept illustration, not product evidence.",
+      "editability": "Independently replaceable raster illustration. Small text within the illustration remains raster; all enclosing portfolio copy and disclosure labels are native SVG text."
+    }
+  ]
+}

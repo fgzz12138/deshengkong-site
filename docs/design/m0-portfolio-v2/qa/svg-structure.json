@@ -1,0 +1,690 @@
+{
+  "checked_at_utc": "2026-08-31T07:13:46.922136+00:00",
+  "files": [
+    {
+      "path": "01-home-desktop.svg",
+      "sha256": "ffeccfcbdc8a4e986863863a4e45dc77e4c3d321383241429ae7fa6b3f43ea98",
+      "dimensions": [
+        1024.0,
+        1536.0
+      ],
+      "viewBox": [
+        0.0,
+        0.0,
+        1024.0,
+        1536.0
+      ],
+      "nested_canvases": [],
+      "element_counts": {
+        "svg": 1,
+        "title": 1,
+        "desc": 1,
+        "style": 1,
+        "rect": 18,
+        "g": 12,
+        "text": 45,
+        "line": 20,
+        "tspan": 5,
+        "path": 16,
+        "image": 5,
+        "circle": 9,
+        "defs": 4,
+        "clipPath": 4
+      },
+      "semantic_groups": [
+        {
+          "id": "site-navigation",
+          "role": "site-navigation"
+        },
+        {
+          "id": "hero-copy-and-actions",
+          "role": "hero-copy-and-actions"
+        },
+        {
+          "id": "hero-concept-system",
+          "role": "hero-concept-system"
+        },
+        {
+          "id": "capability-strip",
+          "role": "capability-strip"
+        },
+        {
+          "id": "selected-work-heading",
+          "role": "selected-work-heading"
+        },
+        {
+          "id": "project-card-1-concierge",
+          "role": "project-card-1-concierge"
+        },
+        {
+          "id": "project-card-2-portal",
+          "role": "project-card-2-portal"
+        },
+        {
+          "id": "project-card-3-media",
+          "role": "project-card-3-media"
+        },
+        {
+          "id": "project-card-4-workbench",
+          "role": "project-card-4-workbench"
+        },
+        {
+          "id": "contact-call-to-action",
+          "role": "contact-call-to-action"
+        },
+        {
+          "id": "page-footer",
+          "role": "page-footer"
+        }
+      ],
+      "images": [
+        {
+          "id": "asset-home-system-illustration",
+          "x": 617.0,
+          "y": 109.0,
+          "width": 370.0,
+          "height": 411.0,
+          "source_asset": "assets/home-system-illustration.png",
+          "storage": "embedded data image",
+          "raster": {
+            "width": 370,
+            "height": 411,
+            "format": "PNG"
+          },
+          "embedded_sha256": "58911a2cf435c463cba05e57efed290d371bf8a5786db64443ec120168096d91",
+          "near_full_canvas_raster": false
+        },
+        {
+          "id": "asset-home-concierge-illustration",
+          "x": 40.0,
+          "y": 781.0,
+          "width": 459.0,
+          "height": 165.0,
+          "source_asset": "assets/home-concierge-illustration.png",
+          "storage": "embedded data image",
+          "raster": {
+            "width": 459,
+            "height": 165,
+            "format": "PNG"
+          },
+          "embedded_sha256": "cd63a92172452de23c663b5b5ba8f2675fb8fa7934eb2fead31e8813f8839120",
+          "near_full_canvas_raster": false
+        },
+        {
+          "id": "asset-home-portal-illustration",
+          "x": 515.0,
+          "y": 781.0,
+          "width": 467.0,
+          "height": 165.0,
+          "source_asset": "assets/home-portal-illustration.png",
+          "storage": "embedded data image",
+          "raster": {
+            "width": 467,
+            "height": 165,
+            "format": "PNG"
+          },
+          "embedded_sha256": "1a2c1a287a14f7b347df8fc2f199ced3400232f8224c5713db6cfbe8cfa9face",
+          "near_full_canvas_raster": false
+        },
+        {
+          "id": "asset-home-media-illustration",
+          "x": 40.0,
+          "y": 1079.0,
+          "width": 459.0,
+          "height": 164.0,
+          "source_asset": "assets/home-media-illustration.png",
+          "storage": "embedded data image",
+          "raster": {
+            "width": 459,
+            "height": 164,
+            "format": "PNG"
+          },
+          "embedded_sha256": "7df88acd0f72ee01af1f1cb742b3fb05862b70ff054146751bddc26925a02fba",
+          "near_full_canvas_raster": false
+        },
+        {
+          "id": "asset-home-workbench-illustration",
+          "x": 515.0,
+          "y": 1079.0,
+          "width": 467.0,
+          "height": 171.0,
+          "source_asset": "assets/home-workbench-illustration.png",
+          "storage": "embedded data image",
+          "raster": {
+            "width": 467,
+            "height": 171,
+            "format": "PNG"
+          },
+          "embedded_sha256": "c88013f217bb8ccfa1d824a110454d62c0e255e95845fd4b94751193384b22e4",
+          "near_full_canvas_raster": false
+        }
+      ],
+      "self_contained_images": true,
+      "security_findings": [],
+      "text_checks": {
+        "corrected_portal_title_present": true,
+        "demo_badge_present": true,
+        "in_development_badge_present": true,
+        "native_visible_text": "Desheng Kong Work About Get in touch APPLIED AI · MELBOURNE \n AI systems. \n Built for \n real work. \n \n I connect AI capabilities, product interfaces \n and everyday workflows. \n Explore selected work About me Interface Knowledge Workflow ILLUSTRATIVE SYSTEM VIEW Voice & RAG Workflow automation Applied AI Web interfaces Selected work Applied AI, practical tools and the work behind them. All projects Concept illustration FIELD-TESTED Virtual Concierge Voice, knowledge retrieval and a kiosk interface. View case study Illustrative interface DEMO UAI API Customer Portal A clear journey from access to request testing. View case study Concept illustration IN DEVELOPMENT Media & Visual Tools Content workflows with human review built in. View case study Illustrative interface IN DEVELOPMENT iClaude Workbench Project context, next steps and controlled handoffs. View case study Have a practical AI problem to solve? Let’s talk. Get in touch Desheng Kong M0 · VISUAL CONCEPT"
+      },
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "path": "02-case-study-desktop.svg",
+      "sha256": "8469f37feb62d3d917de77ef17b336bd50fd1776e9735ed4383096c8a5ef776d",
+      "dimensions": [
+        1024.0,
+        1536.0
+      ],
+      "viewBox": [
+        0.0,
+        0.0,
+        1024.0,
+        1536.0
+      ],
+      "nested_canvases": [],
+      "element_counts": {
+        "svg": 1,
+        "title": 1,
+        "desc": 1,
+        "style": 1,
+        "rect": 20,
+        "g": 14,
+        "text": 56,
+        "line": 27,
+        "path": 16,
+        "tspan": 12,
+        "circle": 7
+      },
+      "semantic_groups": [
+        {
+          "id": "site-navigation",
+          "role": "site-navigation"
+        },
+        {
+          "id": "case-study-hero",
+          "role": "case-study-hero"
+        },
+        {
+          "id": "case-metadata",
+          "role": "case-metadata"
+        },
+        {
+          "id": "editable-portal-illustrative-interface",
+          "role": "editable-portal-illustrative-interface"
+        },
+        {
+          "id": "portal-request-playground",
+          "role": "portal-request-playground"
+        },
+        {
+          "id": "portal-response-preview",
+          "role": "portal-response-preview"
+        },
+        {
+          "id": "portal-synthetic-request-table",
+          "role": "portal-synthetic-request-table"
+        },
+        {
+          "id": "showcase-disclosure",
+          "role": "showcase-disclosure"
+        },
+        {
+          "id": "personal-contribution",
+          "role": "personal-contribution"
+        },
+        {
+          "id": "demonstrated-fixture-scope",
+          "role": "demonstrated-fixture-scope"
+        },
+        {
+          "id": "synthetic-data-boundary-notice",
+          "role": "synthetic-data-boundary-notice"
+        },
+        {
+          "id": "case-contact-call-to-action",
+          "role": "case-contact-call-to-action"
+        },
+        {
+          "id": "case-footer",
+          "role": "case-footer"
+        }
+      ],
+      "images": [],
+      "self_contained_images": true,
+      "security_findings": [],
+      "text_checks": {
+        "corrected_portal_title_present": true,
+        "demo_badge_present": true,
+        "in_development_badge_present": false,
+        "native_visible_text": "Desheng Kong Work About Get in touch Selected work DEMO · SYNTHETIC DATA \n UAI API \n Customer Portal \n \n Turning platform capabilities into a clear customer journey. \n From access and usage to request testing. \n View demo Get in touch ROLE Scope, interface & integration FOCUS Customer experience STAGE Demonstration Overview API keys Usage Models Playground Docs DEMO DATA · NO LIVE API Request playground Sample request Simulate request Response preview status: simulated source: fixture mode: demo Example request Simulated Illustrative interface · synthetic data My contribution 01 Product scope \n Defined the customer journey across \n access, usage and request testing. \n 02 Interface & interactions \n Shaped navigation, responsive layouts \n and clear success and failure states. \n 03 Integration boundary \n Kept the customer interface separate \n from internal administration. \n What the demo shows Create and revoke demo keys Explore sample usage and export CSV Run simulated requests and inspect failures A clear boundary \n Synthetic data only. No live API access, real \n customer accounts, billing or production inference. \n Have a similar problem to solve? Get in touch Desheng Kong M0 · VISUAL CONCEPT"
+      },
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "path": "03-home-mobile.svg",
+      "sha256": "1b0d5929341cbc95f9467ffaa8a84e1d05402a951f620280df0305b11f597f12",
+      "dimensions": [
+        853.0,
+        1844.0
+      ],
+      "viewBox": [
+        0.0,
+        0.0,
+        853.0,
+        1844.0
+      ],
+      "nested_canvases": [],
+      "element_counts": {
+        "svg": 1,
+        "title": 1,
+        "desc": 1,
+        "style": 1,
+        "rect": 10,
+        "g": 7,
+        "text": 22,
+        "line": 7,
+        "tspan": 5,
+        "path": 6,
+        "circle": 2,
+        "defs": 2,
+        "clipPath": 2,
+        "image": 2
+      },
+      "semantic_groups": [
+        {
+          "id": "mobile-site-navigation",
+          "role": "mobile-site-navigation"
+        },
+        {
+          "id": "mobile-hero-copy-and-actions",
+          "role": "mobile-hero-copy-and-actions"
+        },
+        {
+          "id": "mobile-capability-strip",
+          "role": "mobile-capability-strip"
+        },
+        {
+          "id": "mobile-selected-work-heading",
+          "role": "mobile-selected-work-heading"
+        },
+        {
+          "id": "mobile-project-virtual-concierge",
+          "role": "mobile-project-virtual-concierge"
+        },
+        {
+          "id": "mobile-project-uai-api-customer-portal",
+          "role": "mobile-project-uai-api-customer-portal"
+        },
+        {
+          "id": "mobile-page-continues-annotation",
+          "role": "mobile-page-continues-annotation"
+        }
+      ],
+      "images": [
+        {
+          "id": "asset-mobile-concierge-illustration",
+          "x": 52.0,
+          "y": 908.0,
+          "width": 749.0,
+          "height": 231.0,
+          "source_asset": "assets/mobile-concierge-illustration.png",
+          "storage": "embedded data image",
+          "raster": {
+            "width": 749,
+            "height": 231,
+            "format": "PNG"
+          },
+          "embedded_sha256": "aad675fc5928ebe8af7e3913cd9d2c358b4ca5d1f58bb4b3c35cb900b013e60a",
+          "near_full_canvas_raster": false
+        },
+        {
+          "id": "asset-mobile-portal-illustration",
+          "x": 52.0,
+          "y": 1349.0,
+          "width": 750.0,
+          "height": 217.0,
+          "source_asset": "assets/mobile-portal-illustration.png",
+          "storage": "embedded data image",
+          "raster": {
+            "width": 750,
+            "height": 217,
+            "format": "PNG"
+          },
+          "embedded_sha256": "ac5d026d8d606cdc5964012418dbb9b478194beef2b6ebc009866e9bed63df6b",
+          "near_full_canvas_raster": false
+        }
+      ],
+      "self_contained_images": true,
+      "security_findings": [],
+      "text_checks": {
+        "corrected_portal_title_present": true,
+        "demo_badge_present": true,
+        "in_development_badge_present": false,
+        "native_visible_text": "Desheng Kong APPLIED AI · MELBOURNE \n AI systems. \n Built for \n real work. \n \n Applied AI, practical tools \n and clear workflows. \n Explore my work Get in touch AI Interfaces Workflows Selected work Real applications. Demos. Work in progress. Concept illustration FIELD-TESTED Virtual Concierge Voice + knowledge integration View case study Illustrative interface DEMO UAI API Customer Portal Access, usage and request testing View case study M0 · MOBILE CONCEPT · PAGE CONTINUES"
+      },
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "path": "portfolio-master.svg",
+      "sha256": "f05efc21b778d3baffb4e0dfffd8c66270b46ba0e6d352c2c623b6e04669905f",
+      "dimensions": [
+        3029.0,
+        1844.0
+      ],
+      "viewBox": [
+        0.0,
+        0.0,
+        3029.0,
+        1844.0
+      ],
+      "nested_canvases": [
+        {
+          "id": "artboard-1",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1024.0,
+          "height": 1536.0,
+          "viewBox": "0 0 1024 1536"
+        },
+        {
+          "id": "artboard-2",
+          "x": 1088.0,
+          "y": 0.0,
+          "width": 1024.0,
+          "height": 1536.0,
+          "viewBox": "0 0 1024 1536"
+        },
+        {
+          "id": "artboard-3",
+          "x": 2176.0,
+          "y": 0.0,
+          "width": 853.0,
+          "height": 1844.0,
+          "viewBox": "0 0 853 1844"
+        }
+      ],
+      "element_counts": {
+        "svg": 4,
+        "title": 4,
+        "desc": 4,
+        "rect": 49,
+        "style": 3,
+        "g": 33,
+        "text": 123,
+        "line": 54,
+        "tspan": 22,
+        "path": 38,
+        "image": 7,
+        "circle": 18,
+        "defs": 6,
+        "clipPath": 6
+      },
+      "semantic_groups": [
+        {
+          "id": "artboard-1",
+          "role": "01-home-desktop"
+        },
+        {
+          "id": "artboard-1-site-navigation",
+          "role": "site-navigation"
+        },
+        {
+          "id": "artboard-1-hero-copy-and-actions",
+          "role": "hero-copy-and-actions"
+        },
+        {
+          "id": "artboard-1-hero-concept-system",
+          "role": "hero-concept-system"
+        },
+        {
+          "id": "artboard-1-capability-strip",
+          "role": "capability-strip"
+        },
+        {
+          "id": "artboard-1-selected-work-heading",
+          "role": "selected-work-heading"
+        },
+        {
+          "id": "artboard-1-project-card-1-concierge",
+          "role": "project-card-1-concierge"
+        },
+        {
+          "id": "artboard-1-project-card-2-portal",
+          "role": "project-card-2-portal"
+        },
+        {
+          "id": "artboard-1-project-card-3-media",
+          "role": "project-card-3-media"
+        },
+        {
+          "id": "artboard-1-project-card-4-workbench",
+          "role": "project-card-4-workbench"
+        },
+        {
+          "id": "artboard-1-contact-call-to-action",
+          "role": "contact-call-to-action"
+        },
+        {
+          "id": "artboard-1-page-footer",
+          "role": "page-footer"
+        },
+        {
+          "id": "artboard-2",
+          "role": "02-case-study-desktop"
+        },
+        {
+          "id": "artboard-2-site-navigation",
+          "role": "site-navigation"
+        },
+        {
+          "id": "artboard-2-case-study-hero",
+          "role": "case-study-hero"
+        },
+        {
+          "id": "artboard-2-case-metadata",
+          "role": "case-metadata"
+        },
+        {
+          "id": "artboard-2-editable-portal-illustrative-interface",
+          "role": "editable-portal-illustrative-interface"
+        },
+        {
+          "id": "artboard-2-portal-request-playground",
+          "role": "portal-request-playground"
+        },
+        {
+          "id": "artboard-2-portal-response-preview",
+          "role": "portal-response-preview"
+        },
+        {
+          "id": "artboard-2-portal-synthetic-request-table",
+          "role": "portal-synthetic-request-table"
+        },
+        {
+          "id": "artboard-2-showcase-disclosure",
+          "role": "showcase-disclosure"
+        },
+        {
+          "id": "artboard-2-personal-contribution",
+          "role": "personal-contribution"
+        },
+        {
+          "id": "artboard-2-demonstrated-fixture-scope",
+          "role": "demonstrated-fixture-scope"
+        },
+        {
+          "id": "artboard-2-synthetic-data-boundary-notice",
+          "role": "synthetic-data-boundary-notice"
+        },
+        {
+          "id": "artboard-2-case-contact-call-to-action",
+          "role": "case-contact-call-to-action"
+        },
+        {
+          "id": "artboard-2-case-footer",
+          "role": "case-footer"
+        },
+        {
+          "id": "artboard-3",
+          "role": "03-home-mobile"
+        },
+        {
+          "id": "artboard-3-mobile-site-navigation",
+          "role": "mobile-site-navigation"
+        },
+        {
+          "id": "artboard-3-mobile-hero-copy-and-actions",
+          "role": "mobile-hero-copy-and-actions"
+        },
+        {
+          "id": "artboard-3-mobile-capability-strip",
+          "role": "mobile-capability-strip"
+        },
+        {
+          "id": "artboard-3-mobile-selected-work-heading",
+          "role": "mobile-selected-work-heading"
+        },
+        {
+          "id": "artboard-3-mobile-project-virtual-concierge",
+          "role": "mobile-project-virtual-concierge"
+        },
+        {
+          "id": "artboard-3-mobile-project-uai-api-customer-portal",
+          "role": "mobile-project-uai-api-customer-portal"
+        },
+        {
+          "id": "artboard-3-mobile-page-continues-annotation",
+          "role": "mobile-page-continues-annotation"
+        }
+      ],
+      "images": [
+        {
+          "id": "artboard-1-asset-home-system-illustration",
+          "x": 617.0,
+          "y": 109.0,
+          "width": 370.0,
+          "height": 411.0,
+          "source_asset": "assets/home-system-illustration.png",
+          "storage": "embedded data image",
+          "raster": {
+            "width": 370,
+            "height": 411,
+            "format": "PNG"
+          },
+          "embedded_sha256": "58911a2cf435c463cba05e57efed290d371bf8a5786db64443ec120168096d91",
+          "near_full_canvas_raster": false
+        },
+        {
+          "id": "artboard-1-asset-home-concierge-illustration",
+          "x": 40.0,
+          "y": 781.0,
+          "width": 459.0,
+          "height": 165.0,
+          "source_asset": "assets/home-concierge-illustration.png",
+          "storage": "embedded data image",
+          "raster": {
+            "width": 459,
+            "height": 165,
+            "format": "PNG"
+          },
+          "embedded_sha256": "cd63a92172452de23c663b5b5ba8f2675fb8fa7934eb2fead31e8813f8839120",
+          "near_full_canvas_raster": false
+        },
+        {
+          "id": "artboard-1-asset-home-portal-illustration",
+          "x": 515.0,
+          "y": 781.0,
+          "width": 467.0,
+          "height": 165.0,
+          "source_asset": "assets/home-portal-illustration.png",
+          "storage": "embedded data image",
+          "raster": {
+            "width": 467,
+            "height": 165,
+            "format": "PNG"
+          },
+          "embedded_sha256": "1a2c1a287a14f7b347df8fc2f199ced3400232f8224c5713db6cfbe8cfa9face",
+          "near_full_canvas_raster": false
+        },
+        {
+          "id": "artboard-1-asset-home-media-illustration",
+          "x": 40.0,
+          "y": 1079.0,
+          "width": 459.0,
+          "height": 164.0,
+          "source_asset": "assets/home-media-illustration.png",
+          "storage": "embedded data image",
+          "raster": {
+            "width": 459,
+            "height": 164,
+            "format": "PNG"
+          },
+          "embedded_sha256": "7df88acd0f72ee01af1f1cb742b3fb05862b70ff054146751bddc26925a02fba",
+          "near_full_canvas_raster": false
+        },
+        {
+          "id": "artboard-1-asset-home-workbench-illustration",
+          "x": 515.0,
+          "y": 1079.0,
+          "width": 467.0,
+          "height": 171.0,
+          "source_asset": "assets/home-workbench-illustration.png",
+          "storage": "embedded data image",
+          "raster": {
+            "width": 467,
+            "height": 171,
+            "format": "PNG"
+          },
+          "embedded_sha256": "c88013f217bb8ccfa1d824a110454d62c0e255e95845fd4b94751193384b22e4",
+          "near_full_canvas_raster": false
+        },
+        {
+          "id": "artboard-3-asset-mobile-concierge-illustration",
+          "x": 52.0,
+          "y": 908.0,
+          "width": 749.0,
+          "height": 231.0,
+          "source_asset": "assets/mobile-concierge-illustration.png",
+          "storage": "embedded data image",
+          "raster": {
+            "width": 749,
+            "height": 231,
+            "format": "PNG"
+          },
+          "embedded_sha256": "aad675fc5928ebe8af7e3913cd9d2c358b4ca5d1f58bb4b3c35cb900b013e60a",
+          "near_full_canvas_raster": false
+        },
+        {
+          "id": "artboard-3-asset-mobile-portal-illustration",
+          "x": 52.0,
+          "y": 1349.0,
+          "width": 750.0,
+          "height": 217.0,
+          "source_asset": "assets/mobile-portal-illustration.png",
+          "storage": "embedded data image",
+          "raster": {
+            "width": 750,
+            "height": 217,
+            "format": "PNG"
+          },
+          "embedded_sha256": "ac5d026d8d606cdc5964012418dbb9b478194beef2b6ebc009866e9bed63df6b",
+          "near_full_canvas_raster": false
+        }
+      ],
+      "self_contained_images": true,
+      "security_findings": [],
+      "text_checks": {
+        "corrected_portal_title_present": true,
+        "demo_badge_present": true,
+        "in_development_badge_present": true,
+        "native_visible_text": "Desheng Kong Work About Get in touch APPLIED AI · MELBOURNE \n AI systems. \n Built for \n real work. \n \n I connect AI capabilities, product interfaces \n and everyday workflows. \n Explore selected work About me Interface Knowledge Workflow ILLUSTRATIVE SYSTEM VIEW Voice & RAG Workflow automation Applied AI Web interfaces Selected work Applied AI, practical tools and the work behind them. All projects Concept illustration FIELD-TESTED Virtual Concierge Voice, knowledge retrieval and a kiosk interface. View case study Illustrative interface DEMO UAI API Customer Portal A clear journey from access to request testing. View case study Concept illustration IN DEVELOPMENT Media & Visual Tools Content workflows with human review built in. View case study Illustrative interface IN DEVELOPMENT iClaude Workbench Project context, next steps and controlled handoffs. View case study Have a practical AI problem to solve? Let’s talk. Get in touch Desheng Kong M0 · VISUAL CONCEPT Desheng Kong Work About Get in touch Selected work DEMO · SYNTHETIC DATA \n UAI API \n Customer Portal \n \n Turning platform capabilities into a clear customer journey. \n From access and usage to request testing. \n View demo Get in touch ROLE Scope, interface & integration FOCUS Customer experience STAGE Demonstration Overview API keys Usage Models Playground Docs DEMO DATA · NO LIVE API Request playground Sample request Simulate request Response preview status: simulated source: fixture mode: demo Example request Simulated Illustrative interface · synthetic data My contribution 01 Product scope \n Defined the customer journey across \n access, usage and request testing. \n 02 Interface & interactions \n Shaped navigation, responsive layouts \n and clear success and failure states. \n 03 Integration boundary \n Kept the customer interface separate \n from internal administration. \n What the demo shows Create and revoke demo keys Explore sample usage and export CSV Run simulated requests and inspect failures A clear boundary \n Synthetic data only. No live API access, real \n customer accounts, billing or production inference. \n Have a similar problem to solve? Get in touch Desheng Kong M0 · VISUAL CONCEPT Desheng Kong APPLIED AI · MELBOURNE \n AI systems. \n Built for \n real work. \n \n Applied AI, practical tools \n and clear workflows. \n Explore my work Get in touch AI Interfaces Workflows Selected work Real applications. Demos. Work in progress. Concept illustration FIELD-TESTED Virtual Concierge Voice + knowledge integration View case study Illustrative interface DEMO UAI API Customer Portal Access, usage and request testing View case study M0 · MOBILE CONCEPT · PAGE CONTINUES"
+      },
+      "status": "pass",
+      "errors": []
+    }
+  ]
+}

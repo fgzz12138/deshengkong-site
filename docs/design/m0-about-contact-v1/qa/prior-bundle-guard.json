@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "files": [
+    {
+      "file": "../m0-portfolio-v2/portfolio-master.svg",
+      "expected_sha256": "f05efc21b778d3baffb4e0dfffd8c66270b46ba0e6d352c2c623b6e04669905f",
+      "actual_sha256": "f05efc21b778d3baffb4e0dfffd8c66270b46ba0e6d352c2c623b6e04669905f",
+      "unchanged": true
+    },
+    {
+      "file": "../m0-portfolio-v2/build_svg.py",
+      "expected_sha256": "9f1ac49f97ab0f6e01592a5a690083553d75f9b727fc53c7b04c7b6117ed8762",
+      "actual_sha256": "9f1ac49f97ab0f6e01592a5a690083553d75f9b727fc53c7b04c7b6117ed8762",
+      "unchanged": true
+    }
+  ],
+  "note": "Read-only comparison with root-supplied pre-task hashes; no prior bundle file is written."
+}

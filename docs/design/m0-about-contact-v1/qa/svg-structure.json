@@ -1,0 +1,163 @@
+{
+  "checked_at_utc": "2026-08-31T07:22:38.962135+00:00",
+  "purpose": "Static About/Contact UI layout diagrams, not a working M1 website.",
+  "files": [
+    {
+      "file": "01-about-desktop.svg",
+      "sha256": "f2a82f014a8d6ec582d3161281a4e4bc4c40b798b99c4da2ef12e5add7d2bd42",
+      "dimensions": [
+        1024.0,
+        1536.0
+      ],
+      "viewBox": [
+        0.0,
+        0.0,
+        1024.0,
+        1536.0
+      ],
+      "element_counts": {
+        "svg": 1,
+        "title": 1,
+        "desc": 1,
+        "style": 1,
+        "rect": 15,
+        "g": 11,
+        "text": 50,
+        "line": 29,
+        "tspan": 21,
+        "path": 4,
+        "circle": 1
+      },
+      "semantic_group_ids": [
+        "site-navigation",
+        "about-active-navigation",
+        "about-introduction",
+        "profile-card-with-initials",
+        "working-approach",
+        "working-toolkit",
+        "learning-boundary",
+        "background-without-invented-education",
+        "about-contact-and-cv",
+        "page-footer"
+      ],
+      "nested_canvases": [],
+      "all_objects_native": true,
+      "full_page_raster_wrapping": false,
+      "visible_native_text": "Desheng Kong Work About Get in touch ABOUT ME \n From interfaces \n to AI systems. \n \n I’m Desheng Kong, an applied AI systems \n developer based in Melbourne. \n \n I work across LLM integration, knowledge retrieval, \n voice interfaces and workflow automation. \n \n My front-end background still shapes the interfaces \n I build around these systems. \n View selected work DK Desheng Kong Melbourne, Australia APPLIED AI Voice · knowledge · workflows How I work AI-assisted development, grounded in understanding the system. 01 Understand the system \n Understand how the code and \n components fit together, including \n the parts created with AI assistance. \n 02 Debug and maintain \n Work through issues and understand \n the system well enough to maintain \n what I build. \n 03 Explain the decisions \n Explain the architecture choices \n behind a system, and the reasons \n for those decisions. \n Working toolkit LLM integration RAG Voice / STT / TTS Next.js TypeScript Tailwind Python Docker Currently exploring \n LangGraph · MCP · n8n \n RAG evaluation \n NL2SQL course case study \n Course learning — not a self-built \n production product. \n Background Foundation Web interfaces · Next.js · TypeScript · Tailwind Current focus Applied AI · voice · knowledge retrieval · workflows Have a practical AI problem to solve? Let’s talk. Download CV Get in touch Desheng Kong M0 · ABOUT PAGE CONCEPT",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "file": "02-contact-desktop.svg",
+      "sha256": "de05727743e5f431cb8dac4b266a1c63f9c5116b272252bdda52fa8b4e00901c",
+      "dimensions": [
+        1024.0,
+        1536.0
+      ],
+      "viewBox": [
+        0.0,
+        0.0,
+        1024.0,
+        1536.0
+      ],
+      "element_counts": {
+        "svg": 1,
+        "title": 1,
+        "desc": 1,
+        "style": 1,
+        "rect": 11,
+        "g": 9,
+        "text": 34,
+        "line": 5,
+        "tspan": 2,
+        "path": 11,
+        "circle": 1
+      },
+      "semantic_group_ids": [
+        "site-navigation",
+        "contact-introduction",
+        "primary-email-contact",
+        "additional-contact-and-cv-options",
+        "useful-enquiry-context",
+        "contact-return-to-work",
+        "page-footer"
+      ],
+      "nested_canvases": [],
+      "all_objects_native": true,
+      "full_page_raster_wrapping": false,
+      "visible_native_text": "Desheng Kong Work About Get in touch GET IN TOUCH Let’s talk. \n Have a practical AI problem to solve? \n Tell me what you’re working on. \n EMAIL desheng.kong408@gmail.com Email me Opens Gmail in a new tab. in LinkedIn Profile & background GitHub Projects & code Download CV Resume PDF Useful to include A little context helps make the conversation specific. 01 Your goal What would you like to make, improve or understand? 02 What you have now The current system, workflow or starting point. 03 Timing Any target dates or constraints worth knowing. Want to see the work first? Explore selected projects. View projects Desheng Kong M0 · CONTACT PAGE CONCEPT",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "file": "about-contact-master.svg",
+      "sha256": "533309e21a429826828ab7c4b3fc5bea006928afc4fa21b3a2354a1b385c8ea2",
+      "dimensions": [
+        2112.0,
+        1536.0
+      ],
+      "viewBox": [
+        0.0,
+        0.0,
+        2112.0,
+        1536.0
+      ],
+      "element_counts": {
+        "svg": 3,
+        "title": 3,
+        "desc": 3,
+        "rect": 27,
+        "style": 2,
+        "g": 20,
+        "text": 84,
+        "line": 34,
+        "tspan": 23,
+        "path": 15,
+        "circle": 2
+      },
+      "semantic_group_ids": [
+        "page-1-site-navigation",
+        "page-1-about-active-navigation",
+        "page-1-about-introduction",
+        "page-1-profile-card-with-initials",
+        "page-1-working-approach",
+        "page-1-working-toolkit",
+        "page-1-learning-boundary",
+        "page-1-background-without-invented-education",
+        "page-1-about-contact-and-cv",
+        "page-1-page-footer",
+        "page-2-site-navigation",
+        "page-2-contact-introduction",
+        "page-2-primary-email-contact",
+        "page-2-additional-contact-and-cv-options",
+        "page-2-useful-enquiry-context",
+        "page-2-contact-return-to-work",
+        "page-2-page-footer"
+      ],
+      "nested_canvases": [
+        {
+          "id": "artboard-1",
+          "width": 1024.0,
+          "height": 1536.0,
+          "viewBox": "0 0 1024 1536",
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "id": "artboard-2",
+          "width": 1024.0,
+          "height": 1536.0,
+          "viewBox": "0 0 1024 1536",
+          "x": 1088.0,
+          "y": 0.0
+        }
+      ],
+      "all_objects_native": true,
+      "full_page_raster_wrapping": false,
+      "visible_native_text": "Desheng Kong Work About Get in touch ABOUT ME \n From interfaces \n to AI systems. \n \n I’m Desheng Kong, an applied AI systems \n developer based in Melbourne. \n \n I work across LLM integration, knowledge retrieval, \n voice interfaces and workflow automation. \n \n My front-end background still shapes the interfaces \n I build around these systems. \n View selected work DK Desheng Kong Melbourne, Australia APPLIED AI Voice · knowledge · workflows How I work AI-assisted development, grounded in understanding the system. 01 Understand the system \n Understand how the code and \n components fit together, including \n the parts created with AI assistance. \n 02 Debug and maintain \n Work through issues and understand \n the system well enough to maintain \n what I build. \n 03 Explain the decisions \n Explain the architecture choices \n behind a system, and the reasons \n for those decisions. \n Working toolkit LLM integration RAG Voice / STT / TTS Next.js TypeScript Tailwind Python Docker Currently exploring \n LangGraph · MCP · n8n \n RAG evaluation \n NL2SQL course case study \n Course learning — not a self-built \n production product. \n Background Foundation Web interfaces · Next.js · TypeScript · Tailwind Current focus Applied AI · voice · knowledge retrieval · workflows Have a practical AI problem to solve? Let’s talk. Download CV Get in touch Desheng Kong M0 · ABOUT PAGE CONCEPT Desheng Kong Work About Get in touch GET IN TOUCH Let’s talk. \n Have a practical AI problem to solve? \n Tell me what you’re working on. \n EMAIL desheng.kong408@gmail.com Email me Opens Gmail in a new tab. in LinkedIn Profile & background GitHub Projects & code Download CV Resume PDF Useful to include A little context helps make the conversation specific. 01 Your goal What would you like to make, improve or understand? 02 What you have now The current system, workflow or starting point. 03 Timing Any target dates or constraints worth knowing. Want to see the work first? Explore selected projects. View projects Desheng Kong M0 · CONTACT PAGE CONCEPT",
+      "status": "pass",
+      "errors": []
+    }
+  ],
+  "raster_asset_provenance": "No raster assets. DK is an intentional native typographic profile card; not a photograph, AI portrait or missing-photo placeholder."
+}

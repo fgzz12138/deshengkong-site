@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_id": "deshengkong-site-m0-portfolio-v2",
+  "artifact_type": "diagram",
+  "delivery_mode": "editable",
+  "explicit_raster_only_request": false,
+  "master": {
+    "path": "portfolio-master.svg",
+    "format": "svg"
+  },
+  "previews": [
+    {
+      "path": "qa/previews/01-home-desktop.png",
+      "format": "png"
+    },
+    {
+      "path": "qa/previews/02-case-study-desktop.png",
+      "format": "png"
+    },
+    {
+      "path": "qa/previews/03-home-mobile.png",
+      "format": "png"
+    },
+    {
+      "path": "qa/previews/portfolio-master.png",
+      "format": "png"
+    }
+  ],
+  "assets_manifest": "assets-manifest.json",
+  "qa_report": "qa/qa-report.json"
+}

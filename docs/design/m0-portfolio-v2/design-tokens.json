@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "project": "deshengkong-site",
+  "version": "m0-portfolio-v2",
+  "date": "2026-08-31",
+  "directionStatus": "CURRENT_M0_DIRECTION_SELECTED",
+  "svgAcceptance": "RECONSTRUCTED_BASELINE_USER_REVIEW_PENDING",
+  "m1Authorised": false,
+  "provenance": {
+    "type": "svg-reconstruction-values",
+    "precision": "layout estimates, not exact PNG sampling or original font metadata",
+    "priority": ["explicit-user-corrections", "original-png-visual-intent", "reviewed-svg-layout", "css-implementation"],
+    "originals": ["../m0-portfolio-v1/01-home-desktop.png", "../m0-portfolio-v1/02-case-study-desktop.png", "../m0-portfolio-v1/03-home-mobile.png"],
+    "layoutSpec": "layout-spec.json",
+    "combinedMaster": "portfolio-master.svg",
+    "coordinateUnit": "SVG reference unit; not automatically a CSS pixel"
+  },
+  "color": {
+    "surface": "#FBFCFD",
+    "ink": "#080B10",
+    "accent": "#064FF5",
+    "keyline": "#CFD7E3",
+    "pale": "#F3F7FF",
+    "card": "#FFFFFF",
+    "muted": "#778397"
+  },
+  "font": {
+    "sans": ["Arial", "Helvetica", "sans-serif"],
+    "mono": ["Consolas", "Courier New", "monospace"],
+    "newRemoteFontDependency": false,
+    "systemFontRedistribution": false,
+    "originalPngFontIdentified": false,
+    "crossDeviceExactFontReproduction": "NOT_VERIFIED",
+    "m1FontAcceptance": "Record the chosen installed font name/version/metrics and browser environment. Use the same font environment, explicit hero line breaks and fixed containers for local/preview comparisons. Do not download or embed system fonts without verified redistribution rights.",
+    "referenceSizes": {
+      "desktopHomeHero": {"size": 80, "weight": 700},
+      "desktopDetailHero": {"size": 68, "weight": 700},
+      "mobileHero": {"size": 90, "weight": 700},
+      "mobileBody": {"size": 28}
+    },
+    "webMapping": "Calibrate actual line breaks and apparent scale. Do not apply mobile reference sizes directly to CSS or compress glyphs to imitate SVG textLength."
+  },
+  "referenceLayout": {
+    "combinedMaster": {
+      "width": 3029,
+      "height": 1844,
+      "artboardGap": 64,
+      "pageX": [0, 1088, 2176]
+    },
+    "desktop": {
+      "width": 1024,
+      "height": 1536,
+      "marginInline": 40,
+      "contentWidth": 944,
+      "homeHero": "two columns: copy left, conceptual system right",
+      "projectColumns": 2,
+      "projectRows": 2,
+      "projectColumnX": [40, 515],
+      "projectRowY": [781, 1079],
+      "projectColumnWidth": [459, 467],
+      "projectGapApprox": 16,
+      "cardRadiusRange": [8, 12]
+    },
+    "mobile": {
+      "width": 853,
+      "height": 1844,
+      "marginInlineRange": [48, 52],
+      "excerptOnly": true,
+      "shownCases": 2,
+      "totalCasesInWebsite": 4,
+      "projectColumns": 1,
+      "cardComposition": "image above text",
+      "firstImageY": 908,
+      "firstImageHeight": 230,
+      "secondCardY": 1349,
+      "heroSystemDiagram": false,
+      "capabilityStrip": ["AI", "Interfaces", "Workflows"]
+    }
+  },
+  "content": {
+    "hero": "AI systems. Built for real work.",
+    "heroLines": ["AI systems.", "Built for", "real work."],
+    "detailTitleLines": ["UAI API", "Customer Portal"],
+    "cases": [
+      {"title": "Virtual Concierge", "status": "FIELD-TESTED", "imagery": "Concept illustration"},
+      {"title": "UAI API Customer Portal", "status": "DEMO", "imagery": "Illustrative interface", "disclosure": "DEMO DATA", "sourceProject": "uai-api-private-beta"},
+      {"title": "Media & Visual Tools", "status": "IN DEVELOPMENT", "imagery": "Illustrative interface"},
+      {"title": "iClaude Workbench", "status": "IN DEVELOPMENT", "imagery": "Illustrative interface"}
+    ],
+    "detailDisclosure": "DEMO · SYNTHETIC DATA",
+    "privateDataAllowed": false,
+    "generatedImageryIsProductEvidence": false
+  },
+  "m1Validation": {
+    "status": "PROPOSED_NOT_RUN",
+    "cssViewportWidths": [320, 390, 768, 1024, 1440],
+    "desktopReferenceCssWidth": 1024,
+    "mobilePrimaryCssWidth": 390,
+    "minimumControlTargetCssPx": 44,
+    "requires": ["same-width visual comparison", "visible concept labels", "readable text and real HTML controls", "no horizontal page overflow", "all four cases retained", "same-build stable preview"],
+    "pixelIdentityClaim": false
+  }
+}

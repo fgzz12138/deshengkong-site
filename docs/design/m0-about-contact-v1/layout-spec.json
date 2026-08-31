@@ -1,0 +1,238 @@
+{
+  "version": 1,
+  "stage": "M0_STATIC_VISUAL_REVIEW",
+  "status": "PROPOSAL_PENDING_USER_REVIEW",
+  "scope": "Two desktop proposals only; no application implementation, mobile design, live contact route, message sending, form or schedule integration.",
+  "style_source": "../m0-portfolio-v2/build_svg.py",
+  "style_source_sha256": "9f1ac49f97ab0f6e01592a5a690083553d75f9b727fc53c7b04c7b6117ed8762",
+  "shared_styles": {
+    "background": "#FBFCFD",
+    "ink": "#080B10",
+    "accent": "#064FF5",
+    "line": "#CFD7E3",
+    "pale": "#F3F7FF",
+    "font": "Arial, Helvetica, sans-serif",
+    "mono": "Consolas, Courier New, monospace",
+    "margin_px": 40
+  },
+  "facts_and_boundaries": {
+    "name": "Desheng Kong",
+    "location": "Melbourne, Australia",
+    "portrait": "Native DK monogram; no verified personal portrait was found.",
+    "education": "No education, employer, job-year or tenure claims added because no verified source was available.",
+    "learning": "LangGraph, MCP, n8n and RAG evaluation remain exploring. NL2SQL is explicitly a course case study, not a self-built production product.",
+    "email": "desheng.kong408@gmail.com",
+    "existing_email_action": "New tab Gmail compose with subject Portfolio Enquiry; SVG is static and sends nothing.",
+    "linkedin": "https://www.linkedin.com/in/desheng-kong/",
+    "github": "https://github.com/fgzz12138",
+    "cv": "/Desheng_Kong_CV.pdf; existing file confirmed, content currency not verified.",
+    "contact_route": "A new /contact route is a proposal, not an existing deployed page."
+  },
+  "source_fact_files": [
+    "Original website app/about/page.tsx",
+    "Original website app/page.tsx",
+    "Original website app/components/CurrentlyLearning.tsx",
+    "Original website public/Desheng_Kong_CV.pdf (existence only)"
+  ],
+  "raster_assets": [],
+  "master": {
+    "file": "about-contact-master.svg",
+    "viewBox": [
+      0,
+      0,
+      2112,
+      1536
+    ],
+    "artboards": 2,
+    "gap_px": 64,
+    "sha256": "533309e21a429826828ab7c4b3fc5bea006928afc4fa21b3a2354a1b385c8ea2"
+  },
+  "pages": [
+    {
+      "file": "01-about-desktop.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "font": "Arial, Helvetica, sans-serif",
+      "native_text_elements": 50,
+      "native_tspan_elements": 21,
+      "semantic_groups": [
+        {
+          "id": "site-navigation",
+          "bounds": [
+            40,
+            20,
+            944,
+            52
+          ]
+        },
+        {
+          "id": "about-active-navigation",
+          "bounds": [
+            790,
+            51,
+            43,
+            3
+          ]
+        },
+        {
+          "id": "about-introduction",
+          "bounds": [
+            40,
+            116,
+            592,
+            451
+          ]
+        },
+        {
+          "id": "profile-card-with-initials",
+          "bounds": [
+            676,
+            128,
+            306,
+            431
+          ]
+        },
+        {
+          "id": "working-approach",
+          "bounds": [
+            40,
+            585,
+            944,
+            276
+          ]
+        },
+        {
+          "id": "working-toolkit",
+          "bounds": [
+            40,
+            899,
+            460,
+            207
+          ]
+        },
+        {
+          "id": "learning-boundary",
+          "bounds": [
+            535,
+            914,
+            447,
+            208
+          ]
+        },
+        {
+          "id": "background-without-invented-education",
+          "bounds": [
+            40,
+            1163,
+            944,
+            168
+          ]
+        },
+        {
+          "id": "about-contact-and-cv",
+          "bounds": [
+            40,
+            1371,
+            942,
+            97
+          ]
+        },
+        {
+          "id": "page-footer",
+          "bounds": [
+            40,
+            1483,
+            944,
+            36
+          ]
+        }
+      ],
+      "embedded_local_crops": 0,
+      "sha256": "f2a82f014a8d6ec582d3161281a4e4bc4c40b798b99c4da2ef12e5add7d2bd42"
+    },
+    {
+      "file": "02-contact-desktop.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "font": "Arial, Helvetica, sans-serif",
+      "native_text_elements": 34,
+      "native_tspan_elements": 2,
+      "semantic_groups": [
+        {
+          "id": "site-navigation",
+          "bounds": [
+            40,
+            20,
+            944,
+            52
+          ]
+        },
+        {
+          "id": "contact-introduction",
+          "bounds": [
+            40,
+            117,
+            944,
+            220
+          ]
+        },
+        {
+          "id": "primary-email-contact",
+          "bounds": [
+            40,
+            381,
+            944,
+            264
+          ]
+        },
+        {
+          "id": "additional-contact-and-cv-options",
+          "bounds": [
+            40,
+            680,
+            944,
+            166
+          ]
+        },
+        {
+          "id": "useful-enquiry-context",
+          "bounds": [
+            40,
+            918,
+            944,
+            367
+          ]
+        },
+        {
+          "id": "contact-return-to-work",
+          "bounds": [
+            40,
+            1371,
+            944,
+            97
+          ]
+        },
+        {
+          "id": "page-footer",
+          "bounds": [
+            40,
+            1483,
+            944,
+            36
+          ]
+        }
+      ],
+      "embedded_local_crops": 0,
+      "sha256": "de05727743e5f431cb8dac4b266a1c63f9c5116b272252bdda52fa8b4e00901c"
+    }
+  ],
+  "fidelity_limit": "The new pages reuse the established M0 type, color, navigation and geometry family; they have no prior page screenshot to match. Arial availability may change metrics across environments."
+}

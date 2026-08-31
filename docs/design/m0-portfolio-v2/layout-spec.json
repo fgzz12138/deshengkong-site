@@ -1,0 +1,367 @@
+{
+  "version": 2,
+  "purpose": "Editable reconstruction of the selected M0 compositions, not website implementation.",
+  "review_status": "DERIVED_EDITABLE_MASTER_REQUIRES_RENDER_QA_AND_USER_REVIEW",
+  "coordinate_basis": "Original reference image pixels; manually reconstructed geometry, not a pixel-identical conversion.",
+  "colors": {
+    "background": "#FBFCFD",
+    "ink": "#080B10",
+    "accent": "#064FF5",
+    "border": "#CFD7E3",
+    "palePanel": "#F3F7FF",
+    "muted": "#778397"
+  },
+  "font_family": "Arial, Helvetica, sans-serif",
+  "mono_font_family": "Consolas, Courier New, monospace",
+  "intentional_changes": [
+    "Correct project title to UAI API Customer Portal; case H1 uses UAI API / Customer Portal.",
+    "Add readable native concept/illustrative-interface disclosure to every project thumbnail.",
+    "Reconstruct the large case-study portal illustration as native SVG geometry and text."
+  ],
+  "fidelity_limits": [
+    "Arial is an available local font substitution for the image model\u2019s non-identifiable typeface; key heading line widths are explicitly constrained.",
+    "Flat vector surfaces replace generated paper texture and irregular raster antialiasing.",
+    "Small capability icons and portal UI geometry are approximated with editable native vectors.",
+    "Complex concept illustrations remain separate cropped raster assets, embedded in masters for portability."
+  ],
+  "combined_master": {
+    "file": "portfolio-master.svg",
+    "viewBox": [
+      0,
+      0,
+      3029,
+      1844
+    ],
+    "artboard_gap_px": 64,
+    "authoring_source": "build_svg.py; this master and all three individual SVGs are generated together."
+  },
+  "pages": [
+    {
+      "file": "01-home-desktop.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "font": "Arial, Helvetica, sans-serif",
+      "native_text_elements": 45,
+      "native_tspan_elements": 5,
+      "semantic_groups": [
+        {
+          "id": "site-navigation",
+          "bounds": [
+            40,
+            20,
+            944,
+            52
+          ]
+        },
+        {
+          "id": "hero-copy-and-actions",
+          "bounds": [
+            40,
+            111,
+            460,
+            425
+          ]
+        },
+        {
+          "id": "hero-concept-system",
+          "bounds": [
+            539,
+            109,
+            448,
+            432
+          ]
+        },
+        {
+          "id": "capability-strip",
+          "bounds": [
+            40,
+            577,
+            944,
+            100
+          ]
+        },
+        {
+          "id": "selected-work-heading",
+          "bounds": [
+            40,
+            711,
+            944,
+            52
+          ]
+        },
+        {
+          "id": "project-card-1-concierge",
+          "bounds": [
+            40,
+            781,
+            459,
+            282
+          ]
+        },
+        {
+          "id": "project-card-2-portal",
+          "bounds": [
+            515,
+            781,
+            467,
+            282
+          ]
+        },
+        {
+          "id": "project-card-3-media",
+          "bounds": [
+            40,
+            1079,
+            459,
+            275
+          ]
+        },
+        {
+          "id": "project-card-4-workbench",
+          "bounds": [
+            515,
+            1079,
+            467,
+            275
+          ]
+        },
+        {
+          "id": "contact-call-to-action",
+          "bounds": [
+            40,
+            1371,
+            942,
+            97
+          ]
+        },
+        {
+          "id": "page-footer",
+          "bounds": [
+            40,
+            1483,
+            942,
+            34
+          ]
+        }
+      ],
+      "embedded_local_crops": 5,
+      "sha256": "ffeccfcbdc8a4e986863863a4e45dc77e4c3d321383241429ae7fa6b3f43ea98"
+    },
+    {
+      "file": "02-case-study-desktop.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "font": "Arial, Helvetica, sans-serif",
+      "native_text_elements": 56,
+      "native_tspan_elements": 12,
+      "semantic_groups": [
+        {
+          "id": "site-navigation",
+          "bounds": [
+            40,
+            20,
+            944,
+            52
+          ]
+        },
+        {
+          "id": "case-study-hero",
+          "bounds": [
+            40,
+            104,
+            944,
+            351
+          ]
+        },
+        {
+          "id": "case-metadata",
+          "bounds": [
+            40,
+            474,
+            944,
+            67
+          ]
+        },
+        {
+          "id": "editable-portal-illustrative-interface",
+          "bounds": [
+            40,
+            565,
+            940,
+            484
+          ]
+        },
+        {
+          "id": "portal-request-playground",
+          "bounds": [
+            257,
+            708,
+            361,
+            173
+          ]
+        },
+        {
+          "id": "portal-response-preview",
+          "bounds": [
+            634,
+            708,
+            290,
+            173
+          ]
+        },
+        {
+          "id": "portal-synthetic-request-table",
+          "bounds": [
+            257,
+            893,
+            667,
+            126
+          ]
+        },
+        {
+          "id": "showcase-disclosure",
+          "bounds": [
+            40,
+            1058,
+            942,
+            34
+          ]
+        },
+        {
+          "id": "personal-contribution",
+          "bounds": [
+            41,
+            1114,
+            939,
+            143
+          ]
+        },
+        {
+          "id": "demonstrated-fixture-scope",
+          "bounds": [
+            41,
+            1278,
+            460,
+            124
+          ]
+        },
+        {
+          "id": "synthetic-data-boundary-notice",
+          "bounds": [
+            524,
+            1278,
+            455,
+            124
+          ]
+        },
+        {
+          "id": "case-contact-call-to-action",
+          "bounds": [
+            40,
+            1420,
+            940,
+            67
+          ]
+        },
+        {
+          "id": "case-footer",
+          "bounds": [
+            40,
+            1500,
+            940,
+            17
+          ]
+        }
+      ],
+      "embedded_local_crops": 0,
+      "sha256": "8469f37feb62d3d917de77ef17b336bd50fd1776e9735ed4383096c8a5ef776d"
+    },
+    {
+      "file": "03-home-mobile.svg",
+      "viewBox": [
+        0,
+        0,
+        853,
+        1844
+      ],
+      "font": "Arial, Helvetica, sans-serif",
+      "native_text_elements": 22,
+      "native_tspan_elements": 5,
+      "semantic_groups": [
+        {
+          "id": "mobile-site-navigation",
+          "bounds": [
+            48,
+            33,
+            756,
+            56
+          ]
+        },
+        {
+          "id": "mobile-hero-copy-and-actions",
+          "bounds": [
+            48,
+            117,
+            756,
+            534
+          ]
+        },
+        {
+          "id": "mobile-capability-strip",
+          "bounds": [
+            49,
+            686,
+            755,
+            89
+          ]
+        },
+        {
+          "id": "mobile-selected-work-heading",
+          "bounds": [
+            50,
+            819,
+            750,
+            64
+          ]
+        },
+        {
+          "id": "mobile-project-virtual-concierge",
+          "bounds": [
+            52,
+            908,
+            749,
+            428
+          ]
+        },
+        {
+          "id": "mobile-project-uai-api-customer-portal",
+          "bounds": [
+            52,
+            1349,
+            750,
+            413
+          ]
+        },
+        {
+          "id": "mobile-page-continues-annotation",
+          "bounds": [
+            222,
+            1800,
+            540,
+            22
+          ]
+        }
+      ],
+      "embedded_local_crops": 2,
+      "sha256": "1b0d5929341cbc95f9467ffaa8a84e1d05402a951f620280df0305b11f597f12"
+    }
+  ]
+}

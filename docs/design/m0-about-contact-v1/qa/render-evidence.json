@@ -1,0 +1,37 @@
+{
+  "renders": [
+    {
+      "input": "01-about-desktop.svg",
+      "input_sha256": "f2a82f014a8d6ec582d3161281a4e4bc4c40b798b99c4da2ef12e5add7d2bd42",
+      "output": "qa/previews/01-about-desktop.png",
+      "output_sha256": "8008b322c57975bbbe8fe73ffe9917aad0e6011e91037149c4906f3b45cdfb8e",
+      "width": 1024,
+      "height": 1536,
+      "renderer": "sharp/librsvg",
+      "sharp": "0.35.4",
+      "librsvg": "2.62.91"
+    },
+    {
+      "input": "02-contact-desktop.svg",
+      "input_sha256": "de05727743e5f431cb8dac4b266a1c63f9c5116b272252bdda52fa8b4e00901c",
+      "output": "qa/previews/02-contact-desktop.png",
+      "output_sha256": "954e064d7de6989ad263d499a087d363cab020636e222c3be8809fa0879a1fe9",
+      "width": 1024,
+      "height": 1536,
+      "renderer": "sharp/librsvg",
+      "sharp": "0.35.4",
+      "librsvg": "2.62.91"
+    },
+    {
+      "input": "about-contact-master.svg",
+      "input_sha256": "533309e21a429826828ab7c4b3fc5bea006928afc4fa21b3a2354a1b385c8ea2",
+      "output": "qa/previews/about-contact-master.png",
+      "output_sha256": "4516324c2ba8af7311e2ac53687d312a5781e79cf8ef2287d215095b5eaf179c",
+      "width": 2112,
+      "height": 1536,
+      "renderer": "sharp/librsvg",
+      "sharp": "0.35.4",
+      "librsvg": "2.62.91"
+    }
+  ]
+}

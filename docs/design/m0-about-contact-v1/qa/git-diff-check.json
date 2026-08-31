@@ -1,0 +1,79 @@
+{
+  "status": "pass",
+  "tracked_diff_check_exit_code": 0,
+  "untracked_file_checks": [
+    {
+      "path": "docs/design/m0-about-contact-v1/qa/preflight-result.json",
+      "status": "pass",
+      "exit_code": 1,
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-about-contact-v1/qa/prior-bundle-guard.json",
+      "status": "pass",
+      "exit_code": 1,
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-about-contact-v1/qa/qa-report.json",
+      "status": "pass",
+      "exit_code": 1,
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-about-contact-v1/qa/README.md",
+      "status": "pass",
+      "exit_code": 1,
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-about-contact-v1/qa/render-evidence.json",
+      "status": "pass",
+      "exit_code": 1,
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-about-contact-v1/qa/render.cjs",
+      "status": "pass",
+      "exit_code": 1,
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-about-contact-v1/qa/roundtrip-evidence.json",
+      "status": "pass",
+      "exit_code": 1,
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-about-contact-v1/qa/svg-structure.json",
+      "status": "pass",
+      "exit_code": 1,
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-about-contact-v1/qa/validate_bundle.py",
+      "status": "pass",
+      "exit_code": 1,
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-about-contact-v1/qa/visual-review.json",
+      "status": "pass",
+      "exit_code": 1,
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-about-contact-v1/artifact-manifest.json",
+      "status": "pass",
+      "exit_code": 1,
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-about-contact-v1/assets-manifest.json",
+      "status": "pass",
+      "exit_code": 1,
+      "whitespace_diagnostics": ""
+    }
+  ],
+  "note": "Git --no-index implies --exit-code; code 1 is expected for a nonempty added file versus NUL. Whitespace checks require zero diagnostics with repository-default newline handling."
+}

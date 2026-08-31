@@ -1,0 +1,175 @@
+{
+  "status": "pass",
+  "assets": [
+    {
+      "asset": "assets/home-system-illustration.png",
+      "source_reference": "../m0-portfolio-v1/01-home-desktop.png",
+      "crop_box_xyxy": [
+        617,
+        109,
+        987,
+        520
+      ],
+      "crop_sha256_matches": true,
+      "source_read_only": true,
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "crop_dimensions": [
+        370,
+        411
+      ],
+      "crop_is_subregion": true,
+      "crop_pixels_match_source_region": true,
+      "source_sha256_matches_spec": true,
+      "source_unchanged_during_check": true
+    },
+    {
+      "asset": "assets/home-concierge-illustration.png",
+      "source_reference": "../m0-portfolio-v1/01-home-desktop.png",
+      "crop_box_xyxy": [
+        40,
+        781,
+        499,
+        946
+      ],
+      "crop_sha256_matches": true,
+      "source_read_only": true,
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "crop_dimensions": [
+        459,
+        165
+      ],
+      "crop_is_subregion": true,
+      "crop_pixels_match_source_region": true,
+      "source_sha256_matches_spec": true,
+      "source_unchanged_during_check": true
+    },
+    {
+      "asset": "assets/home-portal-illustration.png",
+      "source_reference": "../m0-portfolio-v1/01-home-desktop.png",
+      "crop_box_xyxy": [
+        515,
+        781,
+        982,
+        946
+      ],
+      "crop_sha256_matches": true,
+      "source_read_only": true,
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "crop_dimensions": [
+        467,
+        165
+      ],
+      "crop_is_subregion": true,
+      "crop_pixels_match_source_region": true,
+      "source_sha256_matches_spec": true,
+      "source_unchanged_during_check": true
+    },
+    {
+      "asset": "assets/home-media-illustration.png",
+      "source_reference": "../m0-portfolio-v1/01-home-desktop.png",
+      "crop_box_xyxy": [
+        40,
+        1079,
+        499,
+        1243
+      ],
+      "crop_sha256_matches": true,
+      "source_read_only": true,
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "crop_dimensions": [
+        459,
+        164
+      ],
+      "crop_is_subregion": true,
+      "crop_pixels_match_source_region": true,
+      "source_sha256_matches_spec": true,
+      "source_unchanged_during_check": true
+    },
+    {
+      "asset": "assets/home-workbench-illustration.png",
+      "source_reference": "../m0-portfolio-v1/01-home-desktop.png",
+      "crop_box_xyxy": [
+        515,
+        1079,
+        982,
+        1250
+      ],
+      "crop_sha256_matches": true,
+      "source_read_only": true,
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "crop_dimensions": [
+        467,
+        171
+      ],
+      "crop_is_subregion": true,
+      "crop_pixels_match_source_region": true,
+      "source_sha256_matches_spec": true,
+      "source_unchanged_during_check": true
+    },
+    {
+      "asset": "assets/mobile-concierge-illustration.png",
+      "source_reference": "../m0-portfolio-v1/03-home-mobile.png",
+      "crop_box_xyxy": [
+        52,
+        908,
+        801,
+        1139
+      ],
+      "crop_sha256_matches": true,
+      "source_read_only": true,
+      "source_dimensions": [
+        853,
+        1844
+      ],
+      "crop_dimensions": [
+        749,
+        231
+      ],
+      "crop_is_subregion": true,
+      "crop_pixels_match_source_region": true,
+      "source_sha256_matches_spec": true,
+      "source_unchanged_during_check": true
+    },
+    {
+      "asset": "assets/mobile-portal-illustration.png",
+      "source_reference": "../m0-portfolio-v1/03-home-mobile.png",
+      "crop_box_xyxy": [
+        52,
+        1349,
+        802,
+        1566
+      ],
+      "crop_sha256_matches": true,
+      "source_read_only": true,
+      "source_dimensions": [
+        853,
+        1844
+      ],
+      "crop_dimensions": [
+        750,
+        217
+      ],
+      "crop_is_subregion": true,
+      "crop_pixels_match_source_region": true,
+      "source_sha256_matches_spec": true,
+      "source_unchanged_during_check": true
+    }
+  ],
+  "errors": [],
+  "limits": "Sources are read-only provenance references outside the v2 bundle; live SVG display needs only embedded bytes. Regeneration from original crops needs the sibling v1 references."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "fail",
+  "bundle": "E:\\gitclone\\deshengkong-site-m0-preview\\docs\\design\\m0-portfolio-v2",
+  "errors": [
+    "QA report: check 'editable-master-reopened' failed",
+    "QA report: check 'text-overflow-reviewed' failed",
+    "QA report: check 'unexpected-overlap-reviewed' failed",
+    "QA report: check 'orphan-wrap-reviewed' failed",
+    "QA report: check 'canvas-ratio-reviewed' failed",
+    "QA report: 'editable-master-reopened' must be 'pass', got 'fail'",
+    "QA report: 'text-overflow-reviewed' must be 'pass', got 'fail'",
+    "QA report: 'unexpected-overlap-reviewed' must be 'pass', got 'fail'",
+    "QA report: 'orphan-wrap-reviewed' must be 'pass', got 'fail'",
+    "QA report: 'canvas-ratio-reviewed' must be 'pass', got 'fail'"
+  ]
+}

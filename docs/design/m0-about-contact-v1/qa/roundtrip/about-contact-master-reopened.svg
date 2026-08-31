@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2112" height="1536" viewBox="0 0 2112 1536" role="img" aria-labelledby="master-title">
+<title id="master-title">About and Get in touch — editable M0 master</title>
+<desc>Two native-size 1024 by 1536 artboards, separated by 64 pixels. Static portfolio proposals only. No forms, sending state, scheduling promise, backend, or invented personal portrait.</desc>
+<rect width="2112" height="1536" fill="#E7EAF0" />
+<svg id="artboard-1" data-semantic-role="01-about-desktop" x="0" y="0" width="1024" height="1536" viewBox="0 0 1024 1536" overflow="hidden">
+<title id="page-1-page-title">About Desheng Kong — editable M0 desktop proposal</title>
+<desc id="page-1-page-description">Editable static M0 proposal for Desheng Kong’s personal portfolio. All text and artwork are native SVG. Contact controls are visual proposals only: no message, form, network request or backend is implemented.</desc>
+<style>text { font-family: Arial, Helvetica, sans-serif; } .mono { font-family: Consolas, Courier New, monospace; }</style>
+<rect x="0" y="0" width="1024" height="1536" rx="0" fill="#FBFCFD" id="page-1-page-background" />
+<g id="page-1-site-navigation" data-semantic-role="site-navigation">
+<text x="39" y="47" font-size="25" font-weight="700" fill="#080B10" text-anchor="start" textLength="190" lengthAdjust="spacingAndGlyphs">Desheng Kong</text>
+<text x="710" y="44" font-size="15" font-weight="400" fill="#080B10" text-anchor="start">Work</text>
+<text x="792" y="44" font-size="15" font-weight="400" fill="#080B10" text-anchor="start">About</text>
+<rect x="870" y="20" width="114" height="36" rx="4" fill="#080B10" />
+<text x="927.0" y="42.76" font-size="14" font-weight="500" fill="white" text-anchor="middle">Get in touch</text>
+<line x1="40" y1="71" x2="984" y2="71" stroke="#CFD7E3" stroke-width="1" stroke-linecap="round" />
+</g>
+<g id="page-1-about-active-navigation" data-semantic-role="about-active-navigation">
+<line x1="792" y1="54" x2="833" y2="54" stroke="#064FF5" stroke-width="1.5" stroke-linecap="round" />
+</g>
+<g id="page-1-about-introduction" data-semantic-role="about-introduction">
+<text x="40" y="129" font-size="13" font-weight="400" fill="#064FF5" text-anchor="start" class="mono" letter-spacing="1.1">ABOUT ME</text>
+<text x="40" y="215" font-size="66" font-weight="700" fill="#080B10">
+<tspan x="40" y="215">From interfaces</tspan>
+<tspan x="40" y="287">to AI systems.</tspan>
+</text>
+<text x="41" y="343" font-size="19" font-weight="400" fill="#080B10">
+<tspan x="41" y="343">I’m Desheng Kong, an applied AI systems</tspan>
+<tspan x="41" y="371">developer based in Melbourne.</tspan>
+</text>
+<text x="41" y="417" font-size="18" font-weight="400" fill="#080B10">
+<tspan x="41" y="417">I work across LLM integration, knowledge retrieval,</tspan>
+<tspan x="41" y="444">voice interfaces and workflow automation.</tspan>
+</text>
+<text x="41" y="487" font-size="18" font-weight="400" fill="#080B10">
+<tspan x="41" y="487">My front-end background still shapes the interfaces</tspan>
+<tspan x="41" y="514">I build around these systems.</tspan>
+</text>
+<text x="41" y="562" font-size="16" font-weight="500" fill="#064FF5" text-anchor="start">View selected work</text>
+<path d="M195.0 556h14m-7.0 -7.0l7.0 7.0l-7.0 7.0" fill="none" stroke="#064FF5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g id="page-1-profile-card-with-initials" data-semantic-role="profile-card-with-initials">
+<rect x="676" y="128" width="306" height="431" rx="10" fill="#F3F7FF" stroke="#CDDBF0" stroke-width="1" />
+<line x1="700" y1="151" x2="700" y2="365" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="726" y1="151" x2="726" y2="365" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="752" y1="151" x2="752" y2="365" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="778" y1="151" x2="778" y2="365" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="804" y1="151" x2="804" y2="365" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="830" y1="151" x2="830" y2="365" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="856" y1="151" x2="856" y2="365" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="882" y1="151" x2="882" y2="365" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="908" y1="151" x2="908" y2="365" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="934" y1="151" x2="934" y2="365" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="699" y1="157" x2="959" y2="157" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="699" y1="183" x2="959" y2="183" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="699" y1="209" x2="959" y2="209" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="699" y1="235" x2="959" y2="235" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="699" y1="261" x2="959" y2="261" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="699" y1="287" x2="959" y2="287" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="699" y1="313" x2="959" y2="313" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<line x1="699" y1="339" x2="959" y2="339" stroke="#E5ECF8" stroke-width="0.7" stroke-linecap="round" />
+<circle cx="829" cy="257" r="78" fill="#EDF3FF" stroke="#C4D5F6" stroke-width="1" />
+<text x="829" y="281" font-size="68" font-weight="700" fill="#064FF5" text-anchor="middle">DK</text>
+<line x1="699" y1="387" x2="959" y2="387" stroke="#D6E1F2" stroke-width="1" stroke-linecap="round" />
+<text x="700" y="428" font-size="25" font-weight="700" fill="#080B10" text-anchor="start">Desheng Kong</text>
+<text x="700" y="457" font-size="16" font-weight="400" fill="#46586D" text-anchor="start">Melbourne, Australia</text>
+<text x="700" y="504" font-size="11" font-weight="400" fill="#064FF5" text-anchor="start" class="mono" letter-spacing="0.9">APPLIED AI</text>
+<text x="700" y="531" font-size="14" font-weight="400" fill="#26374D" text-anchor="start">Voice · knowledge · workflows</text>
+</g>
+<g id="page-1-working-approach" data-semantic-role="working-approach">
+<line x1="40" y1="585" x2="984" y2="585" stroke="#CFD7E3" stroke-width="1" stroke-linecap="round" />
+<text x="40" y="638" font-size="30" font-weight="700" fill="#080B10" text-anchor="start">How I work</text>
+<text x="40" y="669" font-size="17" font-weight="400" fill="#46586D" text-anchor="start">AI-assisted development, grounded in understanding the system.</text>
+<line x1="351" y1="706" x2="351" y2="854" stroke="#CFD7E3" stroke-width="1" stroke-linecap="round" />
+<line x1="669" y1="706" x2="669" y2="854" stroke="#CFD7E3" stroke-width="1" stroke-linecap="round" />
+<text x="40" y="723" font-size="13" font-weight="400" fill="#064FF5" text-anchor="start" class="mono">01</text>
+<text x="40" y="763" font-size="19" font-weight="700" fill="#080B10" text-anchor="start">Understand the system</text>
+<text x="40" y="799" font-size="15" font-weight="400" fill="#334255">
+<tspan x="40" y="799">Understand how the code and</tspan>
+<tspan x="40" y="822">components fit together, including</tspan>
+<tspan x="40" y="845">the parts created with AI assistance.</tspan>
+</text>
+<text x="374" y="723" font-size="13" font-weight="400" fill="#064FF5" text-anchor="start" class="mono">02</text>
+<text x="374" y="763" font-size="19" font-weight="700" fill="#080B10" text-anchor="start">Debug and maintain</text>
+<text x="374" y="799" font-size="15" font-weight="400" fill="#334255">
+<tspan x="374" y="799">Work through issues and understand</tspan>
+<tspan x="374" y="822">the system well enough to maintain</tspan>
+<tspan x="374" y="845">what I build.</tspan>
+</text>
+<text x="692" y="723" font-size="13" font-weight="400" fill="#064FF5" text-anchor="start" class="mono">03</text>
+<text x="692" y="763" font-size="19" font-weight="700" fill="#080B10" text-anchor="start">Explain the decisions</text>
+<text x="692" y="799" font-size="15" font-weight="400" fill="#334255">
+<tspan x="692" y="799">Explain the architecture choices</tspan>
+<tspan x="692" y="822">behind a system, and the reasons</tspan>
+<tspan x="692" y="845">for those decisions.</tspan>
+</text>
+</g>
+<g id="page-1-working-toolkit" data-semantic-role="working-toolkit">
+<line x1="40" y1="885" x2="984" y2="885" stroke="#CFD7E3" stroke-width="1" stroke-linecap="round" />
+<text x="40" y="935" font-size="27" font-weight="700" fill="#080B10" text-anchor="start">Working toolkit</text>
+<rect x="40" y="968" width="132" height="31" rx="15" fill="white" stroke="#CFD7E3" stroke-width="1" />
+<text x="106.0" y="988" font-size="13" font-weight="400" fill="#26374D" text-anchor="middle">LLM integration</text>
+<rect x="182" y="968" width="56" height="31" rx="15" fill="white" stroke="#CFD7E3" stroke-width="1" />
+<text x="210.0" y="988" font-size="13" font-weight="400" fill="#26374D" text-anchor="middle">RAG</text>
+<rect x="248" y="968" width="153" height="31" rx="15" fill="white" stroke="#CFD7E3" stroke-width="1" />
+<text x="324.5" y="988" font-size="13" font-weight="400" fill="#26374D" text-anchor="middle">Voice / STT / TTS</text>
+<rect x="40" y="1012" width="80" height="31" rx="15" fill="white" stroke="#CFD7E3" stroke-width="1" />
+<text x="80.0" y="1032" font-size="13" font-weight="400" fill="#26374D" text-anchor="middle">Next.js</text>
+<rect x="130" y="1012" width="103" height="31" rx="15" fill="white" stroke="#CFD7E3" stroke-width="1" />
+<text x="181.5" y="1032" font-size="13" font-weight="400" fill="#26374D" text-anchor="middle">TypeScript</text>
+<rect x="243" y="1012" width="88" height="31" rx="15" fill="white" stroke="#CFD7E3" stroke-width="1" />
+<text x="287.0" y="1032" font-size="13" font-weight="400" fill="#26374D" text-anchor="middle">Tailwind</text>
+<rect x="40" y="1056" width="77" height="31" rx="15" fill="white" stroke="#CFD7E3" stroke-width="1" />
+<text x="78.5" y="1076" font-size="13" font-weight="400" fill="#26374D" text-anchor="middle">Python</text>
+<rect x="127" y="1056" width="78" height="31" rx="15" fill="white" stroke="#CFD7E3" stroke-width="1" />
+<text x="166.0" y="1076" font-size="13" font-weight="400" fill="#26374D" text-anchor="middle">Docker</text>
+</g>
+<g id="page-1-learning-boundary" data-semantic-role="learning-boundary">
+<rect x="535" y="914" width="447" height="208" rx="9" fill="#F3F7FF" stroke="#D6E1F2" stroke-width="1" />
+<text x="559" y="950" font-size="22" font-weight="700" fill="#080B10" text-anchor="start">Currently exploring</text>
+<text x="559" y="984" font-size="16" font-weight="400" fill="#334255">
+<tspan x="559" y="984">LangGraph · MCP · n8n</tspan>
+<tspan x="559" y="1009">RAG evaluation</tspan>
+</text>
+<line x1="559" y1="1027" x2="958" y2="1027" stroke="#D6E1F2" stroke-width="1" stroke-linecap="round" />
+<text x="559" y="1056" font-size="15" font-weight="500" fill="#080B10" text-anchor="start">NL2SQL course case study</text>
+<text x="559" y="1081" font-size="14" font-weight="400" fill="#59697B">
+<tspan x="559" y="1081">Course learning — not a self-built</tspan>
+<tspan x="559" y="1101">production product.</tspan>
+</text>
+</g>
+<g id="page-1-background-without-invented-education" data-semantic-role="background-without-invented-education">
+<text x="40" y="1190" font-size="27" font-weight="700" fill="#080B10" text-anchor="start">Background</text>
+<text x="41" y="1236" font-size="14" font-weight="400" fill="#67758A" text-anchor="start" class="mono">Foundation</text>
+<text x="270" y="1236" font-size="17" font-weight="400" fill="#080B10" text-anchor="start">Web interfaces · Next.js · TypeScript · Tailwind</text>
+<line x1="41" y1="1255" x2="982" y2="1255" stroke="#CFD7E3" stroke-width="1" stroke-linecap="round" />
+<text x="41" y="1289" font-size="14" font-weight="400" fill="#67758A" text-anchor="start" class="mono">Current focus</text>
+<text x="270" y="1289" font-size="17" font-weight="400" fill="#080B10" text-anchor="start">Applied AI · voice · knowledge retrieval · workflows</text>
+<line x1="41" y1="1308" x2="982" y2="1308" stroke="#CFD7E3" stroke-width="1" stroke-linecap="round" />
+</g>
+<g id="page-1-about-contact-and-cv" data-semantic-role="about-contact-and-cv">
+<rect x="40" y="1371" width="942" height="97" rx="7" fill="#F3F7FF" stroke="#D6E1F2" stroke-width="1" />
+<g transform="translate(72 1402) scale(0.9)">
+<path d="M6 1h22a5 5 0 0 1 5 5v18a5 5 0 0 1-5 5H15l-8 7v-7H6a5 5 0 0 1-5-5V6a5 5 0 0 1 5-5z" fill="none" stroke="#064FF5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M36 10h9a5 5 0 0 1 5 5v18a5 5 0 0 1-5 5h-5v6l-9-6h-9" fill="none" stroke="#064FF5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text x="143" y="1409" font-size="15" font-weight="400" fill="#080B10" text-anchor="start">Have a practical AI problem to solve?</text>
+<text x="143" y="1445" font-size="30" font-weight="700" fill="#080B10" text-anchor="start">Let’s talk.</text>
+<rect x="612" y="1398" width="159" height="45" rx="5" fill="white" stroke="#A8B7CC" stroke-width="1" />
+<text x="691.5" y="1425.6" font-size="15" font-weight="500" fill="#080B10" text-anchor="middle">Download CV</text>
+<rect x="789" y="1398" width="164" height="45" rx="5" fill="#064FF5" />
+<text x="861.0" y="1425.6" font-size="15" font-weight="500" fill="white" text-anchor="middle">Get in touch</text>
+<path d="M920.5 1420.5h13m-6.5 -6.5l6.5 6.5l-6.5 6.5" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g id="page-1-page-footer" data-semantic-role="page-footer">
+<line x1="40" y1="1483" x2="984" y2="1483" stroke="#CFD7E3" stroke-width="1" stroke-linecap="round" />
+<text x="40" y="1512" font-size="12" font-weight="400" fill="#080B10" text-anchor="start">Desheng Kong</text>
+<text x="984" y="1512" font-size="10" font-weight="400" fill="#778397" text-anchor="end" class="mono" letter-spacing="0.3">M0 · ABOUT PAGE CONCEPT</text>
+</g>
+</svg>
+<svg id="artboard-2" data-semantic-role="02-contact-desktop" x="1088" y="0" width="1024" height="1536" viewBox="0 0 1024 1536" overflow="hidden">
+<title id="page-2-page-title">Get in touch — editable M0 desktop contact proposal</title>
+<desc id="page-2-page-description">Editable static M0 proposal for Desheng Kong’s personal portfolio. All text and artwork are native SVG. Contact controls are visual proposals only: no message, form, network request or backend is implemented.</desc>
+<style>text { font-family: Arial, Helvetica, sans-serif; } .mono { font-family: Consolas, Courier New, monospace; }</style>
+<rect x="0" y="0" width="1024" height="1536" rx="0" fill="#FBFCFD" id="page-2-page-background" />
+<g id="page-2-site-navigation" data-semantic-role="site-navigation">
+<text x="39" y="47" font-size="25" font-weight="700" fill="#080B10" text-anchor="start" textLength="190" lengthAdjust="spacingAndGlyphs">Desheng Kong</text>
+<text x="710" y="44" font-size="15" font-weight="400" fill="#080B10" text-anchor="start">Work</text>
+<text x="792" y="44" font-size="15" font-weight="400" fill="#080B10" text-anchor="start">About</text>
+<rect x="870" y="20" width="114" height="36" rx="4" fill="#080B10" />
+<text x="927.0" y="42.76" font-size="14" font-weight="500" fill="white" text-anchor="middle">Get in touch</text>
+<line x1="40" y1="71" x2="984" y2="71" stroke="#CFD7E3" stroke-width="1" stroke-linecap="round" />
+</g>
+<g id="page-2-contact-introduction" data-semantic-role="contact-introduction">
+<text x="40" y="130" font-size="13" font-weight="400" fill="#064FF5" text-anchor="start" class="mono" letter-spacing="1">GET IN TOUCH</text>
+<text x="40" y="232" font-size="84" font-weight="700" fill="#080B10" text-anchor="start">Let’s talk.</text>
+<text x="42" y="287" font-size="22" font-weight="400" fill="#080B10">
+<tspan x="42" y="287">Have a practical AI problem to solve?</tspan>
+<tspan x="42" y="319">Tell me what you’re working on.</tspan>
+</text>
+<g transform="translate(803 170) scale(2.6)">
+<path d="M6 1h22a5 5 0 0 1 5 5v18a5 5 0 0 1-5 5H15l-8 7v-7H6a5 5 0 0 1-5-5V6a5 5 0 0 1 5-5z" fill="none" stroke="#064FF5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M36 10h9a5 5 0 0 1 5 5v18a5 5 0 0 1-5 5h-5v6l-9-6h-9" fill="none" stroke="#064FF5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="page-2-primary-email-contact" data-semantic-role="primary-email-contact">
+<rect x="40" y="381" width="944" height="264" rx="11" fill="#F3F7FF" stroke="#CDDBF0" stroke-width="1" />
+<text x="72" y="426" font-size="12" font-weight="400" fill="#064FF5" text-anchor="start" class="mono" letter-spacing="1">EMAIL</text>
+<text x="72" y="495" font-size="40" font-weight="500" fill="#080B10" text-anchor="start">desheng.kong408@gmail.com</text>
+<rect x="72" y="552" width="157" height="47" rx="5" fill="#064FF5" />
+<text x="140.5" y="581.28" font-size="17" font-weight="500" fill="white" text-anchor="middle">Email me</text>
+<path d="M196.5 582.0l13 -13m-13 0h13v13" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<text x="252" y="582" font-size="15" font-weight="400" fill="#586A7E" text-anchor="start">Opens Gmail in a new tab.</text>
+<g transform="translate(870 420) scale(1.4)">
+<rect x="0" y="0" width="42" height="30" rx="4" fill="none" stroke="#064FF5" stroke-width="1.8" />
+<path d="M2 3l19 14L40 3" fill="none" stroke="#064FF5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="page-2-additional-contact-and-cv-options" data-semantic-role="additional-contact-and-cv-options">
+<rect x="40" y="680" width="300" height="166" rx="8" fill="white" stroke="#CFD7E3" stroke-width="1" />
+<rect x="64" y="703" width="28" height="28" rx="3" fill="#064FF5" />
+<text x="78" y="725" font-size="23" font-weight="700" fill="white" text-anchor="middle">in</text>
+<path d="M305.0 723.0l14 -14m-14 0h14v14" fill="none" stroke="#064FF5" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="64" y="775" font-size="23" font-weight="700" fill="#080B10" text-anchor="start">LinkedIn</text>
+<text x="64" y="810" font-size="15" font-weight="400" fill="#586A7E" text-anchor="start">Profile &amp; background</text>
+<rect x="362" y="680" width="300" height="166" rx="8" fill="white" stroke="#CFD7E3" stroke-width="1" />
+<circle cx="400" cy="717" r="15" fill="none" stroke="#064FF5" stroke-width="1.5" />
+<path d="M395 710l-5 7l5 7m10-14l5 7l-5 7" fill="none" stroke="#064FF5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M627.0 723.0l14 -14m-14 0h14v14" fill="none" stroke="#064FF5" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="386" y="775" font-size="23" font-weight="700" fill="#080B10" text-anchor="start">GitHub</text>
+<text x="386" y="810" font-size="15" font-weight="400" fill="#586A7E" text-anchor="start">Projects &amp; code</text>
+<rect x="684" y="680" width="300" height="166" rx="8" fill="white" stroke="#CFD7E3" stroke-width="1" />
+<path d="M712 703h14l8 8v24h-22zM726 703v8h8" fill="none" stroke="#064FF5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M722 716.0v12m-6.0 -6.0l6.0 6.0l6.0 -6.0" fill="none" stroke="#064FF5" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M956 709.0v14m-7.0 -7.0l7.0 7.0l7.0 -7.0" fill="none" stroke="#064FF5" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="708" y="775" font-size="23" font-weight="700" fill="#080B10" text-anchor="start">Download CV</text>
+<text x="708" y="810" font-size="15" font-weight="400" fill="#586A7E" text-anchor="start">Resume PDF</text>
+</g>
+<g id="page-2-useful-enquiry-context" data-semantic-role="useful-enquiry-context">
+<text x="40" y="951" font-size="31" font-weight="700" fill="#080B10" text-anchor="start">Useful to include</text>
+<text x="40" y="985" font-size="18" font-weight="400" fill="#586A7E" text-anchor="start">A little context helps make the conversation specific.</text>
+<text x="41" y="1051" font-size="13" font-weight="400" fill="#064FF5" text-anchor="start" class="mono">01</text>
+<text x="95" y="1054" font-size="21" font-weight="600" fill="#080B10" text-anchor="start">Your goal</text>
+<text x="378" y="1053" font-size="17" font-weight="400" fill="#334255" text-anchor="start">What would you like to make, improve or understand?</text>
+<line x1="41" y1="1086" x2="983" y2="1086" stroke="#CFD7E3" stroke-width="1" stroke-linecap="round" />
+<text x="41" y="1142" font-size="13" font-weight="400" fill="#064FF5" text-anchor="start" class="mono">02</text>
+<text x="95" y="1145" font-size="21" font-weight="600" fill="#080B10" text-anchor="start">What you have now</text>
+<text x="378" y="1144" font-size="17" font-weight="400" fill="#334255" text-anchor="start">The current system, workflow or starting point.</text>
+<line x1="41" y1="1177" x2="983" y2="1177" stroke="#CFD7E3" stroke-width="1" stroke-linecap="round" />
+<text x="41" y="1233" font-size="13" font-weight="400" fill="#064FF5" text-anchor="start" class="mono">03</text>
+<text x="95" y="1236" font-size="21" font-weight="600" fill="#080B10" text-anchor="start">Timing</text>
+<text x="378" y="1235" font-size="17" font-weight="400" fill="#334255" text-anchor="start">Any target dates or constraints worth knowing.</text>
+<line x1="41" y1="1268" x2="983" y2="1268" stroke="#CFD7E3" stroke-width="1" stroke-linecap="round" />
+</g>
+<g id="page-2-contact-return-to-work" data-semantic-role="contact-return-to-work">
+<rect x="40" y="1371" width="944" height="97" rx="7" fill="#F3F7FF" stroke="#D6E1F2" stroke-width="1" />
+<text x="72" y="1411" font-size="17" font-weight="400" fill="#334255" text-anchor="start">Want to see the work first?</text>
+<text x="72" y="1444" font-size="26" font-weight="700" fill="#080B10" text-anchor="start">Explore selected projects.</text>
+<rect x="789" y="1398" width="164" height="45" rx="5" fill="white" stroke="#A8B7CC" stroke-width="1" />
+<text x="861.0" y="1425.6" font-size="15" font-weight="500" fill="#080B10" text-anchor="middle">View projects</text>
+<path d="M920.5 1420.5h13m-6.5 -6.5l6.5 6.5l-6.5 6.5" fill="none" stroke="#080B10" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g id="page-2-page-footer" data-semantic-role="page-footer">
+<line x1="40" y1="1483" x2="984" y2="1483" stroke="#CFD7E3" stroke-width="1" stroke-linecap="round" />
+<text x="40" y="1512" font-size="12" font-weight="400" fill="#080B10" text-anchor="start">Desheng Kong</text>
+<text x="984" y="1512" font-size="10" font-weight="400" fill="#778397" text-anchor="end" class="mono" letter-spacing="0.3">M0 · CONTACT PAGE CONCEPT</text>
+</g>
+</svg>
+</svg>

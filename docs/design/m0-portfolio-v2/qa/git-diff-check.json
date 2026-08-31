@@ -1,0 +1,85 @@
+{
+  "status": "pass",
+  "tracked_diff_check_exit_code": 0,
+  "untracked_text_checks": [
+    {
+      "path": "docs/design/m0-portfolio-v2/qa/crop-evidence.json",
+      "exit_code": 1,
+      "status": "pass",
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-portfolio-v2/qa/preflight-pending-review.json",
+      "exit_code": 1,
+      "status": "pass",
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-portfolio-v2/qa/preflight-result.json",
+      "exit_code": 1,
+      "status": "pass",
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-portfolio-v2/qa/qa-report.json",
+      "exit_code": 1,
+      "status": "pass",
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-portfolio-v2/qa/README.md",
+      "exit_code": 1,
+      "status": "pass",
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-portfolio-v2/qa/render-evidence.json",
+      "exit_code": 1,
+      "status": "pass",
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-portfolio-v2/qa/render_svg.cjs",
+      "exit_code": 1,
+      "status": "pass",
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-portfolio-v2/qa/roundtrip-evidence.json",
+      "exit_code": 1,
+      "status": "pass",
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-portfolio-v2/qa/svg-structure.json",
+      "exit_code": 1,
+      "status": "pass",
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-portfolio-v2/qa/validate_svg.py",
+      "exit_code": 1,
+      "status": "pass",
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-portfolio-v2/qa/visual-review.json",
+      "exit_code": 1,
+      "status": "pass",
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-portfolio-v2/artifact-manifest.json",
+      "exit_code": 1,
+      "status": "pass",
+      "whitespace_diagnostics": ""
+    },
+    {
+      "path": "docs/design/m0-portfolio-v2/assets-manifest.json",
+      "exit_code": 1,
+      "status": "pass",
+      "whitespace_diagnostics": ""
+    }
+  ],
+  "note": "Git --no-index implies --exit-code; code 1 for an added nonempty file differs from NUL and is expected. A pass additionally requires zero --check whitespace diagnostics. Repository-default newline handling was retained. An exploratory core.autocrlf=false check treated CRLF endings as whitespace; no Git settings or files were changed by that command."
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "checks": [
+    {
+      "id": "editable-master-reopened",
+      "status": "pass",
+      "evidence": "Root reviewed the actual XML-source roundtrip evidence; QA reviewer visually inspected reopened and locally edited renders. Native objects survive serialize/parse/reopen; unchanged render has 0 changed pixels. An actual native UAI API Customer Portal title edit and hero semantic-group translate(12 6) produce 57,378 changed pixels, bbox [39,117,794,1008]. Original master remains unchanged. Evidence: qa/roundtrip-evidence.json and its two SVG/PNG copies. This is XML source editing with sharp/librsvg, not Penpot/draw.io GUI reopening."
+    },
+    {
+      "id": "text-overflow-reviewed",
+      "status": "pass",
+      "evidence": "Root inspected all three final full-size page renders and the combined master; QA reviewer also viewed all three page PNGs. No visible portfolio text overflow or unintended clipping found. Corrected UAI API Customer Portal native title, status badges, navigation and page footers are visible. Tiny raster text inside labelled concept illustrations is not claimed as editable page typography."
+    },
+    {
+      "id": "unexpected-overlap-reviewed",
+      "status": "pass",
+      "evidence": "Root and SVG author inspected all three page renders; QA reviewer checked the combined reopened image. No unexpected overlap found in hero copy/actions, cards, native case-study portal, contribution columns, boundary panel, contact actions or mobile cards. Native illustration-disclosure labels intentionally overlay thumbnail detail; this is documented, not an accidental overlap."
+    },
+    {
+      "id": "orphan-wrap-reviewed",
+      "status": "pass",
+      "evidence": "Root inspected the final three page PNGs and combined master and found no visible single-letter/single-character orphan wrapping. Headings and paragraph breaks are deliberate SVG text/tspan arrangements. Mobile is a bounded reference excerpt, with PAGE CONTINUES annotation, rather than a truncated claim of a complete page."
+    },
+    {
+      "id": "canvas-ratio-reviewed",
+      "status": "pass",
+      "evidence": "Root visually confirmed original page proportions and complete page boundaries. XML and actual PNG dimensions match 1024x1536 desktop home, 1024x1536 desktop case study and 853x1844 mobile excerpt. The combined master is 3029x1844 with three nested canvases at their original dimensions. Evidence: qa/svg-structure.json and qa/render-evidence.json."
+    },
+    {
+      "id": "native-svg-structure-security",
+      "status": "pass",
+      "evidence": "qa/svg-structure.json"
+    },
+    {
+      "id": "local-crop-provenance",
+      "status": "pass",
+      "evidence": "qa/crop-evidence.json"
+    },
+    {
+      "id": "xml-native-edit-roundtrip",
+      "status": "pass",
+      "evidence": "qa/roundtrip-evidence.json"
+    }
+  ]
+}

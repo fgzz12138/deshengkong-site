@@ -1,0 +1,62 @@
+{
+  "status": "pass",
+  "method": "XML source editor round-trip + sharp/librsvg rendering",
+  "native_counts_retained": true,
+  "master_was_not_modified": true,
+  "native_title_edit": {
+    "before": "From interfaces",
+    "after": "From ideas"
+  },
+  "semantic_group_move": {
+    "id": "page-1-about-introduction",
+    "role": "about-introduction",
+    "before": "",
+    "after": "translate(12 6)"
+  },
+  "unchanged_roundtrip_pixel_comparison": {
+    "same_size": true,
+    "identical": true,
+    "changed_pixels": 0,
+    "bbox_xyxy": null
+  },
+  "local_edit_pixel_comparison": {
+    "same_size": true,
+    "identical": false,
+    "changed_pixels": 52295,
+    "bbox_xyxy": [
+      40,
+      120,
+      532,
+      570
+    ]
+  },
+  "renders": [
+    {
+      "input": "qa/roundtrip/about-contact-master-reopened.svg",
+      "input_sha256": "bd12990eb1101da6c4897d62db1251bf8e12c64fd5441ccbefeef20f7c030169",
+      "output": "qa/previews/about-contact-master-reopened.png",
+      "output_sha256": "4516324c2ba8af7311e2ac53687d312a5781e79cf8ef2287d215095b5eaf179c",
+      "width": 2112,
+      "height": 1536,
+      "renderer": "sharp/librsvg",
+      "sharp": "0.35.4",
+      "librsvg": "2.62.91"
+    },
+    {
+      "input": "qa/roundtrip/about-contact-master-local-edit.svg",
+      "input_sha256": "fb5b8accb05e03dc37d9d0e3d983d328a9421aafae924c56913cfba1516f2f8f",
+      "output": "qa/previews/about-contact-master-local-edit.png",
+      "output_sha256": "e9cfb40971f646210f84bc24908409d65baaabe96446c24124f31ffefa880b0d",
+      "width": 2112,
+      "height": 1536,
+      "renderer": "sharp/librsvg",
+      "sharp": "0.35.4",
+      "librsvg": "2.62.91"
+    }
+  ],
+  "limits": [
+    "No Penpot/draw.io GUI import, editing or save/reopen was tested.",
+    "Fonts across other machines/editors are not verified.",
+    "The edited SVG is an intentionally modified QA copy, not a new delivery master."
+  ]
+}

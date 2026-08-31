@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "assets": [
+    {
+      "id": "source-01-about-desktop",
+      "path": "01-about-desktop.svg",
+      "role": "single-page native SVG derivative",
+      "provenance": "Locally authored native SVG composition. The DK card is an intentional native typographic profile card; no photograph or AI-generated portrait is used. Source and layout decisions are recorded in the bundle README/build script/layout specification."
+    },
+    {
+      "id": "source-02-contact-desktop",
+      "path": "02-contact-desktop.svg",
+      "role": "single-page native SVG derivative",
+      "provenance": "Locally authored native SVG composition. The DK card is an intentional native typographic profile card; no photograph or AI-generated portrait is used. Source and layout decisions are recorded in the bundle README/build script/layout specification."
+    },
+    {
+      "id": "source-build_svg",
+      "path": "build_svg.py",
+      "role": "authoring source, contract or layout specification",
+      "provenance": "Locally authored native SVG composition. The DK card is an intentional native typographic profile card; no photograph or AI-generated portrait is used. Source and layout decisions are recorded in the bundle README/build script/layout specification."
+    },
+    {
+      "id": "source-layout-spec",
+      "path": "layout-spec.json",
+      "role": "authoring source, contract or layout specification",
+      "provenance": "Locally authored native SVG composition. The DK card is an intentional native typographic profile card; no photograph or AI-generated portrait is used. Source and layout decisions are recorded in the bundle README/build script/layout specification."
+    },
+    {
+      "id": "source-README",
+      "path": "README.md",
+      "role": "authoring source, contract or layout specification",
+      "provenance": "Locally authored native SVG composition. The DK card is an intentional native typographic profile card; no photograph or AI-generated portrait is used. Source and layout decisions are recorded in the bundle README/build script/layout specification."
+    }
+  ]
+}

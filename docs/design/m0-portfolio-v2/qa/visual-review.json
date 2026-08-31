@@ -1,0 +1,47 @@
+{
+  "reviewed_at_utc": "2026-08-31T07:13:46.828410+00:00",
+  "reviewers": [
+    "/root",
+    "/root/reuse_scan",
+    "/root/site_code_review"
+  ],
+  "review_method": "AI visual inspection of rendered PNGs plus XML source editor round-trip + sharp/librsvg rendering and pixel comparisons.",
+  "scope": "M0 static UI layout diagram and native SVG source editability; no website, GUI-editor or end-user acceptance is implied.",
+  "preview_sha256": {
+    "qa/previews/01-home-desktop.png": "33ef806e746d187dd77c73bafb8f4082d9c8204590b239136cfb216b03029397",
+    "qa/previews/02-case-study-desktop.png": "9622c936f8fe147981bc6994fc7d838bfa8b3faa13079128c7655cf30f116e50",
+    "qa/previews/03-home-mobile.png": "235d92a09d412115de51e716aa15f25f16cbec6650e0c421aa2e4e621e775f6e",
+    "qa/previews/portfolio-master.png": "7af9b6ec55c506c650c0b2e5b7646656a0299eb9b03d23f47df2d8cffd4de958",
+    "qa/previews/portfolio-master-reopened.png": "7af9b6ec55c506c650c0b2e5b7646656a0299eb9b03d23f47df2d8cffd4de958",
+    "qa/previews/portfolio-master-local-edit.png": "1b9be22c02e26481de04496b1b6355b3d102e2eaddf79332b11b045aafd4b8f4"
+  },
+  "checks": {
+    "editable-master-reopened": {
+      "status": "pass",
+      "evidence": "Root reviewed the actual XML-source roundtrip evidence; QA reviewer visually inspected reopened and locally edited renders. Native objects survive serialize/parse/reopen; unchanged render has 0 changed pixels. An actual native UAI API Customer Portal title edit and hero semantic-group translate(12 6) produce 57,378 changed pixels, bbox [39,117,794,1008]. Original master remains unchanged. Evidence: qa/roundtrip-evidence.json and its two SVG/PNG copies. This is XML source editing with sharp/librsvg, not Penpot/draw.io GUI reopening."
+    },
+    "text-overflow-reviewed": {
+      "status": "pass",
+      "evidence": "Root inspected all three final full-size page renders and the combined master; QA reviewer also viewed all three page PNGs. No visible portfolio text overflow or unintended clipping found. Corrected UAI API Customer Portal native title, status badges, navigation and page footers are visible. Tiny raster text inside labelled concept illustrations is not claimed as editable page typography."
+    },
+    "unexpected-overlap-reviewed": {
+      "status": "pass",
+      "evidence": "Root and SVG author inspected all three page renders; QA reviewer checked the combined reopened image. No unexpected overlap found in hero copy/actions, cards, native case-study portal, contribution columns, boundary panel, contact actions or mobile cards. Native illustration-disclosure labels intentionally overlay thumbnail detail; this is documented, not an accidental overlap."
+    },
+    "orphan-wrap-reviewed": {
+      "status": "pass",
+      "evidence": "Root inspected the final three page PNGs and combined master and found no visible single-letter/single-character orphan wrapping. Headings and paragraph breaks are deliberate SVG text/tspan arrangements. Mobile is a bounded reference excerpt, with PAGE CONTINUES annotation, rather than a truncated claim of a complete page."
+    },
+    "canvas-ratio-reviewed": {
+      "status": "pass",
+      "evidence": "Root visually confirmed original page proportions and complete page boundaries. XML and actual PNG dimensions match 1024x1536 desktop home, 1024x1536 desktop case study and 853x1844 mobile excerpt. The combined master is 3029x1844 with three nested canvases at their original dimensions. Evidence: qa/svg-structure.json and qa/render-evidence.json."
+    }
+  },
+  "limitations": [
+    "No Penpot/draw.io GUI import, native GUI editing, GUI save/reopen or teammate-sharing workflow was tested.",
+    "Font consistency across other machines/editors was not verified; local Arial/Helvetica/sans-serif and Consolas/Courier New substitutions may differ.",
+    "The seven separated concept illustrations remain raster crops; only surrounding copy, UI geometry and native portal illustration are native editable SVG.",
+    "Reconstruction is not pixel-identical to v1: local fonts, flat surfaces and approximate vector icons/portal lines are documented substitutions.",
+    "This technical QA does not establish M1 website interactions, responsive code, accessibility, live integrations or user approval of unreviewed business claims."
+  ]
+}
