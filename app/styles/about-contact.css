@@ -1,0 +1,319 @@
+/* Scoped implementation of the approved About/contact M0 compositions. */
+.ac-page {
+  color: #080b10;
+  background: #fbfcfd;
+  padding-bottom: 0;
+}
+.ac-page h1, .ac-page h2, .ac-page h3, .ac-page p,
+.ac-page ul, .ac-page ol, .ac-page dl, .ac-page dd { margin: 0; }
+.ac-page .eyebrow, .ac-section-number {
+  color: #064ff5;
+  font: 400 13px/16px Consolas, "Courier New", monospace;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.ac-page .section-heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.ac-page .ac-action {
+  min-height: 45px;
+  padding: 11px 21px;
+  gap: 12px;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 21px;
+  white-space: nowrap;
+}
+.ac-page .ac-action svg { flex-shrink: 0; }
+
+/* About: introduction and typographic profile. */
+.ac-about-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 306px;
+  gap: 44px;
+  padding: 44px 0 6px;
+  border-bottom: 1px solid #cfd7e3;
+}
+.ac-about-introduction, .ac-profile-card, .ac-toolkit, .ac-learning-card { min-width: 0; }
+.ac-page .ac-about-title {
+  margin-top: 18px;
+  font-size: 66px;
+  line-height: 72px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.ac-about-title span { display: block; }
+.ac-about-bio { margin-top: 29px; font-size: 18px; line-height: 27px; }
+.ac-about-bio p:first-child { font-size: 19px; line-height: 28px; }
+.ac-about-bio p + p { margin-top: 18px; }
+.ac-page .ac-selected-work-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  min-height: 44px;
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #064ff5;
+}
+.ac-profile-card {
+  align-self: start;
+  margin-top: 12px;
+  padding: 23px;
+  border: 1px solid #cddbf0;
+  border-radius: 10px;
+  background: #f3f7ff;
+}
+.ac-profile-art {
+  display: grid;
+  place-items: center;
+  height: 236px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #d6e1f2;
+  background-image:
+    linear-gradient(#e5ecf8 1px, transparent 1px),
+    linear-gradient(90deg, #e5ecf8 1px, transparent 1px);
+  background-size: 26px 26px;
+}
+.ac-profile-initials {
+  display: grid;
+  place-items: center;
+  width: 156px;
+  height: 156px;
+  border: 1px solid #c4d5f6;
+  border-radius: 50%;
+  background: #edf3ff;
+  color: #064ff5;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 1;
+}
+.ac-profile-details { padding-top: 16px; }
+.ac-profile-details h2 { font-size: 25px; line-height: 32px; font-weight: 700; }
+.ac-page .ac-profile-location { margin-top: 6px; font-size: 16px; line-height: 24px; color: #46586d; }
+.ac-page .ac-profile-focus { margin-top: 28px; font-size: 11px; line-height: 14px; }
+.ac-page .ac-profile-topics { margin-top: 10px; font-size: 14px; line-height: 21px; color: #26374d; }
+
+/* About: contribution, demonstrated vocabulary and explicit learning boundary. */
+.ac-working-approach { padding: 23px 0 34px; border-bottom: 1px solid #cfd7e3; }
+.ac-page .ac-section-intro { margin-top: 7px; font-size: 17px; line-height: 26px; color: #46586d; }
+.ac-page .ac-approach-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 31px;
+  padding: 0;
+  list-style: none;
+}
+.ac-approach-list li { min-width: 0; padding-right: 24px; }
+.ac-approach-list li + li { padding-left: 23px; border-left: 1px solid #cfd7e3; }
+.ac-approach-list li:last-child { padding-right: 0; }
+.ac-section-number { display: block; line-height: 18px; letter-spacing: 0; }
+.ac-approach-list h3 { margin-top: 14px; font-size: 19px; line-height: 26px; font-weight: 700; }
+.ac-approach-list p { max-width: 282px; margin-top: 13px; font-size: 15px; line-height: 23px; color: #334255; }
+.ac-toolkit-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 447px;
+  gap: 48px;
+  padding-top: 28px;
+}
+.ac-toolkit .section-heading, .ac-background .section-heading { font-size: 27px; line-height: 35px; }
+.ac-toolkit-rows { display: grid; gap: 13px; margin-top: 20px; }
+.ac-toolkit-row { display: flex; flex-wrap: wrap; gap: 10px; padding: 0; list-style: none; }
+.ac-toolkit-row li {
+  padding: 7px 19px;
+  border: 1px solid #cfd7e3;
+  border-radius: 20px;
+  background: #fff;
+  color: #26374d;
+  font-size: 13px;
+  line-height: 16px;
+}
+.ac-learning-card {
+  padding: 15px 23px 14px;
+  border: 1px solid #d6e1f2;
+  border-radius: 9px;
+  background: #f3f7ff;
+}
+.ac-learning-card h3 { font-size: 22px; line-height: 29px; font-weight: 700; }
+.ac-page .ac-learning-topics { margin-top: 12px; font-size: 16px; line-height: 25px; color: #334255; }
+.ac-course-boundary { margin-top: 8px; padding-top: 13px; border-top: 1px solid #d6e1f2; }
+.ac-course-boundary p:first-child { font-size: 15px; line-height: 21px; }
+.ac-course-boundary p + p { max-width: 300px; margin-top: 6px; color: #59697b; font-size: 14px; line-height: 20px; }
+.ac-background { margin-top: 39px; }
+.ac-page .ac-background-list { margin-top: 6px; }
+.ac-background-list > div {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
+  padding: 14px 0;
+  border-bottom: 1px solid #cfd7e3;
+}
+.ac-background-list dt { align-self: center; color: #67758a; font: 400 14px/24px Consolas, "Courier New", monospace; }
+.ac-background-list dd { font-size: 17px; line-height: 24px; }
+
+/* Shared closing band: navigation and download links, never a submission form. */
+.ac-page .ac-contact-band {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  min-height: 97px;
+  padding: 18px 28px;
+  border: 1px solid #d6e1f2;
+  border-radius: 7px;
+  background: #f3f7ff;
+}
+.ac-about-contact-band { margin-top: 62px; }
+.ac-contact-band-icon { width: 48px; height: 48px; flex-shrink: 0; color: #064ff5; stroke-width: 1.4; }
+.ac-contact-band-copy { min-width: 0; }
+.ac-page .ac-contact-band-copy p { font-size: 15px; line-height: 23px; }
+.ac-page .ac-contact-band-copy h2 { font-size: 30px; line-height: 36px; font-weight: 700; }
+.ac-contact-band-actions { display: flex; align-items: center; gap: 18px; flex-shrink: 0; margin-left: auto; }
+.ac-contact-band-actions .ac-action { min-width: 159px; }
+
+/* Contact: the selectable address is also the fallback for visitors without Gmail. */
+.ac-contact-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 180px;
+  gap: 40px;
+  align-items: center;
+  padding: 44px 0 54px;
+}
+.ac-contact-hero h1 { margin-top: 25px; font-size: 84px; line-height: 90px; font-weight: 700; letter-spacing: 0; }
+.ac-page .ac-contact-intro { margin-top: 16px; font-size: 22px; line-height: 32px; }
+.ac-contact-hero-icon { width: 132px; height: 132px; color: #064ff5; stroke-width: 1; }
+.ac-email-card {
+  position: relative;
+  min-height: 264px;
+  padding: 32px 31px 45px;
+  border: 1px solid #cddbf0;
+  border-radius: 11px;
+  background: #f3f7ff;
+}
+.ac-email-card .eyebrow { font-size: 12px; }
+.ac-page .ac-email-address {
+  position: relative;
+  margin-top: 27px;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 400;
+  overflow-wrap: anywhere;
+  user-select: text;
+  -webkit-user-select: text;
+}
+.ac-email-actions { display: flex; align-items: center; gap: 23px; margin-top: 42px; }
+.ac-email-actions .ac-action { min-width: 157px; min-height: 47px; font-size: 17px; }
+.ac-email-actions p { font-size: 15px; line-height: 23px; color: #586a7e; }
+.ac-email-icon { position: absolute; top: 36px; right: 52px; width: 62px; height: 48px; color: #064ff5; stroke-width: 1.25; }
+.ac-profile-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin-top: 34px; }
+.ac-profile-link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 166px;
+  padding: 23px;
+  border: 1px solid #cfd7e3;
+  border-radius: 8px;
+  background: #fff;
+  color: #080b10;
+  text-decoration: none;
+  transition: border-color 160ms ease, background-color 160ms ease;
+}
+.ac-profile-link:hover { border-color: #064ff5; background: #f6f9ff; }
+.ac-profile-link:focus-visible, .ac-page .ac-action:focus-visible, .ac-page .ac-selected-work-link:focus-visible {
+  outline: 2px solid #064ff5;
+  outline-offset: 4px;
+}
+.ac-profile-link-icon { width: 30px; height: 30px; color: #064ff5; stroke-width: 1.5; }
+.ac-profile-link-arrow { position: absolute; top: 25px; right: 24px; width: 21px; height: 21px; color: #064ff5; stroke-width: 1.4; }
+.ac-profile-link-title { margin-top: 19px; font-size: 23px; line-height: 30px; font-weight: 700; }
+.ac-profile-link-description { margin-top: 9px; font-size: 15px; line-height: 22px; color: #586a7e; }
+.ac-enquiry-context { margin-top: 72px; }
+.ac-enquiry-context .section-heading { font-size: 31px; line-height: 40px; }
+.ac-enquiry-context .ac-section-intro { margin-top: 8px; font-size: 18px; line-height: 27px; }
+.ac-page .ac-enquiry-list { margin-top: 10px; padding: 0; list-style: none; }
+.ac-enquiry-list li {
+  display: grid;
+  grid-template-columns: 54px 283px minmax(0, 1fr);
+  align-items: center;
+  min-height: 91px;
+  padding: 22px 0;
+  border-bottom: 1px solid #cfd7e3;
+}
+.ac-enquiry-list h3 { font-size: 21px; line-height: 28px; font-weight: 700; }
+.ac-enquiry-list p { font-size: 17px; line-height: 26px; color: #334255; }
+.ac-contact-work-band { margin-top: 97px; }
+.ac-contact-work-band .ac-contact-band-copy p { color: #334255; font-size: 17px; line-height: 25px; }
+.ac-contact-work-band .ac-contact-band-copy h2 { font-size: 26px; line-height: 34px; }
+
+/* Intermediate widths keep the desktop composition without squeezing long copy. */
+@media (max-width: 960px) {
+  .ac-about-hero { grid-template-columns: minmax(0, 1fr) 275px; gap: 28px; }
+  .ac-page .ac-about-title { font-size: 54px; line-height: 60px; }
+  .ac-desktop-break { display: none; }
+  .ac-toolkit-section { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 30px; }
+  .ac-page .ac-contact-band { flex-wrap: wrap; }
+  .ac-enquiry-list li { grid-template-columns: 44px 235px minmax(0, 1fr); }
+}
+
+/* The new pages have a single-column responsive layout, not scaled artboards. */
+@media (max-width: 860px) {
+  .ac-page { padding-bottom: 20px; }
+  .ac-about-hero { grid-template-columns: minmax(0, 1fr); gap: 28px; padding: 35px 0 36px; }
+  .ac-page .ac-about-title { margin-top: 20px; font-size: clamp(34px, 9vw, 60px); line-height: 1.08; }
+  .ac-about-bio, .ac-about-bio p:first-child { font-size: 17px; line-height: 27px; }
+  .ac-about-bio { margin-top: 24px; }
+  .ac-profile-card { width: 100%; max-width: 440px; margin: 0; }
+  .ac-profile-art { height: 206px; }
+  .ac-working-approach { padding: 29px 0 32px; }
+  .ac-page .section-heading { font-size: 28px; line-height: 35px; }
+  .ac-page .ac-approach-list { grid-template-columns: minmax(0, 1fr); gap: 25px; margin-top: 27px; }
+  .ac-approach-list li, .ac-approach-list li + li { padding: 0; border-left: 0; }
+  .ac-approach-list li + li { padding-top: 23px; border-top: 1px solid #cfd7e3; }
+  .ac-approach-list h3 { margin-top: 10px; font-size: 20px; line-height: 28px; }
+  .ac-approach-list p { max-width: 100%; margin-top: 9px; font-size: 16px; line-height: 25px; }
+  .ac-toolkit-section { grid-template-columns: minmax(0, 1fr); gap: 28px; padding-top: 29px; }
+  .ac-toolkit-rows { margin-top: 20px; }
+  .ac-toolkit-row { gap: 8px; }
+  .ac-toolkit-row li { padding-inline: 15px; }
+  .ac-learning-card { padding: 22px; }
+  .ac-learning-card h3 { font-size: 22px; line-height: 29px; }
+  .ac-background { margin-top: 34px; }
+  .ac-background-list > div { grid-template-columns: minmax(0, 1fr); gap: 8px; padding: 18px 0; }
+  .ac-background-list dd { font-size: 16px; line-height: 26px; }
+  .ac-page .ac-contact-band { gap: 17px; padding: 24px 22px; }
+  .ac-about-contact-band, .ac-contact-work-band { margin-top: 40px; }
+  .ac-contact-band-icon { width: 40px; height: 40px; }
+  .ac-contact-band-copy { flex: 1 1 180px; }
+  .ac-page .ac-contact-band-copy h2 { font-size: 28px; line-height: 36px; }
+  .ac-contact-band-actions { flex-wrap: wrap; width: 100%; gap: 12px; margin-left: 0; }
+  .ac-contact-band-actions .ac-action { flex: 1 1 150px; min-width: 0; }
+  .ac-contact-hero { grid-template-columns: minmax(0, 1fr); gap: 0; padding: 35px 0 33px; }
+  .ac-contact-hero h1 { margin-top: 22px; font-size: clamp(60px, 10vw, 76px); line-height: 1.1; }
+  .ac-page .ac-contact-intro { margin-top: 19px; font-size: 20px; line-height: 30px; }
+  .ac-contact-hero-icon { display: none; }
+  .ac-email-card { min-height: 0; padding: 26px 23px; }
+  .ac-page .ac-email-address { margin-top: 26px; font-size: clamp(23px, 5.8vw, 34px); line-height: 1.4; }
+  .ac-email-actions { flex-wrap: wrap; gap: 13px; margin-top: 27px; }
+  .ac-email-actions p { font-size: 14px; line-height: 22px; }
+  .ac-email-icon { top: 20px; right: 23px; width: 36px; height: 31px; }
+  .ac-profile-links { grid-template-columns: minmax(0, 1fr); gap: 14px; margin-top: 23px; }
+  .ac-profile-link { min-height: 146px; padding: 22px; }
+  .ac-profile-link-title { margin-top: 14px; font-size: 22px; line-height: 28px; }
+  .ac-profile-link-description { margin-top: 6px; font-size: 16px; line-height: 24px; }
+  .ac-enquiry-context { margin-top: 39px; }
+  .ac-enquiry-context .ac-section-intro { font-size: 17px; line-height: 26px; }
+  .ac-page .ac-enquiry-list { margin-top: 15px; }
+  .ac-enquiry-list li { grid-template-columns: 31px minmax(0, 1fr); gap: 9px 12px; padding: 23px 0; }
+  .ac-enquiry-list h3 { font-size: 20px; line-height: 28px; }
+  .ac-enquiry-list p { grid-column: 2; font-size: 16px; line-height: 25px; }
+  .ac-contact-work-band .ac-contact-band-copy h2 { font-size: 25px; line-height: 32px; }
+}
+@media (max-width: 480px) {
+  .ac-contact-band-icon { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ac-profile-link { transition: none; }
+}

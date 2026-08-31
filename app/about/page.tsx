@@ -1,145 +1,154 @@
-import { Github, Linkedin, Instagram } from "lucide-react";
-export default function About() {
+import type { Metadata } from "next";
+import Link from "next/link";
+import { ArrowRight, MessagesSquare } from "lucide-react";
+import { contactLinks } from "../content/contact";
+import { createPageMetadata } from "../content/site-metadata";
+import "../styles/about-contact.css";
+
+export const metadata: Metadata = createPageMetadata({
+  title: "About | Desheng Kong",
+  description:
+    "Meet Desheng Kong, an applied AI systems developer in Melbourne. Explore his front-end background, working approach, current toolkit and ongoing learning.",
+  path: "/about",
+});
+
+const workingApproach = [
+  {
+    title: "Understand the system",
+    description:
+      "Understand how the code and components fit together, including the parts created with AI assistance.",
+  },
+  {
+    title: "Debug and maintain",
+    description:
+      "Work through issues and understand the system well enough to maintain what I build.",
+  },
+  {
+    title: "Explain the decisions",
+    description:
+      "Explain the architecture choices behind a system, and the reasons for those decisions.",
+  },
+];
+
+const toolkit = [
+  ["LLM integration", "RAG", "Voice / STT / TTS"],
+  ["Next.js", "TypeScript", "Tailwind"],
+  ["Python", "Docker"],
+];
+
+export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-white to-gray-50 py-20">
-      <div className="mx-auto w-full max-w-6xl px-6">
-        {/* Hero */}
-        <section className="max-w-3xl">
-          <p className="text-sm text-gray-500">About</p>
-
-          <h1 className="mt-4 text-4xl font-semibold tracking-tight text-gray-900">
-            Front-end Developer <br />& Game Developer
-          </h1>
-
-          <p className="mt-6 text-lg text-gray-600">
-            I’m Desheng Kong, based in Melbourne. I focus on building modern,
-            clean, and user-friendly web applications, as well as exploring
-            interactive experiences through game development.
-          </p>
+    <main id="main-content" className="ac-page ac-about-page">
+      <div className="site-shell">
+        <section className="ac-about-hero" aria-labelledby="about-heading">
+          <div className="ac-about-introduction">
+            <p className="eyebrow">About me</p>
+            <h1 id="about-heading" className="ac-about-title">
+              <span>From interfaces</span>
+              <span>to AI systems.</span>
+            </h1>
+            <div className="ac-about-bio">
+              <p>
+                I’m Desheng Kong, an applied AI systems
+                <br className="ac-desktop-break" /> developer based in Melbourne.
+              </p>
+              <p>
+                I work across LLM integration, knowledge retrieval,
+                <br className="ac-desktop-break" /> voice interfaces and workflow automation.
+              </p>
+              <p>
+                My front-end background still shapes the interfaces
+                <br className="ac-desktop-break" /> I build around these systems.
+              </p>
+            </div>
+            <Link href="/#projects" className="inline-link ac-selected-work-link">
+              View selected work <ArrowRight aria-hidden="true" size={19} />
+            </Link>
+          </div>
+          <aside className="ac-profile-card" aria-label="Profile">
+            <div className="ac-profile-art" aria-hidden="true">
+              <div className="ac-profile-initials">DK</div>
+            </div>
+            <div className="ac-profile-details">
+              <h2>Desheng Kong</h2>
+              <p className="ac-profile-location">Melbourne, Australia</p>
+              <p className="eyebrow ac-profile-focus">Applied AI</p>
+              <p className="ac-profile-topics">Voice · knowledge · workflows</p>
+            </div>
+          </aside>
         </section>
 
-        {/* Divider */}
-        <div className="my-20 h-px w-full bg-gray-200" />
-
-        {/* About Content */}
-        <section className="grid gap-12 lg:grid-cols-2">
-          {/* Left */}
-          <div>
-            <h2 className="text-xl font-semibold text-gray-900">Background</h2>
-            <p className="mt-4 text-gray-600 leading-7">
-              I have been developing projects using React, Next.js, and
-              TypeScript, focusing on building structured, scalable, and
-              visually clean interfaces. Alongside web development, I also work
-              on indie game projects using Unity, where I explore gameplay
-              mechanics and interaction design.
-            </p>
-
-            <p className="mt-4 text-gray-600 leading-7">
-              During my internship, I contributed to the development of a
-              corporate website, improving layout structure and user experience.
-              This experience helped me better understand real-world project
-              workflows and collaboration.
-            </p>
-          </div>
-
-          {/* Right Card */}
-          <div className="rounded-3xl border bg-white p-8">
-            <h2 className="text-sm font-semibold text-gray-900">
-              Skills & Tools
-            </h2>
-
-            <div className="mt-6 flex flex-wrap gap-3">
-              {[
-                "Next.js",
-                "React",
-                "TypeScript",
-                "JavaScript",
-                "Tailwind CSS",
-                "WordPress",
-                "Unity",
-                "C#",
-                "Blender",
-                "Maya",
-              ].map((skill) => (
-                <span
-                  key={skill}
-                  className="rounded-full border bg-gray-50 px-3 py-1 text-xs text-gray-700"
-                >
-                  {skill}
+        <section className="ac-working-approach" aria-labelledby="approach-heading">
+          <h2 id="approach-heading" className="section-heading">How I work</h2>
+          <p className="ac-section-intro">
+            AI-assisted development, grounded in understanding the system.
+          </p>
+          <ol className="ac-approach-list">
+            {workingApproach.map((item, index) => (
+              <li key={item.title}>
+                <span className="ac-section-number" aria-hidden="true">
+                  {String(index + 1).padStart(2, "0")}
                 </span>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+              </li>
+            ))}
+          </ol>
+        </section>
+
+        <section className="ac-toolkit-section" aria-labelledby="toolkit-heading">
+          <div className="ac-toolkit">
+            <h2 id="toolkit-heading" className="section-heading">Working toolkit</h2>
+            <div className="ac-toolkit-rows">
+              {toolkit.map((row, index) => (
+                <ul key={index} className="ac-toolkit-row">
+                  {row.map((skill) => <li key={skill}>{skill}</li>)}
+                </ul>
               ))}
             </div>
-
-            <div className="mt-8 space-y-2 text-sm text-gray-600">
-              <p>📍 Melbourne, Australia</p>
-              <p>💼 Open to front-end opportunities</p>
-              <p>🎮 Interested in web & game development</p>
-            </div>
           </div>
+          <aside className="ac-learning-card" aria-labelledby="learning-heading">
+            <h3 id="learning-heading">Currently exploring</h3>
+            <p className="ac-learning-topics">
+              LangGraph · MCP · n8n<br />RAG evaluation
+            </p>
+            <div className="ac-course-boundary">
+              <p>NL2SQL course case study</p>
+              <p>Course learning — not a self-built production product.</p>
+            </div>
+          </aside>
         </section>
 
-        {/* CTA + Resume Combined */}
-        <section className="mt-28">
-          <div className="relative overflow-hidden rounded-[32px] bg-black px-6 py-20 text-white sm:px-10 md:px-16 md:py-24">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.08),transparent_55%)]" />
-            <div className="absolute inset-0 opacity-20 [background-image:linear-gradient(rgba(255,255,255,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.04)_1px,transparent_1px)] [background-size:32px_32px]" />
-
-            <div className="relative mx-auto flex max-w-4xl flex-col items-center text-center">
-              <p className="text-xs font-semibold uppercase tracking-[0.35em] text-white/75">
-                Get In Touch
-              </p>
-
-              <h2 className="mt-6 text-4xl font-semibold uppercase leading-none tracking-tight sm:text-5xl md:text-6xl">
-                Let’s Work Together
-              </h2>
-
-              <p className="mt-6 max-w-2xl text-base leading-7 text-white/70 sm:text-lg">
-                I’m currently open to front-end and web development
-                opportunities. You can explore my work, download my resume, or
-                reach out directly.
-              </p>
-
-              <div className="mt-10 flex flex-wrap justify-center gap-4">
-                {/* Contact */}
-                <a
-                  href="https://mail.google.com/mail/?view=cm&to=desheng.kong408@gmail.com&subject=Portfolio%20Enquiry"
-                  target="_blank"
-                  className="rounded-xl bg-blue-600 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:opacity-90"
-                >
-                  Contact Me
-                </a>
-
-                {/* Preview CV */}
-                <a
-                  href="https://www.canva.com/design/DAF64MusKZ8/oEofvk4M5rg5i2jC4OtKEQ/view?utm_content=DAF64MusKZ8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h491bd4eea6"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="rounded-xl border border-white/40 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-white hover:text-black"
-                >
-                  Preview CV
-                </a>
-              </div>
-
-              <div className="relative z-10 mt-10 flex justify-center gap-8 text-white/70">
-                <a
-                  href="https://github.com/fgzz12138"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="transition hover:text-white hover:scale-110"
-                >
-                  <Github className="h-6 w-6" />
-                </a>
-
-                <a
-                  href="https://www.linkedin.com/in/desheng-kong/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="transition hover:text-white hover:scale-110"
-                >
-                  <Linkedin className="h-6 w-6" />
-                </a>
-              </div>
+        <section className="ac-background" aria-labelledby="background-heading">
+          <h2 id="background-heading" className="section-heading">Background</h2>
+          <dl className="ac-background-list">
+            <div>
+              <dt>Foundation</dt>
+              <dd>Web interfaces · Next.js · TypeScript · Tailwind</dd>
             </div>
+            <div>
+              <dt>Current focus</dt>
+              <dd>Applied AI · voice · knowledge retrieval · workflows</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section
+          className="contact-band ac-contact-band ac-about-contact-band"
+          aria-labelledby="about-contact-heading"
+        >
+          <MessagesSquare className="ac-contact-band-icon" aria-hidden="true" />
+          <div className="ac-contact-band-copy">
+            <p>Have a practical AI problem to solve?</p>
+            <h2 id="about-contact-heading">Let’s talk.</h2>
+          </div>
+          <div className="ac-contact-band-actions">
+            <a href={contactLinks.cv} download className="button button-outline ac-action">
+              Download CV
+            </a>
+            <Link href="/contact" className="button button-primary ac-action">
+              Get in touch <ArrowRight aria-hidden="true" size={18} />
+            </Link>
           </div>
         </section>
       </div>

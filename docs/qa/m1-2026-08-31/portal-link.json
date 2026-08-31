@@ -1,0 +1,17 @@
+{
+  "url": "https://uai-api-customer-portal.pages.dev/",
+  "method": "HEAD",
+  "date": "2026-08-31",
+  "interaction_tested": false,
+  "error": "HTTP Error 403: Forbidden",
+  "browser_read_only": {
+    "loaded": true,
+    "visible_heading": "Welcome back",
+    "visible_labels": [
+      "Customer portal navigation",
+      "DEMO DATA",
+      "Invite Beta"
+    ],
+    "meaning": "Destination loads in the in-app browser without a login prompt. No controls were exercised and no portal data was changed."
+  }
+}

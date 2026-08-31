@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PortfolioImage from "../../components/PortfolioImage";
 
 const techStack = ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"];
 
@@ -27,7 +28,10 @@ const features = [
 
 export default function PortfolioV1Page() {
   return (
-    <main className="min-h-screen bg-white px-6 py-16 text-black">
+    <main id="main-content" className="min-h-screen bg-white px-6 py-16 text-black">
+      <aside className="mx-auto mb-8 max-w-6xl border-l-4 border-blue-200 bg-blue-50 px-5 py-4 text-sm leading-6 text-slate-600">
+        Historical project write-up. Descriptions and screenshots reflect the project period; current service availability and historical outcomes have not been reverified for this portfolio update.
+      </aside>
       <div className="mx-auto max-w-6xl">
         {/* Back link */}
         <Link
@@ -93,7 +97,7 @@ export default function PortfolioV1Page() {
           {/* Hero screenshot wrapper */}
           <div className="overflow-hidden rounded-[28px] border border-gray-200 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
             {/* Replace only if your image path changes */}
-            <img
+            <PortfolioImage
               src="/ProjectImages/Portfolio/Hero.png"
               alt="Portfolio hero section screenshot"
               className="w-full object-cover"
@@ -220,7 +224,7 @@ export default function PortfolioV1Page() {
           <div className="mt-10 space-y-10">
             {/* Screenshot 1: Hero */}
             <figure className="overflow-hidden rounded-[28px] border border-gray-200 bg-white shadow-[0_18px_50px_rgba(0,0,0,0.06)]">
-              <img
+              <PortfolioImage
                 src="/ProjectImages/Portfolio/Hero.png"
                 alt="Portfolio homepage hero screenshot"
                 className="w-full object-cover"
@@ -233,7 +237,7 @@ export default function PortfolioV1Page() {
 
             {/* Screenshot 2: Projects */}
             <figure className="overflow-hidden rounded-[28px] border border-gray-200 bg-white shadow-[0_18px_50px_rgba(0,0,0,0.06)]">
-              <img
+              <PortfolioImage
                 src="/ProjectImages/Portfolio/Projects.png"
                 alt="Portfolio projects section screenshot"
                 className="w-full object-cover"
@@ -252,7 +256,7 @@ export default function PortfolioV1Page() {
                 - part of design or development section
             */}
             <figure className="overflow-hidden rounded-[28px] border border-dashed border-gray-300 bg-gray-50 shadow-[0_18px_50px_rgba(0,0,0,0.04)]">
-              <img
+              <PortfolioImage
                 src="/ProjectImages/Portfolio/ProjectDetail.png"
                 alt="Portfolio detail page screenshot placeholder"
                 className="w-full object-cover"
@@ -293,12 +297,12 @@ export default function PortfolioV1Page() {
           </p>
 
           <div className="flex flex-wrap gap-3 pt-4">
-            <a
+            <Link
               href="/"
               className="rounded-full border border-white/30 px-5 py-3 text-sm font-medium text-white transition hover:border-white"
             >
               Back to Home
-            </a>
+            </Link>
           </div>
         </section>
       </div>

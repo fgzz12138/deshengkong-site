@@ -6,15 +6,17 @@ export default function ProjectCard({ p }: { p: Project }) {
   return (
     <Link
       href={`/projects/${p.slug}`}
-      className="group overflow-hidden rounded-2xl border bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+      className="group overflow-hidden rounded-2xl border border-gray-200 bg-white transition-all duration-300 hover:-translate-y-1 hover:border-black/15 hover:shadow-2xl hover:shadow-black/10"
     >
-      <div className="relative w-full aspect-[16/10] bg-gray-100">
+      <div className="relative w-full aspect-[16/10] overflow-hidden bg-gray-100">
         <Image
           src={p.thumbnail}
           alt={p.title}
           fill
           className="object-cover object-top transition duration-500 group-hover:scale-105"
         />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/45 via-black/0 to-black/0 opacity-0 transition duration-300 group-hover:opacity-100" />
+        <div className="pointer-events-none absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-25 [background-image:linear-gradient(rgba(255,255,255,0.5)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.5)_1px,transparent_1px)] [background-size:24px_24px]" />
       </div>
 
       {/* Content */}

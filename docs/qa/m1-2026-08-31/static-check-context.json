@@ -1,0 +1,29 @@
+{
+  "date": "2026-08-31",
+  "checks": [
+    {
+      "check": "eslint",
+      "exit_code": 0
+    },
+    {
+      "check": "typescript",
+      "exit_code": 0
+    },
+    {
+      "check": "diff-check",
+      "exit_code": 0
+    }
+  ],
+  "installed_versions_for_static_checks": {
+    "next": "16.1.6",
+    "eslint-config-next": "16.1.6",
+    "typescript": "5.9.3",
+    "eslint": "9.39.2",
+    "react": "19.2.3"
+  },
+  "target_next": "16.3.3",
+  "build_run": false,
+  "browser_acceptance_run": false,
+  "reason": "User build/test environment selection is pending. Static results are provisional until repeated with an isolated install matching the new lockfile.",
+  "includes_final_metadata_and_image_fallback_corrections": true
+}

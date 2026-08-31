@@ -39,8 +39,267 @@ export type Project = {
 
   images?: string[];
   demoVideo?: string;
+
+  flowDiagram?: { label: string; description?: string }[];
 };
 export const projects: Project[] = [
+  {
+    slug: "virtual-concierge",
+    title: "AI Concierge Kiosk",
+    category: "AI Agent",
+    description:
+      "A voice- and touch-driven AI concierge deployed on an in-venue touch kiosk, answering site-specific questions through a RAG knowledge base with an async STT/TTS pipeline built for responsiveness.",
+    tech: ["LLM Integration", "RAG", "STT/TTS", "Async Architecture", "Multimodal UI"],
+    // TODO(desheng): replace with real photo/screenshot
+    thumbnail: "/projectThumbnail/ai-concierge.svg",
+
+    tagline:
+      "A retail/property concierge agent that listens, looks up, and answers — without making visitors wait on the pipeline.",
+
+    overview:
+      "Virtual Concierge is an AI agent deployed on a physical touch kiosk in-venue, combining voice and touchscreen input to answer visitor questions about the site. At its core is a RAG knowledge base that grounds answers in the venue's actual information rather than generic responses.",
+    audience:
+      "Visitors to the store or property who need quick answers about the venue — the kind of questions a front-desk or concierge staff member would normally field.",
+
+    role: "Responsible for the RAG knowledge base, the STT/TTS pipeline architecture, and the stability fixes needed to keep the kiosk reliable in daily use.",
+
+    highlights: [
+      "Built a RAG knowledge base to ground answers in venue-specific information",
+      "Designed an async architecture to run the STT/TTS pipeline without blocking the interface",
+      "Diagnosed and fixed a repeated-recognition bug in the voice pipeline",
+      "Fixed a silent-audio issue affecting mobile/touch interactions",
+    ],
+
+    features: [
+      {
+        title: "RAG-grounded answers",
+        description:
+          "Visitor questions are answered using a retrieval-augmented pipeline over a venue-specific knowledge base, rather than relying on the model's general knowledge.",
+      },
+      {
+        title: "Voice + touch input",
+        description:
+          "The kiosk accepts both spoken and touchscreen input, giving visitors a way to interact that fits the physical, walk-up context.",
+      },
+      {
+        title: "Async STT/TTS pipeline",
+        description:
+          "Speech-to-text and text-to-speech run asynchronously so the interface stays responsive instead of blocking while audio is processed.",
+      },
+      {
+        title: "Stability iteration",
+        description:
+          "The kiosk went through multiple rounds of bug fixing, including a repeated-recognition issue and a mobile silent-audio bug, to make it reliable for unattended, everyday use.",
+      },
+    ],
+
+    process: [
+      "Designed the RAG knowledge base structure around venue-specific content",
+      "Built the async pipeline connecting STT, the LLM, and TTS",
+      "Integrated the pipeline with the kiosk's touch and voice interface",
+      "Diagnosed and resolved a repeated-recognition bug in the voice pipeline",
+      "Fixed a mobile silent-audio issue affecting voice interaction",
+    ],
+    workflow:
+      "The agent runs on a physical kiosk, so the priority was keeping the voice interaction fast and not letting the STT/TTS pipeline stall the interface — the async architecture and later stability fixes were both driven by that constraint.",
+
+    challenges: [
+      "Keeping the interface responsive while STT/TTS processing happens in the background",
+      "Diagnosing a repeated-recognition bug in the voice pipeline",
+      "Fixing a silent-audio issue specific to mobile/touch interaction",
+    ],
+
+    result:
+      "A deployed, in-venue AI concierge that answers site-specific questions through voice and touch, with an async pipeline and stability fixes that keep it usable in unattended, everyday operation.",
+    reflection:
+      "This project reinforced how much of building a voice agent is pipeline engineering and reliability work — RAG retrieval is only part of the experience; the async architecture and edge-case bug fixes are what make it usable in production.",
+  },
+  {
+    slug: "alpha-ai",
+    title: "AI Platform — Annotation & Evaluation Workflow",
+    category: "AI Agent",
+    description:
+      "Designed a human annotation workflow and an automated testing/reporting process for model outputs on an AI platform.",
+    tech: ["Evals", "Annotation Pipeline", "AI Platform"],
+    // TODO(desheng): replace with real photo/screenshot
+    thumbnail: "/projectThumbnail/alpha-ai.svg",
+
+    tagline:
+      "Turning raw model outputs into something a human can annotate — and a process that can tell you when quality slips.",
+
+    overview:
+      "This project covered two connected pieces of an AI platform's quality process: designing the workflow human annotators use to label and review model outputs, and setting up an automated process for testing model outputs and generating reports on them.",
+
+    role: "Designed the human annotation workflow and the automated testing/reporting process for model outputs.",
+
+    highlights: [
+      "Designed a human annotation workflow for reviewing model outputs",
+      "Built an automated testing process for model outputs",
+      "Set up reporting on model output quality",
+    ],
+
+    features: [
+      {
+        title: "Annotation workflow",
+        description:
+          "Designed the process human annotators follow to review and label model outputs on the platform.",
+      },
+      {
+        title: "Automated output testing",
+        description:
+          "Set up automated checks that run against model outputs as part of the platform's testing process.",
+      },
+      {
+        title: "Reporting",
+        description:
+          "Built a reporting process that surfaces the results of automated testing for review.",
+      },
+    ],
+
+    process: [
+      "Designed the annotation workflow structure for human reviewers",
+      "Built the automated testing process for model outputs",
+      "Set up the reporting flow to surface test results",
+    ],
+
+    challenges: [
+      "Designing an annotation workflow that's clear and consistent for human reviewers",
+      "Building automated tests that meaningfully evaluate model output quality",
+    ],
+
+    result:
+      "A working annotation workflow for human reviewers and an automated testing/reporting process for model outputs on the AI platform.",
+    reflection:
+      "This project sat on the evals side of AI development — a reminder that shipping a model or agent is only half the work; having a process to actually check its outputs is the other half.",
+  },
+  {
+    slug: "autoxing-robotics",
+    title: "Autonomous Robot Deployment — Enterprise Data Center",
+    category: "Applied AI",
+    description:
+      "Deployed and configured autonomous navigation robots on an enterprise data center site, integrating the robot vendor's fleet software with the site's maps and access/operational workflows.",
+    tech: ["Robotics Integration", "Fleet Navigation", "Enterprise Deployment"],
+    // TODO(desheng): replace with real photo/screenshot
+    thumbnail: "/projectThumbnail/autoxing-robotics.svg",
+
+    tagline:
+      "Getting a robot fleet to actually navigate a real site — maps, access control, and operations, not just the demo.",
+
+    overview:
+      "This project involved deploying autonomous navigation robots on an enterprise data center site and configuring the vendor's fleet management software for that specific site — connecting the robots' navigation to the site's floor maps and integrating with access control and day-to-day operational workflows.",
+
+    role: "Responsible for site deployment and configuration, connecting the fleet software to the site's maps and operational/access-control processes.",
+
+    highlights: [
+      "Deployed autonomous navigation robots on a live enterprise data center site",
+      "Configured the vendor's fleet management software for the specific site",
+      "Integrated robot navigation with the site's floor maps",
+      "Connected the deployment to the site's access control and operational workflows",
+    ],
+
+    features: [
+      {
+        title: "Fleet software configuration",
+        description:
+          "Set up the robot vendor's fleet management platform for the specific data center site.",
+      },
+      {
+        title: "Site map integration",
+        description:
+          "Connected the robots' navigation to the site's actual floor maps so routes reflect the real layout.",
+      },
+      {
+        title: "Access & operations integration",
+        description:
+          "Coordinated the deployment with the site's access control and operational processes so the robots fit into existing workflows rather than working around them.",
+      },
+    ],
+
+    process: [
+      "Reviewed the site layout and access requirements",
+      "Configured the vendor fleet software for the site",
+      "Integrated navigation with the site's floor maps",
+      "Coordinated with site operations to fit the deployment into existing access-control and operational processes",
+    ],
+
+    challenges: [
+      "Aligning the robot fleet software's navigation with the real site map and constraints",
+      "Integrating the deployment with existing access control and operational processes without disrupting them",
+    ],
+
+    result:
+      "Autonomous navigation robots deployed and operating on the data center site, with fleet software configured to match the site's map and integrated into its access-control and operational workflows.",
+    reflection:
+      "This project was less about the AI/navigation stack itself and more about integration work — making a vendor's general-purpose fleet platform fit one specific site's map, access rules, and operations.",
+  },
+  {
+    slug: "enterprise-ai-infrastructure",
+    title: "Enterprise AI Infrastructure Deployment Support",
+    category: "Applied AI",
+    description:
+      "Technical support for enterprise-scale AI infrastructure deployment — GPU cluster equipment selection, data center cabling and rack layout coordination, and cross-team technical documentation.",
+    tech: ["GPU Infrastructure", "Technical Proposals", "Vendor Coordination"],
+    // TODO(desheng): replace with real photo/screenshot
+    thumbnail: "/projectThumbnail/enterprise-ai-infra.svg",
+
+    tagline:
+      "The unglamorous side of AI infrastructure — equipment selection, rack layout, and getting every team reading from the same document.",
+
+    overview:
+      "This work involved providing technical support for the deployment of enterprise-scale AI infrastructure, centered on a GPU cluster data center build. It covered equipment selection, coordinating cabling and rack layout, and producing technical documentation to align the teams involved.",
+
+    role: "Provided technical support across equipment selection, cabling/rack layout coordination, and cross-team technical documentation for the deployment.",
+
+    highlights: [
+      "Supported equipment selection for a GPU cluster data center deployment",
+      "Coordinated cabling and rack layout planning",
+      "Produced cross-team technical documentation to align stakeholders",
+    ],
+
+    features: [
+      {
+        title: "Equipment selection",
+        description:
+          "Supported the selection of GPU cluster equipment for the data center deployment.",
+      },
+      {
+        title: "Cabling & rack layout",
+        description:
+          "Coordinated cabling and rack layout planning for the physical data center build.",
+      },
+      {
+        title: "Technical documentation",
+        description:
+          "Produced documentation to keep cross-functional teams aligned on the deployment.",
+      },
+    ],
+
+    process: [
+      "Supported evaluation and selection of GPU cluster equipment",
+      "Coordinated cabling and rack layout planning with the deployment team",
+      "Wrote technical documentation to align stakeholders across teams",
+    ],
+
+    challenges: [
+      "Coordinating cabling and rack layout decisions across multiple teams",
+      "Producing documentation clear enough to align technical and non-technical stakeholders",
+    ],
+
+    result:
+      "Contributed technical support to an enterprise-scale GPU cluster data center deployment, from equipment selection through cabling/rack layout coordination and documentation.",
+    reflection:
+      "This project gave me visibility into the physical infrastructure layer that AI systems actually run on — a useful counterweight to the software/agent side of the work.",
+  },
+  {
+    slug: "ezisight-ecommerce",
+    title: "EziSight E-commerce Website",
+    category: "Web",
+    description:
+      "A frontend-focused e-commerce build with Next.js and TypeScript — product browsing, cart interaction, and an enquiry flow on a scalable UI structure. Core functionality is complete and it's ready to launch.",
+    tech: ["Next.js", "TypeScript", "Tailwind"],
+    thumbnail: "/projectThumbnail/Ezisight.png",
+  },
+
   {
     slug: "company-website",
     title: "Corporate Website Development",
@@ -49,15 +308,6 @@ export const projects: Project[] = [
       "Contributed to the development of a company website during an internship, focusing on content structure, UI layout, and user experience optimization.",
     tech: ["WordPress", "HTML", "CSS"],
     thumbnail: "/projectThumbnail/company2.png",
-  },
-  {
-    slug: "ezisight-ecommerce",
-    title: "EziSight E-commerce Website",
-    category: "Web",
-    description:
-      "A frontend-focused e-commerce prototype built with Next.js and TypeScript, featuring product browsing, cart interaction, and enquiry flow with a scalable UI structure.",
-    tech: ["Next.js", "TypeScript", "Tailwind"],
-    thumbnail: "/projectThumbnail/Ezisight.png",
   },
   {
     slug: "portfolio-v1",
@@ -346,7 +596,6 @@ export const projects: Project[] = [
     ],
     demoVideo: "https://www.youtube.com/embed/JonLI42xWhQ",
   },
-
   {
     slug: "3d-environment-01",
     title: "3D Environment Study",
@@ -437,7 +686,6 @@ export const projects: Project[] = [
     ],
     demoVideo: "https://www.youtube.com/embed/iDQKId5UKss",
   },
-
   {
     slug: "3d-character-study",
     title: "3D Character Study",

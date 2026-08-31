@@ -1,0 +1,67 @@
+{
+  "source": "E:\\gitclone\\deshengkong-site",
+  "baseline_manifest": "E:\\gitclone\\deshengkong-site-backups\\m1-baseline-20260831-173042\\manifest.json",
+  "all_unchanged": true,
+  "files": [
+    {
+      "path": "app/about/page.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "app/components/ProjectCard.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "app/content/projects.ts",
+      "unchanged": true
+    },
+    {
+      "path": "app/page.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "app/projects/[Slug]/page.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "app/projects/company-website/page.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "app/projects/portfolio-v1/page.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "next.config.ts",
+      "unchanged": true
+    },
+    {
+      "path": "package-lock.json",
+      "unchanged": true
+    },
+    {
+      "path": "app/components/CurrentlyLearning.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "app/components/SkillsPanel.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "public/projectThumbnail/ai-concierge.svg",
+      "unchanged": true
+    },
+    {
+      "path": "public/projectThumbnail/alpha-ai.svg",
+      "unchanged": true
+    },
+    {
+      "path": "public/projectThumbnail/autoxing-robotics.svg",
+      "unchanged": true
+    },
+    {
+      "path": "public/projectThumbnail/enterprise-ai-infra.svg",
+      "unchanged": true
+    }
+  ]
+}

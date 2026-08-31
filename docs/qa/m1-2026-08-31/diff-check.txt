@@ -1,0 +1,14 @@
+$ git diff --check
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/about/page.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/content/projects.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/globals.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/layout.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/projects/[Slug]/page.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/projects/company-website/page.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/projects/ezisight-ecommerce/page.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/projects/portfolio-v1/page.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'eslint.config.mjs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+
+exit_code=0

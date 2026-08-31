@@ -1,0 +1,45 @@
+<svg viewBox="0 0 1600 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+    <radialGradient id="glow" cx="35%" cy="25%" r="65%">
+      <stop offset="0%" stop-color="rgba(59,130,246,0.3)" />
+      <stop offset="100%" stop-color="rgba(59,130,246,0)" />
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)" />
+  <rect width="1600" height="1000" fill="url(#glow)" />
+  <rect width="1600" height="1000" fill="url(#grid)" />
+
+  <g fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="1.5">
+    <rect x="500" y="250" width="600" height="90" rx="6" />
+    <rect x="500" y="360" width="600" height="90" rx="6" />
+    <rect x="500" y="470" width="600" height="90" rx="6" />
+    <rect x="500" y="580" width="600" height="90" rx="6" />
+  </g>
+
+  <g fill="rgba(96,165,250,0.55)">
+    <circle cx="540" cy="295" r="6" />
+    <circle cx="540" cy="405" r="6" />
+    <circle cx="540" cy="515" r="6" />
+    <circle cx="540" cy="625" r="6" />
+  </g>
+
+  <g fill="rgba(255,255,255,0.14)">
+    <rect x="580" y="278" width="440" height="10" rx="5" />
+    <rect x="580" y="388" width="380" height="10" rx="5" />
+    <rect x="580" y="498" width="410" height="10" rx="5" />
+    <rect x="580" y="608" width="360" height="10" rx="5" />
+  </g>
+
+  <g stroke="rgba(96,165,250,0.4)" stroke-width="1.5" fill="none">
+    <path d="M480 295 C 420 295, 420 405, 480 405" />
+    <path d="M480 515 C 420 515, 420 625, 480 625" />
+  </g>
+</svg>

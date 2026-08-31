@@ -1,84 +1,41 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
+import { useRef, useState } from "react";
+import { Menu, X } from "lucide-react";
 
-export default function Header() {
+function Navigation({ pathname }: { pathname: string }) {
   const [open, setOpen] = useState(false);
-
+  const toggle = useRef<HTMLButtonElement>(null);
+  const close = () => setOpen(false);
   return (
-    <header className="border-b bg-white">
-      <div className="mx-auto w-full max-w-6xl px-6">
-        <div className="flex items-center justify-between py-4">
-          <Link
-            href="/"
-            className="text-xl font-semibold tracking-tight text-gray-900"
-          >
-            Desheng Kong
-          </Link>
-
-          {/* Desktop Nav */}
-          <nav className="hidden items-center gap-8 text-sm text-gray-600 sm:flex">
-            <Link href="/" className="transition hover:text-black">
-              Home
-            </Link>
-            <Link href="/about" className="transition hover:text-black">
-              About
-            </Link>
+    <header className="site-header" onKeyDown={(event) => {
+      if (event.key === "Escape" && open) { close(); toggle.current?.focus(); }
+    }}>
+      <div className="site-shell">
+        <div className="site-header-inner">
+          <Link className="site-brand" href="/" onClick={close}>Desheng Kong</Link>
+          <nav className="desktop-nav" aria-label="Main navigation">
+            <Link href="/#projects">Work</Link>
+            <Link href="/about" aria-current={pathname === "/about" ? "page" : undefined}>About</Link>
+            <Link href="/contact" className="nav-contact" aria-current={pathname === "/contact" ? "page" : undefined}>Get in touch</Link>
           </nav>
-
-          {/* Mobile Hamburger */}
-          <button
-            type="button"
-            className="inline-flex items-center justify-center rounded-md p-2 text-gray-700 transition hover:bg-gray-100 sm:hidden"
-            aria-label="Open menu"
-            aria-expanded={open}
-            onClick={() => setOpen((v) => !v)}
-          >
-            <span className="relative block h-5 w-6">
-              <span
-                className={`absolute left-0 top-0 h-0.5 w-6 bg-black transition-all duration-300 ${
-                  open ? "translate-y-2 rotate-45" : ""
-                }`}
-              />
-              <span
-                className={`absolute left-0 top-2 h-0.5 w-6 bg-black transition-all duration-300 ${
-                  open ? "opacity-0" : ""
-                }`}
-              />
-              <span
-                className={`absolute left-0 top-4 h-0.5 w-6 bg-black transition-all duration-300 ${
-                  open ? "-translate-y-2 -rotate-45" : ""
-                }`}
-              />
-            </span>
+          <button ref={toggle} type="button" className="menu-toggle" aria-label={open ? "Close menu" : "Open menu"} aria-expanded={open} aria-controls="mobile-navigation" onClick={() => setOpen(!open)}>
+            {open ? <X aria-hidden="true" /> : <Menu aria-hidden="true" />}
           </button>
         </div>
-
-        {/* Mobile Menu */}
-        <div
-          className={`overflow-hidden transition-all duration-300 sm:hidden ${
-            open ? "max-h-40 pb-4" : "max-h-0"
-          }`}
-        >
-          <nav className="flex flex-col gap-3 text-sm text-gray-700">
-            <Link
-              href="/"
-              onClick={() => setOpen(false)}
-              className="transition hover:text-black"
-            >
-              Home
-            </Link>
-            <Link
-              href="/about"
-              onClick={() => setOpen(false)}
-              className="transition hover:text-black"
-            >
-              About
-            </Link>
-          </nav>
-        </div>
+        <nav id="mobile-navigation" className="mobile-nav" aria-label="Mobile navigation" hidden={!open}>
+          <Link href="/#projects" onClick={close}>Work</Link>
+          <Link href="/projects" onClick={close}>All projects</Link>
+          <Link href="/about" onClick={close} aria-current={pathname === "/about" ? "page" : undefined}>About</Link>
+          <Link href="/contact" onClick={close} aria-current={pathname === "/contact" ? "page" : undefined}>Get in touch</Link>
+        </nav>
       </div>
     </header>
   );
+}
+export default function Header() {
+  const pathname = usePathname();
+  return <Navigation key={pathname} pathname={pathname} />;
 }

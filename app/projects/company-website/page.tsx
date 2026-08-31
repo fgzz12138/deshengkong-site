@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import PortfolioImage from "../../components/PortfolioImage";
 
 type PreviewMode = "contain" | "top" | "cover" | "left";
 
@@ -35,7 +36,7 @@ function ZoomImage({
         onClick={() => setOpen(true)}
         className={`group relative flex w-full ${heightClass} items-center justify-center overflow-hidden rounded-3xl border border-gray-200 bg-gray-50 text-left`}
       >
-        <img
+        <PortfolioImage
           src={src}
           alt={alt}
           className={`${previewClass} transition duration-300 group-hover:scale-[1.02]`}
@@ -65,7 +66,7 @@ function ZoomImage({
             className="flex max-h-[92vh] max-w-[94vw] items-center justify-center"
             onClick={(e) => e.stopPropagation()}
           >
-            <img
+            <PortfolioImage
               src={src}
               alt={alt}
               className="max-h-[92vh] max-w-[94vw] rounded-2xl bg-white object-contain shadow-2xl"
@@ -188,7 +189,10 @@ const challenges = [
 
 export default function CompanyWebsitePage() {
   return (
-    <main className="mx-auto max-w-6xl px-6 py-16">
+    <main id="main-content" className="mx-auto max-w-6xl px-6 py-16">
+      <aside className="mx-auto mb-8 max-w-6xl border-l-4 border-blue-200 bg-blue-50 px-5 py-4 text-sm leading-6 text-slate-600">
+        Historical project write-up. Descriptions and screenshots reflect the project period; current service availability and historical outcomes have not been reverified for this portfolio update.
+      </aside>
       <Link
         href="/"
         className="mb-10 inline-block text-sm text-gray-500 transition hover:text-black"

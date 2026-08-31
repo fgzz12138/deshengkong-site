@@ -1,28 +1,19 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Header from "./components/Header";
+import SiteFooter from "./components/SiteFooter";
+import { createPageMetadata, SITE_ORIGIN } from "./content/site-metadata";
 
 export const metadata: Metadata = {
-  title: "Desheng Kong",
-  description: "Front-end Developer & Game Developer",
+  ...createPageMetadata({
+    title: "Desheng Kong — Applied AI & Practical Systems",
+    description: "Applied AI, practical tools and clear workflows. Explore Desheng Kong’s work in voice interfaces, knowledge retrieval and customer-facing systems.",
+    path: "/",
+  }),
+  metadataBase: new URL(SITE_ORIGIN),
 };
+export const viewport: Viewport = { width: "device-width", initialScale: 1 };
 
-export const viewport: Viewport = {
-  width: "device-width",
-  initialScale: 1,
-};
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en">
-      <body className="antialiased bg-white text-gray-900">
-        <Header />
-        <main>{children}</main>
-      </body>
-    </html>
-  );
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return <html lang="en"><body><a className="skip-link" href="#main-content">Skip to content</a><Header />{children}<SiteFooter /></body></html>;
 }

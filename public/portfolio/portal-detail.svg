@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="38 563 944 488" role="img" aria-labelledby="image-title"><title id="image-title">Illustrative customer portal using synthetic data; no live API</title><style>text {font-family:Arial,Helvetica,sans-serif} .mono {font-family:Consolas,Courier New,monospace}</style><g id="editable-portal-illustrative-interface" data-semantic-role="editable-portal-illustrative-interface">
+<rect x="40" y="565" width="940" height="484" rx="11" fill="#F5F8FE" stroke="#C6D6F3" stroke-width="1" />
+<rect x="65" y="588" width="28" height="28" rx="5" fill="#064FF5" />
+<path d="M79 591l10 11l-10 11l-11-11z" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="57" y="635" width="163" height="37" rx="5" fill="#E6EEFC" />
+<path d="M70 653l7-7l7 7v9h-5v-6h-4v6h-5z" fill="none" stroke="#064FF5" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="101" y="659" font-size="14" font-weight="400" fill="#064FF5" text-anchor="start">Overview</text>
+<circle cx="79" cy="691" r="4" fill="none" stroke="#29415F" stroke-width="1" />
+<path d="M76 694l-7 7v3h4v-3h3l3-3" fill="none" stroke="#29415F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="101" y="700" font-size="14" font-weight="400" fill="#162C4A" text-anchor="start">API keys</text>
+<line x1="71" y1="743" x2="71" y2="736" stroke="#29415F" stroke-width="1" stroke-linecap="round" />
+<line x1="75" y1="743" x2="75" y2="730" stroke="#29415F" stroke-width="1" stroke-linecap="round" />
+<line x1="79" y1="743" x2="79" y2="725" stroke="#29415F" stroke-width="1" stroke-linecap="round" />
+<line x1="83" y1="743" x2="83" y2="733" stroke="#29415F" stroke-width="1" stroke-linecap="round" />
+<text x="101" y="741" font-size="14" font-weight="400" fill="#162C4A" text-anchor="start">Usage</text>
+<path d="M77 767l8 4v10l-8 4l-8-4V771zM69 771l8 5l8-5M77 776v9" fill="none" stroke="#29415F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="101" y="782" font-size="14" font-weight="400" fill="#162C4A" text-anchor="start">Models</text>
+<rect x="69" y="810" width="16" height="15" rx="2" fill="none" stroke="#29415F" stroke-width="1" />
+<path d="M72 814l3 3l-3 3m6 0h4" fill="none" stroke="#29415F" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="101" y="823" font-size="14" font-weight="400" fill="#162C4A" text-anchor="start">Playground</text>
+<path d="M71 850h8l5 5v12H71zM79 850v5h5m-10 4h7m-7 4h7" fill="none" stroke="#29415F" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="101" y="864" font-size="14" font-weight="400" fill="#162C4A" text-anchor="start">Docs</text>
+<rect x="239" y="585" width="703" height="450" rx="10" fill="white" stroke="#D7E0EF" stroke-width="1" />
+<circle cx="909" cy="607" r="13" fill="#E9EFF8" stroke="#E9EFF8" stroke-width="1" />
+<circle cx="909" cy="604" r="3.5" fill="none" stroke="#1C3559" stroke-width="1" />
+<path d="M902 614c0-7 14-7 14 0" fill="none" stroke="#1C3559" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="257" y="629" width="667" height="65" rx="6" fill="#EAF1FE" stroke="#CFDDF5" stroke-width="1" />
+<text x="590" y="673" font-size="28" font-weight="700" fill="#064FF5" text-anchor="middle" textLength="364" lengthAdjust="spacingAndGlyphs">DEMO DATA · NO LIVE API</text>
+<g id="portal-request-playground" data-semantic-role="portal-request-playground">
+<rect x="257" y="708" width="361" height="173" rx="7" fill="white" stroke="#DCE3EE" stroke-width="1" />
+<text x="273" y="736" font-size="15" font-weight="500" fill="#102744" text-anchor="start">Request playground</text>
+<text x="273" y="766" font-size="13" font-weight="400" fill="#172538" text-anchor="start">Sample request</text>
+<rect x="273" y="775" width="330" height="53" rx="5" fill="#FFFFFF" stroke="#CDD7E8" stroke-width="1" />
+<line x1="287" y1="791" x2="404" y2="791" stroke="#D5DDEA" stroke-width="4" stroke-linecap="round" />
+<line x1="287" y1="809" x2="412" y2="809" stroke="#D5DDEA" stroke-width="4" stroke-linecap="round" />
+<rect x="489" y="840" width="114" height="29" rx="4" fill="white" stroke="#064FF5" stroke-width="1" />
+<text x="546.0" y="858.24" font-size="11" font-weight="500" fill="#064FF5" text-anchor="middle">Simulate request</text>
+</g>
+<g id="portal-response-preview" data-semantic-role="portal-response-preview">
+<rect x="634" y="708" width="290" height="173" rx="7" fill="white" stroke="#DCE3EE" stroke-width="1" />
+<text x="650" y="736" font-size="15" font-weight="500" fill="#102744" text-anchor="start">Response preview</text>
+<rect x="650" y="755" width="258" height="104" rx="5" fill="#F8FAFE" stroke="#DCE3EE" stroke-width="1" />
+<text x="665" y="784" font-size="11" font-weight="400" fill="#064FF5" text-anchor="start" class="mono">status:</text>
+<text x="720" y="784" font-size="11" font-weight="400" fill="#172538" text-anchor="start" class="mono">simulated</text>
+<text x="665" y="809" font-size="11" font-weight="400" fill="#064FF5" text-anchor="start" class="mono">source:</text>
+<text x="720" y="809" font-size="11" font-weight="400" fill="#172538" text-anchor="start" class="mono">fixture</text>
+<text x="665" y="835" font-size="11" font-weight="400" fill="#064FF5" text-anchor="start" class="mono">mode:</text>
+<text x="720" y="835" font-size="11" font-weight="400" fill="#172538" text-anchor="start" class="mono">demo</text>
+</g>
+<g id="portal-synthetic-request-table" data-semantic-role="portal-synthetic-request-table">
+<rect x="257" y="893" width="667" height="126" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1" />
+<line x1="593" y1="894" x2="593" y2="1018" stroke="#DCE3EE" stroke-width="1" stroke-linecap="round" />
+<text x="273" y="915" font-size="12" font-weight="500" fill="#102744" text-anchor="start">Example request</text>
+<text x="611" y="915" font-size="12" font-weight="500" fill="#102744" text-anchor="start">Simulated</text>
+<line x1="258" y1="925" x2="923" y2="925" stroke="#DCE3EE" stroke-width="1" stroke-linecap="round" />
+<line x1="258" y1="957" x2="923" y2="957" stroke="#DCE3EE" stroke-width="1" stroke-linecap="round" />
+<line x1="258" y1="988" x2="923" y2="988" stroke="#DCE3EE" stroke-width="1" stroke-linecap="round" />
+<line x1="277" y1="941" x2="461" y2="941" stroke="#D5DDEA" stroke-width="4" stroke-linecap="round" />
+<line x1="613" y1="941" x2="730" y2="941" stroke="#D5DDEA" stroke-width="4" stroke-linecap="round" />
+<line x1="277" y1="971" x2="397" y2="971" stroke="#D5DDEA" stroke-width="4" stroke-linecap="round" />
+<line x1="613" y1="971" x2="762" y2="971" stroke="#D5DDEA" stroke-width="4" stroke-linecap="round" />
+<line x1="277" y1="1001" x2="427" y2="1001" stroke="#D5DDEA" stroke-width="4" stroke-linecap="round" />
+<line x1="613" y1="1001" x2="730" y2="1001" stroke="#D5DDEA" stroke-width="4" stroke-linecap="round" />
+</g>
+</g>
+</svg>

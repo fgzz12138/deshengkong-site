@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "path": "/portfolio/concierge.png",
+      "source": "docs/design/m0-portfolio-v2/assets/home-concierge-illustration.png",
+      "sha256": "cd63a92172452de23c663b5b5ba8f2675fb8fa7934eb2fead31e8813f8839120",
+      "type": "generated concept illustration; not product evidence"
+    },
+    {
+      "path": "/portfolio/portal.png",
+      "source": "docs/design/m0-portfolio-v2/assets/home-portal-illustration.png",
+      "sha256": "1a2c1a287a14f7b347df8fc2f199ced3400232f8224c5713db6cfbe8cfa9face",
+      "type": "generated concept illustration; not product evidence"
+    },
+    {
+      "path": "/portfolio/media.png",
+      "source": "docs/design/m0-portfolio-v2/assets/home-media-illustration.png",
+      "sha256": "7df88acd0f72ee01af1f1cb742b3fb05862b70ff054146751bddc26925a02fba",
+      "type": "generated concept illustration; not product evidence"
+    },
+    {
+      "path": "/portfolio/workbench.png",
+      "source": "docs/design/m0-portfolio-v2/assets/home-workbench-illustration.png",
+      "sha256": "c88013f217bb8ccfa1d824a110454d62c0e255e95845fd4b94751193384b22e4",
+      "type": "generated concept illustration; not product evidence"
+    },
+    {
+      "path": "/portfolio/hero-system.svg",
+      "source": "docs/design/m0-portfolio-v2/01-home-desktop.svg#hero-concept-system",
+      "sha256": "6b65fec02abfea3d4f0b410ad8914ea72a3f125e104656e7ae66095fa504b088",
+      "type": "approved concept illustration extracted from native M0 SVG; not a page screenshot or interactive UI"
+    },
+    {
+      "path": "/portfolio/portal-detail.svg",
+      "source": "docs/design/m0-portfolio-v2/02-case-study-desktop.svg#editable-portal-illustrative-interface",
+      "sha256": "12eb4292f32b7e133e4c2b420a6336a1832e90c3cb601b23ee52711653d1e20c",
+      "type": "approved concept illustration extracted from native M0 SVG; not a page screenshot or interactive UI"
+    },
+    {
+      "path": "/portfolio/social-card.png",
+      "source": "docs/design/m1-social-card.svg",
+      "sha256": "971683b9ef4ff8675ed894ea292fafdd1382928b31ab17b37d0aaf312fcd0f8e",
+      "type": "native SVG-derived social sharing graphic; not a product screenshot"
+    }
+  ]
+}
