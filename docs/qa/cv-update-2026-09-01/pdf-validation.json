@@ -1,0 +1,81 @@
+{
+  "verifiedAt": "2026-09-01T22:08:11+10:00",
+  "sourceCommit": "1b16581",
+  "websiteAsset": "public/Desheng_Kong_CV.pdf",
+  "downloadsCopy": "C:\\Users\\Administrator\\Downloads\\Desheng_Kong_CV_Updated.pdf",
+  "bytes": 77154,
+  "sha256": "a5962742c8a7a2d97f27c43354b1e002635ffa595204aa9b7939cf742f5d1813",
+  "copiesByteIdentical": true,
+  "pages": 1,
+  "pageSizePt": {
+    "width": 595.2756,
+    "height": 841.8898,
+    "format": "A4"
+  },
+  "wordCount": 317,
+  "characterCount": 2429,
+  "replacementCharacters": 0,
+  "actualTextFonts": {
+    "AAAAAA+Arial-BoldMT": 420,
+    "AAAAAA+ArialMT": 2009
+  },
+  "actualTextUsesEmbeddedArialSubsetsOnly": true,
+  "links": [
+    {
+      "uri": "tel:+61413439408",
+      "rect": [
+        88.05161,
+        770.8898,
+        155.868,
+        782.8898
+      ]
+    },
+    {
+      "uri": "mailto:desheng.kong408@gmail.com",
+      "rect": [
+        168.2079,
+        770.8898,
+        289.9188,
+        782.8898
+      ]
+    },
+    {
+      "uri": "https://www.deshengkong.com/",
+      "rect": [
+        302.2586,
+        770.8898,
+        375.8099,
+        782.8898
+      ]
+    },
+    {
+      "uri": "https://www.linkedin.com/in/desheng-kong/",
+      "rect": [
+        388.1498,
+        770.8898,
+        507.224,
+        782.8898
+      ]
+    }
+  ],
+  "requiredFields": {
+    "Analyst Programmer": true,
+    "Ultimate AI Australia": true,
+    "Sep 2026 - Present": true,
+    "Frontend Developer": true,
+    "UltimAite Strata Robotics": true,
+    "Jan 2026 - Sep 2026": true,
+    "Virtual Concierge": true,
+    "UAI API Customer Portal": true,
+    "Bachelor of Games and Interactive Environments": true
+  },
+  "render": {
+    "file": "cv-page-1.png",
+    "dpi": 180,
+    "visualDefects": []
+  },
+  "legacySourcePreserved": {
+    "path": "C:\\Users\\Administrator\\Downloads\\Desheng_Kong_CV.pdf",
+    "sha256": "ba933934fde5249ec88a833e6994ccf99b5abf9dd1de291b872be608b7010b26"
+  }
+}

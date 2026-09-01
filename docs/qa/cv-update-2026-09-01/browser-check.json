@@ -1,0 +1,16 @@
+{
+  "verifiedAt": "2026-09-01T22:08:11+10:00",
+  "preview": "https://deshengkong-site-9h6duaud5-fgzz12138s-projects.vercel.app",
+  "contact": {
+    "url": "https://deshengkong-site-9h6duaud5-fgzz12138s-projects.vercel.app/contact",
+    "title": "Get in touch | Desheng Kong",
+    "downloadLinkAccessibleName": "Download CV Resume PDF",
+    "href": "/Desheng_Kong_CV.pdf"
+  },
+  "onlineDownload": {
+    "bytes": 77154,
+    "sha256": "a5962742c8a7a2d97f27c43354b1e002635ffa595204aa9b7939cf742f5d1813",
+    "matchesWebsiteAsset": true
+  },
+  "authentication": "Existing Vercel login protection retained; verified in the authorised Chrome session."
+}

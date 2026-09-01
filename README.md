@@ -3,13 +3,13 @@
 Personal portfolio website built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**.
 The M1 upgrade implements the approved portfolio, About and contact designs, with four featured cases and the existing project archive.
 
-M1 has an independent [Vercel Preview](https://deshengkong-site-8x2pu57c6-fgzz12138s-projects.vercel.app). Existing Vercel login protection is retained; a signed-in authorised browser is required. The latest change removes duplicate hover underlines on three bordered links. The local service has recovered, and real mobile hover checks confirm the fix locally as well as online; production and aliases are unchanged. See [the active workflow](docs/workflows/m1-portfolio-workflow-v3.md) and [current evidence](docs/qa/m1-link-hover-2026-08-31/README.md). Final user acceptance and physical confirmation of the full dialog Tab cycle remain open.
+M1 has an independent [Vercel Preview](https://deshengkong-site-9h6duaud5-fgzz12138s-projects.vercel.app). Existing Vercel login protection is retained; a signed-in authorised browser is required. The portfolio CV now matches the current LinkedIn role history, uses a tracked PDF generator and has passed single-page rendering, text extraction, embedded-font and online-download checks. The earlier hover correction remains in place; production and aliases are unchanged. See [the active workflow](docs/workflows/m1-portfolio-workflow-v3.md), [CV evidence](docs/qa/cv-update-2026-09-01/README.md) and [hover evidence](docs/qa/m1-link-hover-2026-08-31/README.md). Final user acceptance and physical confirmation of the full dialog Tab cycle remain open.
 
 ## Live
 
 - Existing production: https://www.deshengkong.com
-- M1 local preview: http://127.0.0.1:3180 (running on this workstation)
-- M1 stable remote preview: https://deshengkong-site-8x2pu57c6-fgzz12138s-projects.vercel.app (existing Vercel login required)
+- M1 local preview: http://127.0.0.1:3180 (stopped at the CV update checkpoint; use the command below when needed)
+- M1 stable remote preview: https://deshengkong-site-9h6duaud5-fgzz12138s-projects.vercel.app (existing Vercel login required)
 - Vercel project: `fgzz12138s-projects/deshengkong-site`; pushing `main` can deploy production. Keep M1 on `codex/personal-site-m1` until separately approved for production.
 
 ## Tech Stack
@@ -47,6 +47,6 @@ npm run build
 npm run start -- --hostname 127.0.0.1 --port 3180
 ```
 
-The commands above build a normal Windows development-review artifact. The current release artifact is instead the Ubuntu WSL build under `.vercel/linux-build`. The local service is now running; its earlier blocked background restart is retained as history in the QA record. If it is stopped later, run `wsl -d Ubuntu --exec sh /mnt/e/gitclone/deshengkong-site-m1/.vercel/run-linux-preview.sh` from PowerShell and keep that terminal open. Current local process status and build ID are recorded in `.next/m1-preview-process.json`. Do not start a duplicate server or stop an unrelated process if port 3180 is occupied. The remote Preview does not need this workstation to stay online.
+The commands above build a normal Windows development-review artifact. The current release artifact is instead the Ubuntu WSL build under `.vercel/linux-build`. The local service was not listening at the CV update checkpoint. To run it, use `wsl -d Ubuntu --exec sh /mnt/e/gitclone/deshengkong-site-m1/.vercel/run-linux-preview.sh` from PowerShell and keep that terminal open. Check port 3180 before starting so an existing process is not duplicated or interrupted. The remote Preview does not need this workstation to stay online.
 
 Keep `docs/design/m0-portfolio-v2/` and `docs/design/m0-about-contact-v1/` as the visual references. Runtime UI uses React/HTML/CSS; concept illustrations are separate assets with [provenance](docs/design/m1-assets.json). Do not publish concept images as evidence of product operation.

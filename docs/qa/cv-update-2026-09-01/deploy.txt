@@ -1,0 +1,35 @@
+Vercel CLI 59.10.0 (Node.js 24.16.0)
+Deploying deshengkong-site
+Uploading [--------------------] (0.0B/1.6MB)
+Uploading [=====---------------] (422.1KB/1.6MB)
+Uploading [==========----------] (842.3KB/1.6MB)
+Uploading [===============-----] (1.2MB/1.6MB)
+Uploading [====================] (1.6MB/1.6MB)
+  Inspect         https://vercel.com/fgzz12138s-projects/deshengkong-site/Epk4AhgVZwZkGqfAyb1yaQKrDqy7
+  Preview         https://deshengkong-site-9h6duaud5-fgzz12138s-projects.vercel.app
+Building…
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Previous build caches not available.
+Downloading 672 deployment files...
+Using prebuilt build artifacts from .vercel/output
+Learn more: https://vercel.link/build-output-api
+Deploying outputs...
+[2K[1A[2K[G  Preview         https://deshengkong-site-9h6duaud5-fgzz12138s-projects.vercel.app
+Completing…
+
+✓ Ready in 15s
+To deploy to production (www.deshengkong.com), run `vercel --prod`
+
+Next steps:
+- Check the deployment response:
+  vercel curl https://deshengkong-site-9h6duaud5-fgzz12138s-projects.vercel.app --scope fgzz12138s-projects --global-config /mnt/e/gitclone/deshengkong-site-m1/.vercel/linux-cli-config
+- View build logs:
+  vercel inspect deshengkong-site-9h6duaud5-fgzz12138s-projects.vercel.app --logs --scope fgzz12138s-projects --global-config /mnt/e/gitclone/deshengkong-site-m1/.vercel/linux-cli-config
+- Create a new deployment from the same source:
+  vercel redeploy deshengkong-site-9h6duaud5-fgzz12138s-projects.vercel.app --scope fgzz12138s-projects --global-config /mnt/e/gitclone/deshengkong-site-m1/.vercel/linux-cli-config
+- Deploy the current project to production:
+  vercel deploy --prod --scope fgzz12138s-projects --global-config /mnt/e/gitclone/deshengkong-site-m1/.vercel/linux-cli-config
+https://deshengkong-site-9h6duaud5-fgzz12138s-projects.vercel.app

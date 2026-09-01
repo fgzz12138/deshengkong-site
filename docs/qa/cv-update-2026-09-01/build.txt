@@ -1,0 +1,56 @@
+v24.16.0
+Vercel CLI 59.10.0 (Node.js 24.16.0)
+WARNING! Build not running on Vercel. System environment variables will not be available.
+WARNING: You should not upload the `.next` directory.
+Installing dependencies...
+
+up to date in 12s
+
+141 packages are looking for funding
+  run `npm fund` for details
+Detected Next.js version: 16.3.3
+Running "npm run build"
+
+> deshengkong-site@0.1.0 build
+> next build
+
+▲ Next.js 16.3.3 (Turbopack)
+✓ Running next.config.ts took 365ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.8min
+  Running TypeScript ...
+  Finished TypeScript in 7.1s ...
+  Collecting page data using 14 workers ...
+  Generating static pages using 14 workers (0/24) ...
+  Generating static pages using 14 workers (6/24)
+  Generating static pages using 14 workers (12/24)
+  Generating static pages using 14 workers (18/24)
+✓ Generating static pages using 14 workers (24/24) in 6.6s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ○ /contact
+├ ○ /projects
+├   /projects/[Slug]
+│ ├ ● /projects/virtual-concierge
+│ ├ ● /projects/alpha-ai
+│ ├ ● /projects/autoxing-robotics
+│ └ ● [+9 more paths]
+├ ○ /projects/company-website
+├ ○ /projects/ezisight-ecommerce
+├ ○ /projects/portfolio-v1
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+Traced Next.js server files in: 140.364ms
+Created all serverless functions in: 582.755ms
+Collected static files (public/, static/, .next/static): 47.618ms
+Build Completed in .vercel/output [4m]

@@ -1,0 +1,42 @@
+{
+  "sourceCommit": "1b16581",
+  "buildId": "6KPnHiRoQdsBt8-Tqnn0b",
+  "pdfSha256": "a5962742c8a7a2d97f27c43354b1e002635ffa595204aa9b7939cf742f5d1813",
+  "artifactSha256": "52b7ac4a32f5dcaced52707868f1fe2d308f82def0ced17957cb30a36ae02dcf",
+  "artifactUnchanged": true,
+  "files": 336,
+  "symlinks": 110,
+  "preview": {
+    "id": "dpl_Epk4AhgVZwZkGqfAyb1yaQKrDqy7",
+    "target": "preview",
+    "state": "Ready",
+    "url": "https://deshengkong-site-9h6duaud5-fgzz12138s-projects.vercel.app"
+  },
+  "productionBefore": {
+    "id": "dpl_8Yfsm7janYL8nMiLU8RPakv96UHa",
+    "target": "production",
+    "state": "Ready",
+    "aliases": [
+      "https://www.deshengkong.com",
+      "https://deshengkong.com",
+      "https://deshengkong-site-fgzz12138s-projects.vercel.app",
+      "https://deshengkong-site-git-main-fgzz12138s-projects.vercel.app"
+    ]
+  },
+  "productionAfter": {
+    "id": "dpl_8Yfsm7janYL8nMiLU8RPakv96UHa",
+    "target": "production",
+    "state": "Ready",
+    "aliases": [
+      "https://www.deshengkong.com",
+      "https://deshengkong.com",
+      "https://deshengkong-site-fgzz12138s-projects.vercel.app",
+      "https://deshengkong-site-git-main-fgzz12138s-projects.vercel.app"
+    ]
+  },
+  "productionUnchanged": true,
+  "push": false,
+  "productionDeploy": false,
+  "accessProtectionChanged": false,
+  "localPreviewListeningAtCheckpoint": false
+}
