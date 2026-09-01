@@ -3,14 +3,15 @@
 Personal portfolio website built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**.
 The M1 upgrade implements the approved portfolio, About and contact designs, with four featured cases and the existing project archive.
 
-M1 has an independent [Vercel Preview](https://deshengkong-site-9h6duaud5-fgzz12138s-projects.vercel.app). Existing Vercel login protection is retained; a signed-in authorised browser is required. The portfolio CV now matches the current LinkedIn role history, uses a tracked PDF generator and has passed single-page rendering, text extraction, embedded-font and online-download checks. The earlier hover correction remains in place; production and aliases are unchanged. See [the active workflow](docs/workflows/m1-portfolio-workflow-v3.md), [CV evidence](docs/qa/cv-update-2026-09-01/README.md) and [hover evidence](docs/qa/m1-link-hover-2026-08-31/README.md). Final user acceptance and physical confirmation of the full dialog Tab cycle remain open.
+M1 is live in production at [www.deshengkong.com](https://www.deshengkong.com). The portfolio CV now matches the current LinkedIn role history, uses a tracked PDF generator and has passed single-page rendering, text extraction, embedded-font and real production-download checks. The protected independent Preview remains available to authorised Vercel users. See [the active workflow](docs/workflows/m1-portfolio-workflow-v3.md), [production evidence](docs/qa/m1-production-2026-09-01/README.md), [CV evidence](docs/qa/cv-update-2026-09-01/README.md) and [hover evidence](docs/qa/m1-link-hover-2026-08-31/README.md). Physical confirmation of the full dialog Tab cycle remains open.
 
 ## Live
 
-- Existing production: https://www.deshengkong.com
+- M1 production: https://www.deshengkong.com
+- Production contact and CV: https://www.deshengkong.com/contact and https://www.deshengkong.com/Desheng_Kong_CV.pdf
 - M1 local preview: http://127.0.0.1:3180 (stopped at the CV update checkpoint; use the command below when needed)
 - M1 stable remote preview: https://deshengkong-site-9h6duaud5-fgzz12138s-projects.vercel.app (existing Vercel login required)
-- Vercel project: `fgzz12138s-projects/deshengkong-site`; pushing `main` can deploy production. Keep M1 on `codex/personal-site-m1` until separately approved for production.
+- Vercel project: `fgzz12138s-projects/deshengkong-site`; GitHub `main` is the production branch.
 
 ## Tech Stack
 

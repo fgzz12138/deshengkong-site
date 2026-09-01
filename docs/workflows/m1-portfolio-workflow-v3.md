@@ -2,7 +2,7 @@
 
 Date: 2026-08-31
 
-- Status: `M1_IMPLEMENTATION_AUTHORISED / IN_PROGRESS`.
+- Status: `M1_PRODUCTION_RELEASED / ACCEPTANCE_IN_PROGRESS`.
 - This amendment follows the user's local-preview feedback: excessive side margins compress the content; widen the whole site while keeping the approved visual direction.
 - Inherit the implementation scope, factual content, interactions, preservation requirements and release boundaries from [v2](m1-portfolio-workflow-v2.md). This is a layout revision within M1, not a new M0 or platform choice.
 
@@ -31,3 +31,11 @@ The [independent protected Preview](https://deshengkong-site-8x2pu57c6-fgzz12138
 On 2026-09-01 the user's screenshot feedback was resolved with one CSS rule: bordered home/contact/project links keep a single bottom border and turn blue on hover; ordinary inline links keep their existing underline. The [correction evidence](../qa/m1-link-hover-2026-08-31/README.md) records the new prebuilt artifact, three real hover checks, the unaffected ordinary-link behavior and five navigation checks on the authenticated Preview. The initial local background restart was blocked. During the user's follow-up, the local service was found running; its packaged CSS and real 430px mobile hover state confirm the updated build locally. Recovery was verified read-only, without bypassing the rejected launch command. The original startup limit is historical, not a current blocker.
 
 Later on 2026-09-01 the user asked to update the downloadable CV from the supplied PDF and current LinkedIn profile. Source commit `1b16581` replaces the stale front-end-only resume with a one-page Analyst Programmer CV, preserves the public contact details, adds the two verified 2026 roles and aligns selected work with reviewed portfolio copy. A tracked ReportLab generator now makes the PDF reproducible. [CV evidence](../qa/cv-update-2026-09-01/README.md) records A4 rendering, text extraction, embedded fonts, four PDF links, the exact online download hash and the independent protected Preview deployment. This is a content/artifact update within M1. No push, production deployment, alias change, access-policy change or company-system write was performed. The local service was not listening during this checkpoint; the protected remote Preview is independent of the workstation.
+
+## Production promotion — 2026-09-01
+
+The user then explicitly authorised the current homepage and CV for production. The release used the clean `codex/personal-site-m1` worktree and left the original dirty `main` worktree untouched. After a final fetch, `origin/main` remained `8bbc53e5`; it was the merge base and direct ancestor of candidate `44d05488`, so the release was a pure 12-commit fast-forward with no merge or force push.
+
+Before the push, the previous production deployment `dpl_8Yfsm7janYL8nMiLU8RPakv96UHa`, the old public CV hash and a local archive of the previous `main` tree were recorded as rollback evidence. GitHub `main` then advanced to `44d05488`. Vercel built production deployment `dpl_Erj8RFmJkYVaWxWWTAPJQ3BASwfY`, reported `READY` and attached the `www`, apex, stable-project and Git-main aliases. The custom domains remain publicly accessible; the Vercel-owned aliases retain the account's existing SSO protection.
+
+[Production evidence](../qa/m1-production-2026-09-01/README.md) records the route checks, browser visual review and an actual CV-link download. The downloaded production PDF is 77,154 bytes with SHA-256 `A5962742C8A7A2D97F27C43354B1E002635FFA595204AA9B7939CF742F5D1813`, exactly matching the tracked asset. The release does not change the earlier factual, synthetic-data or interaction boundaries. Physical confirmation of the full image-dialog Tab cycle remains the only open M1 interaction check.
