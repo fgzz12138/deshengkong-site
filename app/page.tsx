@@ -13,8 +13,8 @@ export default function Home() {
         <div>
           <p className="eyebrow">Applied AI · Melbourne</p>
           <h1 id="home-heading" className="home-title"><span>AI systems.</span><span>Built for</span><span>real work.</span></h1>
-          <p className="home-summary home-summary-desktop">I connect AI capabilities, product interfaces<br />and everyday workflows.</p>
-          <p className="home-summary home-summary-mobile">Applied AI, practical tools<br />and clear workflows.</p>
+          <p className="home-summary home-summary-desktop">I connect knowledge, interfaces and automation<br />into workflows with explicit boundaries and maintainable code.</p>
+          <p className="home-summary home-summary-mobile">Practical AI workflows<br />with explicit boundaries and maintainable code.</p>
           <div className="home-actions">
             <Link className="button button-primary" href="#projects"><span className="desktop-action-label">Explore selected work</span><span className="mobile-action-label">Explore my work</span><ArrowDown aria-hidden="true" /></Link>
             <Link className="inline-link home-about" href="/about">About me<ArrowRight aria-hidden="true" /></Link>

@@ -97,12 +97,12 @@
 .ac-page .ac-profile-focus { margin-top: 28px; font-size: 11px; line-height: 14px; }
 .ac-page .ac-profile-topics { margin-top: 10px; font-size: 14px; line-height: 21px; color: #26374d; }
 
-/* About: contribution, demonstrated vocabulary and explicit learning boundary. */
+/* About: contribution, demonstrated vocabulary and durable learning themes. */
 .ac-working-approach { padding: 23px 0 34px; border-bottom: 1px solid #cfd7e3; }
 .ac-page .ac-section-intro { margin-top: 7px; font-size: 17px; line-height: 26px; color: #46586d; }
 .ac-page .ac-approach-list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   margin-top: 31px;
   padding: 0;
   list-style: none;
@@ -139,9 +139,6 @@
 }
 .ac-learning-card h3 { font-size: 22px; line-height: 29px; font-weight: 700; }
 .ac-page .ac-learning-topics { margin-top: 12px; font-size: 16px; line-height: 25px; color: #334255; }
-.ac-course-boundary { margin-top: 8px; padding-top: 13px; border-top: 1px solid #d6e1f2; }
-.ac-course-boundary p:first-child { font-size: 15px; line-height: 21px; }
-.ac-course-boundary p + p { max-width: 52ch; margin-top: 6px; color: #59697b; font-size: 14px; line-height: 20px; }
 .ac-background { margin-top: 39px; }
 .ac-page .ac-background-list { margin-top: 6px; }
 .ac-background-list > div {
@@ -257,6 +254,11 @@
   .ac-about-hero { grid-template-columns: minmax(0, 1fr) 275px; gap: 28px; }
   .ac-page .ac-about-title { font-size: 54px; line-height: 60px; }
   .ac-desktop-break { display: none; }
+  .ac-page .ac-approach-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 0; }
+  .ac-approach-list li { padding-right: 24px; border-left: 0; }
+  .ac-approach-list li:nth-child(even) { padding-left: 23px; border-left: 1px solid #cfd7e3; }
+  .ac-approach-list li:nth-child(3), .ac-approach-list li:nth-child(4) { padding-top: 22px; border-top: 1px solid #cfd7e3; }
+  .ac-approach-list li:nth-child(3) { padding-left: 0; }
   .ac-toolkit-section { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 30px; }
   .ac-page .ac-contact-band { flex-wrap: wrap; }
   .ac-enquiry-list li { grid-template-columns: 44px 235px minmax(0, 1fr); }

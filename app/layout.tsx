@@ -7,7 +7,7 @@ import { createPageMetadata, SITE_ORIGIN } from "./content/site-metadata";
 export const metadata: Metadata = {
   ...createPageMetadata({
     title: "Desheng Kong — Applied AI & Practical Systems",
-    description: "Applied AI, practical tools and clear workflows. Explore Desheng Kong’s work in voice interfaces, knowledge retrieval and customer-facing systems.",
+    description: "Applied AI systems across knowledge retrieval, voice interfaces and workflow automation, with clear boundaries and maintainable product interfaces.",
     path: "/",
   }),
   metadataBase: new URL(SITE_ORIGIN),

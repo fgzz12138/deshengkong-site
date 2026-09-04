@@ -1,9 +1,6 @@
-const learningTags = [
-  "LangGraph Multi-Agent",
-  "MCP",
-  "n8n",
-  "Production RAG Evals",
-];
+import { currentLearning } from "../content/learning";
+
+const learningTags = currentLearning.topics;
 
 export default function CurrentlyLearning() {
   return (
@@ -13,10 +10,7 @@ export default function CurrentlyLearning() {
       </p>
 
       <p className="mt-3 max-w-2xl text-sm leading-6 text-gray-600">
-        Currently deepening my agent engineering practice — working through
-        LangGraph multi-agent patterns, MCP server development, n8n workflow
-        automation, and a production-grade NL2SQL agent case study
-        (metadata-driven retrieval, vector + full-text indexing).
+        {currentLearning.summary}
       </p>
 
       <div className="mt-4 flex flex-wrap gap-2">

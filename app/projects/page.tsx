@@ -4,7 +4,7 @@ import { createPageMetadata } from "../content/site-metadata";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Projects | Desheng Kong",
-  description: "Selected applied AI work and earlier web, game and 3D projects by Desheng Kong.",
+  description: "Selected applied AI work and earlier web, game and 3D projects by Desheng Kong, with documented scope and project boundaries.",
   path: "/projects",
 });
 

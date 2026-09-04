@@ -13,6 +13,7 @@ export type PortfolioCase = {
   focus: string;
   stage: string;
   contributions: { title: string; body: string }[];
+  engineeringNotes?: { title: string; body: string }[];
   checks: string[];
   boundaryTitle: string;
   boundary: string;
@@ -32,8 +33,8 @@ export const featuredProjects: PortfolioCase[] = [
     title: "Virtual Concierge",
     titleLines: ["Virtual", "Concierge"],
     status: "FIELD-TESTED",
-    summary: "A voice and touchscreen concierge that answers site-specific questions through a knowledge-retrieval workflow.",
-    shortSummary: "Voice, knowledge retrieval and a kiosk interface.",
+    summary: "A voice and touchscreen concierge grounded in site-specific knowledge, with an asynchronous interaction pipeline.",
+    shortSummary: "Voice, knowledge retrieval and reliability work for a kiosk.",
     image: "/portfolio/concierge.png",
     imageAlt: "Concept illustration of a voice-enabled concierge kiosk",
     illustrationLabel: "Concept illustration",
@@ -44,6 +45,11 @@ export const featuredProjects: PortfolioCase[] = [
       { title: "Knowledge integration", body: "Connected venue-specific knowledge retrieval with the language model and kiosk interface." },
       { title: "Voice workflow", body: "Worked on speech output and an asynchronous interaction pipeline." },
       { title: "Integration reliability", body: "Diagnosed retrieval and voice issues, then supported field validation." },
+    ],
+    engineeringNotes: [
+      { title: "System flow", body: "Voice or touch input moves through venue-specific retrieval, a language model response, and speech or interface output." },
+      { title: "Engineering focus", body: "The integration work focused on keeping the interaction pipeline asynchronous and the kiosk interface responsive while diagnosing retrieval and voice failures." },
+      { title: "Reliability evidence", body: "Field work included repeated-recognition and silent-audio fixes, followed by recorded in-person kiosk acceptance in August 2026." },
     ],
     checksTitle: "What was field-tested",
     checks: ["Site-specific knowledge retrieval", "Voice and touchscreen interaction", "Recorded in-person kiosk acceptance, August 2026"],
@@ -57,7 +63,7 @@ export const featuredProjects: PortfolioCase[] = [
     status: "DEMO",
     summary: "Turning platform capabilities into a clear customer journey. From access and usage to request testing.",
     summaryLines: ["Turning platform capabilities into a clear customer journey.", "From access and usage to request testing."],
-    shortSummary: "A clear journey from access to request testing.",
+    shortSummary: "A synthetic-data journey with simulated success and failure states.",
     image: "/portfolio/portal.png",
     imageAlt: "Illustrative customer portal interface marked as demo data",
     illustrationLabel: "Illustrative interface · Demo data",
@@ -70,6 +76,11 @@ export const featuredProjects: PortfolioCase[] = [
       { title: "Product scope", body: "Defined the customer journey across access, usage and request testing." },
       { title: "Interface & interactions", body: "Shaped navigation, responsive layouts and clear success and failure states." },
       { title: "Integration boundary", body: "Kept the customer interface separate from internal administration through a replaceable adapter." },
+    ],
+    engineeringNotes: [
+      { title: "Demo flow", body: "The customer journey moves through a replaceable integration adapter, synthetic state and simulated request results." },
+      { title: "Designed boundary", body: "The customer interface remains separate from internal administration, so a future live integration can replace the adapter without changing the journey." },
+      { title: "Before live use", body: "A live service would still need authentication, key custody and rotation, persistent data, audit trails, rate limits and observability. None of those are part of this demonstration." },
     ],
     checksTitle: "What the demo shows",
     checks: ["Create, edit and revoke demo keys", "Explore sample usage and export CSV", "Run simulated requests and inspect failures"],

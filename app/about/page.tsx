@@ -2,31 +2,37 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, MessagesSquare } from "lucide-react";
 import { contactLinks } from "../content/contact";
+import { currentLearning } from "../content/learning";
 import { createPageMetadata } from "../content/site-metadata";
 import "../styles/about-contact.css";
 
 export const metadata: Metadata = createPageMetadata({
   title: "About | Desheng Kong",
   description:
-    "Meet Desheng Kong, an applied AI systems developer in Melbourne. Explore his front-end background, working approach, current toolkit and ongoing learning.",
+    "Meet Desheng Kong, an applied AI systems developer in Melbourne. Explore his engineering approach, current learning path and selected work.",
   path: "/about",
 });
 
 const workingApproach = [
   {
-    title: "Understand the system",
+    title: "Define the boundary",
     description:
-      "Understand how the code and components fit together, including the parts created with AI assistance.",
+      "Start with the user task, the data the system may use and the decisions that need a clear owner.",
   },
   {
-    title: "Debug and maintain",
+    title: "Separate model and code",
     description:
-      "Work through issues and understand the system well enough to maintain what I build.",
+      "Use the model where judgment helps, and keep rules, state and critical limits in deterministic code.",
   },
   {
-    title: "Explain the decisions",
+    title: "Check the failure paths",
     description:
-      "Explain the architecture choices behind a system, and the reasons for those decisions.",
+      "Test more than the happy path: inspect uncertain outputs, tool failures and the states a user needs to recover from.",
+  },
+  {
+    title: "Maintain the system",
+    description:
+      "Understand the dependencies, async behaviour and deployment boundary well enough to debug and improve the result.",
   },
 ];
 
@@ -81,7 +87,7 @@ export default function AboutPage() {
         <section className="ac-working-approach" aria-labelledby="approach-heading">
           <h2 id="approach-heading" className="section-heading">How I work</h2>
           <p className="ac-section-intro">
-            AI-assisted development, grounded in understanding the system.
+            AI-assisted development, grounded in system understanding, clear boundaries and evidence.
           </p>
           <ol className="ac-approach-list">
             {workingApproach.map((item, index) => (
@@ -108,14 +114,11 @@ export default function AboutPage() {
             </div>
           </div>
           <aside className="ac-learning-card" aria-labelledby="learning-heading">
-            <h3 id="learning-heading">Currently exploring</h3>
+            <h3 id="learning-heading">Areas I’m strengthening</h3>
             <p className="ac-learning-topics">
-              LangGraph · MCP · n8n<br />RAG evaluation
+              {currentLearning.topics.slice(0, 3).join(" · ")}<br />
+              {currentLearning.topics.slice(3).join(" · ")}
             </p>
-            <div className="ac-course-boundary">
-              <p>NL2SQL course case study</p>
-              <p>Course learning — not a self-built production product.</p>
-            </div>
           </aside>
         </section>
 
